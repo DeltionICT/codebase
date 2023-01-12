@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.name }} | {{ title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/_assets/favicon.ico">
+    <link rel="manifest" href="{{ '/manifest.json' | url }}" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+                .register("/service-worker.js")
+                .then(function() {
+                    console.log("ServiceWorker has been registered!");
+                })
+                .catch(console.error);
+        }
+    </script>
+    <style>
+        {%  set css %}
+            {% include '../_css/prism-one-light.css' %}
+            {% include '../_css/deltion-colors.css' %}
+            {% include '../_css/base.css' %}
+            {% include '../_css/text.css' %}
+            {% include '../_css/video.css' %}
+            {% include '../_css/code.css' %}
+        {% endset %}
+
+        {{ css | cssmin | safe }}
+
+</style>
+</head>
+<body>
+<header>
+    <div>
+        <a id="logolink" href="/"><img id="logo" class="standard" src="{{ '/_assets/deltion.svg' | url }}" alt="logo"></a>
+        <nav> 
+        {% for item in nav.items %}
+            <a href="{{ item.url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+        </nav>
+    </div>
+</header>
+<main>
+    <aside>
+        <h4>Opdrachten</h4>
+        <ul>
+        {% for p in collections[tags] %}
+            <li>
+                <a class="page-link" href="{{ p.url }}" {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{  p.data.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </aside>
+
+    <div id="content">
+        {{ content | safe }}
+    </div>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
