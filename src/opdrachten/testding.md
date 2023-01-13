@@ -1,6 +1,6 @@
 ---
-title: Array
-difficulty: basic #basic | medium | expert
+title: Megaklus
+difficulty: medium #basic | medium | expert
 date: 2023-01-02
 ---
 
@@ -8,9 +8,11 @@ date: 2023-01-02
 
 ## Opdracht: {{ title }}
 
+Programmeertaal: Naar keuze
 
-## Programmeertaal 
-Naar keuze
+```javascript 
+var = 5;
+```
 
 ## Taak
 

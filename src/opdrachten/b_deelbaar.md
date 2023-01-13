@@ -1,6 +1,6 @@
 ---
 title: Deelbaar
-difficulty: test
+difficulty: expert #basic | medium | expert
 date: 2023-01-04
 ---
 

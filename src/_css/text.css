@@ -22,7 +22,6 @@ h3 {
 
 a {
     color:var(--c-text);
-    padding-bottom: 2px;
     text-decoration: none;
 }
 
@@ -36,16 +35,15 @@ a.nav-link, a#menu {
 }
 
 
-a:hover, a.active {
+/* a:hover, a.active {
     border-bottom: 2px solid var(--c-brand);
     padding-bottom:0;
     text-decoration: none;
-}
+} */
 
-.active, [aria-current] {
-    border-bottom: 2px solid var(--c-brand);
-    padding-bottom: 0;
-}
+
+
+
 a#menu {
     display:none;
     position:relative;

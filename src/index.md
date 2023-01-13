@@ -1,6 +1,7 @@
 ---
 title: Introductie
 layout: index.njk
+difficulty: test
 tags: items
 ---
 

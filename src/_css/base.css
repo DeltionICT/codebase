@@ -57,9 +57,85 @@ img {
 aside {
     background-color: rgb(213, 213, 213);
     min-width:240px;
-    margin-top:2px;
 }
 
+aside > ul {
+    list-style-type: none;
+    padding:3px;    
+}
+
+aside > ul li {
+    padding:3px 6px 3px 6px;
+    background-color: var(--c-text-light-3);
+    margin:2px;
+    border-radius:4px;
+}
+
+aside > ul li:hover {
+    background-color:var(--c-text-light-2);
+}
+
+aside > ul li a {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+
+aside > ul li a:hover {
+    color: white;
+}
+
+aside > ul li a:active {
+    color: white;
+}
+
+.active, [aria-current] {
+    background-color:var(--c-text-light-2);
+    color:white;
+}
+
+li[aria-current] a {
+    color:white;   
+}
+
+a.page-link > div {
+    display:flex; 
+    justify-content:
+    space-between; width:100%;
+}
+
+div.difficulty {
+    text-align: right;
+}
+
+div.difficulty svg {
+    height: 14px;
+}
+
+div.difficulty div.basic,
+div.difficulty div.medium,
+div.difficulty div.expert
+ {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+}
+
+
+
+div.difficulty div.medium {
+    background-color: green;
+}
+
+div.difficulty div.expert {
+    background-color: var(--c-brand);
+}
+
+div#content {
+    padding:20px;
+}
 
 main {
     width:80%;
@@ -70,7 +146,7 @@ main {
     align-self:flex-start;
     min-height: calc(100vh - 220px);
     background-color: rgb(230, 230, 230);
-    padding:20px;
+    margin-top:3px;
 }
 
 /* Eleventy TOC */
