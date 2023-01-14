@@ -1,0 +1,30 @@
+{% extends "index.njk" %}
+{% set previousPost = collections[tags] | getPreviousCollectionItem(page) %}
+{% set nextPost = collections[tags] | getNextCollectionItem(page) %}
+
+
+
+{%  block prevnext %}
+<div id="prevnext">
+    {% if previousPost %}
+        <a id="previous-link" href="{{ previousPost.url }}">
+        <span id="arrow-back" class="material-icons">
+            arrow_back_ios
+        </span>
+            <span class="title">{{ previousPost.data.title }}</span>
+        </a>
+    {% else %}
+        <div></div>
+    {% endif %}
+    {% if nextPost %}
+        <a id="next-link" href="{{ nextPost.url }}">
+            <span class="title">{{ nextPost.data.title }}</span>
+            <span id="arrow-forward" class="material-icons">
+        arrow_forward_ios
+        </span>
+        </a>
+    {% else %}
+        <div></div>
+    {% endif %}
+</div>
+{% endblock %}

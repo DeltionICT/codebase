@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "projecten",
+    "tags": ["projecten"],
+    "permalink": "/projecten/{{ title | slug }}/{{ page.index }}"
+}

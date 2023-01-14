@@ -1,8 +1,16 @@
 {
     "items": [
       {
+        "url": "/",
+        "name": "Home"
+      },
+      {
         "url": "/opdrachten/introductie/",
         "name": "Opdrachten"
+      },      
+      {
+        "url": "/test/index/",
+        "name": "Testing"
       },
       {
         "url": "/projecten/introductie/",

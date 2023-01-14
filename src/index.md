@@ -1,14 +1,12 @@
 ---
 title: Introductie
 layout: index.njk
-difficulty: test
-tags: items
----
-
----
-title: Introductie
+difficulty: basic
+tags: frontpage
 date: 2022-04-01
 ---
+
+
 
 # {{ course-title }}
 
