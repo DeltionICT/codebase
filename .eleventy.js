@@ -50,7 +50,7 @@ module.exports = function(eleventyConfig) {
  
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./public/service-worker.js",
-        globDirectory: "./public",
+        globDirectory: "./docs",
         clientsClaim: true,
         skipWaiting: true
     });

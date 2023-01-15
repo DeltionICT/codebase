@@ -8,7 +8,7 @@
 <li>
 <div id="prevnext">
     {% if previousPost %}
-        <a id="previous-link" href="{{ previousPost.url }}">
+        <a id="previous-link" href="{{ previousPost.url | url }}">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
@@ -18,7 +18,7 @@
         <div></div>
     {% endif %}
     {% if nextPost %}
-        <a id="next-link" href="{{ nextPost.url }}">
+        <a id="next-link" href="{{ nextPost.url | url }}">
             <span class="title">{{ nextPost.data.title }}</span>
             <span id="arrow-forward" class="material-icons">
         arrow_forward_ios
