@@ -11,7 +11,7 @@
     <script>
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker
-                .register("/service-worker.js")
+                .register('{{ "/service-worker.js" | url }}')
                 .then(function() {
                     console.log("ServiceWorker has been registered!");
                 })
@@ -35,10 +35,10 @@
 <body>
 <header>
     <div>
-        <a id="logolink" href="/"><img id="logo" class="standard" src="{{ '/_assets/deltion.svg' | url }}" alt="logo"></a>
+        <a id="logolink" href="{{ '/' | url }}"><img id="logo" class="standard" src="{{ '/_assets/deltion.svg' | url }}" alt="logo"></a>
         <nav> 
         {% for item in nav.items %}
-            <a href="{{ item.url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+            <a href="{{ item.url | url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
         {% endfor %}
         </nav>
     </div>
@@ -48,7 +48,7 @@
         <ul>
         {% for p in collections[tags] %}
             <li {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>
-                <a class="page-link" href="{{ p.url }}">
+                <a class="page-link" href="{{ p.url | url }}">
                     <div>
                         <div class="title">{{  p.data.title }}</div>
                         <div class="difficulty">
