@@ -49,17 +49,19 @@ module.exports = function(eleventyConfig) {
 
  
     eleventyConfig.addPlugin(pluginPWA, {
-        swDest: "./public/service-worker.js",
+        swDest: "./docs/service-worker.js",
         globDirectory: "./docs",
         clientsClaim: true,
         skipWaiting: true
     });
+
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(pluginTOC, {
         tags:['h2'],
         wrapper:'div',
         ul: true
     })
+    
     eleventyConfig.addPassthroughCopy("./src/_css");
     eleventyConfig.addPassthroughCopy("./src/_assets");
     eleventyConfig.addPassthroughCopy("./src/_js");
