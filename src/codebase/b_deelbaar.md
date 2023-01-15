@@ -1,16 +1,14 @@
 ---
 title: Deelbaar
-difficulty: expert #basic | medium | expert
-date: 2023-01-04
+difficulty: basic #basic | medium | expert
+date: 2023-01-02
 ---
 
 #### {{ course-title }}
 
 ## {{ title }}
 
-
-## Programmeertaal 
-Naar keuze
+* Programmeertaal: Naar keuze
 
 ***Taak:***  
 Schrijf een programma dat de gebruiker om twee getallen vraagt. Het

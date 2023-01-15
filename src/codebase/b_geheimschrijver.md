@@ -1,16 +1,15 @@
 ---
 title: Geheimschrijver
-difficulty: expert #basic | medium | expert
-date: 2023-01-05
+difficulty: basic #basic | medium | expert
+date: 2023-01-02
 ---
 
 #### {{ course-title }}
 
 ## {{ title }}
 
+* Programmeertaal: Naar keuze
 
-## Programmeertaal 
-Naar keuze
 ***Taak:***  
 Bedenk een geheimschrift waarbij de ene letter een andere letter
 betekent. Maak hiervan een programma. Wanneer je bijvoorbeeld op toets a

@@ -58,6 +58,10 @@ aside {
     min-width:240px;
 }
 
+aside a {
+    text-decoration: none;
+}
+
 aside > ul {
     list-style-type: none;
     padding:0px;
