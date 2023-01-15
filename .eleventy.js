@@ -10,6 +10,7 @@ const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 
 module.exports = function(eleventyConfig) {
+
     eleventyConfig.addCollection("pages", function(collection) {
         const coll = collection.getFilteredByTag("pages");
 
@@ -46,7 +47,7 @@ module.exports = function(eleventyConfig) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-
+ 
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./public/service-worker.js",
         globDirectory: "./public",
@@ -114,6 +115,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib)
 
     return {
+        pathPrefix: "/codebase/",
         dir: {
             input: "src",
             output: "docs",
