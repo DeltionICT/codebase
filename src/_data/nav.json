@@ -5,8 +5,8 @@
         "name": "Home"
       },
       {
-        "url": "/opdrachten/introductie/",
-        "name": "Opdrachten"
+        "url": "/codebase/introductie/",
+        "name": "Codebase"
       },      
       {
         "url": "/test/index/",

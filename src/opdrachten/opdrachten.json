@@ -1,6 +1,0 @@
-{
-    "layout": "final.njk",
-    "course-title": "Opdrachten",
-    "tags": ["opdrachten"],
-    "permalink": "/opdrachten/{{ title | slug }}/{{ page.index }}"
-}

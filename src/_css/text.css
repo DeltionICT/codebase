@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     line-height: calc(var(--lineheight) * 1.2);
+    margin-top:0px;
 }
 
 h3 {
@@ -23,7 +24,6 @@ h4 {
     width:100%;
     border-bottom:1px solid var(--c-brand);
     line-height: var(--lineheight);
-
 }
 
 a {
@@ -37,13 +37,17 @@ nav {
 
 a.nav-link {
     display: inline-block;
+    border-radius:4px;
+    padding:4px;
     margin-left:32px;
 }
 
+a.nav-link[aria-current] {
+    color:white;
+}
 
 a#logolink {
     display:block;
-
 }
 
 

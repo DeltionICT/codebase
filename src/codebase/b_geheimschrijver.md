@@ -4,9 +4,9 @@ difficulty: expert #basic | medium | expert
 date: 2023-01-05
 ---
 
-# {{ course-title }}
+#### {{ course-title }}
 
-## Opdracht: {{ title }}
+## {{ title }}
 
 
 ## Programmeertaal 

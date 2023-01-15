@@ -1,18 +1,16 @@
 ---
-title: Megaklus
-difficulty: medium #basic | medium | expert
+title: Array
+difficulty: basic #basic | medium | expert
 date: 2023-01-02
 ---
 
-# {{ course-title }}
+#### {{ course-title }}
 
-## Opdracht: {{ title }}
+## {{ title }}
 
-Programmeertaal: Naar keuze
 
-```javascript 
-var = 5;
-```
+### Programmeertaal 
+Naar keuze
 
 ## Taak
 

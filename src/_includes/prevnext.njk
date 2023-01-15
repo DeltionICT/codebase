@@ -5,6 +5,7 @@
 
 
 {%  block prevnext %}
+<li>
 <div id="prevnext">
     {% if previousPost %}
         <a id="previous-link" href="{{ previousPost.url }}">
@@ -27,4 +28,5 @@
         <div></div>
     {% endif %}
 </div>
+</li>
 {% endblock %}
