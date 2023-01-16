@@ -19,6 +19,6 @@ Bekijk onderstaand voorbeeld hiervoor
 
 Weertabel (klik om te vergroten)
 
-temperatuur wordt gegeven in Kelvin: -273 0C = 0 Kelvin
+temperatuur wordt gegeven in Kelvin: -273 &deg;C = 0 Kelvin
 afb. weer komt van de weathermap-site
 pijltje windrichting: draai een img zover dat de pijl en windrichting kloppen
