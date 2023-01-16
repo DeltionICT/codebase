@@ -91,6 +91,8 @@ Onderstaande tabel is met HTML gemaakt. Plaats de code binnen div-tags met class
 </table>
 </div>
 
+Onderstaande extra stijlen in de table-tag werken niet in deze readme, maar wel in de markdown-pagina's die in de site worden gegenereerd!
+
 ```html
 <div class="html">
 <table style="transform: rotate(45deg); background-color:green; margin:10px;">
