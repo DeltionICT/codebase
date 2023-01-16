@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Introductie</title>
+    <title>Deltion Software Development | Readme</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -38,7 +38,7 @@
         
             <a href="/codebase/test/index/" class="nav-link" >Testing</a>
         
-            <a href="/codebase/projecten/introductie/" class="nav-link" aria-current="page" data-state="active">Projecten</a>
+            <a href="/codebase/projecten/introductie/" class="nav-link" >Projecten</a>
         
         </nav>
     </div>
@@ -63,7 +63,7 @@
                 </a>
             </li>
         
-            <li aria-current="page" data-state="active">
+            <li >
                 <a class="page-link" href="/codebase/projecten/introductie/">
                     <div>
                         <div class="title">Introductie</div>
@@ -78,7 +78,7 @@
                 </a>
             </li>
         
-            <li >
+            <li aria-current="page" data-state="active">
                 <a class="page-link" href="/codebase/projecten/readme/">
                     <div>
                         <div class="title">Readme</div>
@@ -98,20 +98,15 @@
 <li>
 <div id="prevnext">
     
-        <a id="previous-link" href="/codebase/projecten/evenement/">
+        <a id="previous-link" href="/codebase/projecten/introductie/">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
-            <span class="title">Evenement</span>
+            <span class="title">Introductie</span>
         </a>
     
     
-        <a id="next-link" href="/codebase/projecten/readme/">
-            <span class="title">Readme</span>
-            <span id="arrow-forward" class="material-icons">
-        arrow_forward_ios
-        </span>
-        </a>
+        <div></div>
     
 </div>
 </li>
@@ -120,7 +115,59 @@
     </aside>
 
     <div id="content">
-        <h1 id="index">Index</h1>
+        <h4 id="readme">Readme</h4>
+<h1 id="codebase">codebase</h1>
+<p>De codebase bestaat uit alle opdrachten uit de codebase van ICT-Flex. Daarnaast kan het systeem worden uitgebreid met projecten, wireframes voor front-end opdrachten en meer. (suggesties zijn welkom!)</p>
+<ul>
+<li>Gebouwd met 11ty.</li>
+<li>11ty is een static site generator gebaseerd op javascript (npm)</li>
+<li>Je kunt de repository clonen naar lokale omgeving en daar aanpassen.</li>
+<li>Gebruik <code>npm i</code> om de node_modules te installeren</li>
+<li>Gebruik <code>npm run start</code> om een webserver op te starten en de gegenereerde site te bekijken in je lokale omgeving.</li>
+<li>Zodra de aangepaste repo/master wordt gepushed naar github wordt via een github-action de online site opnieuw gegenereerd en gepubliceerd</li>
+<li>Je kunt bestanden ook op github zelf aanpassen!.</li>
+</ul>
+<h3 id="hoe-werkt-het">Hoe werkt het</h3>
+<ul>
+<li>De codebase opdrachten staan in de map src/codebase. In deze map kunnen nieuwe opdrachten geplaatst worden en bestaande opdrachten kunnen worden aangepast.</li>
+<li>Een nieuwe opdracht begint altijd met:</li>
+</ul>
+<pre class="language-python"><code class="language-python"><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><br>title<span class="token punctuation">:</span> Array<br>difficulty<span class="token punctuation">:</span> basic <span class="token comment">#basic | medium | expert</span><br>date<span class="token punctuation">:</span> <span class="token number">2023</span><span class="token operator">-</span><span class="token number">01</span><span class="token operator">-</span><span class="token number">02</span><br><span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span><br><br><span class="token comment">#### projecten</span><br><br><span class="token comment">## Readme</span><br></code></pre>
+<ul>
+<li>Op de plek van course-title komt bovenin het scherm 'codebase' te staan (met een streep eronder).</li>
+<li>De tekst die tussen de '---' en de '---' staat wordt 'frontmatter' genoemd.</li>
+<li>Difficulty bepaalt het aantal 'pepertjes' dat wordt getoond naast de titel van een opdracht.</li>
+<li>Date bepaalt niet alleen de datum, maar ook de volgorde waarin opdrachten worden weergegeven (beetje awkward, maar voorlopig werk het zo!)</li>
+<li>Op de plek van Readme komt de waarde van de variabele title te staan. In dit geval 'Array'.</li>
+</ul>
+<h3 id="codefragmenten">Codefragmenten</h3>
+<p>Een codefragment kun je genereren door te starten met <code>'''javascript</code> en ook te eindigen met <code>'''</code>. In plaats van javascript kun je ook andere talen gebruiken (php, python, csv, sql en meer).</p>
+<h3 id="video">Video</h3>
+<p>Je kunt video's plaatsen die op youtube staan. Een enkele video plaats je met de volgende shorcode:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Een video plaatsen</span><br><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"video-wrapper"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span>iframe allow<span class="token operator">=</span><span class="token string">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"</span><br>        allowfullscreen frameborder<span class="token operator">=</span><span class="token string">"0"</span> height<span class="token operator">=</span><span class="token string">"auto"</span><br>        src<span class="token operator">=</span><span class="token string">"https://www.youtube.com/embed/9z9ntwLt4IQ"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span><span class="token operator">/</span>iframe<span class="token operator">></span><br><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span><br><br><span class="token comment">// Een playlist plaatsen</span><br><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"video-wrapper"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span>iframe allow<span class="token operator">=</span><span class="token string">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"</span><br>        allowfullscreen frameborder<span class="token operator">=</span><span class="token string">"0"</span> height<span class="token operator">=</span><span class="token string">"auto"</span><br>        src<span class="token operator">=</span><span class="token string">"https://www.youtube.com/embed/videoseries?list=PLwzcTrPriiGYd3q-9inptvru_8UuUCbJ8"</span><span class="token operator">></span><br>    <span class="token operator">&lt;</span><span class="token operator">/</span>iframe<span class="token operator">></span><br><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span></code></pre>
+<h3 id="afbeeldingen">Afbeeldingen</h3>
+<p>Je kunt afbeeldingen tonen met behulp van markdown-code:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// absolute link naar een externe afbeelding</span><br><span class="token operator">!</span><span class="token punctuation">[</span>alt<span class="token operator">-</span>tekst<span class="token punctuation">]</span><span class="token punctuation">(</span>http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>link<span class="token operator">/</span>naar<span class="token operator">/</span>de<span class="token operator">/</span>afbeelding<span class="token punctuation">)</span><br><br><span class="token comment">// relatieve link naar een afbeelding:</span><br><span class="token operator">!</span><span class="token punctuation">[</span>alt<span class="token operator">-</span>tekst<span class="token punctuation">]</span><span class="token punctuation">(</span> <span class="token operator">/</span>codebase<span class="token operator">/</span>pad<span class="token operator">/</span>naar<span class="token operator">/</span>map<span class="token operator">/</span><span class="token keyword">in</span><span class="token operator">/</span>src<span class="token operator">-</span>directory <span class="token punctuation">)</span></code></pre>
+<p>De dubbele curly braces zorgen ervoor dat het opgegeven pad wordt omgezet naar een absolute url.</p>
+<h3 id="links">Links</h3>
+<p>Je kunt op de volgende manier links maken in markdown:</p>
+<pre class="language-html"><code class="language-html">[Apple](https://www.apple.com)<br><br>komt overeen met<br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.apple.com<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Apple<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br></code></pre>
+<h3 id="html">HTML</h3>
+<p>Markdown wordt omgezet naar HTML. Je kunt HTML ook rechtstreeks gebruiken.
+Onderstaande tabel is met HTML gemaakt. Plaats de code binnen div-tags met class=&quot;html&quot;.</p>
+<div class="html">
+<table style="transform: rotate(45deg); background-color:green; margin:10px;">
+    <tr>
+        <td>zout</td>
+        <td>suiker</td>
+    </tr>   
+     <tr>
+        <td>drop</td>
+        <td>chips</td>
+    </tr>
+</table>
+</div>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>45deg<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token property">background-color</span><span class="token punctuation">:</span>green<span class="token punctuation">;</span> <span class="token property">margin</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>zout<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>suiker<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>   <br>     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>drop<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>chips<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 
     </div>
 </main>
