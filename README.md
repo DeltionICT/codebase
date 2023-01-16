@@ -1,11 +1,3 @@
----
-title: Readme
-difficulty: medium
-date: 2023-01-01
----
-
-#### Readme
-
 # codebase
 De codebase bestaat uit alle opdrachten uit de codebase van ICT-Flex. Daarnaast kan het systeem worden uitgebreid met projecten, wireframes voor front-end opdrachten en meer. (suggesties zijn welkom!)
 
