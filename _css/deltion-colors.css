@@ -1,0 +1,26 @@
+:root {
+    scroll-behavior: smooth;
+    --c-brand: #25255b;  
+    --c-brand-light: #f58220;
+    --c-text: #1d1d67;
+    --c-text-accent: var(--c-brand);
+    --c-text-light-1: #2c2c83;
+    --c-text-light-2: #b1b1b1;
+    --c-text-light-3: #e4e4e4;
+    --c-text-light-grey: #949494;
+    --c-bg: #e7e7e7;
+    --c-bg-light: #f3f3f3;
+    --c-bg-superlight: #fafafa;
+    --c-bg-dark:#555555;
+    --c-bg-blockquote: #eff8ff;
+    --fontfamily: 'Helvetica Neue', 'Arial', sans-serif;
+    --codefont: 'Azeret Mono', monospace;
+    --lineheight: 1.8rem;
+    --fontsize: 16px;
+    --box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    --box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    --c-course-level-1: var(--c-brand);
+    --c-course-level-1-dark: #000;
+    --c-course-level-2: var(--c-text-light-2);
+    --c-course-level-3: var(--c-brand-light);
+}

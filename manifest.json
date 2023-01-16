@@ -1,0 +1,18 @@
+{
+    "name": "Deltion Codebase",
+    "short_name": "Codebase",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FF8000",
+    "description": "Opdrachten en projecten voor software developers",
+    "theme_color": "#052c44",
+  
+    "icons": [
+      {
+        "src": "./_assets/favicon.ico",
+        "sizes": "64x64",
+        "type": "image/png"
+      }
+    ]
+  }
+  

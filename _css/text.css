@@ -1,0 +1,52 @@
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--c-text-light-1);
+}
+
+h1 {
+    line-height: calc(var(--lineheight) * 1);
+    margin-top: 0px;
+}
+
+
+h2 {
+    line-height: calc(var(--lineheight) * 1.2);
+    margin-top:0px;
+}
+
+h3 {
+    line-height: calc(var(--lineheight) * 1.1);
+}
+
+h4 {
+    display: inline-block;
+    margin-top:0px;
+    width:100%;
+    border-bottom:1px solid var(--c-brand);
+    line-height: var(--lineheight);
+}
+
+a {
+    color:var(--c-text);
+}
+
+nav {
+    text-align:right;
+}
+
+a.nav-link {
+    display: inline-block;
+    border-radius:4px;
+    padding:4px;
+    margin-left:32px;
+}
+
+a.nav-link[aria-current] {
+    color:white;
+}
+
+a#logolink {
+    display:block;
+}
+
+
