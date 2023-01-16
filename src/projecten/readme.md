@@ -20,7 +20,8 @@ De codebase bestaat uit alle opdrachten uit de codebase van ICT-Flex. Daarnaast 
 ### Hoe werkt het
 * De codebase opdrachten staan in de map src/codebase. In deze map kunnen nieuwe opdrachten geplaatst worden en bestaande opdrachten kunnen worden aangepast.
 * Een nieuwe opdracht begint altijd met:
-* 
+
+
 ```python
 ---
 title: Array
@@ -74,5 +75,33 @@ komt overeen met
 ```
 
 ### HTML
-Markdown wordt omgezet naar HTML. Je kunt HMTL ook rechtstreeks gebruiken.
-Een tabel maken kan op 2 manieren:
+Markdown wordt omgezet naar HTML. Je kunt HTML ook rechtstreeks gebruiken.
+Onderstaande tabel is met HTML gemaakt. Plaats de code binnen div-tags met class="html".
+
+<div class="html">
+<table style="transform: rotate(45deg); background-color:green; margin:10px;">
+    <tr>
+        <td>zout</td>
+        <td>suiker</td>
+    </tr>   
+     <tr>
+        <td>drop</td>
+        <td>chips</td>
+    </tr>
+</table>
+</div>
+
+```html
+<div class="html">
+<table style="transform: rotate(45deg); background-color:green; margin:10px;">
+    <tr>
+        <td>zout</td>
+        <td>suiker</td>
+    </tr>   
+     <tr>
+        <td>drop</td>
+        <td>chips</td>
+    </tr>
+</table>
+</div>
+```
