@@ -8,8 +8,9 @@ date: 2023-01-02
 
 ## {{ title }}
 
-* Programmeertaal: Naar keuze, API maakt gebruikt van JSON
+* Programmeertaal: Naar keuze, API maakt gebruikt van JSON  
 ***Opdracht:***  
+
 Maak op basis van de API van http://openweathermap.org/forecast een weer-applicatie.
 Geef een lijst met weergegevens (windrichting, temperatuur e.a.) van de komende uren weer van Zwolle.
 Bekijk onderstaand voorbeeld hiervoor
@@ -19,6 +20,6 @@ Bekijk onderstaand voorbeeld hiervoor
 
 Weertabel (klik om te vergroten)
 
-temperatuur wordt gegeven in Kelvin: -273 &deg;C = 0 Kelvin
-afb. weer komt van de weathermap-site
-pijltje windrichting: draai een img zover dat de pijl en windrichting kloppen
+temperatuur wordt gegeven in Kelvin: -273 &deg;C = 0 Kelvin  
+afb. weer komt van de weathermap-site  
+pijltje windrichting: draai een img zover dat de pijl en windrichting kloppen  (zie bijvoorbeeld: [Transform in css](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate) )
