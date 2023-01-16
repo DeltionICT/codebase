@@ -11,7 +11,7 @@ date: 2023-01-02
 * Programmeertaal: Naar keuze, API maakt gebruikt van JSON  
 ***Opdracht:***  
 
-Maak op basis van de API van http://openweathermap.org/forecast een weer-applicatie.
+Maak op basis van de API van [OpenWeathermap](http://openweathermap.org/forecast) een weer-applicatie.
 Geef een lijst met weergegevens (windrichting, temperatuur e.a.) van de komende uren weer van Zwolle.
 Bekijk onderstaand voorbeeld hiervoor
 
