@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Faculteit</title>
+    <title>Deltion Software Development | Weather App</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -486,7 +486,7 @@
                 </a>
             </li>
         
-            <li aria-current="page" data-state="active">
+            <li >
                 <a class="page-link" href="/codebase/codebase/faculteit/">
                     <div>
                         <div class="title">Faculteit</div>
@@ -976,7 +976,7 @@
                 </a>
             </li>
         
-            <li >
+            <li aria-current="page" data-state="active">
                 <a class="page-link" href="/codebase/codebase/weather-app/">
                     <div>
                         <div class="title">Weather App</div>
@@ -997,20 +997,15 @@
 <li>
 <div id="prevnext">
     
-        <a id="previous-link" href="/codebase/codebase/elementen-tellen/">
+        <a id="previous-link" href="/codebase/codebase/tekst-doorlopen/">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
-            <span class="title">Elementen tellen</span>
+            <span class="title">Tekst doorlopen</span>
         </a>
     
     
-        <a id="next-link" href="/codebase/codebase/grootste-getal/">
-            <span class="title">Grootste getal</span>
-            <span id="arrow-forward" class="material-icons">
-        arrow_forward_ios
-        </span>
-        </a>
+        <div></div>
     
 </div>
 </li>
@@ -1020,38 +1015,19 @@
 
     <div id="content">
         <h4 id="codebase">Codebase</h4>
-<h2 id="faculteit">Faculteit</h2>
+<h2 id="weather-app">Weather App</h2>
 <ul>
-<li>Programmeertaal: Naar keuze</li>
+<li>Programmeertaal: Naar keuze, API maakt gebruikt van JSON
+<em><strong>Opdracht:</strong></em><br>
+Maak op basis van de API van http://openweathermap.org/forecast een weer-applicatie.
+Geef een lijst met weergegevens (windrichting, temperatuur e.a.) van de komende uren weer van Zwolle.
+Bekijk onderstaand voorbeeld hiervoor</li>
 </ul>
-<p><em><strong>Omschrijving:</strong></em><br>
-Een faculteit is een wiskundige berekening die gebruikt wordt bij
-kansberekeningen. Je kunt er onder andere mee berekenen hoe groot de
-kans is dat je de loterij wint.</p>
-<p>Je berekent de faculteit van een getal door het getal en alle getallen
-onder dat getal te vermenigvuldigen met elkaar.</p>
-<p>De faculteit van 3 is dus: 1 * 2 * 3 = 6 De faculteit van 6 is dus: 1
-* 2 * 3 * 4 * 5 * 6 = 720</p>
-<p><em><strong>Taak:</strong></em><br>
-Schrijf een programma met de volgende functionaliteiten:</p>
-<ul>
-<li>
-<p>Vraag de gebruiker een getal in te voeren.</p>
-</li>
-<li>
-<p>Geef een melding wanneer de gebruiker geen getal ingevoerd heeft.</p>
-</li>
-<li>
-<p>Bereken vervolgens de faculteit van het door de gebruiker ingevoerde
-getal.</p>
-</li>
-<li>
-<p>Toon de uitkomst op het scherm.</p>
-</li>
-</ul>
-<p><em><strong>Voorbeeld:</strong></em><br>
-Van welk getal wil je de faculteit berekenen? 6 De faculteit van 6 is
-720</p>
+<p><img src="/codebase/_assets/weather.png" alt="weather.png"></p>
+<p>Weertabel (klik om te vergroten)</p>
+<p>temperatuur wordt gegeven in Kelvin: -273 0C = 0 Kelvin
+afb. weer komt van de weathermap-site
+pijltje windrichting: draai een img zover dat de pijl en windrichting kloppen</p>
 
     </div>
 </main>
