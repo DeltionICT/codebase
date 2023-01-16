@@ -20,6 +20,6 @@ Bekijk onderstaand voorbeeld hiervoor
 
 Weertabel (klik om te vergroten)
 
-temperatuur wordt gegeven in Kelvin: -273 &deg;C = 0 Kelvin  
+temperatuur wordt gegeven in Kelvin: -273 &deg;C = 0&deg;Kelvin  
 afb. weer komt van de weathermap-site  
 pijltje windrichting: draai een img zover dat de pijl en windrichting kloppen  (zie bijvoorbeeld: [Transform in css](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate) )
