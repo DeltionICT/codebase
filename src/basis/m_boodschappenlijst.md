@@ -24,6 +24,11 @@ Schrijf een programma dat de volgende functionaliteiten bevat:
 - Print de lijst van producten die op de boodschappenlijst staan.
 
 ***Voorbeeld:***  
-Hoeveel producten wil je toevoegen? 3 Product 1 van 3: Bier Product 2
-van 3: Bananen Product 3 van 3: Hamburgers De volgende producten staan
-op je boodschappenlijst: Bier Bananen Hamburgers
+* Hoeveel producten wil je toevoegen? 3 
+* Product 1 van 3: Bier 
+* Product 2 van 3: Bananen 
+* Product 3 van 3: Hamburgers 
+* De volgende producten staan op je boodschappenlijst: 
+  * Bier 
+  * Bananen 
+  * Hamburgers
