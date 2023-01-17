@@ -27,15 +27,14 @@ Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je 
 
 ## Een editor installeren
 * Installeer Visual Studio Code op je systeem
-* Installeer relevante plugins afhankelijk van de taal waarin je gaat programmeren
+* Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
     * 
+## Git installeren
+Installeer git vanaf [git-scm.com](https://git-scm.com)
 
-## Ontwikkelomgeving testen
-<div class="html">
-<table>
-<tr><th colspan="4">Xampp</th></tr>
-<tr><td>Apache is gestart</td><td>Ja</td><td>Nee</td></tr>
-<tr><td>MySQL is gestart</td><td>Ja</td><td>Nee</td></tr>
-<tr><td>Je kunt in iedere willekeurig map op je systeem met <code>php --version</code> controleren dat php werkt </td><td>Ja</td><td>Nee</td></tr>
-</table>
-</div>
+## Ontwikkelomgeving testen en documenteren
+- Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
+- Schrijf een kort verslag met daarin:
+    - Start git vanuit een willekeurig directory met <code>git --verson</code>. Noteer het versienummer
+    - Start php vanuit een willekeurige directory met <code>php --version</code>. Noteer het versienummer
+    - Heb je plug-ins geïnstalleerd in Visual Studio Code. Noteer die hier.
