@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     line-height: calc(var(--lineheight) * 1.2);
-    margin-top:0px;
+    margin-top:20px;
 }
 
 h3 {
