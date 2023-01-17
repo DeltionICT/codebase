@@ -5,6 +5,7 @@
 
 
 {%  block prevnext %}
+{% if previousPost or NextPost %}
 <li>
 <div id="prevnext">
     {% if previousPost %}
@@ -29,4 +30,5 @@
     {% endif %}
 </div>
 </li>
+{% endif %}
 {% endblock %}

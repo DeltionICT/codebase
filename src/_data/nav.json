@@ -1,20 +1,32 @@
 {
     "items": [
       {
-        "url": "/",
-        "name": "Home"
-      },
-      {
-        "url": "/codebase/introductie/",
-        "name": "Codebase"
+        "url": "/basis/introductie/",
+        "name": "Basis programmeren"
       },      
       {
-        "url": "/test/index/",
-        "name": "Testing"
+        "url": "/frontend/introductie/",
+        "name": "Frontend"
+      },
+      {
+        "url": "/databases/introductie/",
+        "name": "Databases"
+      },      
+      {
+        "url": "/api/introductie/",
+        "name": "API"
+      },
+      {
+        "url": "/mobile/introductie/",
+        "name": "Mobile"
       },
       {
         "url": "/projecten/introductie/",
         "name": "Projecten"
+      },
+      {
+        "url": "/tools/introductie/",
+        "name": "Tools"
       }
     ]
 }

@@ -120,37 +120,27 @@ a.page-link > div, #prevnext {
 }
 
 div.difficulty {
+    display:flex;
     text-align: right;
 }
 
-div.difficulty svg {
-    height: 14px;
-}
-
-div.difficulty div.basic,
-div.difficulty div.medium,
-div.difficulty div.expert
- {
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 50%;
-    width:10px;
-    height:10px;
-}
 
 
-
-div.difficulty div.medium {
+/* div.difficulty div.medium {
     background-color: green;
 }
 
 div.difficulty div.expert {
     background-color: var(--c-brand);
+} */
+
+div.difficulty img {
+    height:20px;
 }
 
 div#content {
     width:100%;
-    padding:20px;
+    padding:21px 0px 20px 20px;
 }
 
 main {

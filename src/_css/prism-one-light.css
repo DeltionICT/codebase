@@ -428,7 +428,7 @@ pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
 }
 
 code {
-    background-color: #e6f9ff;
-    padding:2px;
-    border-radius: 2px;
+    background-color: #dfb5f8;
+    padding:2px 5px 2px 5px;
+    border-radius: 4px;
 }

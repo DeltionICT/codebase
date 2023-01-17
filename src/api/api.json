@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "API",
+    "tags": ["api"],
+    "permalink": "/api/{{ title | slug }}/{{ page.index }}"
+}

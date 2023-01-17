@@ -1,6 +1,0 @@
-{
-    "layout": "final.njk",
-    "course-title": "testing",
-    "tags": ["test"],
-    "permalink": "/test/{{ title | slug }}/{{ page.index }}"
-}

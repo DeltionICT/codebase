@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "Databases",
+    "tags": ["databases"],
+    "permalink": "/databases/{{ title | slug }}/{{ page.index }}"
+}

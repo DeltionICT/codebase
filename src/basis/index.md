@@ -4,4 +4,5 @@ difficulty: test
 date: 2023-01-01
 ---
 
-# Index
+#### {{ course-title }}
+# {{ title }}

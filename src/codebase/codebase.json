@@ -1,6 +1,0 @@
-{
-    "layout": "final.njk",
-    "course-title": "Codebase",
-    "tags": ["codebase"],
-    "permalink": "/codebase/{{ title | slug }}/{{ page.index }}"
-}

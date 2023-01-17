@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "Basis programmeren",
+    "tags": ["basis"],
+    "permalink": "/basis/{{ title | slug }}/{{ page.index }}"
+}

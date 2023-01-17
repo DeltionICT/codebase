@@ -1,6 +1,6 @@
 ---
 title: Introductie
-difficulty: test
+difficulty: basic
 date: 2022-01-01
 ---
 

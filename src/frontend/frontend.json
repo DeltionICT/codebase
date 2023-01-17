@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "Frontend",
+    "tags": ["frontend"],
+    "permalink": "/frontend/{{ title | slug }}/{{ page.index }}"
+}
