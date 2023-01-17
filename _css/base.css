@@ -119,9 +119,13 @@ a.page-link > div, #prevnext {
     font-size:0.8rem;
 }
 
+div.title {
+    flex-wrap:nowrap;
+}
+
 div.difficulty {
     display:flex;
-    text-align: right;
+    justify-content: flex-end;
 }
 
 
@@ -136,6 +140,7 @@ div.difficulty div.expert {
 
 div.difficulty img {
     height:20px;
+    width:auto;
 }
 
 div#content {
