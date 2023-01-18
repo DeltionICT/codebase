@@ -1,7 +1,7 @@
 ---
 title: Evenement
 difficulty: medium
-date: 2023-01-01
+date: 2022-12-29
 ---
 
 #### {{ course-title }}
@@ -9,4 +9,7 @@ date: 2023-01-01
 
 [Aap met link]({{ '/_assets/img/aap.jpg' | url }})
 
-![Image]( {{ '/_assets/img/aap.jpg' | url }} )
+![Image]( {{ '../_assets/img/aap.jpg' | url }} )
+
+
+
