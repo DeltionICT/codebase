@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Sessielogin</title>
+    <title>Deltion Software Development | Casino kaarten delen</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -46,7 +46,7 @@
         
             <a href="/codebase/tools/introductie/" class="nav-link" >Tools</a>
         
-        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/sessielogin.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/casino_kaarten_delen.md"><span class="material-icons">edit</span></a>
         </nav>
     </div>
 </header>
@@ -98,9 +98,24 @@
             </li>
         
             <li aria-current="page" data-state="active">
-                <a class="page-link" href="/codebase/projecten/sessielogin/">
+                <a class="page-link" href="/codebase/projecten/casino-kaarten-delen/">
                     <div>
-                        <div class="title">Sessielogin</div>
+                        <div class="title">Casino kaarten delen</div>
+                        <div class="difficulty">
+                            
+                                <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
+                            
+                             
+                             
+                        </div>
+                    </div>
+                </a>
+            </li>
+        
+            <li >
+                <a class="page-link" href="/codebase/projecten/sessie-login/">
+                    <div>
+                        <div class="title">Sessie login</div>
                         <div class="difficulty">
                             
                                 <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
@@ -125,7 +140,12 @@
         </a>
     
     
-        <div></div>
+        <a id="next-link" href="/codebase/projecten/sessie-login/">
+            <span class="title">Sessie login</span>
+            <span id="arrow-forward" class="material-icons">
+        arrow_forward_ios
+        </span>
+        </a>
     
 </div>
 </li>
@@ -136,18 +156,23 @@
 
     <div id="content">
         <h4 id="projecten">Projecten</h4>
-<h1 id="sessielogin">Sessielogin</h1>
-<h2 id="userstory">Userstory</h2>
-<p>Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van de website.</p>
-<h2 id="criteria">Criteria</h2>
-<ul>
-<li>De website bestaat uit 3 php-pagina's</li>
-<li>1 pagina met het inlogformulier</li>
-<li>Na correct inloggen kan de gebruker de content op alle pagina's bekijken</li>
-<li>Na foutief inloggen kan de gebruik de content niet bekijken.</li>
-<li>Na foutief inloggen wordt de gebruiker teruggestuurd naar het inlogformulier</li>
-</ul>
-<p><img src="/codebase/_assets/projecten/sessionlogin.svg" alt="sessionlogin"></p>
+<h1 id="casino-kaarten-delen">Casino kaarten delen</h1>
+<h2 id="casus">Casus</h2>
+<p>Dit project bestaat uit een aantal opdrachten. Als alle opdrachten die starten met de naam 'Casino' zijn uitgevoerd, dan heb je een online kaartspel gemaakt. In dit deel van het Casino ga je er voor zorgen dat je een kaartspel kunt tonen en kaarten kunt schudden.
+In dit eerste deel werk je de rol van de croupier uit (= degene die de kaarten uitdeelt).</p>
+<h2 id="backlog">Backlog</h2>
+<p>Als bezoeker wil ik in kunnen loggen op de site zodat ik mijn rol kan uitvoeren.
+Als croupier wil ik een spel kaarten kunnen weergeven, zodat het publiek kan zien dat alle kaarten aanwezig zijn.
+Als croupier wil ik bepalen welke kaarten ik weer wil geven op basis van kleur en waarde
+Als croupier wil ik een spel kaarten kunnen schudden, zodat het publiek kan zien dat kaarten random zijn gesorteerd.</p>
+<h2 id="technische-eisen">Technische eisen</h2>
+<p>De speelkaarten is een set met afbeeldingen en die kun je <a href="https://static.edutorial.nl/php/cards.zip">hier dowloaden</a><br>
+Maak een functie waarmee alle kaarten worden opgenomen in een deck kaarten.
+Dit is de signatuur van de functie:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* maakDeck<br>* Deze functie maakt van een directory bestanden een array met kaarten<br>* De bestandsnaam van iedere kaart wordt opgeslagen in de array.<br>* <br>* @param path = pad naar de map met kaarten<br>* @return deck = array met alle bestandsnamen van alle speelkaarten<br>*/</span><br><br><span class="token keyword">function</span> <span class="token function">maakDeck</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> deck<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Maak een functie waarmee  kaarten uit een deck op het scherm worden getoond.
+De signatuur van de functie is als volgt:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* toonKaarten<br>* Deze functie toont de kaarten met een bepaalde kleur en/of waarde<br>* Als je de kleur 'alle' meegeeft, dan worden alle kaarten getoond ongeacht de kleur<br>* Als je de aarde 'alle' meegeeft, dan worden alle kaarten getoond ongeacht de waarde<br>* <br>* @param $kleur = alle, harten, schoppen, ruiten of klaver<br>* @param $waarde = alle, 2, 3, 4, ... boer, vrouw, heer, aas<br>*/</span><br><span class="token keyword">function</span> <span class="token function">toonKaarten</span><span class="token punctuation">(</span><span class="token parameter">kleur<span class="token punctuation">,</span> waarde</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br><span class="token punctuation">}</span></code></pre>
 
     </div>
 </main>
@@ -156,7 +181,7 @@
 
     <footer>
       © 2023 Deltion ICT - Software Development
-      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/sessielogin.md">Bewerk deze pagina</a>
+      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/casino_kaarten_delen.md">Bewerk deze pagina</a>
     </footer>
 
 </footer>
