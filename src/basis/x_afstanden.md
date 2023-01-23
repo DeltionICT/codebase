@@ -27,7 +27,12 @@ gegeven waarde moet worden omgerekend.
 De uitvoer is de omgerekende waarde en grootheid.
 
 ***Uitvoer***  
-Welke waarde : 100 Welke grootheid: Decameter Welke gewenste grootheid:
-Decimeter
+```csv
 
-Omrekening: Decameter = 10000 Decimeter
+Welke waarde : 100   
+Welke grootheid: Decameter  
+Welke gewenste grootheid: Decimeter  
+
+Omrekening: 100 Decameter = 10000 Decimeter
+
+```

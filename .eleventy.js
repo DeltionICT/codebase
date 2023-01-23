@@ -96,8 +96,8 @@ module.exports = function(eleventyConfig) {
     //     return firstName + ' ' + lastName;
     // });
 
-    eleventyConfig.addWatchTarget("./src/_css/");
-    eleventyConfig.addWatchTarget("./src/opdrachten/");
+    //eleventyConfig.addWatchTarget("./src/_css/");
+    eleventyConfig.addWatchTarget("./src/**/*");
     // eleventyConfig.addWatchTarget('./src/js/');
     const markdownItOptions = {
         html:true,
