@@ -1,0 +1,61 @@
+<h4 id=""></h4>
+<h1 id="api-server">API-server</h1>
+<img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
+<ul>
+<li>Programmeertaal: PHP of een andere backend-taal</li>
+</ul>
+<p><em><strong>Taken:</strong></em>
+Voer de code uit volgens “best practice” en eerder geleerde technieken.
+Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
+zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
+<p>Alle request worden gestest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote></blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<ol>
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>alle responses zijn in json, met daarbij extra meta-data ook in json</li>
+<li>in de url is duidelijk welk model/databasetabel wordt aangesproken</li>
+<li>key 'all' in de url levert alle records als response</li>
+<li>een id (nummer) in de url levert een specifiek record uit een databasetabel op als response</li>
+<li>een request met data in combinatie met de post-method voegt een record toe aan een databasetabel</li>
+<li>een request met een id (nummer) en met een delelete-method in de url verwijdert een specifiek record uit een databasetabel</li>
+<li>een request met een id (nummer) en met een put-method in de url update een specifiek record in een databasetabel</li>
+<li>foutive API-url's geven een 404-response in json</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>correcte api-url's om de requests van de url op te vangen</li>
+</ul>
+<hr>
+<ol start="2">
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>maak pagination mogelijk door limits mee te geven aan de API-url met QSA</li>
+<li>maak sortering op opgegeven kolommen mogelijk door de kolom en de manier (ASC / DESC) mee te geven aan de API-url met QSA</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>correcte api-routes om de requests van de url op te vangen</li>
+</ul>
+<hr>
+<ol start="3">
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>het aantal controller wordt geminimaliseerd door de werking te centraliseren en de tabel keuze te baseren op de model-naam in de url</li>
+<li>de json-respons wordt door overerving op één plaats uitgewerkt voor alle verschillende responses</li>
+<li>voeg validatie toe voor het toevoegen en aanpassen van records</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen</li>
+<li>instatieer een model-class en validatie-class op basis van de class-naam in de url</li>
+</ul>
