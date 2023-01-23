@@ -1,0 +1,6 @@
+{
+    "layout": "final.njk",
+    "course-title": "Backend",
+    "tags": ["backend"],
+    "permalink": "/backend/{{ title | slug }}/{{ page.index }}"
+}
