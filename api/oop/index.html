@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Evenement</title>
+    <title>Deltion Software Development | OOP</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -46,7 +46,7 @@
         
             <a href="/codebase/tools/introductie/" class="nav-link" >Tools</a>
         
-        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/api/evenement.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/api/01 OOP.md"><span class="material-icons">edit</span></a>
         </nav>
     </div>
 </header>
@@ -69,7 +69,7 @@
                 </a>
             </li>
         
-            <li aria-current="page" data-state="active">
+            <li >
                 <a class="page-link" href="/codebase/api/evenement/">
                     <div>
                         <div class="title">Evenement</div>
@@ -101,7 +101,7 @@
                 </a>
             </li>
         
-            <li >
+            <li aria-current="page" data-state="active">
                 <a class="page-link" href="/codebase/api/oop/">
                     <div>
                         <div class="title">OOP</div>
@@ -205,16 +205,16 @@
 <li>
 <div id="prevnext">
     
-        <a id="previous-link" href="/codebase/api/introductie/">
+        <a id="previous-link" href="/codebase/api/functions/">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
-            <span class="title">Introductie</span>
+            <span class="title">Functions</span>
         </a>
     
     
-        <a id="next-link" href="/codebase/api/functions/">
-            <span class="title">Functions</span>
+        <a id="next-link" href="/codebase/api/mvc-basics/">
+            <span class="title">MVC-basics</span>
             <span id="arrow-forward" class="material-icons">
         arrow_forward_ios
         </span>
@@ -229,9 +229,130 @@
 
     <div id="content">
         <h4 id="api">API</h4>
-<h1 id="evenement">Evenement</h1>
-<p><a href="/codebase/_assets/img/aap.jpg">Aap met link</a></p>
-<p><img src="../_assets/img/aap.jpg" alt="Image"></p>
+<h1 id="oop">OOP</h1>
+<img src="/codebase/_assets/api/PHP-logo.png" style="width:10%;">
+<ul>
+<li>Programmeertaal: PHP of een andere backend-taal</li>
+</ul>
+<p><em><strong>Taken:</strong></em></p>
+<p>Voer de code uit volgens “best practice” en eerder geleerde technieken.</p>
+<ol>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>
+<p>alle logica staat in classes beschreven</p>
+</li>
+<li>
+<p>elke class staat in een eigen php-bestand</p>
+</li>
+<li>
+<p>logica is zo veel mogelijk uitgesplitst per method</p>
+</li>
+<li>
+<p>methods worden maximaal herbruikbaar gemaakt door gebruik van parameters</p>
+</li>
+<li>
+<p>alle methods geven een resultaat terug (return), anders een 'true' of 'false'.</p>
+</li>
+<li>
+<p>initialiseer de class en roep de methods op het object aan</p>
+</li>
+<li>
+<p>render de uitkomst en toon deze in de article-tag</p>
+</li>
+<li>
+<p>respecteer de volgende code-structuur:</p>
+<ul>
+<li>class(es) (in)lezen</li>
+<li>logica; initaliseren classes, aanroepen methods en renderen</li>
+<li>weergeven van de gerenderde waarden in de html-structuur</li>
+</ul>
+<p>Voer de code uit volgens “best practice” technieken.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>maak gebruik van 'type hinting' bij de parameters</li>
+<li>maak gebruik van een 'spread operator' in array-expressies</li>
+<li>benoem de methods als 'public' en waar nodig/wenselijk 'private'</li>
+<li>declareer voor de class public en private properties</li>
+<li>maak gebruik effectief gebruik van de properties met $this-&gt;</li>
+</ul>
+<p>Voer de code uit volgens “best practice” technieken.</p>
+</li>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>maak een applicatie waarbij <u>meerdere</u> classes nodig zijn</li>
+<li>elke class bevat een categorie/werking, bijv: users, gallery, seo, database, etc...</li>
+<li>alle classes zijn op basis van hun toepassing in folders georganiseerd (lib, content, etc)</li>
+<li>include de benodigde classes in het de 'running code' (index.php)</li>
+</ul>
+</li>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van een student en/of docent kunnen tonen
+<ul>
+<li>scheid de rol en persoonlijke gegevens</li>
+</ul>
+</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>er zijn twee classes, waarbij de ene class methods en properties erft van de andere class (parent-child)</li>
+<li>roep parent-methods aan via de child-instantie</li>
+</ul>
+</li>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van meerdere personen kunnen tonen</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>plaats de class in een subfolder van de lib-map</li>
+<li>maak gebruik van een functie, zoals mysqli, om database-queries te verwerken</li>
+<li>include de db-class</li>
+<li>gebruik de constructor en parameters om de connectie met de server op te bouwen</li>
+<li>hergebruik de connectie door gebruik te maken van een private property</li>
+<li>maak een method waarin de volgende werkt
+<ul>
+<li>query-strings worden als parameter meegegeven aan methods</li>
+<li>alle select-queries geven alle data terug in het type 'object', elk record heeft een eigen numerieke key</li>
+<li>als er slechts één record wordt teruggeven, wordt direct alle data teruggegeven zonder numerieke key</li>
+<li>alle andere queries en foutieve queries geven een boolean terug</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Maak een programma met een werking;</p>
+<ul>
+<li>als bezoeker wil ik gegevens (NAW) van een meerdere gebruikers <i>veilig</i> kunnen tonen</li>
+</ul>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
+<ul>
+<li>verbeter de verwerking van database-queries door gebruik te maken van parameter-binding</li>
+<li>geef data aan de query-method in de vorm van een multi associative array</li>
+</ul>
+</li>
+</ol>
 
     </div>
 </main>
@@ -240,7 +361,7 @@
 
     <footer>
       © 2023 Deltion ICT - Software Development
-      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/api/evenement.md">Bewerk deze pagina</a>
+      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/api/01 OOP.md">Bewerk deze pagina</a>
     </footer>
 
 </footer>
