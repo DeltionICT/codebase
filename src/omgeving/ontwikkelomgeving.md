@@ -1,5 +1,5 @@
 ---
-title: Ontwikkelomgeving
+title: Ontwikkelomgeving voor HTML/PHP
 difficulty: basic
 date: 2023-01-01
 ---

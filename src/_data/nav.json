@@ -1,9 +1,13 @@
 {
     "items": [
       {
+        "url": "/omgeving/introductie/",
+        "name": "Omgeving"
+      },  
+      {
         "url": "/basis/introductie/",
         "name": "Basis programmeren"
-      },      
+      },  
       {
         "url": "/frontend/introductie/",
         "name": "Frontend"
@@ -13,8 +17,8 @@
         "name": "Databases"
       },      
       {
-        "url": "/api/introductie/",
-        "name": "API"
+        "url": "/backend/introductie/",
+        "name": "Backend"
       },
       {
         "url": "/mobile/introductie/",
