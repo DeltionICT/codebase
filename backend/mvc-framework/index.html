@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Evenement</title>
+    <title>Deltion Software Development | MVC-Framework</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -48,7 +48,7 @@
         
             <a href="/codebase/tools/introductie/" class="nav-link" >Tools</a>
         
-        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/evenement.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/03 MVC-framework.md"><span class="material-icons">edit</span></a>
         </nav>
     </div>
 </header>
@@ -71,7 +71,7 @@
                 </a>
             </li>
         
-            <li aria-current="page" data-state="active">
+            <li >
                 <a class="page-link" href="/codebase/backend/evenement/">
                     <div>
                         <div class="title">Evenement</div>
@@ -135,7 +135,7 @@
                 </a>
             </li>
         
-            <li >
+            <li aria-current="page" data-state="active">
                 <a class="page-link" href="/codebase/backend/mvc-framework/">
                     <div>
                         <div class="title">MVC-Framework</div>
@@ -207,16 +207,16 @@
 <li>
 <div id="prevnext">
     
-        <a id="previous-link" href="/codebase/backend/introductie/">
+        <a id="previous-link" href="/codebase/backend/mvc-basics/">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
-            <span class="title">Introductie</span>
+            <span class="title">MVC-basics</span>
         </a>
     
     
-        <a id="next-link" href="/codebase/backend/functions/">
-            <span class="title">Functions</span>
+        <a id="next-link" href="/codebase/backend/featuretesting/">
+            <span class="title">FeatureTesting</span>
             <span id="arrow-forward" class="material-icons">
         arrow_forward_ios
         </span>
@@ -231,9 +231,104 @@
 
     <div id="content">
         <h4 id="backend">Backend</h4>
-<h1 id="evenement">Evenement</h1>
-<p><a href="/codebase/_assets/img/aap.jpg">Aap met link</a></p>
-<p><img src="../_assets/img/aap.jpg" alt="Image"></p>
+<h1 id="mvc-framework">MVC-Framework</h1>
+<img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
+<ul>
+<li>Programmeertaal: PHP of een andere backend-taal</li>
+</ul>
+<p><em><strong>Taken:</strong></em>
+Voer de code uit volgens “best practice” en eerder geleerde technieken.
+Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
+zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote></blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<ol>
+<li>Maak een applicatie in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben</li>
+<li>als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben</li>
+<li>als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken</li>
+<li>als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat</li>
+<li>als bezoeker zie ik de home-page als ik de url voor het eerst benader, zodat ik direct de applicatie zie</li>
+<li>als bezoeker zie ik alle content-items in het menu onder een dropbox, zodat een overzichtelijke navigatie-bar heb</li>
+<li>als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken</li>
+<li>als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken</li>
+<li>als gebruiker kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden</li>
+<li>als gebruiker kan ik content verwijderen, zodat ik de verouderde artikelen kan verwijderen</li>
+<li>als gebruiker kan ik content wijzigen, zodat ik de artikelen kan aanpassen</li>
+<li>als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.</li>
+<li>als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>correcte routes om de requests van de url op te vangen</li>
+<li>overzichtelijk en goed toegepaste controllers en actions</li>
+<li>in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view</li>
+<li>alle databaseverzoeken worden via een model's uitgevoerd</li>
+<li>alle datainvoer wordt in ieder geval op de backend gevalideerd</li>
+<li>er is slechts één html-structuur die in de layout-file is uitgewerkt</li>
+<li>configureerbare waarden worden centraal opgeslagen in een config-file</li>
+<li>alle nieuwe classes zijn voorzien van namespaces en autoloader-proof</li>
+<li>de volgende mogelijkheden zijn beschikbaar: inlog, password-verificatie en password-forgot
+<ul>
+<li>bijvoorbeeld door: <a href="https://laravel.com/docs/9.x/starter-kits#laravel-breeze">Breeze</a></li>
+</ul>
+</li>
+<li>de database wordt opgebouwd en gerefreshed met 'migrations'</li>
+<li>alle tabellen worden voorzien van voldoende en representatieve dummy-data met seeders en factories</li>
+</ul>
+<hr>
+2. Maak een applicatie in een framework met de volgende werking;
+* als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
+    * kanttekening 1: leeftijdscheck >= 18 jaar
+    * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
+* meta-tags en seo worden optimaliseert met behulp van services
+* de naam in de browser-tab wordt bijgewerkt m.b.v. services
+* het email-account wordt bewaard in de config-file en goed beveiligd
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>middleware</li>
+<li>middleware op routes</li>
+<li>services</li>
+<li>classes in de lib-folder, zoals die voor email, zijn maximaal herbruikbaar en maken gebruik van namespaces</li>
+</ul>
+<hr>
+3. Update het applicatie met de volgende werking;
+* als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
+* als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
+* als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken
+* als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat
+* als bezoeker zie ik alle content-items in het menu onder een dropbox, zodat een overzichtelijke navigatie-bar heb
+* als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken
+* als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken
+* als administrator kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden
+* als administrator kan ik content verwijderen, zodat ik de verouderde artikelen kan verwijderen
+* als administrator kan ik content wijzigen, zodat ik de artikelen kan aanpassen
+* als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.
+* als administrator wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
+<ul>
+<li>als administrator wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.</li>
+<li>als administrator kan ik nieuwe gebruikers toevoegen, zodat ik de gebruikersbestand kan uitbreiden</li>
+<li>als administrator kan ik gebruikers verwijderen, zodat ik de verouderde artikelen kan verwijderen</li>
+<li>als administrator kan ik gebruikers wijzigen, zodat ik de gebruikersgegevens kan aanpassen</li>
+<li>als administrator kan ik gebruikers forceren een nieuw wachtwoord aan te maken, om misbruik van wachtwoorden te voorkomen</li>
+<li>als gebruiker kan ik geforceerd worden een nieuw wachtwoord op te geven, zodat ik een veilig account behoudt en geen beveiligde content kan benaderen</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>RBAC (rollbased-access-control)
+<ul>
+<li>evt uitgevoerd met: <a href="https://github.com/JosephSilber/bouncer">Bouncer</a> of <a href="https://laratrust.santigarcor.me">Laratrust</a></li>
+</ul>
+</li>
+<li>dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen</li>
+</ul>
 
     </div>
 </main>
@@ -242,7 +337,7 @@
 
     <footer>
       © 2023 Deltion ICT - Software Development
-      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/evenement.md">Bewerk deze pagina</a>
+      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/03 MVC-framework.md">Bewerk deze pagina</a>
     </footer>
 
 </footer>

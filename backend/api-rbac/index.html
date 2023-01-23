@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Evenement</title>
+    <title>Deltion Software Development | API-rbac</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -48,7 +48,7 @@
         
             <a href="/codebase/tools/introductie/" class="nav-link" >Tools</a>
         
-        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/evenement.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/06 API rbac.md"><span class="material-icons">edit</span></a>
         </nav>
     </div>
 </header>
@@ -71,7 +71,7 @@
                 </a>
             </li>
         
-            <li aria-current="page" data-state="active">
+            <li >
                 <a class="page-link" href="/codebase/backend/evenement/">
                     <div>
                         <div class="title">Evenement</div>
@@ -185,7 +185,7 @@
                 </a>
             </li>
         
-            <li >
+            <li aria-current="page" data-state="active">
                 <a class="page-link" href="/codebase/backend/api-rbac/">
                     <div>
                         <div class="title">API-rbac</div>
@@ -207,20 +207,15 @@
 <li>
 <div id="prevnext">
     
-        <a id="previous-link" href="/codebase/backend/introductie/">
+        <a id="previous-link" href="/codebase/backend/api-server/">
         <span id="arrow-back" class="material-icons">
             arrow_back_ios
         </span>
-            <span class="title">Introductie</span>
+            <span class="title">API-server</span>
         </a>
     
     
-        <a id="next-link" href="/codebase/backend/functions/">
-            <span class="title">Functions</span>
-            <span id="arrow-forward" class="material-icons">
-        arrow_forward_ios
-        </span>
-        </a>
+        <div></div>
     
 </div>
 </li>
@@ -231,9 +226,58 @@
 
     <div id="content">
         <h4 id="backend">Backend</h4>
-<h1 id="evenement">Evenement</h1>
-<p><a href="/codebase/_assets/img/aap.jpg">Aap met link</a></p>
-<p><img src="../_assets/img/aap.jpg" alt="Image"></p>
+<h1 id="api-rbac">API-rbac</h1>
+<img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
+<ul>
+<li>Programmeertaal: PHP of een andere backend-taal</li>
+</ul>
+<p><em><strong>Taken:</strong></em>
+Voer de code uit volgens “best practice” en eerder geleerde technieken.
+Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
+zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
+<p>Alle request worden gestest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote></blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<ol>
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>inloggen en een token ontvangen voor gebruik in de front-end door inloggegevens te sturen naar een API-url</li>
+<li>begrip SSL vereiste voor het gebruik van tokens</li>
+<li>refresh token op verzoek van een API-url</li>
+<li>een token verloopt na een geconfigureerde tijdsduur (config-file)</li>
+<li>API-verzoeken gebaseerd op de juiste authenticatie</li>
+<li>incorrecte permissies geven een 403 in json</li>
+<li>foutive API-url's geven een 404-response in json</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>token-functionaliteit
+<ul>
+<li><a href="https://laravel.com/docs/9.x/sanctum">Sanctum</a></li>
+<li><a href="https://laravel.com/docs/9.x/passport">Passport</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<ol start="2">
+<li>Maak een API-server in een framework met de volgende werking;</li>
+</ol>
+<ul>
+<li>rollen gebruik</li>
+<li>er zijn meerdere verschillende permissies/abilities per rol mogelijk</li>
+<li>API-verzoeken geven json-response gebaseerd op autorisatie uitgevoerd op de geldende permissies</li>
+<li>incorrecte permissies geven een 403 in json</li>
+</ul>
+<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<ul>
+<li>correcte api-routes om de requests van de url op te vangen</li>
+</ul>
 
     </div>
 </main>
@@ -242,7 +286,7 @@
 
     <footer>
       © 2023 Deltion ICT - Software Development
-      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/evenement.md">Bewerk deze pagina</a>
+      <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/06 API rbac.md">Bewerk deze pagina</a>
     </footer>
 
 </footer>
