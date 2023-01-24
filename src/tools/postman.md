@@ -11,6 +11,6 @@ Een van de handigste tools om API's mee te testen en om code te genereren in mee
 
 De lijst waarvoor hij code kan genereren zie je in het plaatje
 
-<img src="{{ '/_assets/tools/postman.png' | url }}" style="width:80%;">
+<img src="{{ '/_assets/tools/postman.png' | url }}" style="width:35%;">
 
 postman.png
