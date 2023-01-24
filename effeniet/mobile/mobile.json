@@ -1,7 +1,0 @@
-{
-    "layout": "final.njk",
-    "course-title": "Mobile",
-    "tags": ["mobile"],
-    "permalink": "/mobile/{{ title | slug }}/{{ page.index }}",
-    "pepper": "purple"
-}
