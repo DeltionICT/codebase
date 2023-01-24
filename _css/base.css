@@ -103,6 +103,24 @@ li[aria-current] a {
     color:white;   
 }
 
+div#prevnext {
+    display:block;
+    background-color: rgb(200,200,200);
+    margin-left: 32px;
+    border-radius: 8px;
+    padding-right: 38px;
+}
+
+ul.prevnext {
+    list-style-type: none;
+    padding:0;
+    margin-top:4px;
+}
+
+a#previous-link {
+    margin-right:32px;
+}
+
 a.page-link > div, #prevnext {
     display:flex; 
     justify-content:
@@ -175,3 +193,14 @@ blockquote {
     margin:0;
 }
 
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color:#ff5700;
+}
+
+.nav-link .material-icons {
+    vertical-align:bottom;
+}
