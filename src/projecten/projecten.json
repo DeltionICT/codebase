@@ -2,5 +2,6 @@
     "layout": "final.njk",
     "course-title": "Projecten",
     "tags": ["projecten"],
-    "permalink": "/projecten/{{ title | slug }}/{{ page.index }}"
+    "permalink": "/projecten/{{ title | slug }}/{{ page.index }}",
+    "pepper": "purple"
 }

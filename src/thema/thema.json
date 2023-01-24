@@ -1,0 +1,7 @@
+{
+    "layout": "final.njk",
+    "course-title": "Thema",
+    "tags": ["thema"],
+    "permalink": "/thema/{{ title | slug }}/{{ page.index }}",
+    "pepper":"purple"
+}

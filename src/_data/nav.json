@@ -6,31 +6,23 @@
       },  
       {
         "url": "/basis/introductie/",
-        "name": "Basis programmeren"
+        "name": "Basis"
       },  
       {
         "url": "/frontend/introductie/",
         "name": "Frontend"
-      },
-      {
-        "url": "/databases/introductie/",
-        "name": "Databases"
-      },      
+      },    
       {
         "url": "/backend/introductie/",
         "name": "Backend"
       },
       {
-        "url": "/mobile/introductie/",
-        "name": "Mobile"
-      },
-      {
         "url": "/projecten/introductie/",
         "name": "Projecten"
-      },
+      },   
       {
-        "url": "/tools/introductie/",
-        "name": "Tools"
+        "url": "/thema/introductie/",
+        "name": "Thema"
       }
     ]
 }

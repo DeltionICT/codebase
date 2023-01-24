@@ -1,8 +1,10 @@
 ---
 title: Introductie
-difficulty: test
-date: 2022-01-01
+difficulty: basic
+date: 2022-02-10
 ---
 
 #### {{ course-title }}
 # {{ title }}
+
+

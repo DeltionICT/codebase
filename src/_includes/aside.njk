@@ -1,0 +1,30 @@
+{% extends "index.njk" %}
+{% block aside %}
+<aside>
+    <ul>
+    {% for p in collections[tags] %}
+        <li {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>
+            <a class="page-link" href="{{ p.url | url }}">
+                <div>
+                    <div class="title">{{  p.data.title }}</div>
+                    <div class="difficulty">
+                        {% if p.data.difficulty == "basic"%}
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                        {% endif %}
+                            {% if p.data.difficulty == "medium"%}
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                        {% endif %}
+                            {% if p.data.difficulty == "expert"%}
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                            <img src="{{ p.data.pepper | pepperoni | url }}" alt="red pepper">
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</aside>
+{% endblock %}

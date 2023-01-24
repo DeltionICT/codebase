@@ -2,5 +2,6 @@
     "layout": "final.njk",
     "course-title": "Frontend",
     "tags": ["frontend"],
-    "permalink": "/frontend/{{ title | slug }}/{{ page.index }}"
+    "permalink": "/frontend/{{ title | slug }}/{{ page.index }}",
+    "pepper": "red"
 }

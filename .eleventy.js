@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
 
         return coll;
     });
+
     eleventyConfig.setNunjucksEnvironmentOptions({
         throwOnUndefined: true,
         autoescape: false, // warning: don’t do this!
@@ -46,6 +47,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
     });
+
+    eleventyConfig.addFilter("pepperoni", function(color) {
+        return '/_assets/'  + color + '_pepper.svg';
+    });
+
 
  
     eleventyConfig.addPlugin(pluginPWA, {
@@ -81,6 +87,7 @@ module.exports = function(eleventyConfig) {
         // Tell nunjucks to render the file's content, passing the
         // arguments to it as the "component" object.
         return nunjucks.renderString(content, {video: yt_id});
+
     });
 
     // eleventyConfig.addShortcode("firstpage", (yt_id) => {
@@ -92,9 +99,13 @@ module.exports = function(eleventyConfig) {
     //     return nunjucks.renderString(content, {video: yt_id});
     // });
 
-    // eleventyConfig.addShortcode("user", function(firstName, lastName) {
-    //     return firstName + ' ' + lastName;
-    // });
+    eleventyConfig.addShortcode("user", function(firstName, lastName) {
+        return firstName + ' ' + lastName;
+    });
+
+    eleventyConfig.addShortcode("pepper", function(color) {
+        return '/_assets/' + color + '_pepper.svg';
+    });
 
     //eleventyConfig.addWatchTarget("./src/_css/");
     eleventyConfig.addWatchTarget("./src/**/*");

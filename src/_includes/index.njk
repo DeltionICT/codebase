@@ -41,42 +41,22 @@
         {% for item in nav.items %}
             <a href="{{ item.url | url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
         {% endfor %}
-        <a class="nav-link" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>
+        {#
+        <ul class="prevnext">
+        {% for p in collections[tags] %}
+            {% if p.url == page.url %}
+                {% block prevnext %}{% endblock %}
+            {% endif %}
+        {% endfor %}
+        </ul> #}
         </nav>
     </div>
 </header>
 <main>
-    <aside>
-        <ul>
-        {% for p in collections[tags] %}
-            <li {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>
-                <a class="page-link" href="{{ p.url | url }}">
-                    <div>
-                        <div class="title">{{  p.data.title }}</div>
-                        <div class="difficulty">
-                            {% if p.data.difficulty == "basic"%}
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                            {% endif %}
-                             {% if p.data.difficulty == "medium"%}
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                            {% endif %}
-                             {% if p.data.difficulty == "expert"%}
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                                <img src="{{ '/_assets/red_pepper.svg' | url }}" alt="red pepper">
-                            {% endif %}
-                        </div>
-                    </div>
-                </a>
-            </li>
-        {% endfor %}
-        {% block prevnext %}{% endblock %}
-        </ul>
-    </aside>
-
+    {% block aside %}{% endblock %}
     <div id="content">
-        {{ content | safe }}
+    {{ content | safe }}
     </div>
 </main>
 
@@ -84,7 +64,6 @@
 {% block footer %}
     <footer>
       © 2023 Deltion ICT - Software Development
-      <a href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}">Bewerk deze pagina</a>
     </footer>
 {% endblock %}
 </footer>

@@ -1,0 +1,7 @@
+{
+    "layout": "final.njk",
+    "course-title": "Tools",
+    "tags": ["tools"],
+    "permalink": "/tools/{{ title | slug }}/{{ page.index }}",
+    "pepper": "red"
+}
