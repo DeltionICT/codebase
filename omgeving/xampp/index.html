@@ -133,9 +133,10 @@
                     <div class="title">Postman</div>
                     <div class="difficulty">
                         
+                            
+                            <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
                             <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
                         
-                            
                             
                     </div>
                 </div>
@@ -223,6 +224,72 @@
     <div id="content">
     <h4 id="omgeving">Omgeving</h4>
 <h1 id="xampp">Xampp</h1>
+<img src="/codebase/_assets/_icons/xampp-logo.png" style="width:10%;">
+<h2 id="xampp-installeren-en-starten">Xampp installeren en starten</h2>
+<p><a href="'https://www.apachefriends.org/download.html'">Xampp downloaden</a></p>
+<ol>
+<li>
+<p>Download Xampp (niet een virualhost-versie)</p>
+</li>
+<li>
+<p>Installeer Xampp in de default map (C:\XAMPP  of \Applications\XAMPP)</p>
+</li>
+<li>
+<p>Installeer alle services en mogelijkheden</p>
+</li>
+<li>
+<p>Zoek in de XAMPP-applicatiefolder de htdocs-map.
+Hernoem het bestand index.php naar index.org.php</p>
+</li>
+<li>
+<p>Start de applicatie op (controll-panel)</p>
+</li>
+<li>
+<p>Start Apache. Start optioneel MySQL als je ook gebruik gaat maken van een database;</p>
+<img src="/codebase/_assets/omgevingen/xampp-start-screen.png" style="width:30%;">
+</li>
+<li>
+<p>Open jouw browser naar voorkeur en type in de url-balk;</p>
+<blockquote>
+<p>http://localhost</p>
+</blockquote>
+</li>
+<li>
+<p>In de browser zie je nu de inhoud van de htdocs-folder.</p>
+</li>
+<li>
+<p>In de htdocs-folder worden alle php-files geplaatst, dit kan je direct beheren en uitbreiden
+door jouw editor (IDE) in deze folder te laten kijken.</p>
+</li>
+<li>
+<p>Kijken of jouw code werkt, doe je in de browser door <code>http://localhost</code> te benaderen !
+Php-code starten via een Verkenner/Finder is niet mogelijk...</p>
+</li>
+</ol>
+<h2 id="xampp-optimaal-gebruiken">Xampp optimaal gebruiken</h2>
+<ul>
+<li>
+<p>Maak voor elk project/try-out een aparte folder in de htdocs-folder.<br>
+Laat de folders evt beginnen met 01Naamproject, 02TweedeNaam, etc...<br>
+Hierdoor heb je meer orde en structuur in jouw projecten door de tijd heen.</p>
+</li>
+<li>
+<p>Als elk project een index.php file heeft (single-point-of-entry), start de applicatie direct op, zonder de poh-filename in de browser in te typen.</p>
+</li>
+<li>
+<p>Ontwikkel de applicatie lokaal op jouw laptop (in XAMPP), dus niet online.
+Zodra jouw project werkt en getest is, wordt het online gezet. Gebruik daarvoor een FTP-tool.</p>
+</li>
+<li>
+<p>De domeinnaam &quot;localhost&quot; is op ten duur niet het meest handig als je meerdere projecten uit elkaar wil houden.
+Hiervoor kan je ook <a href="'http://localhost:8081/codebase/thema/local-domainnames/'">local domnein-namen</a> aanmaken.</p>
+</li>
+<li>
+<p>Je kan ook clean-url's opzetten. Zo worden de GET-waarden in een url;
+<code>http://localhost/03_test/index.php?key1=soneValue</code> omgezet naar: <code>http://localhost/03_test/someValue</code>.
+Met localdomeinnamen kan dit er zelfs als volgt uit zien: <code>http://testproject.rk/someValue</code></p>
+</li>
+</ul>
 
     </div>
 </main>
