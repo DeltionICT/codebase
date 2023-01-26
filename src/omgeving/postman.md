@@ -1,16 +1,15 @@
 ---
 title: Postman
-difficulty: basic
+difficulty: medium
 date: 2023-01-04
 ---
 
 #### {{ course-title }}
 # {{ title }}
 
+<img src="{{ '/_assets/_icons/postman.png' | url }}" style="width:10%;">
+
 Een van de handigste tools om API's mee te testen en om code te genereren in meerdere talen en frameworks om API's te benaderen is [POSTMAN](https://www.postman.com/) , het is gratis en installeer deze.
 
 De lijst waarvoor hij code kan genereren zie je in het plaatje
 
-<img src="{{ '/_assets/tools/postman.png' | url }}" style="width:35%;">
-
-postman.png
