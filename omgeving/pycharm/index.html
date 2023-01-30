@@ -68,9 +68,24 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/omgeving/python-omgeving/">
+            <a class="page-link" href="/codebase/omgeving/tools-voor-webdevelopment/">
                 <div>
-                    <div class="title">Python omgeving</div>
+                    <div class="title">Tools voor webdevelopment</div>
+                    <div class="difficulty">
+                        
+                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
+                        
+                            
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+        <li aria-current="page" data-state="active">
+            <a class="page-link" href="/codebase/omgeving/pycharm/">
+                <div>
+                    <div class="title">Pycharm</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
@@ -128,85 +143,10 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/omgeving/pycharm/">
-                <div>
-                    <div class="title">Pycharm</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/omgeving/visual-studio-code/">
-                <div>
-                    <div class="title">Visual Studio Code</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/omgeving/git/">
-                <div>
-                    <div class="title">Git</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/omgeving/tools-voor-webdevelopment/">
-                <div>
-                    <div class="title">Tools voor webdevelopment</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
         <li >
             <a class="page-link" href="/codebase/omgeving/docker/">
                 <div>
                     <div class="title">Docker</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/omgeving/virtualenv/">
-                <div>
-                    <div class="title">VirtualEnv</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
@@ -224,6 +164,35 @@
     <div id="content">
     <h4 id="omgeving">Omgeving</h4>
 <h1 id="pycharm">Pycharm</h1>
+<h2 id="inleiding">Inleiding</h2>
+<p>In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het werken met Python. Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan. Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github. Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.</p>
+<h2 id="presentatie-python-ontwikkelomgeving">Presentatie python ontwikkelomgeving</h2>
+<ul>
+<li>Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --verson</code>.</li>
+<li>Toon python met een project in pycharm vanuit de terminal met <code>python --version</code>.</li>
+<li>Toon de repository op github.com met schermafbeeldingen die je tijdens installatie hebt gemaakt.</li>
+</ul>
+<h2 id="git-installeren">Git installeren</h2>
+<ul>
+<li>Installeer git op je computer <a href="https://www.edutorial.nl/git/introductie/">Hier vind je uitleg over hoe dat moet</a></li>
+<li>Check of git goed is geïnstalleerd</li>
+</ul>
+<pre class="language-shell"><code class="language-shell">janjaap@iMac-Pro-van-Jan pythonproject % <span class="token function">git</span> <span class="token parameter variable">--version</span><br><span class="token function">git</span> version <span class="token number">2.37</span>.1 </code></pre>
+<h2 id="python-installeren">Python installeren</h2>
+<p>Installeer python op je computer. <a href="https://www.edutorial.nl/python/python-installeren/">Hier vind je uitleg over hoe dat moet!</a></p>
+<ul>
+<li>Check of python is geïnstalleerd op je computer</li>
+<li>Start een terminal op en type &quot;python --version&quot;</li>
+</ul>
+<pre class="language-python"><code class="language-python"><span class="token punctuation">(</span>venv<span class="token punctuation">)</span> janjaap@iMac<span class="token operator">-</span>Pro<span class="token operator">-</span>van<span class="token operator">-</span>Jan pythonproject <span class="token operator">%</span> python <span class="token operator">-</span><span class="token operator">-</span>version<br>Python <span class="token number">3.9</span><span class="token number">.2</span></code></pre>
+<h2 id="hello-world">Hello World</h2>
+<p>*8 Schrijf je eerste script, laat met behulp van de functie print &quot;Hello World&quot; op het scherm zien!</p>
+<ul>
+<li>Open de commandline en type python</li>
+<li>Type vervolgens de code print(&quot;Hello World&quot;)</li>
+</ul>
+<pre class="language-python"><code class="language-python"><span class="token punctuation">(</span>venv<span class="token punctuation">)</span> janjaap@iMac<span class="token operator">-</span>Pro<span class="token operator">-</span>van<span class="token operator">-</span>Jan pythonproject <span class="token operator">%</span> python<br>Python <span class="token number">3.9</span><span class="token number">.2</span> <span class="token punctuation">(</span>v3<span class="token punctuation">.</span><span class="token number">9.2</span><span class="token punctuation">:</span>1a79785e3e<span class="token punctuation">,</span> Feb <span class="token number">19</span> <span class="token number">2021</span><span class="token punctuation">,</span> <span class="token number">09</span><span class="token punctuation">:</span><span class="token number">06</span><span class="token punctuation">:</span><span class="token number">10</span><span class="token punctuation">)</span> <br><span class="token punctuation">[</span>Clang <span class="token number">6.0</span> <span class="token punctuation">(</span>clang<span class="token operator">-</span><span class="token number">600.0</span><span class="token number">.57</span><span class="token punctuation">)</span><span class="token punctuation">]</span> on darwin<br>Type <span class="token string">"help"</span><span class="token punctuation">,</span> <span class="token string">"copyright"</span><span class="token punctuation">,</span> <span class="token string">"credits"</span> <span class="token keyword">or</span> <span class="token string">"license"</span> <span class="token keyword">for</span> more information<span class="token punctuation">.</span><br><span class="token operator">>></span><span class="token operator">></span> <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><br>Hello World<br><span class="token operator">>></span><span class="token operator">></span> </code></pre>
+<p>Bovenstaand voorbeeld is op een mac gemaakt. Op windows zal je soortgelijke informatie zien, maar dan afgeleid van jouw naam en systeem.</p>
 
     </div>
 </main>
