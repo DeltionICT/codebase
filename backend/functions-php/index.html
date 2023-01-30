@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | API-server</title>
+    <title>Deltion Software Development | Functions PHP</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -44,7 +44,7 @@
         
             <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
         
-        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/05 API-server.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/00 functions.md"><span class="material-icons">edit</span></a>
         
         </nav>
     </div>
@@ -115,10 +115,10 @@
             </a>
         </li>
     
-        <li >
-            <a class="page-link" href="/codebase/backend/functions/">
+        <li aria-current="page" data-state="active">
+            <a class="page-link" href="/codebase/backend/functions-php/">
                 <div>
-                    <div class="title">Functions</div>
+                    <div class="title">Functions PHP</div>
                     <div class="difficulty">
                         
                             
@@ -132,9 +132,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/backend/oop/">
+            <a class="page-link" href="/codebase/backend/oop-php/">
                 <div>
-                    <div class="title">OOP</div>
+                    <div class="title">OOP PHP</div>
                     <div class="difficulty">
                         
                             
@@ -148,9 +148,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/backend/mvc-basics/">
+            <a class="page-link" href="/codebase/backend/mvc-basics-php/">
                 <div>
-                    <div class="title">MVC-basics</div>
+                    <div class="title">MVC-basics PHP</div>
                     <div class="difficulty">
                         
                             
@@ -164,9 +164,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/backend/mvc-framework/">
+            <a class="page-link" href="/codebase/backend/mvc-framework-php/">
                 <div>
-                    <div class="title">MVC-Framework</div>
+                    <div class="title">MVC-Framework PHP</div>
                     <div class="difficulty">
                         
                             
@@ -195,9 +195,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/backend/featuretesting/">
+            <a class="page-link" href="/codebase/backend/featuretesting-php/">
                 <div>
-                    <div class="title">FeatureTesting</div>
+                    <div class="title">FeatureTesting PHP</div>
                     <div class="difficulty">
                         
                             
@@ -211,10 +211,10 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/backend/api-server/">
+        <li >
+            <a class="page-link" href="/codebase/backend/api-server-php/">
                 <div>
-                    <div class="title">API-server</div>
+                    <div class="title">API-server PHP</div>
                     <div class="difficulty">
                         
                             
@@ -245,9 +245,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/backend/api-rbac/">
+            <a class="page-link" href="/codebase/backend/api-rbac-php/">
                 <div>
-                    <div class="title">API-rbac</div>
+                    <div class="title">API-rbac PHP</div>
                     <div class="difficulty">
                         
                             
@@ -266,66 +266,85 @@
 
     <div id="content">
     <h4 id="backend">Backend</h4>
-<h1 id="api-server">API-server</h1>
-<img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
+<h1 id="functions-php">Functions PHP</h1>
+<img src="/codebase/_assets/api/PHP-logo.png" style="width:10%;">
 <ul>
 <li>Programmeertaal: PHP of een andere backend-taal</li>
 </ul>
-<p><em><strong>Taken:</strong></em>
-Voer de code uit volgens “best practice” en eerder geleerde technieken.
-Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
-zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
-<p>Alle request worden gestest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a></p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote></blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
+<p><em><strong>Taken:</strong></em></p>
+<p>Voer de code uit volgens “best practice” en eerder geleerde technieken.</p>
 <ol>
-<li>Maak een API-server in een framework met de volgende werking;</li>
+<li>Maak een programma met een werking;</li>
 </ol>
 <ul>
-<li>alle responses zijn in json, met daarbij extra meta-data ook in json</li>
-<li>in de url is duidelijk welk model/databasetabel wordt aangesproken</li>
-<li>key 'all' in de url levert alle records als response</li>
-<li>een id (nummer) in de url levert een specifiek record uit een databasetabel op als response</li>
-<li>een request met data in combinatie met de post-method voegt een record toe aan een databasetabel</li>
-<li>een request met een id (nummer) en met een delelete-method in de url verwijdert een specifiek record uit een databasetabel</li>
-<li>een request met een id (nummer) en met een put-method in de url update een specifiek record in een databasetabel</li>
-<li>foutive API-url's geven een 404-response in json</li>
+<li>
+<p>als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben</p>
+</li>
+<li>
+<p>als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben</p>
+</li>
+<li>
+<p>als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken</p>
+</li>
+<li>
+<p>als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat</p>
+</li>
+<li>
+<p>als bezoeker zie ik alle content-items in het menu, zodat een overzichtelijke navigatie-bar heb</p>
+</li>
+<li>
+<p>als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken</p>
+</li>
+<li>
+<p>als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken</p>
+</li>
+<li>
+<p>als gebruiker kan ik een overzicht van alle gebruikers zien, zodat ik weet wie er ook voor een nieuwsbrief is ingeschreven</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de verouderde artikelen kan verwijderen</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik gebruikers wijzigen, zodat ik de artikelen kan aanpassen</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik nieuwe gebruikers toevoegen, zodat ik het gebruikersbestand kan uitbreiden</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de ongewenste gebruikers kan verwijderen</p>
+</li>
+<li>
+<p>(optioneel) als admin kan ik gebruikers wijzigen, zodat ik de gebruikersgegevens kan updaten</p>
+</li>
+<li>
+<p>als user wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.</p>
+</li>
+<li>
+<p>(optioneel) als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.</p>
+</li>
 </ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
+<p>Het programma heeft de volgende technische eigenschappen:</p>
 <ul>
-<li>correcte api-url's om de requests van de url op te vangen</li>
+<li>get-waarden in de url includen een php-file met daarin een functie</li>
+<li>overzichtelijk en georganiseerde folder- en bestandsstructuur</li>
+<li>onderscheid tussen noodzakelijke functies (core) en content-functies</li>
+<li>er is slechts één html-structuur waarin alle gerenderde onderdelen worden ingevoegd.</li>
+<li>configureerbare waarden worden centraal opgeslagen in een config-file</li>
+<li>gebruiksdata en contentdata worden opgeslagen en bijgehouden in databasetabellen</li>
+<li>wachtwoorden zijn gehashed in de kolom van de user-tabel</li>
 </ul>
-<hr>
-<ol start="2">
-<li>Maak een API-server in een framework met de volgende werking;</li>
-</ol>
-<ul>
-<li>maak pagination mogelijk door limits mee te geven aan de API-url met QSA</li>
-<li>maak sortering op opgegeven kolommen mogelijk door de kolom en de manier (ASC / DESC) mee te geven aan de API-url met QSA</li>
-</ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
-<ul>
-<li>correcte api-routes om de requests van de url op te vangen</li>
-</ul>
-<hr>
-<ol start="3">
-<li>Maak een API-server in een framework met de volgende werking;</li>
-</ol>
-<ul>
-<li>het aantal controller wordt geminimaliseerd door de werking te centraliseren en de tabel keuze te baseren op de model-naam in de url</li>
-<li>de json-respons wordt door overerving op één plaats uitgewerkt voor alle verschillende responses</li>
-<li>voeg validatie toe voor het toevoegen en aanpassen van records</li>
-</ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
-<ul>
-<li>maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen</li>
-<li>instatieer een model-class en validatie-class op basis van de class-naam in de url</li>
-</ul>
+<p>Voorbeelden van de uitwerking;</p>
+<div style="bgcolor:#AAD8EE;MARGIN:15px;">
+    <img src="/codebase/_assets/api/functions/jungle_home.png" style="width:15%;"> 
+    <img src="/codebase/_assets/api/functions/jungle_gallery.png" style="width:15%;"> 
+    <img src="/codebase/_assets/api/functions/jungle_login.png" style="width:15%;"> 
+    <img src="/codebase/_assets/api/functions/jungle_userdata.png" style="width:15%;"> 
+    <img src="/codebase/_assets/api/functions/jungle_logoff.png" style="width:15%;">
+</div>
+<blockquote></blockquote>
 
     </div>
 </main>
