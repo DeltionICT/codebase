@@ -3,5 +3,5 @@
     "course-title": "Omgeving",
     "tags": ["omgeving"],
     "permalink": "/omgeving/{{ title | slug }}/{{ page.index }}",
-    "pepper": "red"
+    "pepper": "green"
 }
