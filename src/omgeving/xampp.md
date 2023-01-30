@@ -42,7 +42,7 @@ door jouw editor (IDE) in deze folder te laten kijken.
 * Ontwikkel de applicatie lokaal op jouw laptop (in XAMPP), dus niet online.
   Zodra jouw project werkt en getest is, wordt het online gezet. Gebruik daarvoor een FTP-tool.
 * De domeinnaam "localhost" is op ten duur niet het meest handig als je meerdere projecten uit elkaar wil houden.
-  Hiervoor kan je ook [local domnein-namen]('http://localhost:8081/codebase/thema/local-domainnames/') aanmaken. 
+  Hiervoor kan je ook [locale domnein-namen]('/thema/local-domainnames/') aanmaken. 
 * Je kan ook clean-url's opzetten. Zo worden de GET-waarden in een url;
 ``http://localhost/03_test/index.php?key1=soneValue`` omgezet naar: ``http://localhost/03_test/someValue``.
 Met localdomeinnamen kan dit er zelfs als volgt uit zien: ``http://testproject.rk/someValue``
