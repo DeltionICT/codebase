@@ -1,11 +1,26 @@
 ---
-title: Ontwikkelomgeving voor HTML/PHP
+title: Tools voor webdevelopment
 difficulty: basic
-date: 2023-01-01
+date: 2023-01-05
 ---
 
 #### {{ course-title }}
 # {{ title }}
+
+## Inleiding
+In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het maken van applicaties.
+Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan.
+Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github.
+Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
+
+## Presentatie ontwikkelomgeving
+- Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
+- Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --verson</code>.
+- Toon php vanuit een willekeurige directory met <code>php --version</code>.
+- Laat zien dat Visual Studio is geïnstalleerd en werkt.
+- Toon je accountinformatie op github.com
+- Toon de repository op github.com met schermafbeeldingen die je tijdens installatie hebt gemaakt.
+
 
 ## Browsers
 Installeer minimaal 2 browsers die je kunt gebruiken om websites te bekijken en te testen.  
@@ -16,7 +31,8 @@ Denk aan:
 
 ## XAMPP
 Xampp is een verzameling servers die je gebruikt bij de ontwikkeling van dynamische websites.  
-Download Xampp voor jouw operating system. (windows / mac / linux).
+Download Xampp voor jouw operating system. (windows / mac / linux).  
+Installeer XAMPP zoals uitgelegd in onderstaande video.
 
 ## Configureer PHP
 Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je het hele pad naar php.exe moet opgeven.
@@ -30,11 +46,15 @@ Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je 
 * Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
     * 
 ## Git installeren
+In de opleiding ga je uitgebreid werken met Git. Voor nu is het voldoende als je git op je laptop hebt geïnstalleerd.  
 Installeer git vanaf [git-scm.com](https://git-scm.com)
 
-## Ontwikkelomgeving testen en documenteren
-- Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
-- Schrijf een kort verslag met daarin:
-    - Start git vanuit een willekeurig directory met <code>git --verson</code>. Noteer het versienummer
-    - Start php vanuit een willekeurige directory met <code>php --version</code>. Noteer het versienummer
-    - Heb je plug-ins geïnstalleerd in Visual Studio Code. Noteer die hier.
+## Github
+Vrijwel alle software developers hebben een account op github.  
+Wij gebruiken github om je werk te bekijken en om je samen te laten werken in projectgroepen.
+* Maak een account aan op github.
+* Gebruik je deltion email adres!
+* Gebruik je echte naam (voornaam en achternaam)
+* Ga naar je profile op github. Vul bij 'Name' je studentnummmer, voornaam en achternaam in.
+
+
