@@ -1,7 +1,8 @@
 ---
-title: API-server
+title: API-server PHP
 difficulty: expert
 date: 2023-01-05
+technologies: [php,gevorderd,OOP,MVC,framework,API,json,database,CRUD,postman]
 ---
 
 #### {{ course-title }}
@@ -51,3 +52,5 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 In het framework zijn de volgende technische eigenschappen toegepast:
 * maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen
 * instatieer een model-class en validatie-class op basis van de class-naam in de url   
+
+> {{technologiesTags}}

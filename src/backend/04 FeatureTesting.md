@@ -1,8 +1,8 @@
 ---
-title: FeatureTesting
+title: FeatureTesting PHP
 difficulty: expert
 date: 2023-01-04
-
+technologies: [php,gevorderd,OOP,MVC,framework,featurestest,unittest]
 ---
 
 #### {{ course-title }}
@@ -61,3 +61,4 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * de testresultaten zijn op een prettige manier te controleren
 * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 
+> {{technologiesTags}}

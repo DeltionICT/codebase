@@ -1,7 +1,8 @@
 ---
-title: MVC-basics
+title: MVC-basics PHP
 difficulty: medium
 date: 2023-01-02
+technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
 ---
 
 #### {{ course-title }}
@@ -68,4 +69,4 @@ Het programma heeft de volgende technische eigenschappen toegepast:
 * services
 * classes in de lib-folder, zoals die voor email, zijn maximaal herbruikbaar en maken gebruik van namespaces
 
-
+> {{technologiesTags}}

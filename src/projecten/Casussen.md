@@ -2,6 +2,7 @@
 title: Casussen
 difficulty: basic
 date: 2021-02-11
+technologies: [projectmanagement,scrum,casus]
 ---
 
 #### {{ course-title }}
@@ -30,7 +31,5 @@ Andere beschikbare instap project-casussen zijn;
 * code-review
 
 
-> *_NOTE_*
-``#projectmanagement`` ``#scrum`` ``#casus``
->
+> {{technologiesTags}}
 

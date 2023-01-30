@@ -1,7 +1,8 @@
 ---
-title: API-rbac
+title: API-rbac PHP
 difficulty: expert
 date: 2023-01-07
+technologies: [php,gevorderd,OOP,MVC,framework,API,json,rollen,rechten,rbac,database,CRUD,postman]
 ---
 
 #### {{ course-title }}
@@ -42,7 +43,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * API-verzoeken geven json-response gebaseerd op autorisatie uitgevoerd op de geldende permissies
 * incorrecte permissies geven een 403 in json
 
-
 In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte api-routes om de requests van de url op te vangen
 
+> {{technologiesTags}}

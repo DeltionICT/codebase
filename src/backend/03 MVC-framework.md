@@ -1,7 +1,8 @@
 ---
-title: MVC-Framework
+title: MVC-Framework PHP
 difficulty: medium
 date: 2023-01-03
+technologies: [php,gevorderd,OOP,MVC,framework,database,CRUD,middleware,services]
 ---
 
 #### {{ course-title }}
@@ -89,5 +90,4 @@ In het framework zijn de volgende technische eigenschappen toegepast:
   * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer' | url }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me' | url }})
 * dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen
 
-
-
+> {{technologiesTags}}

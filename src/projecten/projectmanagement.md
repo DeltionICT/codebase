@@ -2,6 +2,7 @@
 title: Projectmanagement, SCRUM
 difficulty: basic
 date: 2021-02-10
+technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 ---
 
 #### {{ course-title }}
@@ -28,3 +29,6 @@ Projecten kan je in vele methodes uitvoeren, de volgende zijn in het boek uitgew
 * SCRUM,
 * Waterval (PRINCE2 variant)
 * Kanban
+
+
+> {{technologiesTags}}

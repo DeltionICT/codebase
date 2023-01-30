@@ -1,7 +1,8 @@
 ---
-title: Functions
+title: Functions PHP
 difficulty: medium
 date: 2022-12-30
+technologies: [php,gevorderd,functions,website,database,CRUD]
 ---
 
 #### {{ course-title }}
@@ -55,4 +56,5 @@ Voorbeelden van de uitwerking;
     <img src="{{ '/_assets/api/functions/jungle_userdata.png' | url }}" style="width:15%;"> 
     <img src="{{ '/_assets/api/functions/jungle_logoff.png' | url }}" style="width:15%;">
 </div>
-    
+
+> {{technologiesTags}}

@@ -1,7 +1,8 @@
 ---
-title: OOP
+title: OOP PHP
 difficulty: medium
 date: 2023-01-01
+technologies: [php,gevorderd,OOP,classes,objecten,overerven]
 ---
 
 #### {{ course-title }}
@@ -86,4 +87,5 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
    Het programma heeft de volgende technische eigenschappen:
     * verbeter de verwerking van database-queries door gebruik te maken van parameter-binding
     * geef data aan de query-method in de vorm van een multi associative array
-   
+
+> {{technologiesTags}}

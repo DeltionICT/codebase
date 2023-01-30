@@ -2,6 +2,7 @@
 title: Eigen Casus
 difficulty: medium
 date: 2021-02-12
+technologies: [projectmanagement,scrum,casus]
 ---
 
 #### {{ course-title }}
@@ -30,9 +31,4 @@ Daarvoor moet jij het volgende aanleveren, om dit voor elkaar te krijgen;
 * code-review
 
 
-> *_NOTE_*
-``#projectmanagement`` ``#scrum`` ``#casus``
->
-
-
-
+> {{technologiesTags}}
