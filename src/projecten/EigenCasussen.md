@@ -1,16 +1,14 @@
 ---
 title: Eigen Casus
 difficulty: medium
-date: 2021-02-12
+date: 2022-12-12
 technologies: [projectmanagement,scrum,casus]
 ---
 
 #### {{ course-title }}
 # {{ title }}
 
-<img src="{{ '/_assets/projecten/boekProjectmanagement.jpg' | url }}" style="width:10%;">
-versie 2022, ISBN: 9789037262124
-
+<img src="{{ '/_assets/projecten/project-laptop.png' | url }}" style="width:10%;">
 
 
 ## Casus
