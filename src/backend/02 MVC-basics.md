@@ -21,7 +21,8 @@ technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
 
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd,
-dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022' | url }})
+dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022' | url }}).
+Dit MVC-project vereist  [clean-urls]({{ '/thema/local-domainnames/' | url }})
 
 Pull het Git-project binnen naar jouw localhost. 
 Zet een database op voor het project en gebruik daarvoor de bijgevoegde sql-file.
