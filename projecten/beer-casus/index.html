@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Casussen</title>
+    <title>Deltion Software Development | Beer-casus</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -44,7 +44,7 @@
         
             <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
         
-        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/Casussen.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/beerCasus.md"><span class="material-icons">edit</span></a>
         
         </nav>
     </div>
@@ -83,14 +83,31 @@
         </li>
     
         <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/projecten/casussen/">
+            <a class="page-link" href="/codebase/projecten/beer-casus/">
                 <div>
-                    <div class="title">Casussen</div>
+                    <div class="title">Beer-casus</div>
                     <div class="difficulty">
                         
+                            
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
                             <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
                         
                             
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+        <li >
+            <a class="page-link" href="/codebase/projecten/zwabbertje-casus/">
+                <div>
+                    <div class="title">Zwabbertje-casus</div>
+                    <div class="difficulty">
+                        
+                            
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                        
                             
                     </div>
                 </div>
@@ -118,20 +135,30 @@
 
     <div id="content">
     <h4 id="projecten">Projecten</h4>
-<h1 id="casussen">Casussen</h1>
-<img src="/codebase/_assets/projecten/boekProjectmanagement.jpg" style="width:10%;">
-versie 2022, ISBN: 9789037262124
-<h2 id="casus">Casus</h2>
-<p>Het projectmanagement-boek bevat kleine en grotere casussen.
-Andere beschikbare instap project-casussen zijn;</p>
-<ul>
-<li><a href="'/_assets/projecten/bier-app.pdf'">Bier-applicatie</a> (pdf)</li>
-<li><a href="'/_assets/projecten/bier-app.pdf'">Bier-applicatie</a> (pdf)</li>
-<li><a href="'/_assets/projecten/bier-app.pdf'">Bier-applicatie</a> (pdf)</li>
-<li><a href="'/_assets/projecten/bier-app.pdf'">Bier-applicatie</a> (pdf)</li>
-<li><a href="'/_assets/projecten/bier-app.pdf'">Bier-applicatie</a> (pdf)
-Vraag eventueel een docent naar oude examencasussen;</li>
-</ul>
+<h1 id="beer-casus">Beer-casus</h1>
+<img src="/codebase/_assets/projecten/project-laptop.png" style="width:10%;">
+<p>'We like bier' is een project voor The Belgian Beer Company om meer naamsbekendheid voor Belgische speciaal bieren te creëren onder studenten en young adults.</p>
+<p>Het project is opgedeeld in 3 fases.  Je krijgt van de TBBC een SQL-script met alle 750 bieren.<br>
+De database is geëxporteerd in een <a href="/codebase/_assets/projecten/beer/pao_beer.sql">sql-file</a> .</p>
+<h2 id="fase-1%3A">Fase 1:</h2>
+<p>Er moet een mooie aansprekende site komen met alle 750 Belgian beers.
+Iedere gebruiker kan klikken op een Biertje uit de lijst, bij iedere klik gaat er een teller omhoog. De drie meest geklikte (gelikete) biertjes komen prominent in beeld.
+Het maakt niet uit hoe vaak een gebruiker klikt.</p>
+<h2 id="fase-2%3A">Fase 2:</h2>
+<p>Er moet nu ook bijgehouden worden dat niet gebruikers meerdere malen op een biertje kunnen klikken, dus per IP-adres bijhouden of er al geklikt is. Want TBBCompany wil alleen unieke likes hebben.</p>
+<h2 id="fase-3%3A">Fase 3:</h2>
+<p>De TBBCompany wil nu ook dat gebruikers een profiel kunnen aanmaken en daarmee zelf rating op een schaal van 1…5 sterren kunnen geven aan een biertje, en ook een proefnotitie kunnen opschrijven.</p>
+<h2 id="fase-4%3A">Fase 4:</h2>
+<p>De TBBCompany wil nu ook een overzichtsrapport van hun populairste bieren.</p>
+<h2 id="fase-5%3A">Fase 5:</h2>
+<p>De TBBCompany weet niet of ze nog langer met PHP willen ontwikkelen, ze willen graag ook een mobiele frontend op termijn. Daarom moet alle data naar de browser gestuurd worden in JSON-formaat.</p>
+<hr>
+<p>Bijgaand een simpele API voor de bier-database met CRUD-actie voorbeelden op de biertabel zelf. Voor fase 5 hoef je alleen de GET-acties vanuit je eigen API te doen, de create-update-delete acties niet (mag wel natuurlijk…!)</p>
+<p>Toelichting staat erbij, in de eerste instantie hoef je alleen maar de toegang tot de MySQL bier-tabel op jouw machine in regel 9 aan te passen.
+Met het endpoint: <code>http://localhost/[pad_naar_htdocs_map]/api_bier.php?action=getBeer</code> haal je alle biertjes op. Met de action getBrouwers zie je alle brouwers. Kijk verder in de code naar de logica en bouw je eigen opvragen op, bijvoorbeeld met JOINs op.</p>
+<p>Inlezen van de JSON file in je project gaat op dezelfde manier als waar je nu mee bezig bent met CSP2.</p>
+<p>Bijgaande API is heel basic en qua PHP-code goed te begrijpen als het goed is.
+Toepassen van andere API’s via Laravel of C# mag natuurlijk ook maar kost waarschijnlijk meer tijd. Voordeel van die andere is wel, dat ze echte “rest”-API’s opleveren, wat deze simpele PHP-API niet is.</p>
 <h2 id="uitvoering">Uitvoering</h2>
 <ul>
 <li>Het project wordt uitgevoerd m.b.v. de SCRUM-methodiek, in een team van vier developers.</li>

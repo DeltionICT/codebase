@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Introductie</title>
+    <title>Deltion Software Development | Zwabbertje-casus</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -40,11 +40,11 @@
         
             <a href="/codebase/backend/introductie/" class="nav-link" >Backend</a>
         
-            <a href="/codebase/projecten/introductie/" class="nav-link" aria-current="page" data-state="active">Projecten</a>
+            <a href="/codebase/projecten/introductie/" class="nav-link" >Projecten</a>
         
             <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
         
-        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/index.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/projecten/zwabbertjeCasus.md"><span class="material-icons">edit</span></a>
         
         </nav>
     </div>
@@ -54,7 +54,7 @@
 <aside>
     <ul>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/projecten/introductie/">
                 <div>
                     <div class="title">Introductie</div>
@@ -98,7 +98,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/projecten/zwabbertje-casus/">
                 <div>
                     <div class="title">Zwabbertje-casus</div>
@@ -135,7 +135,83 @@
 
     <div id="content">
     <h4 id="projecten">Projecten</h4>
-<h1 id="introductie">Introductie</h1>
+<h1 id="zwabbertje-casus">Zwabbertje-casus</h1>
+<img src="/codebase/_assets/projecten/project-laptop.png" style="width:10%;">
+<p><a href="/codebase/_assets/projecten/beer/pao_beer.sql">sql-file</a> .</p>
+<h2 id="de-casus">De casus</h2>
+<p>Schoonmaakbedrijf Het Zwabbertje is gespecialiseerd in het reinigen van kantoorpanden. Om te controleren of dit ook goed gedaan wordt, wordt dagelijks  gecontroleerd hoe de schoonmaakwerkzaamheden zijn uitgevoerd. Er wordt gecontroleerd op de volgende punten:</p>
+<ul>
+<li>Vloer</li>
+<li>Stoelen</li>
+<li>Tafels</li>
+<li>Kasten</li>
+<li>Overig meubilair</li>
+<li>Vensterbanken</li>
+<li>Toiletten</li>
+<li>Wastafel</li>
+</ul>
+<p>Bij de controle wordt voor elk punt een beoordelingsresultaat gegeven. Dit kan het volgende zijn:</p>
+<ul>
+<li>0: niet te beoordelen</li>
+<li>1: onvoldoende</li>
+<li>2: matig</li>
+<li>3: voldoende</li>
+<li>4: goed</li>
+</ul>
+<p>Bij een beoordeling 0 voor een tafel kan het voorkomen dat degene die aan de tafel heeft
+gewerkt nog allemaal rommel heeft laten liggen. Het schoonmaken van de tafel kan zodoende niet worden beoordeeld.</p>
+<p>Iedere ruimte heeft een bepaalde schoonmaaktijd (afhankelijk van de grootte en het aantal schoon te maken objecten). Verschillende ruimten kunnen ook verschillende objecten hebben (een toiletruimte heeft andere schoon te maken objecten dan een kantoorruimte). Elke ruimte heeft een minimum beoordeling, afhankelijk van de schoon te maken objecten. Voor sommige objecten in een ruimte geldt dat ze schoon moeten zijn (cruciaal). Is bijvoorbeeld de in een toiletruimte de wc niet schoon en de rest wel, dan is het schoonmaakresultaat toch onvoldoende.
+Het Zwabbertje heeft 15 schoonmakers in dienst. Elke schoonmaker wordt voor 1 of meer ruimten ingepland.
+De applicatie heeft de volgende functionele eisen:</p>
+<ul>
+<li>Beheer van gegevens van bedrijven (toevoegen, wijzigen, verwijderen).</li>
+<li>Beheer van gegevens van ruimten (toevoegen, wijzigen, verwijderen).</li>
+<li>Beheer van gegevens van objecten (toevoegen, wijzigen, verwijderen).</li>
+<li>Schoonmaakobjecten aan een ruimte kunnen koppelen.</li>
+<li>Beheer van gegevens van schoonmaakmedewerkers (toevoegen, wijzigen, verwijderen).</li>
+<li>Een weekplanning voor een schoonmaker kunnen maken en ook kunnen wijzigen.</li>
+<li>Schoonmaakresultaten van objecten in een ruimte kunnen vastleggen voor een dag. De som van de schoonmaakresultaten van de objecten in een ruimte is de beoordeling van het schoonmaakresultaat van een ruimte.</li>
+</ul>
+<p>Van elke ruimte moeten de volgende overzichten kunnen worden gemaakt (gedurende een in te stellen periode):</p>
+<ul>
+<li>Dagelijkse beoordelingen van de schoonmaakwerkzaamheden, en de schoonmaakmedewerker die hiervoor verantwoordelijk was.</li>
+<li>Dagelijkse beoordeling van alle schoonmaakwerkzaamheden van alle ruimten in het gehele pand (met de schoonmaakmedewerkers die hiervoor verantwoordelijk zijn).</li>
+</ul>
+<p>Van elke schoonmaakmedewerker moeten de volgende overzichten kunnen worden gemaakt (gedurende een in te stellen periode):</p>
+<ul>
+<li>Dagelijkse beoordeling van de ruimten die hij/zij heeft schoongemaakt.</li>
+<li>Het aantal uren dat dagelijks gewerkt is, en het totaal aantal uren in de periode. Bij het dagelijks aantal uren moet ook te zien zijn bij welk bedrijf deze uren zijn gemaakt.</li>
+</ul>
+<p>Voorbeeld:</p>
+<hr>
+<p>Ruimte 3.02 heeft de volgende objecten:<br>
+Vloer<br>
+Tafel 3.021<br>
+Tafel 3.022<br>
+Stoel 3.023<br>
+Stoel 3.024<br>
+Minimum schoonmaakresultaat: 15 (5 * 3 punten)<br></p>
+<hr>
+<p>Na beoordeling:</p>
+<hr>
+<p>Vloer		: 2<br>
+Tafel 3.021	: 3<br>
+Tafel 3.022	: 3<br>
+Stoel 3.023	: 1<br>
+Stoel 3.024	: 4<br>
+Schoonmaakresultaat ruimte 3.02: 13<br>
+Schoonmaakresultaat: onvoldoende.<br></p>
+<hr>
+<h2 id="uitvoering">Uitvoering</h2>
+<ul>
+<li>Het project wordt uitgevoerd m.b.v. de SCRUM-methodiek, in een team van vier developers.</li>
+<li>Er wordt DevOps gebruikt als projectmanagement-tool (docenten zijn stakeholders)</li>
+<li>Ontwerp met wireframes, userstories per functionaliteit, elke userstory bevat gedetailleerde taken,
+professioneel gebruik git-hub, dailystandups, restrospective.</li>
+<li>elke sprint opleveren met een productreview en retrospective (team)</li>
+<li>code-review</li>
+</ul>
+<blockquote></blockquote>
 
     </div>
 </main>
