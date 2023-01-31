@@ -88,9 +88,10 @@
                     <div class="title">Casino kaarten delen</div>
                     <div class="difficulty">
                         
+                            
+                            <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
                             <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
                         
-                            
                             
                     </div>
                 </div>
@@ -165,6 +166,11 @@
 <h1 id="casino-kaarten-delen">Casino kaarten delen</h1>
 <h2 id="casus">Casus</h2>
 <p>Dit is het begin van een online casino. De croupier is degene die kaarten deelt bij bijvoorbeeld 'black jack'. Jij gaat een programma maken dat de rol van croupier kan overnemen. Het programma kan kaarten tonen en je kunt kaarten delen.</p>
+<h2 id="resultaat">Resultaat</h2>
+<p>Een werkende (web)applicatie in een programmeertaal naar keuze.<br>
+In de code is gebruik gemaakt van onderstaande functies.
+Je kunt met de functie <code>toonSet()</code> laten zien welke kaarten zijn gedeeld of over zijn.
+De kaarten worden getoond op het scherm.</p>
 <h2 id="backlog">Backlog</h2>
 <ul>
 <li>Als croupier wil ik een spel kaarten kunnen weergeven, zodat het publiek kan zien dat alle kaarten aanwezig zijn.</li>
@@ -182,9 +188,9 @@ Hieronder zie je de signatuur van de functies. Gebruik deze functies bij het bou
 <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">maakDeck</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> deck<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>Maak een functie waarmee de kaarten die de spelers krijgen worden verzameld.
 De signatuur van de functie is als volgt:</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* deelKaarten<br>*<br>* Deze functie toont een random set kaarten.<br>* @param kaarten -> Aantal kaarten dat je per persoon krijgt<br>* @param personen -> Aantal personen dat een set kaarten krijgt<br>* @return sets -> Associatieve array met de kaarten per persoon<br>*/</span><br><span class="token keyword">function</span> <span class="token function">deelKaarten</span> <span class="token punctuation">(</span><span class="token parameter">kaarten<span class="token punctuation">,</span> personen</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> sets<br><span class="token punctuation">}</span></code></pre>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* deelKaarten<br>*<br>* Deze functie verdeeld de kaarten over een aantal personen.<br>* @param deck -> array met alle kaarten<br>* @param kaarten -> Aantal kaarten dat je per persoon krijgt<br>* @param personen -> Aantal personen dat een set kaarten krijgt<br>* @return sets -> Associatieve array met de kaarten per persoon en de kaarten die over zijn.<br>*/</span><br><span class="token keyword">function</span> <span class="token function">deelKaarten</span> <span class="token punctuation">(</span><span class="token parameter">deck<span class="token punctuation">,</span> kaarten<span class="token punctuation">,</span> personen</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> sets<br><span class="token punctuation">}</span></code></pre>
 <p>Toon de inhoud van een set kaarten op het scherm.</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* toonSet<br>*<br>* @param -> string naam van een persoon<br>*<br>*<br>*/</span><br><br><span class="token keyword">function</span> <span class="token function">toonSet</span><span class="token punctuation">(</span><span class="token parameter">persoon</span><span class="token punctuation">)</span><br><span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br><span class="token punctuation">}</span></code></pre>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* toonSet<br>*<br>* @param -> sets multidimensionele associatieve array met de kaarten per persoon en de kaarten die over zijn. <br>* @param -> string naam van een set (naam of kaarten die over zijn)<br>*<br>*/</span><br><br><span class="token keyword">function</span> <span class="token function">toonSet</span><span class="token punctuation">(</span><span class="token parameter">sets<span class="token punctuation">,</span> welke</span><span class="token punctuation">)</span><br><span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br><span class="token punctuation">}</span></code></pre>
 
     </div>
 </main>

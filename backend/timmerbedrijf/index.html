@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Introductie</title>
+    <title>Deltion Software Development | Timmerbedrijf</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -38,13 +38,13 @@
         
             <a href="/codebase/frontend/introductie/" class="nav-link" >Frontend</a>
         
-            <a href="/codebase/backend/introductie/" class="nav-link" aria-current="page" data-state="active">Backend</a>
+            <a href="/codebase/backend/introductie/" class="nav-link" >Backend</a>
         
             <a href="/codebase/projecten/introductie/" class="nav-link" >Projecten</a>
         
             <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
         
-        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/index.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/timmerbedrijf.md"><span class="material-icons">edit</span></a>
         
         </nav>
     </div>
@@ -54,7 +54,7 @@
 <aside>
     <ul>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/backend/introductie/">
                 <div>
                     <div class="title">Introductie</div>
@@ -129,7 +129,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/backend/timmerbedrijf/">
                 <div>
                     <div class="title">Timmerbedrijf</div>
@@ -295,9 +295,65 @@
 
     <div id="content">
     <h4 id="backend">Backend</h4>
-<h1 id="introductie">Introductie</h1>
-<img src="/codebase/_assets/api/PHP-logo.png" style="height:9%;width:10%;">
-<p><img src="/codebase/_assets/api/PHP-logo.png" alt="Image"></p>
+<h1 id="timmerbedrijf">Timmerbedrijf</h1>
+<h2 id="resultaat">Resultaat</h2>
+<ul>
+<li>Maak een calculatieprogramma voor Timmerbedrijf &quot;Houtmans&quot;.</li>
+<li>Het programma kan uitrekenen wat het kost om hout te bestellen om een tafel te maken.</li>
+<li>Voor het tafelblad kun je kiezen uit drie verschillende houtsoorten.</li>
+<li>Je kunt kiezen voor een rond of voor een rechthoekig blad.</li>
+<li>De applicatie toont het aantal m2 uit en het toont de berekende prijs.</li>
+<li>Een test voor het programma, zodat je zeker weet dat de juiste bedragen worden gefactureerd.</li>
+</ul>
+<div class="html">
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/berken.jpg">
+  <input type="radio" name="hout" id="berken" value="9.50" checked>
+  <label for="berken">
+      Berken - prijs per m2 &euro; 9,50
+  </label>
+</div>
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/grenen.jpg">
+  <input type="radio" name="hout" id="grenen" value="8.50">
+  <label for="grenen">
+      Grenen - prijs per m2 &euro; 8,50
+  </label>
+</div>
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/hout/hardhout.jpg">
+  <input type="radio" name="hout" id="hardhout" value="11.50">
+  <label for="hardhout">
+      Hardhout - prijs per m2 &euro; 11,50
+  </label>
+</div>
+<div>
+<input type="radio" name="formaat" id="rechthoekig" value="rechthoekig" checked>
+  <label for="rechthoekig">
+      Ik wil een rechthoekige tafel
+  </label>
+</div>
+<div>
+  <label for="breedte">Breedte in mm</label>
+  <input type="number" name="breedte" id="breedte" value="">
+</div>
+<div>
+  <label for="lengte">Lengte in mm</label>
+  <input type="number" name="lengte" id="lengte" value="0">
+</div>
+<div>
+<input type="radio" name="formaat" id="rond" value="rond">
+  <label for="rond">
+      Ik wil een ronde tafel
+  </label>
+</div><div>
+  <label for="diameter">Diameter in mm</label>
+  <input type="number" name="diameter" id="diameter" value="0">
+</div>
+<div>
+  <input type="submit" value="bestellen!">
+</div>
+</div>
 
     </div>
 </main>

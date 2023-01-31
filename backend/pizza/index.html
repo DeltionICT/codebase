@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Introductie</title>
+    <title>Deltion Software Development | Pizza</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -38,13 +38,13 @@
         
             <a href="/codebase/frontend/introductie/" class="nav-link" >Frontend</a>
         
-            <a href="/codebase/backend/introductie/" class="nav-link" aria-current="page" data-state="active">Backend</a>
+            <a href="/codebase/backend/introductie/" class="nav-link" >Backend</a>
         
             <a href="/codebase/projecten/introductie/" class="nav-link" >Projecten</a>
         
             <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
         
-        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/index.md"><span class="material-icons">edit</span></a>
+        <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/pizza.md"><span class="material-icons">edit</span></a>
         
         </nav>
     </div>
@@ -54,7 +54,7 @@
 <aside>
     <ul>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/backend/introductie/">
                 <div>
                     <div class="title">Introductie</div>
@@ -114,7 +114,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/backend/pizza/">
                 <div>
                     <div class="title">Pizza</div>
@@ -295,9 +295,84 @@
 
     <div id="content">
     <h4 id="backend">Backend</h4>
-<h1 id="introductie">Introductie</h1>
-<img src="/codebase/_assets/api/PHP-logo.png" style="height:9%;width:10%;">
-<p><img src="/codebase/_assets/api/PHP-logo.png" alt="Image"></p>
+<h1 id="pizza">Pizza</h1>
+<h2 id="resultaat">Resultaat</h2>
+<ul>
+<li>Een website voor Pizzeria &quot;circulare delicioso&quot; waar je pizza's kunt bestellen.</li>
+<li>Maak het formulier zoals in het voorbeeld</li>
+<li>Nadat het formulier is ingevuld en verstuurd:
+<ul>
+<li>De juiste prijs voor de pizza wordt getoond</li>
+<li>De prijs voor eventuele extra's wordt getoond.</li>
+</ul>
+</li>
+</ul>
+<h2 id="voor-pizza-ninja's....">Voor pizza-ninja's....</h2>
+<ul>
+<li>Zorg ervoor dat je meerdere pizza's tegelijk kunt bestellen</li>
+<li>Per pizza kun je extra's bijbestellen</li>
+</ul>
+<div class="html">
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/spianata_piccante.jpg">
+  <input type="radio" name="pizza" id="spianata_piccante" value="12.50" checked>
+  <label for="spianata_piccante">
+      Pizza Spianata Piccante &euro; 12,50
+  </label>
+</div>
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/seppi.jpg">
+  <input type="radio" name="pizza" id="seppi" value="11.50">
+  <label for="seppi">
+      Pizza Seppi &euro; 11,50
+  </label>
+</div>
+<div>
+  <img style="width:100px;display:block;" src="https://static.edutorial.nl/php/pizzas/tirato.jpg">
+  <input type="radio" name="pizza" id="tirato" value="10.50">
+  <label for="tirato">
+      Pizza Tirato  &euro; 10,50
+  </label>
+</div>
+<div>
+  <input type="checkbox" id="olijven" name="olijven">
+  <label for="olijven">
+      Ik wil extra olijven bijbestellen &euro; 2,50
+  </label>
+</div>
+<div>
+  <input type="checkbox" id="kaas" name="kaas">
+  <label for="kaas">
+      Ik wil extra kaas bijbestellen &euro; 1,50
+  </label>
+</div>
+<div>
+  <input type="checkbox" id="bezorgen" name="bezorgen">
+  <label for="bezorgen">
+      Ik wil de pizza laten bezorgen &euro; 3,50
+  </label>
+</div>
+<div>
+  <input type="submit" value="bestellen!">
+</div>
+</div>
+<h2 id="testen">Testen</h2>
+<p>Een pizza Tirato met extra kaas en bezorgkosten toont het volgende op het scherm:</p>
+<p>Bedankt voor uw bestelling!</p>
+<ul>
+<li>U heeft een pizza: € 10,50</li>
+<li>U heeft extra kaas besteld: € 1,50</li>
+<li>U wilt de pizza laten bezorgen: € 3,50</li>
+<li>Als de pizzabezorger komt moet u € 15,50 betalen!</li>
+</ul>
+<p>Als je een pizza Spinacio Piccante  besteld met extra olijven en je laat hem <strong>niet</strong> bezorgen, dan zie je op het scherm:</p>
+<p>Bedankt voor uw bestelling!</p>
+<ul>
+<li>U heeft een pizza: € 12,50</li>
+<li>U heeft extra olijven besteld: € 1,50</li>
+<li>U komt de pizza zelf afhalen</li>
+<li>U betaalt € 14,00 aan onze kassa.</li>
+</ul>
 
     </div>
 </main>
