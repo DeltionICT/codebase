@@ -10,8 +10,8 @@ date: 2023-01-31
 <h3>Programmeertaal: <span style="font-style: italic; color:darkred;">Javascript</span></h3>
 
 ### Voorkennis:
-* document.getElementById(id).innerHTML
-* JS functions
+* document.getElementById(id) (.innerHTML en .value)
+* JS functions (<a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">w3schools</a>)
 * JS for-loop
 
 ## Opdracht
