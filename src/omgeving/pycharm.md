@@ -11,7 +11,7 @@ date: 2023-01-11
 In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het werken met Python. Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan. Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github. Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
 
 ## Presentatie python ontwikkelomgeving
-* Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --verson</code>.
+* Toon het versienummer van git als het opstart vanuit een willekeurige directory met <code>git --version</code>.
 * Toon python met een project in pycharm vanuit de terminal met <code>python --version</code>.
 * Toon de repository op github.com met schermafbeeldingen die je tijdens installatie hebt gemaakt.
 
@@ -34,7 +34,7 @@ Python 3.9.2
 ```
 
 ## Hello World
-*8 Schrijf je eerste script, laat met behulp van de functie print "Hello World" op het scherm zien!
+* Schrijf je eerste hello-world script,  gebruik de functie <code>print("Hello World")</code> om hello world op het scherm te tonen.
 * Open de commandline en type python  
 * Type vervolgens de code print("Hello World")
 
