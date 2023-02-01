@@ -52,7 +52,10 @@ module.exports = function(eleventyConfig) {
         return '/_assets/'  + color + '_pepper.svg';
     });
 
-
+    eleventyConfig.addLiquidFilter("image", function(url, alt, size){
+        return `<img src="${url}" alt="${alt}" style="width:${size}%;height:${size}%;">`;
+        
+    })
  
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./docs/service-worker.js",

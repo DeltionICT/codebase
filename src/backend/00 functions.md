@@ -2,13 +2,11 @@
 title: Functions PHP
 difficulty: medium
 date: 2022-12-30
-technologies: [php,gevorderd,functions,website,database,CRUD]
+# technologies: [php,gevorderd,functions,website,database,CRUD]
 ---
 
 #### {{ course-title }}
 # {{ title }}
-
-[//]: # ([Aap met link]&#40;{{ '/_assets/img/aap.jpg' | url }}&#41;)
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
@@ -57,4 +55,3 @@ Voorbeelden van de uitwerking;
     <img src="{{ '/_assets/api/functions/jungle_logoff.png' | url }}" style="width:15%;">
 </div>
 
-> {{technologiesTags}}
