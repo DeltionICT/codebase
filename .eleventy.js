@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addLiquidFilter("image", function(url, alt, size){
-        return `<img src="${url}" alt="${alt}" style="width:${size}%;height:${size}%;">`;
+        return `<img src="${url}" alt="${alt}" style="width:${size}%;">`;
         
     })
  

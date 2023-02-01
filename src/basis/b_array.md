@@ -6,7 +6,7 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
 * Programmeertaal: Naar keuze
 
