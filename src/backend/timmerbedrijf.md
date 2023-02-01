@@ -9,7 +9,7 @@ auteur: Jan Jaap Siewers
 # {{ title }}
 
 ## Resultaat
-* Maak een calculatieprogramma voor Timmerbedrijf "Houtmans".
+* Maak een calculatieprogramma voor Timmerbedrijf "About Hout".
 * Het programma kan uitrekenen wat het kost om hout te bestellen om een tafel te maken.
 * Voor het tafelblad kun je kiezen uit drie verschillende houtsoorten. 
 * Je kunt kiezen voor een rond of voor een rechthoekig blad. 
