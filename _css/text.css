@@ -12,7 +12,10 @@ h1 {
     line-height: 0.6rem;
     margin-top:0;
     margin-bottom:3rem;
-    
+    /*
+    line-height: calc(var(--lineheight) * 1);
+    margin: .2em 0 .1em 0;
+    */
 }
 
 
@@ -20,18 +23,48 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.8rem;
     margin-bottom:0;
+
+    /*
+    line-height: calc(var(--lineheight) * 1.2);
+    margin: 20px 0 .1em 0;
+    */
 }
 
 h3 {
     line-height: calc(var(--lineheight) * 1.1);
+    margin: 1.4em 0 .1em 0;
 }
 
 h4 {
     display: inline-block;
-    margin-top:0px;
+    /* margin-top:0px; */
+    margin: .2em 0 .1em 0;
     width:100%;
     border-bottom:1px solid var(--c-brand);
     line-height: var(--lineheight);
+}
+
+h5 {
+    /* line-height: calc(var(--lineheight) * 1.1); */
+    margin: 0 0;
+}
+
+ul {
+    margin:0.2em 0 0.2em 0;
+    padding-left: 1.2em;
+}
+
+blockquote {
+    margin: .7em 0;
+    padding: 0 0 .5em .5em;
+}
+
+blockquote>h4 {
+    font-style: italic;
+}
+
+blockquote>ul {
+    line-height:1.25em;
 }
 
 a {
