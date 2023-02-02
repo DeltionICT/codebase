@@ -1,17 +1,25 @@
+p, ul {
+    margin-top: 0px;
+}
+
 h1, h2, h3 {
     font-weight: 700;
     color: var(--c-text-light-1);
 }
 
 h1 {
-    line-height: calc(var(--lineheight) * 1);
-    margin-top: 0px;
+    font-size: 1.6rem;
+    line-height: 0.6rem;
+    margin-top:0;
+    margin-bottom:3rem;
+    
 }
 
 
 h2 {
-    line-height: calc(var(--lineheight) * 1.2);
-    margin-top:20px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom:0;
 }
 
 h3 {

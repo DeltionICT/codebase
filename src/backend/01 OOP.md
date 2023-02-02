@@ -2,13 +2,12 @@
 title: OOP PHP
 difficulty: medium
 date: 2023-01-01
-technologies: [php,gevorderd,OOP,classes,objecten,overerven]
+# technologies: [php,gevorderd,OOP,classes,objecten,overerven]
 ---
 
 #### {{ course-title }}
 # {{ title }}
 
-[//]: # ([Aap met link]&#40;{{ '/_assets/img/aap.jpg' | url }}&#41;)
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
@@ -88,4 +87,3 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
     * verbeter de verwerking van database-queries door gebruik te maken van parameter-binding
     * geef data aan de query-method in de vorm van een multi associative array
 
-> {{technologiesTags}}

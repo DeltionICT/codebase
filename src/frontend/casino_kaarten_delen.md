@@ -1,6 +1,6 @@
 ---
 title: Casino kaarten delen
-difficulty: basic
+difficulty: medium
 date: 2022-02-10
 ---
 
@@ -10,6 +10,13 @@ date: 2022-02-10
 
 ## Casus
 Dit is het begin van een online casino. De croupier is degene die kaarten deelt bij bijvoorbeeld 'black jack'. Jij gaat een programma maken dat de rol van croupier kan overnemen. Het programma kan kaarten tonen en je kunt kaarten delen.
+
+## Resultaat
+Een werkende (web)applicatie in een programmeertaal naar keuze.  
+In de code is gebruik gemaakt van onderstaande functies.
+Je kunt met de functie <code>toonSet()</code> laten zien welke kaarten zijn gedeeld of over zijn.
+De kaarten worden getoond op het scherm. 
+
 
 ## Backlog
 * Als croupier wil ik een spel kaarten kunnen weergeven, zodat het publiek kan zien dat alle kaarten aanwezig zijn.
@@ -47,12 +54,13 @@ De signatuur van de functie is als volgt:
 /*
 * deelKaarten
 *
-* Deze functie toont een random set kaarten.
+* Deze functie verdeeld de kaarten over een aantal personen.
+* @param deck -> array met alle kaarten
 * @param kaarten -> Aantal kaarten dat je per persoon krijgt
 * @param personen -> Aantal personen dat een set kaarten krijgt
-* @return sets -> Associatieve array met de kaarten per persoon
+* @return sets -> Associatieve array met de kaarten per persoon en de kaarten die over zijn.
 */
-function deelKaarten (kaarten, personen) {
+function deelKaarten (deck, kaarten, personen) {
     // --- body van de functie (jouw code) komt hier ---
     return sets
 }
@@ -64,12 +72,12 @@ Toon de inhoud van een set kaarten op het scherm.
 /*
 * toonSet
 *
-* @param -> string naam van een persoon
-*
+* @param -> sets multidimensionele associatieve array met de kaarten per persoon en de kaarten die over zijn. 
+* @param -> string naam van een set (naam of kaarten die over zijn)
 *
 */
 
-function toonSet(persoon)
+function toonSet(sets, welke)
 {
     // --- body van de functie (jouw code) komt hier ---
 }

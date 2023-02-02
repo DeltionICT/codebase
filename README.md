@@ -50,10 +50,15 @@ Je kunt afbeeldingen tonen met behulp van markdown-code:
 // absolute link naar een externe afbeelding
 ![alt-tekst](http://link/naar/de/afbeelding)
 
-// relatieve link naar een afbeelding:
+// relatieve link naar een afbeelding op 100% van de breedte van de pagina:
 ![alt-tekst]( {{ '/pad/naar/map/in/src-directory' | url }} )
+
+// relatieve link naar een afbeelding met een aangepaste breedte in %
+{{ '/_assets/backend/cursus.png' | url | image: 'Cursus databases ERD', 60 }}
 ```
-De dubbele curly braces zorgen ervoor dat het opgegeven pad wordt omgezet naar een absolute url.
+De dubbele curly braces zorgen ervoor dat het opgegeven pad wordt omgezet naar een absolute url.  
+Het pad naar de afbeelding wordt bewerkt door een 'url'-filter. De baseURL wordt toegevoegd.  
+Het 'image'-filter wordt aangeroepen met de grootte als percentage en de alt-tekst.  
 
 ### Links
 Je kunt op de volgende manier links maken in markdown:
