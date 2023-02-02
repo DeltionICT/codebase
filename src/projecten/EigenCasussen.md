@@ -1,6 +1,6 @@
 ---
 title: Eigen Casus
-difficulty: medium
+difficulty: expert
 date: 2022-12-12
 technologies: [projectmanagement,scrum,casus]
 ---
