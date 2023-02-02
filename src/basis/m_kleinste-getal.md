@@ -6,15 +6,16 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
 ***Voorbereiding:***  
 Maak in een editor een bestand met willekeurige 100 getallen. Plaats
 elke getal op een eigen regel.
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat uit het bestand het kleinste getal haalt en
 deze op het beeldscherm zet.
 

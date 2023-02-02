@@ -6,10 +6,11 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze, API maakt gebruikt van JSON  
-***Opdracht:***  
+> ### Voorkennis
+> Programmeertaal: naar keuze
+### Resultaat
 
 Maak op basis van de API van [OpenWeathermap](http://openweathermap.org/forecast) een weer-applicatie.
 Geef een lijst met weergegevens (windrichting, temperatuur e.a.) van de komende uren weer van Zwolle.

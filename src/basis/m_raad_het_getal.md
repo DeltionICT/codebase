@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Maak een programma dat voldoet aan de volgende requirements: 
 Het programma kiest een willekeurig getal tussen de 1 en 100; 
 

@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Maak een programma dat een schaakbord presenteert op het scherm. Gebruik
 in dit programma een geneste for-loop.
 

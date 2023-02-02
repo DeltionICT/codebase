@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Maak een programma dat een array bevat met daarin 15 verschillende door
 jezelf gekozen woorden. Het programma kiest vervolgens random een woord
 uit de array. Het programma laat de lengte van het gekozen woord zien

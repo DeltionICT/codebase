@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Omschrijving:***  
+### Omschrijving
 Van een bedrijf wordt door de werknemers een urenregistratie bijgehouden
 van het aantal gewerkte uren bij de klanten. Aan het einde van de week
 wordt van elke dag het aantal gewerkte uren en of minuten ingevoerd in
@@ -18,7 +19,7 @@ de computer. Alle 5 de werkdagen moeten worden ingevoerd. Als op een
 bepaalde dag niet is gewerkt, wordt als aantal uren en minuten 0
 ingevuld.
 
-***Opdracht:***  
+### Resultaat
 Maak een programma waarbij voor elke werkdag (maandag t/m vrijdag) het
 aantal gewerkte uren en minuten ingevoerd kan worden. Na invoer berekent
 het programma het volgende:

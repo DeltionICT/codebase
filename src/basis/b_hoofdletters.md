@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de gebruiker vraagt om een zin in te typen.
 Het programma voert het volgende uit:
 

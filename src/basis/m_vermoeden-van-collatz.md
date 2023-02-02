@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Omschrijving:***  
+### Omschrijving
 Het vermoeden van Collatz is een vermoeden in de getaltheorie dat zegt
 dat een bepaalde iteratie in alle gevallen uitloopt op het getal 1,
 waarbij het niet uitmaakt welk getal als beginwaarde gekozen wordt.
@@ -23,7 +24,7 @@ Tot op heden is het vermoeden nog niet bewezen of weerlegd.
 Vind je het interessant om hierover meer te lezen? Kijk dan op:
 <https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz>
 
-***Opdracht:***  
+### Resultaat
 Schrijf een programma dat de gebruiker vraagt een willekeurig getal in
 te voeren. Het programma voert vervolgens het vermoeden van Collatz uit
 en doet dit net zolang tot het uiteindelijk uitloopt op het getal 1.

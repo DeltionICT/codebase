@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Schrijf een programma dat de gebruiker vraagt een aantal knikkers in te
 voeren. Het ingevoerde aantal knikkers moet tussen de 1 en 20 liggen,
 laat je programma dit controleren. Op basis van het ingevoerde aantal

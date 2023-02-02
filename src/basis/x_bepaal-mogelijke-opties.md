@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Omschrijving:***  
+### Omschrijving
 Je hebt de opdracht gekregen om de inkopen te verzorgen voor een
 barbecue. Er is besloten drie soorten vlees te kopen:
 
@@ -22,7 +23,7 @@ barbecue. Er is besloten drie soorten vlees te kopen:
 
 Het totale beschikbare budged is 100 euro.
 
-***Opdracht:***  
+### Resultaat
 Maak een programma waarin je alle mogelijke combinaties die je kunt
 kopen voor het budged van 100 euro laat zien. Van elke vleessoort moet
 minimaal 1 verpakking gekocht worden.

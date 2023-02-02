@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Omschrijving:***  
+### Omschrijving
 Fizz Buzz is een spel voor kinderen dat ze helpt leren delen door
 getallen. Spelers moeten om de beurt stapsgewijs een getal roepen (1, 2,
 3, 4, ...), als het getal deelbaar is door drie zeggen ze het woord
@@ -21,7 +22,7 @@ Zoals hieronder:
 Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28,
 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
 
-***Opdracht:***  
+### Resultaat
 Maak in een taal naar keuze een klein stukje code. Dit stukje code moet
 het kinderspel FizzBuzz demonstreren. Er worden nummers van 1 t/m 100 op
 het scherm getoond.

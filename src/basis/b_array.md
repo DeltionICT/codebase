@@ -8,9 +8,10 @@ date: 2023-01-02
 
 # {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 
 - Codeer een array met de naam `programmeertalen` en vul deze array met
   de volgende gegevens: "PHP", "C#", "HTML", "JavaScript", "Java",

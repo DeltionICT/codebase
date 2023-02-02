@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de volgende functionaliteiten bevat:
 
 - Vraag de debruiker een lijst met namen in te voeren (gesplitst met een

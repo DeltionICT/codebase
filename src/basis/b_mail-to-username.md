@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Maak een programma met de volgende functionaliteiten:
 
 Het programma vraagt de gebruiker een e-mail adres in te voeren. Na

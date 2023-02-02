@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 In een array worden 20 willekeurig bepaalde getallen geplaatst
 (willekeurige waarden tussen de 0 en 500). Deze getallen worden
 afgedrukt op het scherm. Alle getallen in de array worden vergeleken met

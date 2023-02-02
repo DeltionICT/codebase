@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat bepaald welke speler heeft gewonnen. Het
 programma vraagt de user input voor de score van speler 1 en speler 2.
 Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.

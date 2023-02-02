@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de gebruiker een aantal bedragen vraagt. Het
 programma controleert of het ingegeven bedrag daadwerkelijk een bedrag
 is en geen tekst of ongeldige tekens bevat. Het programma stop met

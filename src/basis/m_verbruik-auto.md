@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Maak een programa dat het gemiddelde verbruik van een auto kan
 berekenen. Het programma vraagt de gebruiker om de volgende invoer:
 

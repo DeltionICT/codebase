@@ -6,17 +6,18 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht basis:***  
+### Resultaat
 Maak een programma dat aan de gebruiker vraagt hoeveel paar schoenen
 hij/zij wenst te kopen. Ieder paar schoenen kost normaal 50 euro. Indien
 de gebruiker 2 paar of meer koopt, is er 10% korting. Toon aan de
 gebruiker de totale prijs.
 
-***Opdracht uitbreiding:***  
+### Resultaat
 Breid in een tweede stap je programma uit zodat de korting enkel geldt
 als de gebruiker een klantenkaart heeft.
 

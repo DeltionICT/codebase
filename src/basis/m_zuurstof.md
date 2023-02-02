@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Omschrijving:***  
+### Omschrijving
 Patiënten met hart en longklachten krijgen vaak zuurstof toegediend. De
 zuurstof wordt toegediend met een zuurstofcilinder en slangetje in de
 neus.
@@ -29,7 +30,7 @@ kan worden. Dit kan door de volgende formule te gebruiken:
 *hoeveelheid zuurstof in fles (liter) = De druk (Bar) x de inhoud van de
 fles (cilinder)*
 
-***Taak:***  
+### Resultaat
 Maak met bovenstaande kennis het volgende programma:
 
 - **Invoer:**

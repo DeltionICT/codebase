@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de gebruiker om twee getallen vraagt. Het
 eerste getal noemen we het deeltal. Het tweede getal noemen we de deler.
 

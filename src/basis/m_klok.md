@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Programmeer een digitale klok waarbij realtime de huidige datum en tijd
 wordt weergegeven. Het programma moet voldoen aan de volgende eisen:
 

@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 Maak een programma dat de huidige tijd omzet naar tekst. Bij het starten
 van het programma wordt de huidige tijd bepaald, deze tijd wordt
 vervolgens automatisch omgezet naar tekst. Bijvoorbeeld:

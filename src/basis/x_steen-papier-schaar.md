@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Beschrijving:***  
+### Omschrijving
 Steen-papier-schaar kent 2 spelers. Beide spelers steken tegelijkertijd
 de hand naar voren in een bepaalde vorm. Het doel van het spel is om de
 vorm te kiezen die je tegenstander verslaat. Beide spelers tellen
@@ -28,7 +29,7 @@ Het spel wordt doorgaans een afgesproken oneven aantal keren gespeeld
 (meestal 3 keer), zodat er geen gelijkspel mogelijk is. De winnaar is
 degene die de meeste winnende combinaties maakte.
 
-***Opdracht***  
+### Resultaat
 Programmeer het spel steen, papier, schaar, zodat je deze kunt spelen
 tegen de computer. Je kunt het spel drie keer spelen, daarna wordt de
 winnaar op het scherm getoond.

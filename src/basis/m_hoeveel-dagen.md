@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de gebruiker vraagt om een jaar, maand en dag
 in te voeren. Het programma laat vervolgens zien hoeveel dagen verschil
 er zit tussen deze datum en vandaag.

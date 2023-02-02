@@ -6,10 +6,11 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
-***Taak:***  
+> ### Voorkennis
+> Programmeertaal: naar keuze
+### Resultaat
 Schrijf een programma dat 100 willekeurige getallen onder elkaar laat
 zien. Na elke drie regels moet er een witregel getoond worden.
 

@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Opdracht:***  
+### Resultaat
 
 1.  Vraag de gebruiker zijn 6 lotto getallen (getal tussen 1 en 42) in
     te geven. Het programma controleert de ingevoerde getallen op

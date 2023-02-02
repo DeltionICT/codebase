@@ -6,10 +6,11 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
-***Opdracht:***  
+> ### Voorkennis
+> Programmeertaal: naar keuze
+### Resultaat
 
 1.  Bedenk een vraag voor een poll. Het antwoord op de vraag moet met ja
     of nee te beantwoorden zijn.

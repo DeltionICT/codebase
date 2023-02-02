@@ -6,10 +6,11 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 Schrijf een programma dat de volgende getallenreeks op het scherm toont:
 , 10, 20, 30, 40, 50, 60, 70, 80, 90

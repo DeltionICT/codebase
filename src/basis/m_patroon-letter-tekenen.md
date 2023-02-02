@@ -6,10 +6,11 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
-***Opdracht:***  
+> ### Voorkennis
+> Programmeertaal: naar keuze
+### Resultaat
 Maak een programma dat het volgende patroon tekent:
 
   \*\*\* \*       \* \*       \* \*\*\*\*\* \*       \* \*       \*

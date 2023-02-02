@@ -6,11 +6,12 @@ date: 2023-01-02
 
 #### {{ course-title }}
 
-## {{ title }}
+# {{ title }}
 
-* Programmeertaal: Naar keuze
+> ### Voorkennis
+> Programmeertaal: naar keuze
 
-***Taak:***  
+### Resultaat
 We gaan een programma schrijven waarmee een piramide (eigenlijk een
 driehoek) gebouwd kan worden. De stenen worden hierbij weergegeven als
 een \*.
