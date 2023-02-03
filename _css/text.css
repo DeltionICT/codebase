@@ -8,16 +8,15 @@ h1, h2, h3 {
 }
 
 h1 {
+    /*
     font-size: 1.6rem;
     line-height: 0.6rem;
     margin-top:0;
     margin-bottom:3rem;
-    /*
+    */
     line-height: calc(var(--lineheight) * 1);
     margin: .2em 0 .1em 0;
-    */
 }
-
 
 h2 {
     font-size: 1.2rem;
