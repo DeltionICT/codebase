@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1281px) {
     nav#smallnav {
         display:none;
     }
@@ -13,6 +13,7 @@
 
 }
 @media only screen and (max-width: 1280px) {
+
     main {
         display:block;
     }
@@ -36,8 +37,7 @@
     }
 
     nav#smallnav {
-        margin: 0 auto 0 auto;
-        margin-top: 1rem;
+        margin: 1.1rem 0.5rem 0 0;
         padding: 1rem;
         width:80vw;
         text-align: left;
@@ -49,7 +49,7 @@
         text-decoration: none;
         display:block;
         padding-left: 1rem;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
         border: 1px solid white;
         width:100%;
         border-radius: 4px;
@@ -78,8 +78,47 @@
 
     pre {
         width: calc(80vw );
-        max-width: calc(1280px);
+        max-width: calc(80vw - 2rem);
     }
 }
 
+
+@media only screen and (max-width: 480px) {
+    header>div {
+        width: 90vw;
+    }
+
+    #logo {
+        margin-left:0;
+    }
+    aside, main>div#content {
+        width: 90vw;
+        padding: 1rem 0.5rem 0 0;
+    }
+
+    nav#smallnav {
+        padding: 1rem 0 0 0;
+    }
+
+    main {
+        width: 90vw;
+    }
+
+    div#mobile {
+        display:flex;
+        flex-direction: row;
+        padding-left: 0rem;
+        /* margin-top: 1rem; */
+    }
+
+    aside ul {
+        margin-left:0;
+        width: 60vw
+    }
+
+    pre {
+        width: calc(90vw );
+        max-width: calc(90vw - 2rem);
+    }
+}
 

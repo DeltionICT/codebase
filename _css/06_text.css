@@ -9,11 +9,11 @@ h1 {
     margin-bottom:3rem;
 }
 
-p, ul {
+p, ul, ol {
     margin-bottom: 1rem;
 }
 
-ul {
+ul, ol {
     margin-left: 1rem;
 }
 
