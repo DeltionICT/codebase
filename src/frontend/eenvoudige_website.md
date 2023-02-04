@@ -5,6 +5,8 @@ date: 2023-01-10
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+
 # {{ title }}
 
 ## Maak een website op basis van onderstaande eisen.

@@ -3,9 +3,10 @@ title: Afbeeldingen aanpassen
 difficulty: basic
 date: 2023-01-10
 ---
-{{ date | auteur: "Jan Jaap Siewers" }}
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+
 # {{ title }}
 
 Bij het maken van apps en websites komt het vaak voor dat je gebruik wilt maken van beeldmateriaal.  

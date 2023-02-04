@@ -6,6 +6,8 @@ technologies: [php,gevorderd,OOP,MVC,framework,featurestest,unittest]
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">

@@ -6,21 +6,24 @@ date: 2023-01-01
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 
-<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->
+{{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
 
 * Programmeertaal: PHP of een andere backend-taal
 
-***Taken:***
+### Taken
 
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 1. Maak een programma met een werking; 
    * als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen
 
-   Het programma heeft de volgende technische eigenschappen:
+   * Het programma heeft de volgende technische eigenschappen:
    * alle logica staat in classes beschreven
    * elke class staat in een eigen php-bestand
    * logica is zo veel mogelijk uitgesplitst per method

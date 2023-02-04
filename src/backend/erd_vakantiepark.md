@@ -6,6 +6,8 @@ auteur: Jan Jaap Siewers
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+
 
 # {{ title }}
 

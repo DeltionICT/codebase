@@ -7,6 +7,8 @@ lang: javascript
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
+
 # {{ title }}
 ##### programmeertaal: {{ lang}}
 ##### auteur: {{ author}}

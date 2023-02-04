@@ -5,6 +5,8 @@ date: 2023-01-13
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 

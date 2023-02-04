@@ -6,6 +6,8 @@ date: 2022-12-30
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">

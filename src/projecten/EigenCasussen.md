@@ -6,6 +6,8 @@ technologies: [projectmanagement,scrum,casus]
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/projecten/project-laptop.png' | url }}" style="width:10%;">

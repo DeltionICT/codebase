@@ -6,6 +6,8 @@ technologies: [api,json,backend]
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Koos Starreveld" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/_icons/postman.png' | url }}" style="width:10%;">

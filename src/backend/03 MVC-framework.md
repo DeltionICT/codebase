@@ -6,6 +6,8 @@ technologies: [php,gevorderd,OOP,MVC,framework,database,CRUD,middleware,services
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">

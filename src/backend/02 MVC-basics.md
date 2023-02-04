@@ -6,6 +6,8 @@ technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">

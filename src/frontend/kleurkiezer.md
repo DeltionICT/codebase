@@ -5,6 +5,8 @@ date: 2022-01-10
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+
 # {{ title }}
 
 ## Opdracht

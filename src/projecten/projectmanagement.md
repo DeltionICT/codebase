@@ -6,6 +6,8 @@ technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 ---
 
 #### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
 # {{ title }}
 
 <img src="{{ '/_assets/projecten/boekProjectmanagement.jpg' | url }}" style="width:10%;">
