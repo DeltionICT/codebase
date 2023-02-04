@@ -1,6 +1,7 @@
 ---
+layout: index.njk
 title: Introductie
-difficulty: basic
+difficulty: none
 date: 2022-01-01
 ---
 
@@ -8,5 +9,3 @@ date: 2022-01-01
 {{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
 
 # {{ title }}
-
-{{ '/_assets/api/PHP-logo.png' | url | image: 'PHP Logo', 10 }}

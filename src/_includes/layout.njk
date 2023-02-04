@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <title>{{ site.name }} | {{ title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="{{ '/_assets/favicon.ico' | url }}">
+    <link rel="manifest" href="{{ '/manifest.json' | url }}" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+                .register('{{ "/service-worker.js" | url }}')
+                .then(function() {
+                    console.log("ServiceWorker has been registered!");
+                })
+                .catch(console.error);
+        }
+    </script>
+    <style>
+        {%  set css %}
+            {% include '../_css/05_deltion-colors.css' %}
+            {% include '../_css/06_text.css' %}
+            {% include '../_css/07_prism-one-light.css' %}
+            {% include '../_css/08_video.css' %}
+            {% include '../_css/10_base.css' %}
+            {% include '../_css/20_code.css' %}
+            {% include '../_css/30_mobile.css' %}
+        {% endset %}
+
+        {{ css | cssmin | safe }}
+
+</style>
+</head>
+<body>
+<header>
+    <div>
+        <a id="logolink" href="{{ '/' | url }}"><img id="logo" class="standard" src="{{ '/_assets/deltion.svg' | url }}" alt="logo"></a>       
+        <div>
+            <nav id="topnav"> 
+                {% for item in nav.items %}
+                    <a href="{{ item.url | url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+                {% endfor %}
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>
+                {#
+                <ul class="prevnext">
+                {% for p in collections[tags] %}
+                    {% if p.url == page.url %}
+                        {% block prevnext %}{% endblock %}
+                    {% endif %}
+                {% endfor %}
+                </ul> #}        
+            </nav>
+            <a href="javascript:void(0);" class="nav-link icon" onclick="toggleNav()"><span class="material-icons">menu</span></a>
+        </div>
+    </div>
+</header>
+
+</div>
+<main>
+    <div id="mobile">
+        <nav id="smallnav"  style="display:none;"> 
+            {% for item in nav.items %}
+                <a href="{{ item.url | url }}" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+            <a href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>    
+        </nav>
+
+        {% block aside %}{% endblock %}
+    </div>
+    <div id="content">
+    {{ content | safe }}
+        {% block toc %}{% endblock %}
+    </div>
+</main>
+
+<footer>
+{% block footer %}
+    <footer>
+      © 2023 Deltion ICT - Software Development
+    </footer>
+{% endblock %}
+</footer>
+{% set js %}
+    {% include '../_js/toggleNav.js' %}
+{% endset %}
+<script>
+    {{ js | jsmin | safe }}
+</script>
+</body>
+</html>

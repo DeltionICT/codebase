@@ -1,7 +1,8 @@
 ---
+layout: index.njk
 title: Introductie
 difficulty: none
-date: 2023-01-15
+date: 2022-11-15
 auteur: Jan Jaap Siewers
 ---
 

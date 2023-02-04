@@ -1,0 +1,11 @@
+{% extends "aside.njk" %}
+{% block toc %}
+<h2>Inhoud</h2>
+    <ul>
+    {% for p in collections[tags] %}
+        <li>
+            <a href="{{ p.url | url }}">{{  p.data.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

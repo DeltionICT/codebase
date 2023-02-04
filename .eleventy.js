@@ -1,11 +1,11 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const path = require('path');
 const fs = require('fs');
 const nunjucks = require('nunjucks');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const pluginTOC = require('eleventy-plugin-toc');
-const pluginPWA = require("@piraces/eleventy-plugin-pwa");
+const pluginPWA = require('@piraces/eleventy-plugin-pwa');
 const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 
@@ -98,18 +98,9 @@ module.exports = function(eleventyConfig) {
 
     });
 
-    // eleventyConfig.addShortcode("firstpage", (yt_id) => {
-    //     const filePath = path.join(__dirname, "./src/_includes/firstpage.njk");
-    //     if (!fs.existsSync) {
-    //         return "";
-    //     }
-    //     const content = fs.readFileSync(filePath).toString();
-    //     return nunjucks.renderString(content, {video: yt_id});
+    // eleventyConfig.addShortcode("user", function(firstName, lastName) {
+    //     return firstName + ' ' + lastName;
     // });
-
-    eleventyConfig.addShortcode("user", function(firstName, lastName) {
-        return firstName + ' ' + lastName;
-    });
 
     eleventyConfig.addShortcode("pepper", function(color) {
         return '/_assets/' + color + '_pepper.svg';
