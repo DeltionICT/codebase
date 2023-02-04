@@ -1,8 +1,10 @@
 /* Reset */
 *, *::before, *::after{
     box-sizing: border-box;
-}
+    margin:0;
+    padding:0;
 
+}
 
 body {
     display:flex;
@@ -13,31 +15,49 @@ body {
     color: var(--c-text);
     line-height: var(--lineheight);
     background-color: var(--c-bg-light);
-    margin: 0;
-    padding: 0;
 }
-
 
 header {
-    height: 100px;
-    width:100%;
+    width: 100vw;
+    margin:0 auto 0 auto;
+    height: 5rem;
+    min-height:5rem;
     background-color: var(--c-bg);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    box-shadow:var(--c-box-shadow);
 }
+
 
 header > div, footer {
     display:flex;
     justify-content: space-between;
-    width:80%;
+    width:80vw;
+    max-width:1280px;
     margin: 0 auto 0 auto;
-    margin-top:20px;
+    margin-top:1rem;
 }
 
+header > div > div {
+    display:flex;
+}
+
+main  {
+    width:80vw;
+    max-width:1280px;
+    margin:0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 220px);
+}
+
+main > div#content {
+    padding:1.1rem 0px 1rem 1rem;
+    width: calc(80vw - 238px);
+}
 
 footer {
     padding-top:16px;
 }
-
 
 
 img {
@@ -47,13 +67,14 @@ img {
 
 
 /* Logo settings */
-.logo {
-    width:105px;
-    padding-bottom: 8px;
+#logo {
+    width:120px;
+    margin-left:1rem;
 }
 
 aside {
-    background-color: var(--c-bg-light);
+    margin-top:1.5rem;
+    /* background-color: var(--c-bg-light); */
     width:240px;
     min-width:240px;
 }
@@ -65,12 +86,13 @@ aside a {
 aside > ul {
     list-style-type: none;
     padding:0px;
-    margin-right:20px;    
+    margin-right: 1rem;    
 }
 
 aside > ul li {
     padding:3px 6px 3px 6px;
-    background-color: var(--c-text-light-3);
+    background-color:var(--c-text-light-3);
+    border: 1px solid var(--c-text-light-3);   
     margin:2px;
     border-radius:4px;
     display:inline-block;
@@ -79,28 +101,26 @@ aside > ul li {
     margin-left:0px;
 }
 
-aside > ul li a {
-
-}
-
 aside > ul li:hover {
-    background-color:var(--c-text-light-2);
+    background-color: #fff;
+    border: 1px solid var(--c-text-light-1);   
 }
 
-aside > ul li a:hover {
+/* aside > ul li a:hover {
     color: white;
 }
 
 aside > ul li a:active {
-    color: white;
-}
+
+} */
 
 .active, [aria-current] {
-    background-color:var(--c-text-light-2);
+    background-color: #fff;
+    border: 1px solid var(--c-text-light-1);
 }
 
 li[aria-current] a {
-    color:white;   
+    background-color: #fff;
 }
 
 div#prevnext {
@@ -146,37 +166,13 @@ div.difficulty {
     justify-content: flex-end;
 }
 
-
-
-/* div.difficulty div.medium {
-    background-color: green;
-}
-
-div.difficulty div.expert {
-    background-color: var(--c-brand);
-} */
-
 div.difficulty img {
     height:20px;
     width:auto;
 }
 
-div#content {
-    width:100%;
-    padding:21px 0px 20px 20px;
-}
 
-main {
-    width:80%;
-    max-width:1280px;
-    margin:0 auto 0 auto;
-    display: flex;
-    /* justify-content: space-between; */
-    align-self:flex-start;
-    min-height: calc(100vh - 220px);
-    /* background-color: rgb(230, 230, 230); */
-    margin-top:3px;
-}
+
 
 /* Eleventy TOC */
 div.toc ul {
@@ -187,10 +183,17 @@ div.toc ul {
 
 blockquote {
     background-color: var(--c-bg-blockquote);
+    border: 1px solid var(--c-text-light-1);
     border-left: 5px solid var(--c-text-light-1);
-    padding:8px;
+    padding:0.5rem;
     border-radius:4px;
-    margin:0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow:var(--c-box-shadow);
+}
+
+nav#topnav {
+    display:block;
 }
 
 .nav-link {
@@ -203,4 +206,17 @@ blockquote {
 
 .nav-link .material-icons {
     vertical-align:bottom;
+}
+
+a.nav-link {
+    vertical-align: bottom;
+    margin-left: 3rem;
+}
+
+div.auteur {
+   width:100%;
+   text-align: right;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 0.9rem;
 }

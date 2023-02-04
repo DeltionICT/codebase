@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1280px) {
+    nav#smallnav {
+        display:none;
+    }
+
+    aside {
+        display:block;
+    }
+ 
+    div#mobile {
+        display:block;
+    }
+
+}
+@media only screen and (max-width: 1280px) {
+    main {
+        display:block;
+    }
+
+    nav#topnav {
+        display:none;
+    }
+
+    aside, main>div#content {
+        width: 80vw;
+    }
+
+    aside {
+        display:none;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    nav#topnav {
+        display:none;
+    }
+
+    nav#smallnav {
+        margin: 0 auto 0 auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        width:80vw;
+        text-align: left;
+        border-radius: 4px;
+    }
+    
+    nav#smallnav a {
+        color:#fff;
+        text-decoration: none;
+        display:block;
+        padding-left: 1rem;
+        margin-bottom: 4px;
+        border: 1px solid white;
+        width:100%;
+        border-radius: 4px;
+        padding:3px 6px 3px 6px;
+        background-color: var(--c-text);
+    }
+
+    nav#smallnav a:hover {
+        color:var(--c-text);
+        background-color:#fff;
+        border: 1px solid  var(--c-text);
+    }
+
+    nav#smallnav a[aria-current] {
+        color: var(--c-text);
+        background-color: white;
+        border: 1px solid  var(--c-text);
+    }
+
+    div#mobile {
+        display:flex;
+        flex-direction: row;
+        padding-left: 1rem;
+        /* margin-top: 1rem; */
+    }
+
+    pre {
+        width: calc(80vw );
+        max-width: calc(1280px);
+    }
+}
+
+
