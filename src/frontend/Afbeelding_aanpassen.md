@@ -1,8 +1,9 @@
 ---
 title: Afbeeldingen aanpassen
 difficulty: basic
-date: 2023-02-12
+date: 2023-01-10
 ---
+{{ date | auteur: "Jan Jaap Siewers" }}
 
 #### {{ course-title }}
 # {{ title }}

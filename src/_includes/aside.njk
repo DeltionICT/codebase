@@ -1,6 +1,6 @@
 {% extends "index.njk" %}
 {% block aside %}
-<aside>
+<aside id="right">
     <ul>
     {% for p in collections[tags] %}
         <li {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>

@@ -1,7 +1,7 @@
 ---
 title: Kleurkiezer
 difficulty: basic
-date: 2022-01-01
+date: 2022-01-10
 ---
 
 #### {{ course-title }}

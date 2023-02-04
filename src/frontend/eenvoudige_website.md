@@ -1,7 +1,7 @@
 ---
 title: Eenvoudige website
 difficulty: basic
-date: 2023-01-01
+date: 2023-01-10
 ---
 
 #### {{ course-title }}

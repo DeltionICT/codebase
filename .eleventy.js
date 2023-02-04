@@ -56,6 +56,11 @@ module.exports = function(eleventyConfig) {
         return `<img src="${url}" alt="${alt}" style="width:${size}%;">`;
         
     })
+
+    eleventyConfig.addLiquidFilter("auteur", function(date, name){
+        return `<div class="auteur">${name} | ${date}</div>`;
+        
+    })
  
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./docs/service-worker.js",
@@ -112,7 +117,7 @@ module.exports = function(eleventyConfig) {
 
     //eleventyConfig.addWatchTarget("./src/_css/");
     eleventyConfig.addWatchTarget("./src/**/*");
-    // eleventyConfig.addWatchTarget('./src/js/');
+    //eleventyConfig.addWatchTarget('./src/_js/');
     const markdownItOptions = {
         html:true,
         breaks: false
