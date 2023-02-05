@@ -2,17 +2,12 @@
 title: js22 | Tafels
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
-author: cstegeman
-lang: javascript
 ---
 
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
 
 # {{ title }}
-##### programmeertaal: {{ lang}}
-##### auteur: {{ author}}
-
 
 > #### Voorkennis:  
 > * JS Functions ([w3schools](https://www.w3schools.com/js/js_functions.asp))
