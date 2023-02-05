@@ -1,5 +1,5 @@
 ---
-title: Sessie login
+title: PHPB Sessie login
 difficulty: basic
 date: 2022-10-10
 auteur: Jan Jaap Siewers

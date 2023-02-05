@@ -25,18 +25,23 @@ h2 {
 }
 
 h3 {
+    margin-top: 1.5rem;
     font-size: 1.1rem;
     line-height: 1.4rem;
 }
 
-h4 {
+h4, h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
     display: inline-block;
     margin-top:0px;
     width:100%;
     border-bottom:1px solid var(--c-brand);
 }
 
-
+h5 {
+    border:none;
+}
 
 a {
     color:var(--c-text);

@@ -11,6 +11,11 @@ auteur: Jan Jaap Siewers
 
 # {{ title }}
 
+> ##### Voorkennis
+> * SQL Queries
+> * Een databaseserver installeren, tabellen aanmaken en permissies instellen
+
+
 ## Resultaat
 Lever het ERD dat hoort bij onderstaande casus.
 

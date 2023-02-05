@@ -1,5 +1,5 @@
 ---
-title: SQL CursusDB
+title: DBQ cursussen
 difficulty: basic
 date: 2022-11-10
 auteur: Jan Jaap Siewers

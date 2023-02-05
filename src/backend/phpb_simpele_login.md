@@ -1,7 +1,7 @@
 ---
-title: Database login
+title: PHPB Simpele login
 difficulty: basic
-date: 2022-11-10
+date: 2022-10-01
 auteur: Jan Jaap Siewers
 ---
 
@@ -12,8 +12,8 @@ auteur: Jan Jaap Siewers
 
 ## Resultaat
 * Een login-systeem met een formulier waar je een naam en een wachtwoord in kunt vullen.
-* Nadat het formulier met gegevens is verstuurd, wordt er in database gecontroleerd of de gegevens valide zijn. 
-* Meerdere gebruikers kunnen toegang krijgen tot de welkomstpagina met de tekst "Hey, welkom in onze app". 
+* Nadat het formulier met gegevens is verstuurd, wordt er gecontroleerd of de gegevens valide zijn. 
+* Er kunnen 5 verschillende gebruikers toegang krijgen tot de welkomstpagina met de tekst "Hey, welkom in onze app". 
 * Bij verkeerd inloggen krijg je de waarschuwing "Je hebt geen toegang met deze naam- en wachtwoord-combinatie".
 
 ## Userstory
@@ -21,5 +21,5 @@ auteur: Jan Jaap Siewers
 
 ## Activity diagram
 
-![schema_loginform]({{ '/_assets/backend/schema_db_login.svg' | url }})
+![schema_loginform]({{ '/_assets/backend/schema_loginform.svg' | url }})
 

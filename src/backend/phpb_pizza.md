@@ -1,5 +1,5 @@
 ---
-title: Pizza
+title: PHPB Pizza
 difficulty: basic
 date: 2022-11-20
 auteur: Jan Jaap Siewers
