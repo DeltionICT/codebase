@@ -34,6 +34,8 @@ Installeer python op je computer. [Hier vind je uitleg over hoe dat moet!](https
 (venv) janjaap@iMac-Pro-van-Jan pythonproject % python --version
 Python 3.9.2
 ```
+Als je een melding krijgt over 'Authentication' of 'persmission', dan kan het zijn dat je powershell nog voldoende rechten moet geven om python scripts uit te voeren.  
+In de terminal in Pycharm geeft je dan het commando: <code>setExecutionPolicy unrestricted</code>
 
 ## Hello World
 * Schrijf je eerste hello-world script,  gebruik de functie <code>print("Hello World")</code> om hello world op het scherm te tonen.
