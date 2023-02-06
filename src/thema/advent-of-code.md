@@ -7,7 +7,7 @@ technologies: [mixed]
 
 #### {{ course-title }}
 # {{ title }}
-<img src="{{ '/_assets/themas/challange.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/themas/challenge.png' | url }}" style="width:10%;">
 
 
 ## Challenge
