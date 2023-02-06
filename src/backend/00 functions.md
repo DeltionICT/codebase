@@ -3,6 +3,7 @@ title: Functions PHP
 difficulty: medium
 date: 2022-12-30
 # technologies: [php,gevorderd,functions,website,database,CRUD]
+author: rkerssies
 ---
 
 #### {{ course-title }}

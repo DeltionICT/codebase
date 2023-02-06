@@ -3,7 +3,7 @@ layout: index.njk
 title: Introductie
 difficulty: none
 date: 2022-11-15
-author: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}

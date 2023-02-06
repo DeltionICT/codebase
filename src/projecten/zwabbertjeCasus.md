@@ -3,6 +3,7 @@ title: Zwabbertje-casus
 difficulty: medium
 date: 2022-03-01
 technologies: [projectmanagement,scrum,code,casus]
+author: jsiewers
 ---
 
 #### {{ course-title }}

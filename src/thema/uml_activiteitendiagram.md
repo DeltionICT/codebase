@@ -3,6 +3,7 @@ title: ActiviteitenDiagram
 difficulty: basic
 date: 2022-02-14
 technologies: [website,app,structure,workflow]
+author: rkerssies
 ---
 
 #### {{ course-title }}

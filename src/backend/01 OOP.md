@@ -3,6 +3,7 @@ title: OOP PHP
 difficulty: medium
 date: 2023-01-01
 # technologies: [php,gevorderd,OOP,classes,objecten,overerven]
+author: rkerssies
 ---
 
 #### {{ course-title }}

@@ -3,6 +3,7 @@ title: Entiteit Relatie Diagram (ERD)
 difficulty: medium
 date: 2022-02-16
 technologies: [website,app,structure,database,diagram]
+author: rkerssies
 ---
 
 #### {{ course-title }}

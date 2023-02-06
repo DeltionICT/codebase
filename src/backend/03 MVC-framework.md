@@ -3,6 +3,7 @@ title: MVC-Framework PHP
 difficulty: medium
 date: 2023-01-03
 technologies: [php,gevorderd,OOP,MVC,framework,database,CRUD,middleware,services]
+author: rkerssies
 ---
 
 #### {{ course-title }}

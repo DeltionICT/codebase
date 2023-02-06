@@ -3,6 +3,7 @@ title: SequenceDiagram
 difficulty: medium
 date: 2022-02-16
 technologies: [website,app,structure,workflow,classes,methods]
+author: rkerssies
 ---
 
 #### {{ course-title }}

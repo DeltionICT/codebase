@@ -2,6 +2,7 @@
 title: Kleurkiezer
 difficulty: basic
 date: 2022-01-10
+author: jsiewers
 ---
 
 #### {{ course-title }}

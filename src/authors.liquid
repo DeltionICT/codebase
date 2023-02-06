@@ -21,7 +21,7 @@ Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
 
 <h2>Posts by Author</h2>
 
-{% assign posts = collections.post | getPostsByAuthor: author.key %}
+{% assign posts = collections.all | getPostsByAuthor: author.key  %}
 
 <ul>
 {% for post in posts %}

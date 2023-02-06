@@ -2,7 +2,7 @@
 title: PROJ FarOut
 difficulty: medium
 date: 2022-11-10
-author: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}

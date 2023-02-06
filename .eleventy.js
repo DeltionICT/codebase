@@ -45,12 +45,7 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
-		return posts.filter(p => {
-			if(!p.data.author) return false;
-			let authors = p.data.author.split(',');
-			return authors.includes(author);
-            //return author;
-		});
+		posts.filter(p => p.data.author == author);
 	});
 
     eleventyConfig.addFilter("getAuthors", (authors,label) => {

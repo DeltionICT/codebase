@@ -2,7 +2,7 @@
 title: PHPB Pizza
 difficulty: basic
 date: 2022-11-20
-author: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}

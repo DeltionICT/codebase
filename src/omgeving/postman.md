@@ -3,6 +3,7 @@ title: Postman
 difficulty: medium
 date: 2023-01-14
 technologies: [api,json,backend]
+author: rkerssies
 ---
 
 #### {{ course-title }}

@@ -3,6 +3,7 @@ title: API-rbac PHP
 difficulty: expert
 date: 2023-01-07
 technologies: [php,gevorderd,OOP,MVC,framework,API,json,rollen,rechten,rbac,database,CRUD,postman]
+author: rkerssies
 ---
 
 #### {{ course-title }}

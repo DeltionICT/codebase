@@ -3,6 +3,7 @@ title: Mockups
 difficulty: basic
 date: 2022-02-13
 technologies: [website,app,design,looknfeel]
+author: rkerssies
 ---
 
 #### {{ course-title }}

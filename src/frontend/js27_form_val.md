@@ -2,6 +2,8 @@
 title: js27 | form validate A
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
+author: cstegeman
+
 ---
 
 #### {{ course-title }}

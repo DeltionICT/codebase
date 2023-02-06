@@ -2,7 +2,7 @@
 title: MVC-Framework C#
 difficulty: basic
 date: 2023-01-03
-author: "Ronald Kerssies"
+author: rkerssies
 ---
 
 #### {{ course-title }}

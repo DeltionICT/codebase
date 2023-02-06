@@ -2,7 +2,7 @@
 title: PHPB Functions
 difficulty: basic
 date: 2022-11-10
-author: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}

@@ -2,6 +2,7 @@
 title: Eenvoudige website
 difficulty: basic
 date: 2023-01-10
+author: jsiewers
 ---
 
 #### {{ course-title }}

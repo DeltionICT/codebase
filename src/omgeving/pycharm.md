@@ -2,6 +2,7 @@
 title: Pycharm
 difficulty: basic
 date: 2023-01-11
+author: jsiewers
 ---
 
 #### {{ course-title }}

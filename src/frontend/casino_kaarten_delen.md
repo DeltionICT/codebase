@@ -2,7 +2,7 @@
 title: Casino kaarten delen
 difficulty: medium
 date: 2023-01-15
-author: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}
