@@ -6,7 +6,7 @@ technologies: [php,gevorderd,OOP,MVC,framework,API,json,database,CRUD,postman]
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 

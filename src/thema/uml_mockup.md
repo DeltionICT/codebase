@@ -6,7 +6,7 @@ technologies: [website,app,design,looknfeel]
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 <img src="{{ '/_assets/themas/design.png' | url }}" style="width:10%;">

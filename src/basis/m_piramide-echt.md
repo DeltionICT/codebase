@@ -5,7 +5,7 @@ date: 2023-01-02
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jeroen Heuvelman" }}
+{{ date | date: "%b, %Y" | author: "Jeroen Heuvelman" }}
 
 
 # {{ title }}

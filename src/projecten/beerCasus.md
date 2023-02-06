@@ -6,7 +6,7 @@ technologies: [projectmanagement,scrum,code,casus]
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies / Chris Stegeman" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies / Chris Stegeman" }}
 
 # {{ title }}
 

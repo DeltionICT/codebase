@@ -2,10 +2,11 @@
 title: MVC-Framework C#
 difficulty: basic
 date: 2023-01-03
+author: "Ronald Kerssies"
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 
