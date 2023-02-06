@@ -21,6 +21,10 @@
     nav#topnav {
         display:none;
     }
+    
+    a.hamburger {
+        display:block;
+    }
 
     aside, main>div#content {
         width: 80vw;
