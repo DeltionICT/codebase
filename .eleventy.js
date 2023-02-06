@@ -49,7 +49,17 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addFilter("pepperoni", function(color) {
-        return '/_assets/'  + color + '_pepper.svg';
+        return `/_assets/${color}_pepper.svg`;
+    });
+
+    eleventyConfig.addFilter("dir", function(url){
+        parts = url.split('/')
+        let mypath = ""
+        for (i = 0; i < (parts.length - 2); i++) {
+            mypath += "/";
+            mypath += parts[i];
+          }
+        return mypath
     });
 
     eleventyConfig.addLiquidFilter("image", function(url, alt, size){
@@ -102,9 +112,9 @@ module.exports = function(eleventyConfig) {
     //     return firstName + ' ' + lastName;
     // });
 
-    eleventyConfig.addShortcode("pepper", function(color) {
-        return '/_assets/' + color + '_pepper.svg';
-    });
+    // eleventyConfig.addShortcode("pepper", function(color) {
+    //     return '/_assets/' + color + '_pepper.svg';
+    // });
 
     //eleventyConfig.addWatchTarget("./src/_css/");
     eleventyConfig.addWatchTarget("./src/**/*");

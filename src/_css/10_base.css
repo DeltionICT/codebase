@@ -41,6 +41,10 @@ header > div > div {
     display:flex;
 }
 
+a.hamburger {
+    display:none;
+}
+
 main  {
     width:80vw;
     max-width:1280px;
