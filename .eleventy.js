@@ -46,6 +46,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
 		posts.filter(p => p.data.author == author);
+        posts.forEach((x, i) => console.log(`${x.data.author} ${x.data.title}`))
 	});
 
     eleventyConfig.addFilter("getAuthors", (authors,label) => {
