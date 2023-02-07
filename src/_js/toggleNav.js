@@ -13,7 +13,7 @@ window.onresize = (event) => {
     aside.style.display = "block";
   } 
   
-  if(window.innerWidth < 1280) {
+  if(window.innerWidth <= 1280) {
     aside.style.display = "none";
     smallnav.style.display = 'none'
   }
@@ -24,7 +24,7 @@ function toggleNav() {
       smallnav.style.display = "none";
       aside.style.display = "none";
       
-    } else if(window.innerWidth < 1280) {
+    } else if(window.innerWidth <= 1280) {
       smallnav.style.display = "block";
       aside.style.display = "block";
     }
