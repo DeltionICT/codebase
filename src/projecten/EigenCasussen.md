@@ -3,11 +3,11 @@ title: Eigen Casus
 difficulty: expert
 date: 2022-12-12
 technologies: [projectmanagement,scrum,casus]
-auteur: "Ronald Kerssies"
+author: rkerssies
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: auteur }}
+{{ date | date: "%b, %Y" | author: author }}
 
 # {{ title }}
 

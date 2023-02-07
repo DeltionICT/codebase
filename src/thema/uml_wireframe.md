@@ -3,10 +3,11 @@ title: Wireframes
 difficulty: basic
 date: 2022-02-12
 technologies: [website,app,design,workflow]
+author: rkerssies
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 <img src="{{ '/_assets/themas/design.png' | url }}" style="width:10%;">

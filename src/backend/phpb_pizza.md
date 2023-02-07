@@ -2,11 +2,11 @@
 title: PHPB Pizza
 difficulty: basic
 date: 2022-11-20
-auteur: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+{{ date | date: "%b, %Y" | author: "Jan Jaap Siewers" }}
 
 # {{ title }}
 

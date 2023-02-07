@@ -2,10 +2,11 @@
 title: Variabelen weergeven
 difficulty: basic #basic | medium | expert
 date: 2023-01-02
+author: jheuvelman
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+{{ date | date: "%b, %Y" | author: "Jan Jaap Siewers" }}
 
 
 # {{ title }}

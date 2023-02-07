@@ -2,10 +2,11 @@
 title: C# omgeving
 difficulty: basic #basic | medium | expert
 date: 2023-01-12
+author: kstarreveld
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Koos Starreveld" }}
+{{ date | date: "%b, %Y" | author: "Koos Starreveld" }}
 
 
 ## {{ title }}

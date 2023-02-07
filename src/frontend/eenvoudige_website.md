@@ -2,10 +2,11 @@
 title: Eenvoudige website
 difficulty: basic
 date: 2023-01-10
+author: jsiewers
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+{{ date | date: "%b, %Y" | author: "Jan Jaap Siewers" }}
 
 # {{ title }}
 

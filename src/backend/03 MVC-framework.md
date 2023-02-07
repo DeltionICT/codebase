@@ -3,10 +3,11 @@ title: MVC-Framework PHP
 difficulty: medium
 date: 2023-01-03
 technologies: [php,gevorderd,OOP,MVC,framework,database,CRUD,middleware,services]
+author: rkerssies
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 

@@ -3,10 +3,11 @@ title: Functions PHP
 difficulty: medium
 date: 2022-12-30
 # technologies: [php,gevorderd,functions,website,database,CRUD]
+author: rkerssies
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 

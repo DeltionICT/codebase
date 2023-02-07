@@ -3,10 +3,12 @@ title: Beer-casus
 difficulty: medium
 date: 2022-03-01
 technologies: [projectmanagement,scrum,code,casus]
+author: rkerssies, cstegeman
+
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies / Chris Stegeman" }}
+{{ date | date: "%b, %Y" | author: "Ronald Kerssies / Chris Stegeman" }}
 
 # {{ title }}
 

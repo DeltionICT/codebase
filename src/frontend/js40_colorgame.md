@@ -7,11 +7,11 @@ lang: javascript
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
+{{ date | date: "%b, %Y" | author: "Chris Stegeman" }}
 
 # {{ title }}
 ##### programmeertaal: {{ lang }}
-##### auteur: {{ author}}
+##### author: {{ author}}
 
 
 > #### Voorkennis:  

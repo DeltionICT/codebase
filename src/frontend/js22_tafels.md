@@ -2,10 +2,11 @@
 title: js22 | Tafels
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
+author: cstegeman
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
+{{ date | date: "%b, %Y" | author: "Chris Stegeman" }}
 
 # {{ title }}
 

@@ -2,11 +2,11 @@
 title: ERD Vakantiepark
 difficulty: expert
 date: 2022-11-10
-auteur: Jan Jaap Siewers
+author: jsiewers
 ---
 
 #### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
+{{ date | date: "%b, %Y" | author: "Jan Jaap Siewers" }}
 
 
 # {{ title }}

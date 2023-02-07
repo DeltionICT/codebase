@@ -44,6 +44,16 @@ module.exports = function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
+		posts.filter(p => p.data.author == author);
+        posts.forEach((x, i) => console.log(`${x.data.author} ${x.data.title}`))
+	});
+
+    eleventyConfig.addFilter("getAuthors", (authors,label) => {
+		let labels = label.split(',');
+		return authors.filter(a => labels.includes(a.key));
+	});
+
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
     });
@@ -67,8 +77,8 @@ module.exports = function(eleventyConfig) {
         
     })
 
-    eleventyConfig.addLiquidFilter("auteur", function(date, name){
-        return `<div class="auteur">${name} | ${date}</div>`;
+    eleventyConfig.addLiquidFilter("author", function(date, name){
+        return `<div class="author">${name} | ${date}</div>`;
         
     })
  
