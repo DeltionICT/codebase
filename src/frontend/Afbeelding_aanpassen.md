@@ -2,7 +2,7 @@
 title: Afbeeldingen aanpassen
 difficulty: basic
 date: 2023-01-10
-author: jsiewers
+author: jsiewers, rkerssies, cstegeman
 ---
 
 #### {{ course-title }}

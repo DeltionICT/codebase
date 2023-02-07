@@ -44,19 +44,33 @@ module.exports = function(eleventyConfig) {
         }
     });
 
-    eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
-		posts.filter(p => {
-            //p.data.author == author
-            let a = p.data.author + '';
-            authors = a.split(',')
-            if(authors.includes(author)) {
-                return true;
-            } else {
-                return false;
-            }
-            console.log(`${typeof(a.split(','))} ${x.data.title}`)
-        });  
+    // eleventyConfig.addFilter("getPost2ByAuthor", (posts, author) => {
+	// 	posts.filter(p => p.data.author == author)
+	// });
+
+
+    // eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
+	// 	const result = posts.filter(p => {
+    //         myauthors = p.data.author + '';
+    //         theAuthors = myauthors.split(',');
+    //         if(theAuthors.includes(author)) {
+    //             return true;
+    //         } else {
+    //             return false;
+    //         }
+    //     });
+    //     result.forEach((x, i) => console.log(`${x.data.author} ${x.data.title}`))
+    //     return result;
+	// });
+    eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {	
+        return posts.filter(p => {
+            authorstxt = p.data.author + '';
+            authors = authorstxt.split(',');
+            trimmed = authors.map(a => a.trim())
+            return (trimmed.includes(author)) ?  true :  false;
+        })
 	});
+
 
     eleventyConfig.addFilter("getAuthors", (authors,label) => {
 		let labels = label.split(',');

@@ -1,0 +1,8 @@
+{% extends "layout.njk" %}
+{% block authors %}
+<ul>
+{% for author in authors %}
+<li><a href="{{ '/authors/' | url }}{{ author.key | slug }}/">{{ author.name }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
