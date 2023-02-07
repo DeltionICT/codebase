@@ -462,7 +462,7 @@ zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
 </footer>
 
 <script>
-    let smallnav=document.getElementById("smallnav"),aside=document.getElementById("right");function toggleNav(){"block"===smallnav.style.display?(smallnav.style.display="none",aside.style.display="none"):window.innerWidth<1280&&(smallnav.style.display="block",aside.style.display="block")}window.onresize=l=>{window.innerWidth>1280&&(smallnav.style.display="none",aside.style.display="block"),window.innerWidth<1280&&(aside.style.display="none",smallnav.style.display="none")};
+    let smallnav=document.getElementById("smallnav"),aside=document.getElementById("right");function toggleNav(){"block"===smallnav.style.display?(smallnav.style.display="none",aside.style.display="none"):window.innerWidth<=1280&&(smallnav.style.display="block",aside.style.display="block")}window.onresize=l=>{window.innerWidth>1280&&(smallnav.style.display="none",aside.style.display="block"),window.innerWidth<=1280&&(aside.style.display="none",smallnav.style.display="none")};
 </script>
 </body>
 </html>
