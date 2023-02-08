@@ -2,7 +2,6 @@
 title: js10 | Input value
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
-author: cstegeman
 lang: javascript
 ---
 
@@ -10,7 +9,6 @@ lang: javascript
 {{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
 
 # {{ title }}
-##### auteur: {{ author}}
 
 > #### Voorkennis:  
 > * JS Functions 
