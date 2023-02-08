@@ -1,4 +1,5 @@
 ---
+templateEngineOverride: liquid, md
 layout: layout
 pagination:
    data: authors
@@ -9,20 +10,14 @@ eleventyComputed:
    title: "{{author.name}}"
 ---
 
-<h2>{{ author.name }}</h2>
+# {{ author.name }}
 
-<p>
-Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
-</p>
+* Website: <a href="{{author.website}}" target="_new">{{author.website}}</a><br/>
 
-<img src="{{author.photo}}" style="float:left; max-height: 300px; padding-right: 10px">
-<p>
-{{author.bio}}
-</p>
 
-<br clear="left" />
+{{ author.photo | image: 'Foto van de auteur', 10 }}
 
-<h2>Posts by Author</h2>
+## Opdrachten
 
 {% assign posts = collections.all | getPostsByAuthor: author.key %}
 <ul>
