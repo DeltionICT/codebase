@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | js27 | form validate A</title>
+    <title>Deltion Software Development | js27b | JS Events</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -45,7 +45,7 @@
                 
                     <a href="/codebase/thema/introductie/" class="nav-link" >Thema</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js27_form_val.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js27b_js_events.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -70,7 +70,7 @@
             
                 <a href="/codebase/thema/introductie/" >Thema</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js27_form_val.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js27b_js_events.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -181,7 +181,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/frontend/js27-or-form-validate-a/">
                 <div>
                     <div class="title">js27 | form validate A</div>
@@ -197,7 +197,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/frontend/js27b-or-js-events/">
                 <div>
                     <div class="title">js27b | JS Events</div>
@@ -235,30 +235,66 @@
     <div id="content">
     <h4 id="frontend">Frontend</h4>
 <div class="auteur">Chris Stegeman | Jan, 2023</div>
-<h1 id="js27-%7C-form-validate-a">js27 | form validate A</h1>
+<h1 id="js27b-%7C-js-events">js27b | JS Events</h1>
 <blockquote>
 <h4 id="voorkennis%3A">Voorkennis:</h4>
 <ul>
-<li>JS Functions (<a href="https://www.w3schools.com/js/js_functions.asp">w3schools</a>)</li>
-<li>if-statements, select-element,</li>
+<li>JS Functions</li>
+<li>input tag</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4 id="doelen%3A">Doelen:</h4>
 <ul>
-<li>frontend-validate met plain JS leren schrijven</li>
-<li>leren werken reguliere expressies</li>
+<li>leren werken met Javascript events als onclick, onblur e.a.</li>
+<li>leren hoe je input variabelen afvangt en controleert op inhoud (Frontend validation)</li>
 </ul>
 </blockquote>
 <h3 id="opdracht">opdracht</h3>
 <ul>
-<li>Maak het hieronder weergegeven formulier met HTML en CSS (extern) na</li>
-<li>Voeg een (extern) Javascript toe die deze functionaliteit mogelijk maakt:
+<li>Maak een pagina met 2 input- type=text elementen en een div waar je je output in kan schrijven
 <ul>
-<li>Bij verlaten input-element een functie aanroept die de inhoud controleert
-<img src="/codebase/_assets/frontend/js27_form_validate_a.png" alt="form_validate_a" style="width:600px"></li>
+<li>zet voor de eerste input &quot;naam&quot;, voor de tweede: &quot;leeftijd&quot;.</li>
+<li>geef de output div een rand of achtergrondkleur waardoor hij goed zichtbaar is en een min. hoogte</li>
 </ul>
 </li>
+<li>Zet op de eerste input een <a href="https://www.w3schools.com/jsref/event_onblur.asp">onblur-event</a></li>
+<li>Als je iets in de eerste input typt en deze verlaat, wordt de onBlur getriggerd
+<ul>
+<li>zet een console.log() melding in de function die door de onBlur aangeroepen wordt, ter controle of de onBlur werkt</li>
+</ul>
+</li>
+<li>Zet op de tweede input een <a href="https://www.w3schools.com/jsref/event_onkeyup.asp">onkeyup-event</a></li>
+<li>Als je een toets indrukt en weer los laat in de tweede input, triggerd dit het event
+<ul>
+<li>Zorg dat bij schrijven in de tweede input
+<ul>
+<li>de geschreven tekst in de output verschijnt</li>
+<li>en daaronder het <a href="https://www.w3schools.com/jsref/jsref_length_string.asp">aantal letters</a> die in de geschreven tekst staan</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>breidt de function van de onBlur uit:
+<ul>
+<li>wanneer je de input verlaat moet er gecheckt worden of er minimaal 2 en maximaal 10 karakters in staan
+<ul>
+<li>gebruik een <i>if</i>-statement om de <i>length</i> van de input te checken en vermeld die eerst in een <i>console.log()</i> ter controle</li>
+<li>zorg dat dat de achtergrond kleur van de input rood of groen kleurt als aan de voorwaarde niet of wel voldaan wordt</li>
+<li>voeg &lt;span&gt; met een id achter de input toe
+<ul>
+<li>met groene tekst: &quot;voldoet aan eisen: tekst langer dan 1 teken en leiner dan 10&quot;</li>
+<li>of: rode tekst: &quot;de tekst moet minimaal 2 karkaters bevatten&quot; of &quot;de tekst mag maximaal 10 karakters bevatten&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="opdracht%3A-variabel-maken-van-min.-%2F-max.-lengte-input">opdracht: variabel maken van min. / max. lengte input</h3>
+<ul>
+<li>maak 2 input-elementen aan waar de minimale en maximale lengte van de tekst in staan en voer die als variabelen in de rest van de code door</li>
 </ul>
 
         
