@@ -6,7 +6,7 @@ author: cstegeman
 
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Chris Stegeman" }}
 
 # {{ title }}

@@ -1,5 +1,6 @@
 ---
 title: Introductie
+coursetitle: nothing
 layout: layout.njk
 difficulty: basic
 tags: frontpage

@@ -6,7 +6,7 @@ technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 author: jsiewers
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}

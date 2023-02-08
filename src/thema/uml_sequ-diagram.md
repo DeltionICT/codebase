@@ -6,7 +6,7 @@ technologies: [website,app,structure,workflow,classes,methods]
 author: rkerssies
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}

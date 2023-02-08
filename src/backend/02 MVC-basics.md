@@ -6,7 +6,7 @@ technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
 author: rkerssies
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}

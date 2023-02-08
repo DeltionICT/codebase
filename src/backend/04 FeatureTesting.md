@@ -6,7 +6,7 @@ technologies: [php,gevorderd,OOP,MVC,framework,featurestest,unittest]
 author: rkerssies
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}

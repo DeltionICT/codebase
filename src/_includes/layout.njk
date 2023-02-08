@@ -71,6 +71,9 @@
         {% block aside %}{% endblock %}
     </div>
     <div id="content">
+        {% block title %}
+        {% endblock %}
+        
     {{ content | safe }}
         {% block authors %}{% endblock %}
         {% block toc %}{% endblock %}

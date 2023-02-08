@@ -62,6 +62,7 @@ module.exports = function(eleventyConfig) {
     //     result.forEach((x, i) => console.log(`${x.data.author} ${x.data.title}`))
     //     return result;
 	// });
+
     eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {	
         return posts.filter(p => {
             authorstxt = p.data.author + '';
@@ -95,12 +96,12 @@ module.exports = function(eleventyConfig) {
         return mypath
     });
 
-    eleventyConfig.addLiquidFilter("image", function(url, alt, size){
+    eleventyConfig.addFilter("image", function(url, alt, size){
         return `<img src="${url}" alt="${alt}" style="width:${size}%;">`;
         
     })
 
-    eleventyConfig.addLiquidFilter("author", function(date, name){
+    eleventyConfig.addFilter("author", function(date, name){
         return `<div class="author">${name} | ${date}</div>`;
         
     })

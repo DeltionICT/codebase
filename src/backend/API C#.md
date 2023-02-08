@@ -5,7 +5,7 @@ date: 2023-01-05
 author: kstarreveld
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 {{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}

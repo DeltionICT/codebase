@@ -6,6 +6,6 @@ date: 2022-02-10
 author: rkerssies
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 # {{ title }}
 
