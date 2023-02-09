@@ -32,6 +32,6 @@ jobs:
             username: 'janjaap'
             server: 'www.tydglas.nl'
             ssh_private_key: ${{ secrets.SSH_TYDGLAS }} 
-            local_path: './docs/'
+            local_path: './docs/*'
             remote_path: '/var/www/edu.tydglas.nl/codebase/'
             sftpArgs: '-o ConnectTimeout=5'
