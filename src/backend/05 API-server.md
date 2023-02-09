@@ -5,19 +5,19 @@ date: 2023-01-05
 technologies: [php,gevorderd,OOP,MVC,framework,API,json,database,CRUD,postman]
 ---
 
-> ##### Voorkennis
-> * programmeer-basics, functions, OOP, MVC-frameworks, git
-> * API-toepassen, json
-
-> ##### Doel
-> * API-server opzetten om data op te halen of CRUD-acties uit te voeren binnen een framework
-
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+
+> ##### Voorkennis
+> * programmeer-basics, functions, OOP, MVC-frameworks, git
+> * API-toepassen, json
+
+> ##### Doel
+> * API-server opzetten om data op te halen of CRUD-acties uit te voeren binnen een framework
 
 * Programmeertaal: PHP of een andere backend-taal
 

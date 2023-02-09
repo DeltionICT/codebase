@@ -4,17 +4,16 @@ difficulty: medium
 date: 2023-01-01
 # technologies: [php,gevorderd,OOP,classes,objecten,overerven]
 ---
+#### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
+# {{ title }}
 
 > ##### Voorkennis
 > * programmeer-basics, functions, git
 
 > ##### Doel
 > * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren in een object geöriienteerde programmeertaal
-
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
-
-# {{ title }}
 
 
 <!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->

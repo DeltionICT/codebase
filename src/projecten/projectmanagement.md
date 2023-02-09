@@ -4,6 +4,13 @@ difficulty: basic
 date: 2021-02-10
 technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 ---
+#### {{ course-title }}
+{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
+
+# {{ title }}
+
+<img src="{{ '/_assets/projecten/boekProjectmanagement.jpg' | url }}" style="width:10%;">
+versie 2022, ISBN: 9789037262124
 
 > ##### Voorkennis
 > * plannen, organiseren
@@ -17,14 +24,6 @@ technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 > * het eindproduct/deelprducten opleveren en presenteren aan de klant
 > * organisatorische aspecten van het live gaan van het eindproduct
 > * ... en nog veel meer
-
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
-
-# {{ title }}
-
-<img src="{{ '/_assets/projecten/boekProjectmanagement.jpg' | url }}" style="width:10%;">
-versie 2022, ISBN: 9789037262124
 
 Om de basis van projectmanagement en SCRUM op te doen.
 Naast uitleg zijn er voldoende verwerkingsopdrachten en casussen beschikbaar. 

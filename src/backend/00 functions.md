@@ -5,18 +5,19 @@ date: 2022-12-30
 # technologies: [php,gevorderd,functions,website,database,CRUD]
 ---
 
-> ##### Voorkennis
-> * programmeer-basics, git
-
-> ##### Doel
-> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
-
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+
+> ##### Voorkennis
+> * programmeer-basics, git
+
+> ##### Doel
+> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
+
 
 * Programmeertaal: PHP of een andere backend-taal
 
