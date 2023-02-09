@@ -1,5 +1,5 @@
 ---
-title: app1b | Calculator
+title: app1b | RN-Calculator
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
 lang: javascript reactnative
