@@ -21,7 +21,7 @@ date: 2023-01-13
 3. Installeer alle services en mogelijkheden
 3. Zoek in de XAMPP-applicatiefolder de htdocs-map. 
   Hernoem het bestand index.php naar index.org.php
-4. Start de applicatie op (controll-panel)
+4. Start de applicatie op (control-panel)
 5. Start Apache. Start optioneel MySQL als je ook gebruik gaat maken van een database;
 
    <img src="{{ '/_assets/omgevingen/xampp-start-screen.png' | url }}" style="width:30%;">
