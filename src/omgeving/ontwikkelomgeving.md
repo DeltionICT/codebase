@@ -29,6 +29,7 @@ Installeer minimaal 2 browsers die je kunt gebruiken om websites te bekijken en 
 Denk aan:
 * Google Chrome
 * Firefox
+* Safari
 * Opera
 
 ## XAMPP
@@ -44,7 +45,7 @@ Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je 
 {% video "playlist?list=PLBtXOV0WuE_GKUVvPsP-ms6ZgBKRMktri" %}
 
 ## Een editor installeren
-* Installeer Visual Studio Code op je systeem
+* Installeer Visual Studio Code of PHPstorm op je systeem
 * Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
     * 
 ## Git installeren
@@ -54,9 +55,9 @@ Installeer git vanaf [git-scm.com](https://git-scm.com)
 ## Github
 Vrijwel alle software developers hebben een account op github.  
 Wij gebruiken github om je werk te bekijken en om je samen te laten werken in projectgroepen.
-* Maak een account aan op github.
-* Gebruik je deltion email adres!
+* Maak een account aan op Github.
+* Gebruik je Deltion email adres!
 * Gebruik je echte naam (voornaam en achternaam)
-* Ga naar je profile op github. Vul bij 'Name' je studentnummmer, voornaam en achternaam in.
+* Ga naar je profile op Github. Vul bij 'Name' je studentnummmer, voornaam en achternaam in.
 
 
