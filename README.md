@@ -104,3 +104,16 @@ Onderstaande extra stijlen in de table-tag werken niet in deze readme, maar wel 
 </table>
 </div>
 ```
+
+## Updates
+rel v0.1.0 2023-02-09
+In deze release wordt automatisch de course-title ( = coursetitle geworden)  genereerd, evenals de datum en de auteurs. Deze gegevens verschijnen bovenaan bij iedere opdracht. In de navigatie is een knop 'More..' toegevoegd met een link naar overzichten van auteurs en technologieën. Per auteur of technologie kunnen nu bijbehorende opdrachten worden opgevraagd.
+Deze functie werkt alleen als er in de front matter ook een auteur(s) en/of technology wordt opgegeven.
+
+Voorbeeld:
+
+title: Whatever
+author: jsiewers, cstegeman
+technology: php, html, css
+date: 04-04-2023
+
