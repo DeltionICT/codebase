@@ -2,7 +2,7 @@
 title: Ontwerpen | Wireframes
 difficulty: basic
 date: 2022-02-12
-technologies: [website,app,design,workflow]
+technologies: uml
 author: rkerssies
 ---
 

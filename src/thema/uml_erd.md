@@ -2,7 +2,7 @@
 title: Ontwerpen | Entiteit Relatie Diagram (ERD)
 difficulty: medium
 date: 2022-02-16
-technologies: [website,app,structure,database,diagram]
+technologies: uml,database
 author: rkerssies
 ---
 

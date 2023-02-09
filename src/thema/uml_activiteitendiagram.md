@@ -2,7 +2,7 @@
 title: Ontwerpen | ActiviteitenDiagram
 difficulty: basic
 date: 2022-02-14
-technologies: [website,app,structure,workflow]
+technologies: uml
 author: rkerssies
 ---
 

@@ -2,7 +2,7 @@
 title: API-server PHP
 difficulty: expert
 date: 2023-01-05
-technologies: [php,gevorderd,OOP,MVC,framework,API,json,database,CRUD,postman]
+technologies: php,database
 author: rkerssies
 ---
 

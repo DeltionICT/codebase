@@ -2,7 +2,7 @@
 title: Commentaar in de code
 difficulty: basic
 date: 2022-02-18
-technologies: [comments,classes,methods,block,inline]
+technologies: php,all
 author: rkerssies
 ---
 

@@ -2,7 +2,7 @@
 title: Advent of Code
 difficulty: expert
 date: 2022-02-19
-technologies: [mixed]
+technologies: all
 author: rkerssies
 ---
 

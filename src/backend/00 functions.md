@@ -2,7 +2,7 @@
 title: Functions PHP
 difficulty: medium
 date: 2022-12-30
-technology: php
+technology: html,php
 author: rkerssies
 ---
 
