@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Local domainnames</title>
+    <title>Deltion Software Development | Ontwerpen | Wireframes</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/dev-domain.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/uml_wireframe.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/dev-domain.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/uml_wireframe.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -96,10 +96,25 @@
             </a>
         </li>
     
+        <li >
+            <a class="page-link" href="/codebase/thema/webservices-or-local-domainnames/">
+                <div>
+                    <div class="title">Webservices | Local domainnames</div>
+                    <div class="difficulty">
+                        
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                        
+                            
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
         <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/thema/local-domainnames/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-wireframes/">
                 <div>
-                    <div class="title">Local domainnames</div>
+                    <div class="title">Ontwerpen | Wireframes</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
@@ -112,9 +127,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/thema/wireframes/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-mockups/">
                 <div>
-                    <div class="title">Wireframes</div>
+                    <div class="title">Ontwerpen | Mockups</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
@@ -127,9 +142,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/thema/mockups/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-activiteitendiagram/">
                 <div>
-                    <div class="title">Mockups</div>
+                    <div class="title">Ontwerpen | ActiviteitenDiagram</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
@@ -142,9 +157,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/thema/activiteitendiagram/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-classdiagram/">
                 <div>
-                    <div class="title">ActiviteitenDiagram</div>
+                    <div class="title">Ontwerpen | ClassDiagram</div>
                     <div class="difficulty">
                         
                             <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
@@ -157,24 +172,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/thema/classdiagram/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-entiteit-relatie-diagram-(erd)/">
                 <div>
-                    <div class="title">ClassDiagram</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/thema/entiteit-relatie-diagram-(erd)/">
-                <div>
-                    <div class="title">Entiteit Relatie Diagram (ERD)</div>
+                    <div class="title">Ontwerpen | Entiteit Relatie Diagram (ERD)</div>
                     <div class="difficulty">
                         
                             
@@ -188,9 +188,9 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/thema/sequencediagram/">
+            <a class="page-link" href="/codebase/thema/ontwerpen-or-sequencediagram/">
                 <div>
-                    <div class="title">SequenceDiagram</div>
+                    <div class="title">Ontwerpen | SequenceDiagram</div>
                     <div class="difficulty">
                         
                             
@@ -307,6 +307,8 @@
 
 
 
+
+
     <h4 class="coursetitle">Thema</h4>
 
     <div class="author">Ronald Kerssies | Feb, 2022</div>
@@ -336,58 +338,38 @@
 
 
 
-
-
         
-    <h1 id="local-domainnames">Local domainnames</h1>
-<img src="/codebase/_assets/themas/webserver.png" style="width:10%;">
-<h2 id="domain-names-maken-op-een-local-server">Domain-names maken op een local-server</h2>
-<p>Het doel is om de volgende url;
-<code>http://localhost/mvc2022/public</code>
-om te zetten naar:
-<code>http://mvc2022.rk</code></p>
-<hr>
-<h3 id="mac">Mac</h3>
-<p>Open host-file in een text-editor (nano);</p>
-<pre class="language-shell"><code class="language-shell">% <span class="token function">sudo</span> <span class="token function">nano</span> /etc/hosts</code></pre>
-<p>Breid de file uit met de laatste regel van dit voorbeeld;</p>
-<pre class="language-javascript"><code class="language-javascript">    ### Host Database<br>    ## localhost is used to configure the loopback <span class="token keyword">interface</span><br>    ## when the system is booting<span class="token punctuation">.</span><br>    ## Do not change <span class="token keyword">this</span> entry<span class="token punctuation">.</span><br>    <span class="token number">127.0</span><span class="token number">.0</span><span class="token number">.1</span> mvc2022<span class="token punctuation">.</span>rk</code></pre>
-<p>Sla de veranderingen op en REBOOT de webserver !</p>
-<hr>
-<h3 id="windows">Windows</h3>
-<p>Open host-file in een text-editor;</p>
-<pre class="language-shell"><code class="language-shell">    C:<span class="token punctuation">\</span>Windows<span class="token punctuation">\</span>System32<span class="token punctuation">\</span>drivers<span class="token punctuation">\</span>etc<span class="token punctuation">\</span>hosts   <span class="token punctuation">(</span>hidden<span class="token punctuation">)</span></code></pre>
-<p>Breid de file uit met de laatste regel van dit voorbeeld;</p>
-<pre class="language-javascript"><code class="language-javascript">    ### Host Database<br>    ## localhost is used to configure the loopback <span class="token keyword">interface</span><br>    ## when the system is booting<span class="token punctuation">.</span><br>    ## Do not change <span class="token keyword">this</span> entry<span class="token punctuation">.</span><br>    <span class="token number">127.0</span><span class="token number">.0</span><span class="token number">.1</span> mvc2022<span class="token punctuation">.</span>rk</code></pre>
-<p>Sla de veranderingen op en REBOOT de webserver !</p>
-<hr>
-<h3 id="alle-webservers">Alle webservers</h3>
-<p>Voorbeeld hostfile</p>
-<p>Open de vhost-conf file in een text-editor.
-De file kan worden gevonden in de XAMPP applicatie-folder;</p>
-<pre class="language-shell"><code class="language-shell">~/etc/extra/httpd-vhosts.conf</code></pre>
-<p>Voeg het volgende tekstblok toe en pas de folders aan naar het pad waarin het project staat.
-In dit voorbeeld is de complete projectfolder in een geheel ander folder geplaatst buiten de htdocs-folder van XAMPP.
-De index.php file staat in de public-folder.</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>VirtualHost <span class="token operator">*</span><span class="token operator">:</span><span class="token number">80</span><span class="token operator">></span><br>    ServerName mvc2022<span class="token punctuation">.</span>rk<br>    DocumentRoot <span class="token string">"/Users/developer/projectsphp/mvc2022/public"</span><br>    <span class="token operator">&lt;</span>Directory <span class="token string">"/Users/developer/projectsphp/mvc2022/public"</span> <span class="token operator">></span><br>            Options Indexes FollowSymLinks Includes execCGI<br>            AllowOverride All<br>            Require all granted<br>    <span class="token operator">&lt;</span><span class="token operator">/</span>Directory<span class="token operator">></span><br><span class="token operator">&lt;</span><span class="token operator">/</span>VirtualHost<span class="token operator">></span></code></pre>
-<p>De website is nu te benaderen met de url <code>http://mvc2022.rk</code></p>
-<h2 id="clean-url's-opzetten">Clean URL's opzetten</h2>
-<p>Door een .htaccess file toe te voegen in de root-folder van het project.
-Voeg daarin de volgende code toe;</p>
-<pre class="language-shell"><code class="language-shell"><span class="token comment">#Options +FollowSymLinks -MultiViews</span><br>RewriteEngine On<br><span class="token comment"># dont rewrite real files and folder</span><br><span class="token comment"># RewriteCond %{SCRIPT_FILENAME} !-d</span><br><span class="token comment"># RewriteCond %{SCRIPT_FILENAME} !-f</span><br><br><span class="token comment"># rewrites default from clean URL to get-values</span><br> RewriteRule ^<span class="token punctuation">(</span><span class="token punctuation">[</span>^/<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^/<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^/.<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^<span class="token punctuation">\</span>.<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/?$ ./index.php?p0<span class="token operator">=</span><span class="token variable">$1</span><span class="token operator">&amp;</span><span class="token assign-left variable">p1</span><span class="token operator">=</span><span class="token variable">$2</span><span class="token operator">&amp;</span><span class="token assign-left variable">p2</span><span class="token operator">=</span><span class="token variable">$3</span><span class="token operator">&amp;</span><span class="token assign-left variable">p3</span><span class="token operator">=</span><span class="token variable">$4</span> <span class="token punctuation">[</span>L,NC,QSA<span class="token punctuation">]</span><br> RewriteRule ^<span class="token punctuation">(</span><span class="token punctuation">[</span>^/<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^/<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^<span class="token punctuation">\</span>.<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/?$ ./index.php?p0<span class="token operator">=</span><span class="token variable">$1</span><span class="token operator">&amp;</span><span class="token assign-left variable">p1</span><span class="token operator">=</span><span class="token variable">$2</span><span class="token operator">&amp;</span><span class="token assign-left variable">p2</span><span class="token operator">=</span><span class="token variable">$3</span> <span class="token punctuation">[</span>L,NC,QSA<span class="token punctuation">]</span><br> RewriteRule ^<span class="token punctuation">(</span><span class="token punctuation">[</span>^/<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/<span class="token punctuation">(</span><span class="token punctuation">[</span>^<span class="token punctuation">\</span>.<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/?$ ./index.php?p0<span class="token operator">=</span><span class="token variable">$1</span><span class="token operator">&amp;</span><span class="token assign-left variable">p1</span><span class="token operator">=</span><span class="token variable">$2</span> <span class="token punctuation">[</span>L,NC,QSA<span class="token punctuation">]</span><br> RewriteRule ^<span class="token punctuation">(</span><span class="token punctuation">[</span>^<span class="token punctuation">\</span>.<span class="token punctuation">]</span>+<span class="token punctuation">)</span>/?$        ./index.php?p0<span class="token operator">=</span><span class="token variable">$1</span> <span class="token punctuation">[</span>L,NC,QSA<span class="token punctuation">]</span><br></code></pre>
-<p>Sla de .htaccess file op.
-De domainname kan nu maximaal 4 parameters aan.
-In het voorbeeld wordt een clean url met 3 parameters is getoond:
-<code>http://mvc2022.rk/cars/edit/1</code></p>
-<p>Ook kan er nog met QSA (query striing append) worden gewerkt zal in het volgende voorbeeld:
-<code>http://mvc2022.rk/cars/all?orderby=brand&amp;direction=desc</code></p>
-<hr>
+    <h1 id="ontwerpen-%7C-wireframes">Ontwerpen | Wireframes</h1>
+<img src="/codebase/_assets/themas/design.png" style="width:10%;">
+<blockquote>
+<h5 id="voorkennis">Voorkennis</h5>
 <ul>
-<li>Externe resources
-<a href="https://ecompile.io/blog/localhost-custom-domain-nameje">Extra uitleg Windows</a>
-<a href="https://www.freecodecamp.org/news/how-to-find-and-edit-a-windows-hosts-file/">Extra uitleg Windows</a>
-<a href="https://www.mdahosting.com/where-is-the-hosts-file-on-a-mac/">Extra uitleg Mac&gt;</a></li>
+<li>logisch denken, app/applicatie workflows</li>
 </ul>
+</blockquote>
+<blockquote>
+<h5 id="doel">Doel</h5>
+<ul>
+<li>verduidelijking eindproduct voor klant en productowner</li>
+<li>overzicht waarvan eenvoudig alle userstories zijn uit te werken</li>
+</ul>
+</blockquote>
+<p>Het is vaak lastig communiceren met een opdrachtgever wat een app/applicatie moet doen en hoe deze er uit komt te zien.
+Door dit 'simplistisch' uit te werken in tekeningen krijgt de opdrachtgever een goed beeld hoe de app/applicatie eruit komt te zien en welke
+processen daarin worden uitgewerkt.
+Immers; &quot;een plaatje zegt meer dan 1000 woorden&quot;.</p>
+<img src="/codebase/_assets/themas/Wireframe-example.png" style="width:40%;"> 
+<img src="/codebase/_assets/themas/wireframe.png" style="width:30%;"> 
+<img src="/codebase/_assets/themas/wireframes_app-process.jpg" style="width:25%;">
+<h2 id="opdracht">Opdracht</h2>
+<p>Wireframes zijn onder andere te maken met <a href="https://lucid.app/nl/users/registerLevel?anonId=0.0fa5251918635719ec0&amp;sessionDate=2023-02-09T09%3A33%3A23.631Z&amp;sessionId=0.587259fc18635719ec1">LucidChart</a>.
+Na het installeren kan je een student-licence van de frontend-docent ontvangen.</p>
+<p>Maak WireFrames vooraf bij het opstarten van elk toekomstig project en gebruik de wireframes in de afstemming met jouw opdrachtgever(s).
+Tijdens het project is het verstandig om WireFrames bij te werken en bij het opleveren samen met alle ander projectdocumentatie te archiveren.
+Details over Wireframes zijn te vinden op how to: <a href="https://www.lucidchart.com/pages/how-to-make-a-wireframe">WireFrames</a>
+en <a href="https://www.lucidchart.com/pages/wireframe">WireFrames explained</a>.</p>
+<p>NB: Wireframes vallen onder <a href="https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language">UML</a>-bibliotheek.</p>
+<img src="/codebase/_assets/themas/UML_diagram.png" style="width:60%;">
 
         
         
