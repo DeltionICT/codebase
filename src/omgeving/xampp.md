@@ -28,6 +28,7 @@ date: 2023-01-13
    
 6. Open jouw browser naar voorkeur en type in de url-balk;
     > http://localhost
+
     Je ziet nu een standaard webpage die door het betsand ~/htdocs/index.php wordt geredirect.
     Door het bestand ~/htdocs/index.php te vernoemen (bijv: index.org.php) kan je de folderstructuur in de browser bekijken.
 7. In de browser zie je nu de inhoud van de htdocs-folder.
