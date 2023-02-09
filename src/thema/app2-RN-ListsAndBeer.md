@@ -20,12 +20,12 @@ author: kstarreveld
 
 ### opdracht
 * Maak een react native app.
-* Lees een de bier api in te vinden op de url:
+* Lees de bier api in te vinden op de url:
     http://15euros.nl/csp2/modules/api_basic.php
 * Dit kun je doen door middel van Axios, of de Fetch API
-* Stop de data van deze api (JSON) in het data attribuut, van een FlatList element.
+* Stop de data van deze api (JSON) in het data attribuut van een FlatList element.
 * Bekijk het resultaat.
-* voeg nu useWindowsDimensions toe , en zet in je app.json file de instelling voor "orientation": "default".
+* voeg nu [useWindowsDimensions](https://reactnative.dev/docs/usewindowdimensions) toe , en zet in je app.json file de instelling voor "orientation": "default".
 (andere instellingen zijn 'portrait' of 'landscape')
 welk effect heeft dit?
 
