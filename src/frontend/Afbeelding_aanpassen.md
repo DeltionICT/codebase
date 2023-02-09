@@ -2,10 +2,9 @@
 title: Afbeeldingen aanpassen
 difficulty: basic
 date: 2023-01-10
+author: jsiewers, rkerssies, cstegeman
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
 
 # {{ title }}
 

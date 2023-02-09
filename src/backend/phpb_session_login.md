@@ -2,11 +2,9 @@
 title: PHPB Sessie login
 difficulty: basic
 date: 2022-10-10
-auteur: Jan Jaap Siewers
+author: jsiewers
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
 
 # {{ title }}
 

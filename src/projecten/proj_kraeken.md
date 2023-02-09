@@ -2,11 +2,9 @@
 title: PROJ Kraeken
 difficulty: medium
 date: 2022-11-10
-auteur: Jan Jaap Siewers
+author: jsiewers
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: auteur }}
 
 # {{ title }}
 

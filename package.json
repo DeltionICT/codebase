@@ -10,7 +10,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "markdown-it-anchor": "^8.5.0"
+    "markdown-it-anchor": "^8.5.0",
+    "nunjucks-date-filter": "^0.1.1"
   },
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.14",

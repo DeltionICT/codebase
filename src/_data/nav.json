@@ -23,6 +23,10 @@
       {
         "url": "/thema/introductie/",
         "name": "Thema"
+      },
+      {
+        "url": "/authors/",
+        "name": "More.."
       }
     ]
 }

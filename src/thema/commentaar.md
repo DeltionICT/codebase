@@ -3,9 +3,9 @@ title: Commentaar in de code
 difficulty: basic
 date: 2022-02-18
 technologies: [comments,classes,methods,block,inline]
+author: rkerssies
 ---
 
-#### {{ course-title }}
 # {{ title }}
 <img src="{{ '/_assets/themas/process.png' | url }}" style="width:10%;">
 

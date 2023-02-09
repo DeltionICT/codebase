@@ -2,10 +2,9 @@
 title: API C#
 difficulty: medium
 date: 2023-01-05
+author: kstarreveld
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 

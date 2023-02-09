@@ -21,12 +21,12 @@ difficulty: basic #basic | medium | expert
 date: 2023-01-02
 ---
 
-#### {{ course-title }}
+#### {{ coursetitle }}
 
 ## {{ title }}
 
 ```
-* Op de plek van course-title komt bovenin het scherm 'codebase' te staan (met een streep eronder).
+* Op de plek van coursetitle komt bovenin het scherm 'codebase' te staan (met een streep eronder).
 * De tekst die tussen de '---' en de '---' staat wordt 'frontmatter' genoemd.
 * Difficulty bepaalt het aantal 'pepertjes' dat wordt getoond naast de titel van een opdracht.
 * Date bepaalt niet alleen de datum, maar ook de volgorde waarin opdrachten worden weergegeven (beetje awkward, maar voorlopig werk het zo!)

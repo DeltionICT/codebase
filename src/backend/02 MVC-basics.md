@@ -2,11 +2,10 @@
 title: MVC-basics PHP
 difficulty: medium
 date: 2023-01-02
-technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
+technology: php, laravel
+author: rkerssies
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 
