@@ -41,7 +41,7 @@
         <div>
             <nav id="topnav"> 
                 {% for item in nav.items %}
-                    <a href="{{ item.url | url }}" class="nav-link" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+                    <a href="{{ item.url | url }}" class="nav-link" {% if item.url | dir  == page.url | dir %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
                 {% endfor %}
                 <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>
                 {#
@@ -53,7 +53,7 @@
                 {% endfor %}
                 </ul> #}        
             </nav>
-            <a href="javascript:void(0);" class="nav-link icon" onclick="toggleNav()"><span class="material-icons">menu</span></a>
+            <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
         </div>
     </div>
 </header>
@@ -63,7 +63,7 @@
     <div id="mobile">
         <nav id="smallnav"  style="display:none;"> 
             {% for item in nav.items %}
-                <a href="{{ item.url | url }}" {% if item.url == page.url %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
+                <a href="{{ item.url | url }}" {% if item.url | dir  == page.url | dir %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
             {% endfor %}
             <a href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>    
         </nav>
