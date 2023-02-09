@@ -3,16 +3,11 @@ title: js40 | colorgame
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
 author: cstegeman
-lang: javascript
+technology: js
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
 
 # {{ title }}
-##### programmeertaal: {{ lang }}
-##### auteur: {{ author}}
-
 
 > #### Voorkennis:  
 > * JS Functions, loops, arrays, if-statements

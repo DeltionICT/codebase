@@ -2,10 +2,10 @@
 title: js27 | form validate A
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
+author: cstegeman
+technology: js
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
 
 # {{ title }}
 

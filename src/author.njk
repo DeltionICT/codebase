@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+title: {{ author.name }}
+difficulty: basic
+date: 2023-01-10
+pagination:
+    data: authors
+    size: 1
+    alias: author
+permalink: "/authors/{{ author.key | slug }}/index.html"
+---
+
+<h1>{{ author.name }}</h1>
+
+<p>Website: <a href="{{author.website}}" target="_new">{{author.website}}</a></p>
+
+<img src="{{ author.photo }}" alt="foto van {{ author.name}}" style="width:10%;">
+
+<h2>Opdrachten</h2>
+
+{% set posts = collections.all | getPostsByAuthor(author.key) %}
+<ul>
+{% for post in posts %}
+	<li><a href="{{post.url | url }}">{{post.data.title}}</a></li>
+{% endfor %}
+</ul>

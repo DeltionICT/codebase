@@ -214,10 +214,10 @@ nav#topnav {
 
 a.nav-link {
     vertical-align: bottom;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
-div.auteur {
+div.author {
    width:100%;
    text-align: right;
    font-weight: 400;
