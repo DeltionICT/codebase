@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | app1 | HelloWorld</title>
+    <title>Deltion Software Development | app3 | RN-GeoLocation</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/app1-RN-helloworld.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/app3-RN-GeoLocation.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/app1-RN-helloworld.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/app3-RN-GeoLocation.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -235,56 +235,56 @@
             </a>
         </li>
     
+        <li >
+            <a class="page-link" href="/codebase/thema/app1-or-rn-helloworld/">
+                <div>
+                    <div class="title">app1 | RN-HelloWorld</div>
+                    <div class="difficulty">
+                        
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                        
+                            
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+        <li >
+            <a class="page-link" href="/codebase/thema/app1b-or-rn-calculator/">
+                <div>
+                    <div class="title">app1b | RN-Calculator</div>
+                    <div class="difficulty">
+                        
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                        
+                            
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+        <li >
+            <a class="page-link" href="/codebase/thema/app2-or-rn-lists-and-beer/">
+                <div>
+                    <div class="title">app2 | RN-Lists and Beer</div>
+                    <div class="difficulty">
+                        
+                            
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
+                        
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
         <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/thema/app1-or-helloworld/">
+            <a class="page-link" href="/codebase/thema/app3-or-rn-geolocation/">
                 <div>
-                    <div class="title">app1 | HelloWorld</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/thema/app1b-or-calculator/">
-                <div>
-                    <div class="title">app1b | Calculator</div>
-                    <div class="difficulty">
-                        
-                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
-                        
-                            
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/thema/app2-or-lists-and-beer/">
-                <div>
-                    <div class="title">app2 | Lists and Beer</div>
-                    <div class="difficulty">
-                        
-                            
-                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
-                            <img src="/codebase/_assets/purple_pepper.svg" alt="red pepper">
-                        
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
-            <a class="page-link" href="/codebase/thema/app3-or-geolocation/">
-                <div>
-                    <div class="title">app3 | GeoLocation</div>
+                    <div class="title">app3 | RN-GeoLocation</div>
                     <div class="difficulty">
                         
                             
@@ -325,6 +325,12 @@
 
 
 
+
+
+
+
+
+
     <h4 class="coursetitle">Thema</h4>
 
     <div class="author">Koos Starreveld | Feb, 2023</div>
@@ -332,38 +338,31 @@
 
 
 
-
-
-
-
-
-
         
-    <h1 id="app1-%7C-helloworld">app1 | HelloWorld</h1>
+    <h1 id="app3-%7C-rn-geolocation">app3 | RN-GeoLocation</h1>
 <blockquote>
 <h4 id="voorkennis%3A">Voorkennis:</h4>
 <ul>
 <li>Basis Javascript</li>
 <li>info hoe je kunt opstarten is te vinden op <a href="https://reactnative.dev/docs/getting-started">React Native site</a> onder het kopje The Basics.</li>
+<li>Gebruik van Fetch API of Axios</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4 id="doelen%3A">Doelen:</h4>
 <ul>
-<li>leren hoe je een applicatie voor mobile kunt maken</li>
+<li>leren hoe je GPS info uit je telefoon kunt krijgen.</li>
+<li>Deze data tonen in een kaart (Map)</li>
 </ul>
 </blockquote>
 <h3 id="opdracht">opdracht</h3>
 <ul>
 <li>Maak een react native app.</li>
-<li>Voeg een aantal elementen toe aan de rendering: Button, Text, TouchableHighlight</li>
-<li>Groepeer de elementen met flex-box via de StyleSheet</li>
-<li>verander de achtergrondkleur en voorgrondkleur van verschillende elementen.</li>
-</ul>
-<h3 id="uitbreiding%3A">Uitbreiding:</h3>
-<ul>
-<li>Voeg een text input toe waarin je je naam kan ingeven</li>
-<li>Laat de ingevoerde naam zien dmv een alert.</li>
+<li>installer het GeoLocation library in je project.
+<a href="https://github.com/michalchudziak/react-native-geolocation">GeoLocation</a></li>
+<li>Gebruik de functie (getCurrentPosition) uit deze library om GPS info te krijgen, en weer te geven</li>
+<li>Installeer de Maps library in je project <a href="https://github.com/react-native-maps/react-native-maps">Maps</a></li>
+<li>Toon een kaartje, en zet een Marker op jouw locatie.</li>
 </ul>
 
         
