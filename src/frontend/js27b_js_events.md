@@ -5,9 +5,6 @@ date: 2023-01-31
 
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
-
 # {{ title }}
 
 > #### Voorkennis:  
