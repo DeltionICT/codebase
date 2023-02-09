@@ -5,6 +5,19 @@ date: 2021-02-10
 technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
 ---
 
+> ##### Voorkennis
+> * plannen, organiseren
+
+> ##### Doelen
+> * een project opstaren
+> * het beoogde eindproduct helder krijgen en afstemmen met de opdrachtgever (projectdoel en userstories)
+> * het organiseren van een projectteam en de taken afstemmen en onderlinge communicatie
+> * een projectmethodiek kiezen die bij de uitdaging past
+> * een project uitvoeren en de voortgang effectief bijhouden
+> * het eindproduct/deelprducten opleveren en presenteren aan de klant
+> * organisatorische aspecten van het live gaan van het eindproduct
+> * ... en nog veel meer
+
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 

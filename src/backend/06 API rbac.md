@@ -5,6 +5,14 @@ date: 2023-01-07
 technologies: [php,gevorderd,OOP,MVC,framework,API,json,rollen,rechten,rbac,database,CRUD,postman]
 ---
 
+> ##### Voorkennis
+> * programmeer-basics, functions, OOP, MVC-frameworks, API, git
+> * API-toepassen, json
+
+> ##### Doel
+> * gebruik tokens en roll based access control (rbac)
+
+
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 

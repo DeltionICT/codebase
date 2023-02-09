@@ -5,6 +5,12 @@ date: 2023-01-01
 # technologies: [php,gevorderd,OOP,classes,objecten,overerven]
 ---
 
+> ##### Voorkennis
+> * programmeer-basics, functions, git
+
+> ##### Doel
+> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren in een object geöriienteerde programmeertaal
+
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
