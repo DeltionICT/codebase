@@ -2,9 +2,9 @@
 title: Local domainnames
 difficulty: basic
 date: 2022-02-11
+author: rkerssies
 ---
 
-#### {{ course-title }}
 # {{ title }}
 <img src="{{ '/_assets/themas/webserver.png' | url }}" style="width:10%;">
 

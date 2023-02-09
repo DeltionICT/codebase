@@ -3,10 +3,9 @@ title: Zwabbertje-casus
 difficulty: medium
 date: 2022-03-01
 technologies: [projectmanagement,scrum,code,casus]
+author: rkerssies
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 

@@ -2,10 +2,9 @@
 title: OOP PHP
 difficulty: medium
 date: 2023-01-01
-# technologies: [php,gevorderd,OOP,classes,objecten,overerven]
+technology: php
+author: rkerssies
 ---
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 

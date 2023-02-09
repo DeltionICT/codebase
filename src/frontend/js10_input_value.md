@@ -2,11 +2,10 @@
 title: js10 | Input value
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
-lang: javascript
+author: cstegeman
+technology: js
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Chris Stegeman" }}
 
 # {{ title }}
 

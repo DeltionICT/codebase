@@ -2,10 +2,9 @@
 title: Tools voor webdevelopment
 difficulty: basic
 date: 2023-01-05
+author: jsiewers
 ---
 
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Jan Jaap Siewers" }}
 
 # {{ title }}
 

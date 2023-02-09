@@ -3,11 +3,8 @@ title: app3 | RN-GeoLocation
 difficulty: medium #basic | medium | expert
 date: 2023-02-09
 lang: javascript reactnative
+author: kstarreveld
 ---
-
-#### {{ course-title }}
-{{ date | date: "%b, %Y" | auteur: "Koos Starreveld" }}
-
 # {{ title }}
 
 > #### Voorkennis:  
