@@ -12,6 +12,13 @@ technologies: [php,gevorderd,OOP,MVC,framework,database,CRUD,middleware,services
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
 
+> ##### Voorkennis
+> * programmeer-basics, functions, databases, MVC-basics, git
+> * routes, controllers, actions, views, layouts, services, middleware
+
+> ##### Doel
+> * ervaringen op doen in een MVC-framework dat veelvuldig wordt gebruikt in het bedrijfsleven
+
 * Programmeertaal: PHP of een andere backend-taal
 
 ***Taken:***

@@ -12,6 +12,13 @@ technologies: [php,gevorderd,OOP,MVC,framework,featurestest,unittest]
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
 
+> ##### Voorkennis
+> * programmeer-basics, functions, OOP, MVC-basics, git
+> * optioneel: MVC-framework, cronjobs
+
+> ##### Doel
+> * geautomatiseerde tests maken en toepassen op eigen geschreven code
+
 * Programmeertaal: PHP of een andere backend-taal
 
 ***Taken:***

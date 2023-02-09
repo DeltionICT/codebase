@@ -74,7 +74,9 @@ Schoonmaakresultaat ruimte 3.02: 13<br>
 Schoonmaakresultaat: onvoldoende.<br>
 _______________
 
-
+> ##### Voorkennis
+> * OOP, databases, queries, API, git
+> * Kennis van projectmatig werken en/of Scrum
 
 
 ## Uitvoering

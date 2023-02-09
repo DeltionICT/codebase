@@ -4,13 +4,19 @@ difficulty: expert
 date: 2023-01-07
 technologies: [php,gevorderd,OOP,MVC,framework,API,json,rollen,rechten,rbac,database,CRUD,postman]
 ---
-
 #### {{ course-title }}
 {{ date | date: "%b, %Y" | auteur: "Ronald Kerssies" }}
 
 # {{ title }}
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+
+> > ##### Voorkennis
+> * programmeer-basics, functions, OOP, MVC-frameworks, API, git
+> * API-toepassen, json
+
+> ##### Doel
+> * gebruik tokens en roll based access control (rbac)
 
 * Programmeertaal: PHP of een andere backend-taal
 

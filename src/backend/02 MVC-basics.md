@@ -12,6 +12,13 @@ technologies: [php,gevorderd,OOP,classes,objecten,MVC,database,CRUD]
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
+> ##### Voorkennis
+> * programmeer-basics, functions, git
+> * classes, methods, overerven, databases, select en crud-queries
+
+> ##### Doel
+> * introductie op de basis principes van een MVC-framework
+
 * Programmeertaal: PHP of een andere backend-taal
 
 <img src="{{ '/_assets/api/mvc-concept.png' | url }}" style="width:30%;">

@@ -12,6 +12,13 @@ date: 2022-12-30
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
+> ##### Voorkennis
+> * programmeer-basics, git
+
+> ##### Doel
+> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
+
+
 * Programmeertaal: PHP of een andere backend-taal
 
 ***Taken:***
