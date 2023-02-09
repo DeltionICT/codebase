@@ -1,5 +1,5 @@
 ---
-title: app1 | GeoLocation
+title: app3 | GeoLocation
 difficulty: medium #basic | medium | expert
 date: 2023-02-09
 lang: javascript reactnative

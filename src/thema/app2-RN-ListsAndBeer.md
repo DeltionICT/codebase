@@ -1,5 +1,5 @@
 ---
-title: app1 | Lists and Beer
+title: app2 | Lists and Beer
 difficulty: medium #basic | medium | expert
 date: 2023-02-09
 lang: javascript reactnative
