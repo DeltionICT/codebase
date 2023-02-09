@@ -8,20 +8,17 @@ author: rkerssies
 
 # {{ title }}
 
+<!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->
+{{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
 > ##### Voorkennis
 > * programmeer-basics, functions, git
 
 > ##### Doel
 > * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren in een object geöriienteerde programmeertaal
 
-
-<!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->
-{{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
-
 * Programmeertaal: PHP of een andere backend-taal
 
 ### Taken
-
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 1. Maak een programma met een werking; 
