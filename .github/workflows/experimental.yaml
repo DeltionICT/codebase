@@ -1,5 +1,4 @@
-name: Build & Deploy
-
+name: Experimental on tydglas.nl
 on:
   push:
     branches: ['experimental']
