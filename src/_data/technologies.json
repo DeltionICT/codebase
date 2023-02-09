@@ -1,0 +1,34 @@
+[
+    {
+        "key":"php",
+        "name":"PHP"
+    },
+    {
+        "key":"html",
+        "name":"HTML"
+    },
+    {
+        "key":"css",
+        "name":"CSS"
+    },       
+    {
+        "key":"c#",
+        "name":"C#"
+    },    
+    {
+        "key":"js",
+        "name":"Javascript"
+    },
+    {
+        "key":"scrum",
+        "name":"Scrum"
+    },
+    {
+        "key":"uml",
+        "name":"UML"
+    },
+    {
+        "key":"all",
+        "name":"Alle programmeertalen"
+    }
+]

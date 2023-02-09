@@ -3,11 +3,9 @@ title: Projectmanagement, SCRUM
 difficulty: basic
 date: 2021-02-10
 technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
-author: jsiewers
+author: rkerssies
 ---
 
-#### {{ coursetitle }}
-{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 

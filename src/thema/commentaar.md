@@ -6,7 +6,6 @@ technologies: [comments,classes,methods,block,inline]
 author: rkerssies
 ---
 
-#### {{ coursetitle }}
 # {{ title }}
 <img src="{{ '/_assets/themas/process.png' | url }}" style="width:10%;">
 

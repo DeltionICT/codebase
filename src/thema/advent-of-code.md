@@ -6,7 +6,6 @@ technologies: [mixed]
 author: rkerssies
 ---
 
-#### {{ coursetitle }}
 # {{ title }}
 <img src="{{ '/_assets/themas/challenge.png' | url }}" style="width:10%;">
 

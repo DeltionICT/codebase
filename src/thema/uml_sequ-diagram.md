@@ -6,8 +6,6 @@ technologies: [website,app,structure,workflow,classes,methods]
 author: rkerssies
 ---
 
-#### {{ coursetitle }}
-{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 <img src="{{ '/_assets/themas/diagram.png' | url }}" style="width:10%;">

@@ -6,8 +6,6 @@ technologies: [website,app,structure,classes,diagram]
 author: rkerssies
 ---
 
-#### {{ coursetitle }}
-{{ date | date: "%b, %Y" | author: "Ronald Kerssies" }}
 
 # {{ title }}
 

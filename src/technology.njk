@@ -1,0 +1,22 @@
+---
+layout: layout.njk
+title: {{ technology.name }}
+difficulty: basic
+date: 2023-01-10
+pagination:
+    data: technologies
+    size: 1
+    alias: technology
+permalink: "/technologies/{{ technology.key | slug }}/index.html"
+---
+
+<h1>{{ technology.name }}</h1>
+
+<h2>Opdrachten</h2>
+
+{% set posts = collections.all | getPostsByTechnology(technology.key) %}
+<ul>
+{% for post in posts %}
+	<li><a href="{{post.url | url }}">{{post.data.title}}</a></li>
+{% endfor %}
+</ul>

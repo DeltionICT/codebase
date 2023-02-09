@@ -5,8 +5,6 @@ date: 2023-01-02
 author: jheuvelman
 ---
 
-#### {{ coursetitle }}
-{{ date | date: "%b, %Y" | author: "Jan Jaap Siewers" }}
 
 
 # {{ title }}

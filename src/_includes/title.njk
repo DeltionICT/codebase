@@ -2,8 +2,9 @@
 {% block title %}
 {% for p in collections[tags] %}
 {% if p.url == page.url %}
-    <h4>{{ p.data.coursetitle }}</h4>
-    <div class="author">{{ p.data.author }}</div>
+    <h4 class="coursetitle">{{ p.data.coursetitle }}</h4>
+
+    <div class="author">{{ authors | getAuthors(p.data.author) }} | {{ p.data.date | date("MMM, YYYY") }}</div>
 
 {% endif %}
 {% endfor %}

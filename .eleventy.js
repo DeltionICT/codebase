@@ -2,6 +2,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const path = require('path');
 const fs = require('fs');
 const nunjucks = require('nunjucks');
+const dateFilter = require('nunjucks-date-filter');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const pluginTOC = require('eleventy-plugin-toc');
@@ -44,24 +45,6 @@ module.exports = function(eleventyConfig) {
         }
     });
 
-    // eleventyConfig.addFilter("getPost2ByAuthor", (posts, author) => {
-	// 	posts.filter(p => p.data.author == author)
-	// });
-
-
-    // eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
-	// 	const result = posts.filter(p => {
-    //         myauthors = p.data.author + '';
-    //         theAuthors = myauthors.split(',');
-    //         if(theAuthors.includes(author)) {
-    //             return true;
-    //         } else {
-    //             return false;
-    //         }
-    //     });
-    //     result.forEach((x, i) => console.log(`${x.data.author} ${x.data.title}`))
-    //     return result;
-	// });
 
     eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {	
         return posts.filter(p => {
@@ -72,10 +55,25 @@ module.exports = function(eleventyConfig) {
         })
 	});
 
+    eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
+        return posts.filter(p => {
+            technologytxt = p.data.technology + '';
+            technologies = technologytxt.split(',');
+            trimmed = technologies.map(a => a.trim())
+            return (trimmed.includes(technology)) ?  true :  false;
+        })
+	});
 
-    eleventyConfig.addFilter("getAuthors", (authors,label) => {
-		let labels = label.split(',');
-		return authors.filter(a => labels.includes(a.key));
+    eleventyConfig.addFilter('date', dateFilter)
+
+    eleventyConfig.addFilter("getAuthors", (authors, author) => {
+        authortxt = author + ''
+		let myauthors  = authortxt.split(',');
+        trimmed = myauthors.map(a => a.trim())
+        theauthors =  authors.filter(a => trimmed.includes(a.key));
+        authornames = theauthors.map(a => a.name)
+        return authornames.join(', ')
+
 	});
 
     eleventyConfig.addFilter("cssmin", function(code) {
@@ -90,6 +88,16 @@ module.exports = function(eleventyConfig) {
         parts = url.split('/')
         let mypath = ""
         for (i = 0; i < (parts.length - 2); i++) {
+            mypath += "/";
+            mypath += parts[i];
+          }
+        return mypath
+    });
+    
+    eleventyConfig.addFilter("dirtest", function(url){
+        parts = url.split('/')
+        let mypath = ""
+        for (i = 0; i < (parts.length - 1); i++) {
             mypath += "/";
             mypath += parts[i];
           }

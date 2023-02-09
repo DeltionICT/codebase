@@ -6,8 +6,6 @@ technologies: [api,json,backend]
 author: rkerssies
 ---
 
-#### {{ coursetitle }}
-{{ date | date: "%b, %Y" | author: "Koos Starreveld" }}
 
 # {{ title }}
 
