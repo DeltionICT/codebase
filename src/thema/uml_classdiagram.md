@@ -2,7 +2,7 @@
 title: Ontwerpen | ClassDiagram
 difficulty: basic
 date: 2022-02-15
-technologies: uml
+technology: uml
 author: rkerssies
 ---
 

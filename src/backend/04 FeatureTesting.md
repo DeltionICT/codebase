@@ -2,7 +2,7 @@
 title: FeatureTesting PHP
 difficulty: expert
 date: 2023-01-04
-technologies: php,all,tests
+technology: php,all,tests
 author: rkerssies
 ---
 
