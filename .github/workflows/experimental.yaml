@@ -1,0 +1,37 @@
+name: Experimental on tydglas.nl
+on:
+  push:
+    branches: ['experimental']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: ['18.x']
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+        
+      - name: 📂 Sync files
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+            username: 'janjaap'
+            server: 'www.tydglas.nl'
+            ssh_private_key: ${{ secrets.SSH_TYDGLAS }} 
+            local_path: './docs/'
+            remote_path: '/var/www/edu.tydglas.nl/codebase/'
+            sftpArgs: '-o ConnectTimeout=5'

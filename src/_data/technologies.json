@@ -30,5 +30,18 @@
     {
         "key":"all",
         "name":"Alle programmeertalen"
+    },
+    {
+        "key":"database",
+        "name":"Databases"
+    },
+    {
+        "key":"testen",
+        "name":"Testen" 
+    },
+    {
+        "key":"api",
+        "name":"Webservices/api" 
     }
+
 ]
