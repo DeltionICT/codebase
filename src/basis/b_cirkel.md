@@ -19,8 +19,8 @@ kunt berekenen. Je kunt dit bijvoorbeeld vinden op de volgende website
 
 ### Resultaat
 Schrijf een programma waarbij de gebruiker gevraagd wordt de diameter
-van een cirkel in te voeren. Zodra de gebruiker deze diameter ingevoerd
-heeft worden de omtrek en de oppervlakte van de cirkel berekend. De
-berekende oppervlakte en omtrek worden vervolgens op het scherm getoond.
-
+van een cirkel in te voeren.  
+Zodra de gebruiker deze diameter ingevoerd heeft worden de omtrek en de oppervlakte van de cirkel berekend.  
+De berekende oppervlakte en omtrek worden vervolgens op het scherm getoond.
+  
 Schrijf logische code, controleer de berekeningen en test je programma.
