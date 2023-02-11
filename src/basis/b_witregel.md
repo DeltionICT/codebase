@@ -12,8 +12,22 @@ author: jheuvelman
 > ### Voorkennis
 > Programmeertaal: naar keuze
 ### Resultaat
-Schrijf een programma dat 100 willekeurige getallen onder elkaar laat
-zien. Na elke drie regels moet er een witregel getoond worden.
+Schrijf een programma dat 100 willekeurige getallen onder elkaar laat zien.   
+Na elke drie regels moet er een witregel getoond worden.
 
-***Voorbeeld:***  
-12 ...enzovoort tot er 100 getallen getoond zijn...
+#### Voorbeeld
+```shell
+12
+26
+44
+
+32
+11
+9
+
+21
+22
+53
+
+```
+...enzovoort tot er 100 getallen getoond zijn...

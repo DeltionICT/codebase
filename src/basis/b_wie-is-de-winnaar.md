@@ -13,10 +13,16 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ### Resultaat
-Schrijf een programma dat bepaald welke speler heeft gewonnen. Het
-programma vraagt de user input voor de score van speler 1 en speler 2.
+Schrijf een programma dat bepaalt welke speler heeft gewonnen.  
+Het programma vraagt userinput voor de score van speler 1 en van speler 2.  
 Het programma print wie er heeft gewonnen of dat er gelijk is gespeeld.
 
-***Voorbeeld:***  
-Wat is de score van speler 1? Wat is de score van speler 2? Speler 2
-heeft gewonnen.
+#### Voorbeeld
+```shell
+Wat is de score van speler 1? 
+100
+Wat is de score van speler 2?
+101
+
+Speler 2 heeft gewonnen.
+```

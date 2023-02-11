@@ -16,46 +16,33 @@ author: jheuvelman
 Plaats de volgende lijst in een tekstbestand:
 
 - Apeldoorn
-
 - Kampen
-
 - Zwolle
-
 - Zwolle
-
 - Lelystad
-
 - Zwolle
-
 - Dronten
-
 - Elburg
-
 - Zwolle
-
 - Emmeloord
-
 - Dronten
-
 - Zwolle
-
 - Zwolle
-
 - Apeldoorn
-
 - Heerde
-
 - Zeewolde
-
 - Kampen
-
 - Apeldoorn
 
 ### Resultaat
-Schrijf een programma dat de lijst van woonplaatsen inleest. Voor elke
-woonplaats telt hoevaak het voorkomt in de lijst. De uitvoer is een
-gesorteerde lijst waarin per woonplaats staat hoevaak het voorkomt in de
-lijst.
+Schrijf een programma dat de lijst van woonplaatsen inleest.  
+Voor elke woonplaats telt het hoe vaak het voorkomt in de lijst.   
+De uitvoer is een gesorteerde lijst waarin per woonplaats staat hoe vaak het voorkomt in de lijst.
 
-***Voorbeeld:***  
-Apeldoorn : 3 Elburg : 1 Dronten : 2 ...
+#### Voorbeeld
+```shell
+Apeldoorn : 3 
+Elburg : 1 
+Dronten : 2
+etc. etc.
+```

@@ -13,16 +13,23 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ### Resultaat
-Schrijf een programma dat de gebruiker vraagt een aantal knikkers in te
-voeren. Het ingevoerde aantal knikkers moet tussen de 1 en 20 liggen,
-laat je programma dit controleren. Op basis van het ingevoerde aantal
-knikkers geeft het programma de volgende output:
+* Schrijf een programma dat de gebruiker vraagt een aantal knikkers in te
+voeren. 
+* Het ingevoerde aantal knikkers moet tussen de 1 en 20 liggen,
+* Laat je programma dit controleren. 
 
-***Voorbeeld:***  
-Hoeveel knikkers zitten er in de zak? knikker opgegooid, nog 9 in mijn
-zak. knikkers opgegooid, nog 8 in mijn zak. knikkers opgegooid, nog 7 in
-mijn zak. knikkers opgegooid, nog 6 in mijn zak. knikkers opgegooid, nog
-5 in mijn zak. knikkers opgegooid, nog 4 in mijn zak. knikkers
-opgegooid, nog 3 in mijn zak. knikkers opgegooid, nog 2 in mijn zak.
-knikkers opgegooid, nog 1 in mijn zak. knikkers opgegooid, nog 0 in mijn
-zak.
+#### Voorbeeld
+Op basis van het ingevoerde aantal knikkers geeft het programma de volgende output:
+
+Hoeveel knikkers zitten er in de zak? 
+```shell
+Voer een aantal knikkers in: 
+1
+
+Er is 1 knikker opgegooid, nog 9 knikkers in mijn zak.
+```
+  
+* 2 knikkers opgegooid, nog 8 in mijn zak. 
+* 3 knikkers opgegooid, nog 7 in mijn zak. 
+* 4 knikkers opgegooid, nog 6 in mijn zak.   
+etc. etc.

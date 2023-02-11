@@ -13,9 +13,27 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ### Resultaat
-Bij deze opdracht hoort een XML-bestand. Maak een programma dat het
-aangeleverde XML bestand converteert naar een JSON-bestand. Het
-JSON-bestand moet het volgende formaat hebben:
+Maak een programma dat de XML-code converteert naar JSON. 
+
+XML-bestand:
+
+```xml
+<?xml version="1.0"?>
+<Klanten>
+  <Klant>
+    <Bedrijf>Hoppeldiepee</Bedrijf>
+    <Voornaam>Ellen</Voornaam>
+    <Achternaam>Adams</Achternaam>
+    <Email>ellen_adams@hoppeldiepee</Email>
+    <Straatnaam>Jan de Witstraat</Straatnaam>
+    <Stad>Amsterdam</Stad>
+    <Postcode>3345 SF</Postcode>
+    <Land>Nederland</Land>
+  </Klant>
+</Klanten>
+```
+
+Het JSON-bestand moet het volgende formaat hebben:
 
 ```javascript
 {
@@ -31,3 +49,5 @@ JSON-bestand moet het volgende formaat hebben:
   }]
   }      
 ```
+
+
