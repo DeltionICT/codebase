@@ -13,5 +13,5 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ### Resultaat
-Schrijf een programma dat willekeurig kop of munt gooit. De uitkomst
-wordt vervolgens op het scherm getoond.
+Schrijf een programma dat willekeurig kop of munt gooit.  
+De uitkomst wordt vervolgens op het scherm getoond.
