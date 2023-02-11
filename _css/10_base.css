@@ -63,6 +63,9 @@ footer {
     padding-top:16px;
 }
 
+ol p {
+    margin-bottom:0;
+}
 
 img {
     width:100%;

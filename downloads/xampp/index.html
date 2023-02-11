@@ -1,0 +1,56 @@
+<h1 id="xampp">Xampp</h1>
+<img src="/codebase/_assets/_icons/xampp-logo.png" style="width:10%;">
+<h2 id="xampp-installeren-en-starten">Xampp installeren en starten</h2>
+<p><a href="https://www.apachefriends.org/download.html">Xampp downloaden</a></p>
+<ol>
+<li>
+<p>Download Xampp (niet een virtualhost-versie)</p>
+</li>
+<li>
+<p>Installeer Xampp in de default map (C:\XAMPP (windows)  of \Applications\XAMPP (mac))</p>
+</li>
+<li>
+<p>Installeer alle services en mogelijkheden</p>
+</li>
+<li>
+<p>Zoek in de XAMPP-applicatiefolder de htdocs-map.</p>
+</li>
+<li>
+<p>Hernoem het bestand index.php naar index.org.php</p>
+</li>
+<li>
+<p>Start de applicatie op (control-panel)</p>
+</li>
+<li>
+<p>Start Apache. Start optioneel MySQL als je ook gebruik gaat maken van een database;</p>
+<img src="/codebase/_assets/omgevingen/xampp-start-screen.png" style="width:30%;">
+</li>
+<li>
+<p>Open een browser naar voorkeur en type in de url-balk: <code>http://localhost</code><br>
+Je ziet nu een standaard webpage die door het betsand ~/htdocs/index.php wordt doorgestuurd.</p>
+</li>
+<li>
+<p>Door het bestand ~/htdocs/index.php een andere naam te geven (bijv: index.org.php) kan je de folderstructuur in de browser bekijken.</p>
+</li>
+<li>
+<p>In de htdocs-folder worden alle php-files geplaatst. Open de htdocs-folder vanuit Visual Studio of andere editor.</p>
+</li>
+<li>
+<p>Om code te testen open je <code>http://localhost</code><br>
+LET OP: Php-code starten via een Verkenner/Finder is niet mogelijk...</p>
+</li>
+</ol>
+<h2 id="xampp-optimaal-gebruiken">Xampp optimaal gebruiken</h2>
+<ul>
+<li>Maak voor elk project een aparte folder in de htdocs-folder.<br>
+Laat de folders beginnen met 01_naamproject, 02_tweedenaam, etc...<br>
+Hierdoor heb je meer orde en structuur in je projecten.</li>
+<li>Als elk project een index.php file heeft (single-point-of-entry), start de applicatie direct op, zonder de poh-filename in de browser in te typen.</li>
+<li>Ontwikkel de applicatie lokaal op jouw laptop (in XAMPP), dus niet online.
+Zodra jouw project werkt en getest is, wordt het online gezet. Gebruik daarvoor een FTP-tool.</li>
+<li>De domeinnaam &quot;localhost&quot; is op ten duur niet het meest handig als je meerdere projecten uit elkaar wil houden.
+Hiervoor kan je ook <a href="'/thema/local-domainnames/'">locale domnein-namen</a> aanmaken.</li>
+<li>Je kan ook clean-url's opzetten. Zo worden de GET-waarden in een url;
+<code>http://localhost/03_test/index.php?key1=soneValue</code> omgezet naar: <code>http://localhost/03_test/someValue</code>.
+Met localdomeinnamen kan dit er zelfs als volgt uit zien: <code>http://testproject.rk/someValue</code></li>
+</ul>
