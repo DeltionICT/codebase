@@ -1,12 +1,19 @@
 ---
-title: Kleurkiezer
+title: PHPB Kleurkiezer
 difficulty: basic
-date: 2022-01-10
+date: 2022-16-11
 author: jsiewers
+technology: php, html
 ---
 
 
 # {{ title }}
+
+> #### Voorkennis
+> HTML
+> PHP Arrays en superglobals $_POST en $_GET
+> Kan ook gemaakt worden met javascript, c#, python en meer
+
 
 ## Opdracht
 Maak een formulier met een selectbox. In de selectbox kun je een kleur kiezen. Als je het formulier hebt verstuurd zie je een pagina waarvan de achtergrondkleur overeenkomt met de kleur die je had gekozen.

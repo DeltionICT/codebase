@@ -1,5 +1,5 @@
 ---
-title: Tools voor webdevelopment
+title: IDE webdevelopment
 difficulty: basic
 date: 2023-01-05
 author: jsiewers
@@ -7,6 +7,9 @@ author: jsiewers
 
 
 # {{ title }}
+
+> #### Leerdoelen
+> Ontwikkelomgeving opzetten voor Python
 
 ## Inleiding
 In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het maken van applicaties.
