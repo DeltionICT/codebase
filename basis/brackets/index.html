@@ -600,22 +600,6 @@
         </li>
     
         <li >
-            <a class="page-link" href="/codebase/basis/kleurkiezer/">
-                <div>
-                    <div class="title">Kleurkiezer</div>
-                    <div class="difficulty">
-                        
-                            
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                            <img src="/codebase/_assets/green_pepper.svg" alt="red pepper">
-                        
-                            
-                    </div>
-                </div>
-            </a>
-        </li>
-    
-        <li >
             <a class="page-link" href="/codebase/basis/klok/">
                 <div>
                     <div class="title">Klok</div>
@@ -1188,8 +1172,6 @@
 
 
 
-
-
     <h4 class="coursetitle">Basis programmeren</h4>
 
     <div class="author">Jeroen Heuvelman | Jan, 2023</div>
@@ -1220,24 +1202,21 @@
 <p>Programmeertaal: naar keuze</p>
 </blockquote>
 <h3 id="omschrijving">Omschrijving</h3>
-<p>Een bracket wordt gezien als één van de volgende karakters: (, ), {, },
-[, ]. Twee brackets worden gezien als aan paar als de opening bracket
-(bijv. (, [ of {) links staat van een closing bracket (bijv. ), ] of
-}) van hetzelfde type. Er zijn drie paren: (), {} en []. Een paar is
-niet in balans als de set van brackets die het omsluit niet overeen
-komt. Bijvoorbeeld, {[(])} is niet in balans omdat de content tussen
-de { en } niet in balans is.</p>
-<p>Een voorbeeld van gebalanceerde brackets zijn: []{}(), [({})]{}() en
-({(){}[]})[].</p>
+<p>Een bracket wordt gezien als één van de volgende karakters: <code>(, ), {, }, [, ]</code><br>
+Twee brackets worden gezien als aan paar als de opening bracket <code>(, [ of {)</code> links staat van een closing bracket <code>), ] of } </code> van hetzelfde type.
+Er zijn drie paren: <code>(), {} en [ ]</code>.<br>
+Een paar is niet in balans als de set van brackets die het omsluit niet overeen komt. Bijvoorbeeld <code>{ [ ( ] ) }</code> is niet in balans omdat de content tussen de <code>{</code> en <code>}</code> niet in balans is.</p>
+<p>Een voorbeeld van gebalanceerde brackets zijn:<br>
+<code>[ ]{ }( )</code><br>
+<code>[ ( { } ) ]{ }( )</code><br>
+<code>( { ( ) { } [ ] ) [ ]</code></p>
 <h3 id="resultaat">Resultaat</h3>
-<p>Schrijf een programma dat de gebruiker vraagt een set brackets in te
-voeren. Zorg ervoor dat de gebruiker alleen brackets kan invoeren,
-andere tekens zijn niet toegestaan. Wanneer de bracket invoer in balans
-is, print het programma &quot;Ja&quot;. Wanneer de bracket invoer niet in balans
-is, print het programma &quot;Nee&quot;.</p>
-<p><em><strong>Voorbeeld:</strong></em><br>
-Voer een set brackets in: [{}{}({()})] Ja Voer een set brackets in:
-[afdh] Onjuiste invoer Voer een set brackets in: [{] Nee</p>
+<p>Schrijf een programma dat de gebruiker vraagt een set brackets in te voeren.<br>
+Zorg ervoor dat de gebruiker alleen brackets kan invoeren, andere tekens zijn niet toegestaan.<br>
+Wanneer de bracket invoer in balans is, print het programma &quot;Ja&quot;.<br>
+Wanneer de bracket invoer niet in balans is, print het programma &quot;Nee&quot;.</p>
+<h4 id="voorbeeld">Voorbeeld</h4>
+<pre class="language-shell"><code class="language-shell">Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">(</span> <span class="token punctuation">{</span> <span class="token punctuation">(</span> <span class="token punctuation">)</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span> <span class="token punctuation">]</span> <br>Ja <br><br>Voer een <span class="token builtin class-name">set</span> brackets in:<br><span class="token punctuation">[</span>afdh<span class="token punctuation">]</span> <br>Onjuiste invoer <br><br>Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span>  <span class="token punctuation">]</span> <br>Nee</code></pre>
 
         
         
