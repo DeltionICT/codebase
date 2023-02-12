@@ -13,31 +13,42 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ### Omschrijving
-Van een bedrijf wordt door de werknemers een urenregistratie bijgehouden
-van het aantal gewerkte uren bij de klanten. Aan het einde van de week
-wordt van elke dag het aantal gewerkte uren en of minuten ingevoerd in
-de computer. Alle 5 de werkdagen moeten worden ingevoerd. Als op een
-bepaalde dag niet is gewerkt, wordt als aantal uren en minuten 0
-ingevuld.
+Van een bedrijf wordt door de werknemers een urenregistratie bijgehouden van het aantal gewerkte uren bij de klanten.  
+Aan het einde van de week wordt van elke dag het aantal gewerkte uren en of minuten ingevoerd in de computer.  
+Alle 5 de werkdagen moeten worden ingevoerd.  
+Als op een bepaalde dag niet is gewerkt, wordt als aantal uren en minuten 0 ingevuld.
 
 ### Resultaat
-Maak een programma waarbij voor elke werkdag (maandag t/m vrijdag) het
-aantal gewerkte uren en minuten ingevoerd kan worden. Na invoer berekent
-het programma het volgende:
+Maak een programma waarbij voor elke werkdag (maandag t/m vrijdag) het aantal gewerkte uren en minuten ingevoerd kan worden.  
+Na invoer berekent het programma het volgende:
 
 - aantal werkdagen
-
 - totale werktijd
-
 - langste werkdag
 
-Figuur <a href="#fig:Voorbeeld urenwerknemers" data-reference-type="ref"
-data-reference="fig:Voorbeeld urenwerknemers">1</a> op pagina  geeft
-weer hoe het programma er eventueel uit kan zien, maar je bent
-natuurlijk vrij om er zelf wat moois van te maken.
+#### Voorbeeld
+```shell
+werkdag: ma
+aantal_uur: 4
+aantal_minuten: 0
 
-<figure>
-<img src="Artwork/voorbeeld.png" id="fig:Voorbeeld urenwerknemers"
-alt="Voorbeeld uren werknemers" />
-<figcaption aria-hidden="true">Voorbeeld uren werknemers</figcaption>
-</figure>
+werkdag: di
+aantal_uur: 8
+aantal_minuten: 37
+
+werkdag: wo
+aantal_uur: 0
+aantal_minuten: 0
+
+werkdag: do
+aantal_uur: 6
+aantal_minuten: 25
+
+werkdag: vr
+aantal_uur: 3
+aantal_minuten: 12
+
+Aantal werkdagen: 4
+Totale werktijd: 17 uur en 14 minuten
+Langste werkdag: dinsdag
+```

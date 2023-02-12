@@ -19,15 +19,15 @@ worden hierbij weergegeven als een \*.
 Het programma voldoet aan de volgende functionaliteiten:
 
 - Vraag de gebruiker om de omvang van de basis van de piramide.
-
 - Teken de piramide aan de hand van de opgegeven basis.
 
 ***Voorbeeld:***  
 Wat is de basis van de piramide? 7
+```shell
 
-|     |     |     |     |     |     |     |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|     |     |     | \*  |     |     |     |
-|     |     | \*  | \*  | \*  |     |     |
-|     | \*  | \*  | \*  | \*  | \*  |     |
-| \*  | \*  | \*  | \*  | \*  | \*  | \*  |
+   *
+  ***
+ *****
+*******
+
+```

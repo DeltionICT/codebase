@@ -16,5 +16,14 @@ author: jheuvelman
 Schrijf een programma dat alle mogelijke combinaties tussen 0 en 999
 onder elkaar op het scherm toont.
 
-***Voorbeeld:***  
-000 . . . . .
+#### Voorbeeld
+```shell
+000
+001
+002
+003
+...
+997
+998
+999
+```

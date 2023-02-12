@@ -21,7 +21,7 @@ XML-bestand:
 <?xml version="1.0"?>
 <Klanten>
   <Klant>
-    <Bedrijf>Hoppeldiepee</Bedrijf>
+    <Bedrijf>Van Gerven b.v.</Bedrijf>
     <Voornaam>Ellen</Voornaam>
     <Achternaam>Adams</Achternaam>
     <Email>ellen_adams@hoppeldiepee</Email>

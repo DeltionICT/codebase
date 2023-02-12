@@ -13,23 +13,22 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 
 ***Extra info:***  
-Grootheden zijn: Kilometer, Hectometer, Decameter, Meter, Decimeter,
-Centimeter, Millimeter.
+Grootheden zijn:  
+Kilometer, Hectometer, Decameter, Meter, Decimeter, Centimeter, Millimeter.
 
-Elke stap naar links is 10 eenheden meer. Elke stap naar links is 10
-eenheden minder.
-
+Elke stap naar links is 10 eenheden meer.  
+Elke stap naar links is 10 eenheden minder.
+  
 1 kilometer = 10 hectometer meter = 1 decameter
 
 ### Resultaat
-Schrijf een programma dat de gebruiker eerste om een waarde en een
-grootheid vraagt. Daarna vraagt het programma naar welke grootheid de
-gegeven waarde moet worden omgerekend.
-
-De uitvoer is de omgerekende waarde en grootheid.
+* Schrijf een programma dat de gebruiker eerst om een waarde en een
+grootheid vraagt.  
+* Daarna vraagt het programma naar welke grootheid degegeven waarde moet worden omgerekend.
+* De uitvoer is de omgerekende waarde en grootheid.
 
 ### Resultaat
-```csv
+```shell
 
 Welke waarde : 100   
 Welke grootheid: Decameter  

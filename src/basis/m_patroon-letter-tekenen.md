@@ -13,6 +13,13 @@ author: jheuvelman
 > Programmeertaal: naar keuze
 ### Resultaat
 Maak een programma dat het volgende patroon tekent:
-
-  \*\*\* \*       \* \*       \* \*\*\*\*\* \*       \* \*       \*
-\*       \* \*       \*
+```shell
+ *** 
+*   *
+*   *  
+*   *
+***** 
+*   *    
+*   * 
+*   * 
+```

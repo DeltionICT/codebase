@@ -15,8 +15,18 @@ author: jheuvelman
 ### Resultaat
 Maak een programma dat het volgende patroon tekent:
 
-\* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \* \*
-\* \* \* \* \* \*
+```shell
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+```
 
 ***Extra:***  
 Als je deze opdracht makkelijk vindt, probeer dan eens opdracht patroon
