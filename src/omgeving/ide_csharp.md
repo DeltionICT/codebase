@@ -3,6 +3,7 @@ title: IDE C#
 difficulty: basic #basic | medium | expert
 date: 2023-01-12
 author: kstarreveld
+technology: csharp
 ---
 
 # {{ title }}

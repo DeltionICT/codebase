@@ -3,6 +3,7 @@ title: PHPB Loops
 difficulty: basic
 date: 2022-11-10
 author: jsiewers
+technology: php
 ---
 
 

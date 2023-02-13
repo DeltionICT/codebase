@@ -3,6 +3,7 @@ title: PROJ FarOut
 difficulty: medium
 date: 2022-11-10
 author: jsiewers
+technology: scrum
 ---
 
 

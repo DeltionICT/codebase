@@ -3,6 +3,7 @@ title: PHPB Sessie login
 difficulty: basic
 date: 2022-10-10
 author: jsiewers
+technology: html, php
 ---
 
 
