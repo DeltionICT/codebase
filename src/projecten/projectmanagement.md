@@ -2,7 +2,7 @@
 title: Projectmanagement, SCRUM
 difficulty: basic
 date: 2021-02-10
-technology: scrum, all
+technology: scrum
 author: rkerssies
 ---
 

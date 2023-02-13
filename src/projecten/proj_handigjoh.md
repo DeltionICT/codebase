@@ -3,6 +3,7 @@ title: PROJ Handig Joh
 difficulty: medium
 date: 2022-11-10
 author: jsiewers
+technology: scrum
 ---
 
 
