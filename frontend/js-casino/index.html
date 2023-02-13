@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | HTML Eerste website</title>
+    <title>Deltion Software Development | JS Casino</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js_casino_kaarten_delen.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js_casino_kaarten_delen.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -94,7 +94,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/frontend/html-eerste-website/">
                 <div>
                     <div class="title">HTML Eerste website</div>
@@ -154,7 +154,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/frontend/js-casino/">
                 <div>
                     <div class="title">JS Casino</div>
@@ -257,6 +257,14 @@
 
 
 
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Frontend</h4>
 
     <div class="author">Jan Jaap Siewers | Jan, 2023</div>
@@ -274,56 +282,35 @@
 
 
 
-
-
-
-
-
-
-
-
         
-    <h1 id="html-eerste-website">HTML Eerste website</h1>
-<blockquote>
-<h4 id="voorkennis">Voorkennis</h4>
-<p>Basis HTML kennis</p>
-<h4 id="doelen">Doelen</h4>
-<p>Leer html-kennis toe te passen in een eerste website</p>
-</blockquote>
+    <h1 id="js-casino">JS Casino</h1>
+<h2 id="casus">Casus</h2>
+<p>Dit is het begin van een online casino. De croupier is degene die kaarten deelt bij bijvoorbeeld 'black jack'. Jij gaat een programma maken dat de rol van croupier kan overnemen. Het programma kan kaarten tonen en je kunt kaarten delen.</p>
 <h2 id="resultaat">Resultaat</h2>
-<p>Een website die je kunt tonen vanaf je eigen laptop.<br>
-De website voldoet aan onderstaande eisen:</p>
+<p>Een werkende (web)applicatie in een programmeertaal naar keuze.<br>
+In de code is gebruik gemaakt van onderstaande functies.
+Je kunt met de functie <code>toonSet()</code> laten zien welke kaarten zijn gedeeld of over zijn.
+De kaarten worden getoond op het scherm.</p>
+<h2 id="backlog">Backlog</h2>
 <ul>
-<li>Verzin zelf een passend onderwerp voor de website (tandpasta, orgel spelen, bungy jumpen etc. etc.)</li>
-<li>Maak een website met (minimaal) 2 pagina's</li>
-<li>Gebruik in bestandsnamen en mappen geen spaties of andere vreemde tekens (een laag streepje mag wel '_')</li>
-<li>Gebruik alleen kleine letters!!</li>
-<li>Homepage
+<li>Als croupier wil ik een spel kaarten kunnen weergeven, zodat het publiek kan zien dat alle kaarten aanwezig zijn.</li>
+<li>Als croupier wil ik een spel kaarten kunnen schudden, zodat het publiek kan zien dat kaarten random zijn gesorteerd.</li>
+</ul>
+<h2 id="technische-eisen">Technische eisen</h2>
+<p>De speelkaarten is een set met afbeeldingen en die kun je <a href="https://static.edutorial.nl/php/cards.zip">hier dowloaden</a></p>
 <ul>
-<li>Een titel in de vensterbalk</li>
-<li>Een titel h1 om de pagina mee te beginnen over een onderwerp naar keuze.</li>
-<li>2 Afbeeldingen die je zelf hebt gedownload. Gebruik relatieve links!!</li>
-<li>Een link naar de andere pagina</li>
+<li>Maak een functie waarmee alle kaarten worden opgenomen in een deck kaarten.</li>
+<li>Maak een functie waarmee kaarten worden geschud en gedeeld.</li>
+<li>Maak een functie waarmee je de kaarten per speler op het scherm kunt tonen.
+Hieronder zie je de signatuur van de functies. Gebruik deze functies bij het bouwen van de applicatie.</li>
 </ul>
-</li>
-<li>Pagina met een artikel over je favoriete ondewerp
-<ul>
-<li>h1 - heading met het onderwerp</li>
-<li>h3 - heading met de naam van het artikel
-<ul>
-<li>Artikeltekst mag je zelf verzinnen</li>
-<li>Een geordende lijst met links naar externe websites die gaan over je onderwerp</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Een link naar de homepage</li>
-</ul>
-<h2 id="een-website-valideren">Een website valideren</h2>
-<p>Op de <a href="https://validator.w3.org/">W3C Markup Validation Service</a> kun je bekijken of je geen fouten hebt gemaakt in je code.
-Soms lijkt je browser een pagina goed weer te geven, maar dan kan het toch nog zijn dat je niet voldoet aan de strenge regels die het W3C stelt aan HTML-code.</p>
-<h2 id="uitleg">Uitleg</h2>
-<p>Meer uitleg over de opdracht vind je <a href="https://www.edutorial.nl/html/eerste-website/">op deze website</a></p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* maakDeck<br>* <br>* Deze functie maakt van een directory bestanden een array met kaarten<br>* De bestandsnaam van iedere kaart wordt opgeslagen in de array.<br>* <br>* @param path = pad naar de map met kaarten<br>* @return deck = array met alle bestandsnamen van alle speelkaarten<br>*/</span><br></code></pre>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">maakDeck</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> deck<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>Maak een functie waarmee de kaarten die de spelers krijgen worden verzameld.
+De signatuur van de functie is als volgt:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* deelKaarten<br>*<br>* Deze functie verdeeld de kaarten over een aantal personen.<br>* @param deck -> array met alle kaarten<br>* @param kaarten -> Aantal kaarten dat je per persoon krijgt<br>* @param personen -> Aantal personen dat een set kaarten krijgt<br>* @return sets -> Associatieve array met de kaarten per persoon en de kaarten die over zijn.<br>*/</span><br><span class="token keyword">function</span> <span class="token function">deelKaarten</span> <span class="token punctuation">(</span><span class="token parameter">deck<span class="token punctuation">,</span> kaarten<span class="token punctuation">,</span> personen</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br>    <span class="token keyword">return</span> sets<br><span class="token punctuation">}</span></code></pre>
+<p>Toon de inhoud van een set kaarten op het scherm.</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/*<br>* toonSet<br>*<br>* @param -> sets multidimensionele associatieve array met de kaarten per persoon en de kaarten die over zijn. <br>* @param -> string naam van een set (naam of kaarten die over zijn)<br>*<br>*/</span><br><br><span class="token keyword">function</span> <span class="token function">toonSet</span><span class="token punctuation">(</span><span class="token parameter">sets<span class="token punctuation">,</span> welke</span><span class="token punctuation">)</span><br><span class="token punctuation">{</span><br>    <span class="token comment">// --- body van de functie (jouw code) komt hier ---</span><br><span class="token punctuation">}</span></code></pre>
 
         
         
