@@ -35,5 +35,5 @@ De website heeft ook een gedeelte dat toegankelijk is voor publiek.
 
 
 ### Overige Documentatie
-* [Projectplan voor de website voor radiostation Kraeken]({{'/_assets/projecten/kreaken/kreaken.pdf' | url }})
-* [Afbeeldingen van de DJ's van radiostation Kraeken]({{ '/_assets/projecten/kreaken/kreaken_afbeeldingen.zip'}})
+* [Projectplan voor de website voor radiostation Kraeken]({{'/_assets/projecten/kreaken/kraeken.pdf' | url }})
+* [Afbeeldingen van de DJ's van radiostation Kraeken]({{ '/_assets/projecten/kraeken/kraeken_afbeeldingen.zip'}})

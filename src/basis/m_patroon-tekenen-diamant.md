@@ -3,6 +3,7 @@ title: Diamant tekenen
 difficulty: medium #basic | medium | expert
 date: 2023-01-02
 author: jheuvelman
+technology: all
 ---
 
 
@@ -15,16 +16,16 @@ author: jheuvelman
 ### Resultaat
 
 - De gebruiker vraagt om de omvang van de diamant.
+- Het programma tekent een diamant met de opgegeven omvang.
 
-- Een diamant tekent met de opgeven omvang.
-
-***Voorbeeld:***  
+#### Voorbeeld
+```shell
 Geef de omvang van de diamant: 5
 
-|     |     |     |     |     |     |     |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|     |     | \*  |     |     |     |     |
-|     | \*  | \*  | \*  |     |     |     |
-| \*  | \*  | \*  | \*  | \*  |     |     |
-|     | \*  | \*  | \*  |     |     |     |
-|     |     | \*  |     |     |     |     |
+
+        *   
+    *   *   *                 
+*   *   *   *   *            
+    *   *   *                 
+        *     
+```

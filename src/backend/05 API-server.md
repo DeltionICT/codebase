@@ -2,7 +2,7 @@
 title: API-server PHP
 difficulty: expert
 date: 2023-01-05
-technologies: php,database
+technology: php,database
 author: rkerssies
 ---
 

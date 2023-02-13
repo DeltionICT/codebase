@@ -2,7 +2,7 @@
 title: MVC-Framework PHP
 difficulty: medium
 date: 2023-01-03
-technologies: html,php,database
+technology: html,php,database
 author: rkerssies
 ---
 

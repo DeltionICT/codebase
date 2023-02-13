@@ -3,6 +3,7 @@ title: Variabelen weergeven
 difficulty: basic #basic | medium | expert
 date: 2023-01-02
 author: jheuvelman
+technology: all
 ---
 
 
@@ -12,13 +13,13 @@ author: jheuvelman
 > ### Voorkennis
 > * Basis HTML
 > 
-> Programmeertaal: php
+> Programmeertaal: alle
 
 ## Resultaat
-Maak onderstaande opdrachten met php. Je gaat een combinatie van variabelen en teksten samenvoegen en weergegeven in een browser.
+Je gaat een combinatie van variabelen en teksten samenvoegen en weergegeven.
 
-### Opdracht
-Laat PHP de volgende  zin op het scherm zetten:  
+### Opdracht 1
+Laat een programma de volgende zin op het scherm zetten:  
 "Ik heb niet gefaald. Ik heb alleen 10000 manieren gevonden die niet werken."  
 -Thomas Edison  
   
@@ -30,7 +31,7 @@ $b = "die niet werken";
 $c = 10000;
 ```
 ### Opdracht 2
-Laat PHP de volgende  zin op het scherm zetten:  
+Laat je programma de volgende zin op het scherm zetten:  
 "Mensen die geen fouten maken, werken niet"  
 -Albert Plesman (KLM)
 

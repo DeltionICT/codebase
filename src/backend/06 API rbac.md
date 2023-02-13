@@ -2,7 +2,7 @@
 title: API-rbac PHP
 difficulty: expert
 date: 2023-01-07
-technologies: php,database
+technology: php,database
 author: rkerssies
 ---
 

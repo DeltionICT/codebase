@@ -2,7 +2,7 @@
 title: Eigen Casus
 difficulty: expert
 date: 2022-12-12
-technologies: [projectmanagement,scrum,casus]
+technology: scrum, all
 author: rkerssies
 ---
 

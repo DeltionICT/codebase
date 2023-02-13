@@ -1,5 +1,5 @@
 ---
-title: Pycharm
+title: IDE Python
 difficulty: basic
 date: 2023-01-11
 author: jsiewers
@@ -7,6 +7,9 @@ author: jsiewers
 
 
 # {{ title }}
+
+> #### Leerdoelen
+> Ontwikkelomgeving opzetten voor Python
 
 ## Inleiding
 In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het werken met Python. Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan. Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github. Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
@@ -34,7 +37,7 @@ Installeer python op je computer. [Hier vind je uitleg over hoe dat moet!](https
 Python 3.9.2
 ```
 Als je een melding krijgt over 'Authentication' of 'persmission', dan kan het zijn dat je powershell nog voldoende rechten moet geven om python scripts uit te voeren.  
-In de terminal in Pycharm geeft je dan het commando: <code>setExecutionPolicy unrestricted</code>
+In de terminal van Powershell geeft je dan het commando: <code>Set-ExecutionPolicy unrestricted</code>
 
 ## Hello World
 * Schrijf je eerste hello-world script,  gebruik de functie <code>print("Hello World")</code> om hello world op het scherm te tonen.

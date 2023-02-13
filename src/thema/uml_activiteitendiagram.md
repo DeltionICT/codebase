@@ -2,7 +2,7 @@
 title: Ontwerpen | ActiviteitenDiagram
 difficulty: basic
 date: 2022-02-14
-technologies: uml
+technology: uml
 author: rkerssies
 ---
 

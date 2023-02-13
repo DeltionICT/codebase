@@ -1,5 +1,5 @@
 ---
-title: Tools voor webdevelopment
+title: IDE webdevelopment
 difficulty: basic
 date: 2023-01-05
 author: jsiewers
@@ -8,11 +8,13 @@ author: jsiewers
 
 # {{ title }}
 
-## Inleiding
-In deze opdracht ga je een aantal gereedschappen installeren die je nodig hebt bij het maken van applicaties.
-Maak na ieder onderdeel een schermafbeelding waarmee je aantoont dat je de opdracht hebt voldaan.
-Plaats de schermafbeeldingen (bij elkaar) in een nieuwe repository op github.
-Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
+> #### Leerdoelen
+> Ontwikkelomgeving opzetten voor webontwikkeling
+
+## Resultaat
+* Een ontwikkelomgeving op je eigen laptop die je nodig hebt bij het maken van applicaties.
+* Schermafbeeldingen waarmee je aantoont dat je een onderdeel hebt geïnstalleerd en geconfigureerd.
+* Presentatie van je de ontwikkelomgeving op je eigen laptop aan 1 van de docenten.
 
 ## Presentatie ontwikkelomgeving
 - Wanneer je het control-panel van XAMPP opent, kun je Apache en MySQL (zonder errors) starten. 
@@ -20,7 +22,6 @@ Als je alles hebt afgerond presenteer je de ontwikkelomgeving op je eigen laptop
 - Toon php vanuit een willekeurige directory met <code>php --version</code>.
 - Laat zien dat Visual Studio is geïnstalleerd en werkt.
 - Toon je accountinformatie op github.com
-- Toon de repository op github.com met schermafbeeldingen die je tijdens installatie hebt gemaakt.
 
 
 ## Browsers
