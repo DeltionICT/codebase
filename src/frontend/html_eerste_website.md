@@ -3,6 +3,7 @@ title: HTML Eerste website
 difficulty: basic
 date: 2023-01-09
 author: jsiewers
+technology: html
 ---
 
 

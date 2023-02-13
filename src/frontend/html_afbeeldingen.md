@@ -3,7 +3,7 @@ title: HTML Afbeeldingen
 difficulty: basic
 date: 2023-01-10
 author: jsiewers
-technology: testen, api
+technology: html, bla
 ---
 
 # {{ title }}
