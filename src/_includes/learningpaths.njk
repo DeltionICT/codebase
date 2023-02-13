@@ -1,0 +1,9 @@
+{% extends "layout.njk" %}
+{% block learningpaths %}
+<h4 class="coursetitle">Learningpaths</h4>
+<ul class="learningpaths">
+{% for lp in learningpaths %}
+    <li><a href="{{ '/learningpath/' | url }}{{ lp.key | slug }}/">{{ lp.name }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
