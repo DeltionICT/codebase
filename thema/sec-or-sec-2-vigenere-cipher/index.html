@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | sec | Sec 1-Caesar Cipher</title>
+    <title>Deltion Software Development | sec | Sec 2-Vigenere Cipher</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/sec1-CeasarCipher.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/sec2-VigenereCipher.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/sec1-CeasarCipher.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/thema/sec2-VigenereCipher.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -297,7 +297,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/thema/sec-or-sec-1-caesar-cipher/">
                 <div>
                     <div class="title">sec | Sec 1-Caesar Cipher</div>
@@ -312,7 +312,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/thema/sec-or-sec-2-vigenere-cipher/">
                 <div>
                     <div class="title">sec | Sec 2-Vigenere Cipher</div>
@@ -363,6 +363,8 @@
 
 
 
+
+
     <h4 class="coursetitle">Thema</h4>
 
     <div class="author">Koos Starreveld | Feb, 2023</div>
@@ -370,40 +372,53 @@
 
 
 
-
-
         
-    <h1 id="sec-%7C-sec-1-caesar-cipher">sec | Sec 1-Caesar Cipher</h1>
+    <h1 id="sec-%7C-sec-2-vigenere-cipher">sec | Sec 2-Vigenere Cipher</h1>
 <blockquote>
 <h4 id="voorkennis%3A">Voorkennis:</h4>
 <ul>
 <li>Basis Programmeren</li>
 <li>ASCII table</li>
+<li>De opdracht Ceasar Cipher</li>
 </ul>
 </blockquote>
 <blockquote>
 <h4 id="doelen%3A">Doelen:</h4>
 <ul>
 <li>leren hoe je characters omzet naar ASCII-codes en hieraan kunt rekenen (rotation)</li>
+<li>leren een complexer algortime toe te passen met behulp van een key (sleutel).</li>
 </ul>
 </blockquote>
-<h3 id="opdracht">opdracht</h3>
+<h3 id="opdracht-a.">opdracht a.</h3>
 <ul>
 <li>Maak een applicatie of website</li>
-<li>Voeg een input toe :  waar je een tekst kunt invoeren.</li>
-<li>Voeg een input toe :  waar je een getal kunt invoeren waarin je de tekst gaat roteren.</li>
+<li>Output het vierkant van Vigenere: niet hardcoded maar met behulp van loops. <a href="https://info.math4all.nl/Wiskundegeschiedenis/Onderdelen/RGPriemEx3.html">Voorbeeld</a>.</li>
 </ul>
-<p>Voorbeeld: 'hallo' wordt bij een rotatie van 1: 'ibmmp'.</p>
+<h3 id="opdracht-b.">opdracht b.</h3>
 <ul>
-<li>Werk eerst met de letters a-z. Maak gebruik van de ascii waarde van letters. Bijvoorbeeld in PHP kun je die vinden met de functie ord() en chr() in JavaScript met charCodeAt.</li>
+<li>
+<p>Voeg een input toe :  waar je een tekst kunt invoeren.</p>
+</li>
+<li>
+<p>Voeg een input toe :  waar je een sleutel kunt invoeren.</p>
+</li>
+<li>
+<p>Bij Vigenere roteer je iedere letter met de waarde van de corresponderende letter uit de sleutel. (a=1 b=2 etc.)</p>
+</li>
+</ul>
+<p>Voorbeeld: 'hallo' wordt bij met een sleutel van: 'deltion' geroteerd naar :  'kewew'.</p>
+<ul>
+<li>Werk weer eerst met de letters a-z. Maak gebruik van de ascii waarde van letters. Bijvoorbeeld in PHP kun je die vinden met de functie ord() en chr() in JavaScript met charCodeAt.</li>
 <li>Wat moet je doen als je voorbij de letter z roteert?</li>
 <li>Voeg nu ook hoofdletters toe.</li>
 </ul>
+<h3 id="vraag%3A">VRAAG:</h3>
+<ul>
+<li>Waarom is deze encryptie veel moeilijker te kraken?</li>
+</ul>
 <h3 id="uitbreiding%3A">Uitbreiding:</h3>
 <ul>
-<li>Voeg nu ook getallen en leestekens toe</li>
-<li>Trim en sanitize je input tekst.</li>
-<li>maak ook een knop 'decrypt' die de rotatie weer andersom doet.</li>
+<li>maak nu ook decrypt' die een geencrypte tekst weer decrypt met behulp van de key.</li>
 </ul>
 
         
