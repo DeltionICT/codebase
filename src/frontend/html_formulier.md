@@ -1,5 +1,6 @@
 ---
 title: HTML Formulier
+key: 2005
 difficulty: basic
 date: 2023-01-10
 author: jsiewers

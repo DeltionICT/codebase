@@ -1,5 +1,6 @@
 ---
 title: js10 | Input value
+key: 2001
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
 author: cstegeman

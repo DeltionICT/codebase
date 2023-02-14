@@ -1,5 +1,6 @@
 ---
 title: Introductie
+key: 1302
 coursetitle: nothing
 layout: learningpaths.njk
 difficulty: basic

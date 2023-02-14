@@ -65,6 +65,15 @@ module.exports = function(eleventyConfig) {
         })
 	});
 
+    eleventyConfig.addFilter("getPostsByKeys", (posts, keys) => {
+        x = posts.filter(p => {
+            // (p.data.key) ? console.log(p.data.key):console.log("bla");
+            return (p.data.key) ? keys.includes(p.data.key) : false;
+        })
+        console.log(x)
+        return x
+	});
+
     eleventyConfig.addFilter('toArray', (text) => {
         thetxt = text + ''
         let myarray = thetxt.split(',')
