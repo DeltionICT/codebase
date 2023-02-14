@@ -2,7 +2,7 @@
 title: Beer-casus
 difficulty: medium
 date: 2022-03-01
-technologies: [projectmanagement,scrum,code,casus]
+technology: scrum, api
 author: rkerssies, cstegeman
 
 ---

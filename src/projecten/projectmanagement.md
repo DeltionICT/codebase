@@ -2,7 +2,7 @@
 title: Projectmanagement, SCRUM
 difficulty: basic
 date: 2021-02-10
-technologies: [projectmanagement,scrum,waterval,kanban,theorie,casus]
+technology: scrum
 author: rkerssies
 ---
 

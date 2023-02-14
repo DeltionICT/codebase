@@ -2,7 +2,7 @@
 title: Ontwerpen | SequenceDiagram
 difficulty: medium
 date: 2022-02-16
-technologies: uml
+technology: uml
 author: rkerssies
 ---
 

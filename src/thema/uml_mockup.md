@@ -2,7 +2,7 @@
 title: Ontwerpen | Mockups
 difficulty: basic
 date: 2022-02-13
-technologies: [website,app,design,looknfeel]
+technology: uml
 author: rkerssies
 ---
 

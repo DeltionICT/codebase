@@ -2,7 +2,7 @@
 title: Ontwerpen | Wireframes
 difficulty: basic
 date: 2022-02-12
-technologies: uml
+technology: uml
 author: rkerssies
 ---
 
@@ -28,7 +28,9 @@ Immers; "een plaatje zegt meer dan 1000 woorden".
 
 
 ## Opdracht
-Wireframes zijn onder andere te maken met [LucidChart]({{ 'https://lucid.app/nl/users/registerLevel?anonId=0.0fa5251918635719ec0&sessionDate=2023-02-09T09%3A33%3A23.631Z&sessionId=0.587259fc18635719ec1' | url }}).
+Wireframes zijn onder andere te maken met 
+[Basemiq]({{ 'https://balsamiq.com/learn/' | url }}) of
+[LucidChart]({{ 'https://lucid.app/nl/users/registerLevel?anonId=0.0fa5251918635719ec0&sessionDate=2023-02-09T09%3A33%3A23.631Z&sessionId=0.587259fc18635719ec1' | url }}).
 Na het installeren kan je een student-licence van de frontend-docent ontvangen.
 
 Maak WireFrames vooraf bij het opstarten van elk toekomstig project en gebruik de wireframes in de afstemming met jouw opdrachtgever(s).
