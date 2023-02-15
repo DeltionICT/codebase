@@ -1,5 +1,6 @@
 ---
 title: JS Casino
+key: 2003
 difficulty: medium
 date: 2023-01-15
 author: jsiewers

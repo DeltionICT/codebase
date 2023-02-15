@@ -2,8 +2,15 @@
 {% block learningpaths %}
 <h4 class="coursetitle">Learningpaths</h4>
 <ul class="learningpaths">
-{% for lp in learningpaths %}
-    <li><a href="{{ '/learningpath/' | url }}{{ lp.key | slug }}/">{{ lp.name }}</a></li>
+{% for p in learningpaths %}
+    <li><a href="{{ '/learningpath/' | url }}{{ p.key | slug }}/">{{ p.name }}</a></li>
 {% endfor %}
 </ul>
+<h4 class="coursetitle">Learningpaths</h4>
+<ul class="lp">
+{% for lpitem in lp %}
+    <li><a href="{{ '/lpitem/' | url }}{{ lpitem.key | slug }}/">{{ lpitem.name }}</a></li>
+{% endfor %}
+</ul>
+
 {% endblock %}
