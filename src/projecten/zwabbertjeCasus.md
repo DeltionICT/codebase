@@ -2,7 +2,7 @@
 title: Zwabbertje-casus
 difficulty: medium
 date: 2022-03-01
-technology: scrum, all
+technology: scrum
 author: rkerssies
 ---
 

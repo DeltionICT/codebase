@@ -1,8 +1,9 @@
 ---
-title: Casino kaarten delen
+title: JS Casino
 difficulty: medium
 date: 2023-01-15
 author: jsiewers
+technology: js
 ---
 
 
