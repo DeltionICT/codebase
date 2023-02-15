@@ -58,6 +58,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 <hr>
 2. Maak een applicatie in een framework met de volgende werking;
+
 * als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
     * kanttekening 1: leeftijdscheck >= 18 jaar
     * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
@@ -73,6 +74,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 <hr>
 3. Update het applicatie met de volgende werking;
+
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
 * als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken
