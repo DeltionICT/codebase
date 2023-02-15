@@ -466,9 +466,7 @@
     <h1 id="api-rbac-php">API-rbac PHP</h1>
 <img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
 <blockquote>
-<blockquote>
 <h5 id="voorkennis">Voorkennis</h5>
-</blockquote>
 <ul>
 <li>programmeer-basics, functions, OOP, MVC-frameworks, API, git</li>
 <li>API-toepassen, json</li>
@@ -488,25 +486,15 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
 <p>Alle request worden gestest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a></p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote></blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<ol>
-<li>Maak een API-server in een framework met de volgende werking;</li>
-</ol>
-<ul>
-<li>inloggen en een token ontvangen voor gebruik in de front-end door inloggegevens te sturen naar een API-url</li>
-<li>begrip SSL vereiste voor het gebruik van tokens</li>
-<li>refresh token op verzoek van een API-url</li>
-<li>een token verloopt na een geconfigureerde tijdsduur (config-file)</li>
-<li>API-verzoeken gebaseerd op de juiste authenticatie</li>
-<li>incorrecte permissies geven een 403 in json</li>
-<li>foutive API-url's geven een 404-response in json</li>
-</ul>
+<hr>
+1. Maak een API-server in een framework met de volgende werking;
+* inloggen en een token ontvangen voor gebruik in de front-end door inloggegevens te sturen naar een API-url
+* begrip SSL vereiste voor het gebruik van tokens
+* refresh token op verzoek van een API-url
+* een token verloopt na een geconfigureerde tijdsduur (config-file)
+* API-verzoeken gebaseerd op de juiste authenticatie
+* incorrecte permissies geven een 403 in json
+* foutive API-url's geven een 404-response in json
 <p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
 <ul>
 <li>token-functionaliteit
@@ -530,7 +518,22 @@ zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
 <ul>
 <li>correcte api-routes om de requests van de url op te vangen</li>
 </ul>
-<blockquote></blockquote>
+<blockquote>
+<h5 id="op-te-leveren">Op te leveren</h5>
+<ul>
+<li>een uitbreiding op een basis REST API-applicatie met;
+<ul>
+<li>alle request kunnen alleen worden uitgevoerd met een valide token</li>
+<li>API-request kunnen alleen worden uitgevoerd met een valide token</li>
+<li>foutive tokens leveren een 403 in json</li>
+<li>dat API-request alleen kunnen worden uitgevoerd als het token aan een gebruiker is gekoppeld met de juiste permissies</li>
+<li>tokens zijn gekoppeld met een gebruiker die (meerdere) rollen mogen hebben</li>
+<li>rollen zijn dynamisch gekoppeld aan één of meerdere permissies/abilities (bijv. via relaties in een database)</li>
+<li>alle request kunnen worden getest in Postman</li>
+</ul>
+</li>
+</ul>
+</blockquote>
 
         
         

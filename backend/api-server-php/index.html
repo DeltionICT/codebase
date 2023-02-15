@@ -486,26 +486,16 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
 <p>Alle request worden gestest met een API-testtool, zoals <a href="https://www.postman.com">Postman</a></p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote></blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<ol>
-<li>Maak een API-server in een framework met de volgende werking;</li>
-</ol>
-<ul>
-<li>alle responses zijn in json, met daarbij extra meta-data ook in json</li>
-<li>in de url is duidelijk welk model/databasetabel wordt aangesproken</li>
-<li>key 'all' in de url levert alle records als response</li>
-<li>een id (nummer) in de url levert een specifiek record uit een databasetabel op als response</li>
-<li>een request met data in combinatie met de post-method voegt een record toe aan een databasetabel</li>
-<li>een request met een id (nummer) en met een delelete-method in de url verwijdert een specifiek record uit een databasetabel</li>
-<li>een request met een id (nummer) en met een put-method in de url update een specifiek record in een databasetabel</li>
-<li>foutive API-url's geven een 404-response in json</li>
-</ul>
+<hr>
+1. Maak een API-server in een framework met de volgende werking;
+* alle responses zijn in json, met daarbij extra meta-data ook in json
+* in de url is duidelijk welk model/databasetabel wordt aangesproken
+* key 'all' in de url levert alle records als response
+* een id (nummer) in de url levert een specifiek record uit een databasetabel op als response
+* een request met data in combinatie met de post-method voegt een record toe aan een databasetabel
+* een request met een id (nummer) en met een delelete-method in de url verwijdert een specifiek record uit een databasetabel
+* een request met een id (nummer) en met een put-method in de url update een specifiek record in een databasetabel
+* foutive API-url's geven een 404-response in json
 <p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
 <ul>
 <li>correcte api-url's om de requests van de url op te vangen</li>
@@ -536,7 +526,21 @@ zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
 <li>maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen</li>
 <li>instatieer een model-class en validatie-class op basis van de class-naam in de url</li>
 </ul>
-<blockquote></blockquote>
+<blockquote>
+<h5 id="op-te-leveren">Op te leveren</h5>
+<ul>
+<li>een REST API-applicatie met;
+<ul>
+<li>die alle data uit verschillende databas-tabellen kan teruggeven in json</li>
+<li>die een enkel record uit verschillende database-tabellen kan teruggeven in json</li>
+<li>die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft</li>
+<li>alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten</li>
+<li>foutieve API-requests geven een foutmelding en status in json terug</li>
+<li>alle request kunnen worden getest in Postman</li>
+</ul>
+</li>
+</ul>
+</blockquote>
 
         
         
