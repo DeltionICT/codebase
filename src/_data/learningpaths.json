@@ -3,7 +3,10 @@
         "key": "frontend",
         "name": "Frontend development",
         "subjects": "html, css, js, scrum, uml",
-        "description": "Frontend description"
+        "description": "Frontend description",
+        "pages" : {
+
+        }
     },  
     {
         "key": "backend",
