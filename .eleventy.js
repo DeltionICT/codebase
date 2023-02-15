@@ -67,14 +67,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("getPostsByKeys", (posts, keys) => {
         x = posts.filter(p => {
-            // (p.data.key) ? console.log(p.data.key):console.log("bla");
             return (p.data.key) ? keys.includes(p.data.key) : false;
         })
         items = []
-        keys.forEach(key =>
-            items.push(x.find(item => item.data.key == key))
-        );
-        console.log(items)
+        keys.forEach(key => items.push(x.find(item => item.data.key == key)));
         return items
 	});
 
@@ -82,7 +78,6 @@ module.exports = function(eleventyConfig) {
         thetxt = text + ''
         let myarray = thetxt.split(',')
         trimmed = myarray.map(a => a.trim())
-        console.log(trimmed)
         return trimmed
     });
 
@@ -126,8 +121,7 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addFilter("image", function(url, alt, size){
-        return `<img src="${url}" alt="${alt}" style="width:${size}%;">`;
-        
+        return `<img src="${url}" alt="${alt}" style="width:${size}%;">`;  
     })
 
     eleventyConfig.addFilter("author", function(date, name){
@@ -168,16 +162,7 @@ module.exports = function(eleventyConfig) {
         // Tell nunjucks to render the file's content, passing the
         // arguments to it as the "component" object.
         return nunjucks.renderString(content, {video: yt_id});
-
     });
-
-    // eleventyConfig.addShortcode("user", function(firstName, lastName) {
-    //     return firstName + ' ' + lastName;
-    // });
-
-    // eleventyConfig.addShortcode("pepper", function(color) {
-    //     return '/_assets/' + color + '_pepper.svg';
-    // });
 
     //eleventyConfig.addWatchTarget("./src/_css/");
     eleventyConfig.addWatchTarget("./src/**/*");
