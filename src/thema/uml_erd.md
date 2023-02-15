@@ -38,7 +38,10 @@ of gebruik het ontwerp-tab in XAMPP om ERD's weer te geven en evt. kleine aanpas
 <img src="{{ '/_assets/themas/erd_xampp.png' | url }}" style="width:50%;">
 
 
-
 NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
-
 <img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
+
+> ##### Op te leveren
+> * een ERD van (complex) dtabasetabellen, voordat er wordt geprogrammeerd
+> * ERD's maken voordat de database wordt op gezet
+> * ERD's en ontwerp koppelen aan project-data/archiveren

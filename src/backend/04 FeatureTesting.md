@@ -26,7 +26,7 @@ Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 
 
->>>>
+<hr>
 1. Maak in een bestaande framework applicatie de volgende tests mogelijk;
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
@@ -69,4 +69,11 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * de testresultaten zijn op een prettige manier te controleren
 * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 
-> {{technologiesTags}}
+> ##### Op te leveren
+> * toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)
+> * dit bij elke toekomstige UserStory als taak is toegevoegd
+>
+> * toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)
+> * dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken
+> 
+> * dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken

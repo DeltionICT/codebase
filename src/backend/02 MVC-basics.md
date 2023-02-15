@@ -39,7 +39,7 @@ In de projectmap kan je het bestand app/config/config.ini zijn de database-inste
 Met de url http://localhost/mvc2022/public wordt de MVC-applicatie getoond. 
 Het standaard account is: admin@app.com met het wachtwoord: password
 
->>>>
+<hr>
 1. Maak een programma met een werking;
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
@@ -79,4 +79,12 @@ Het programma heeft de volgende technische eigenschappen toegepast:
 * services
 * classes in de lib-folder, zoals die voor email, zijn maximaal herbruikbaar en maken gebruik van namespaces
 
-> {{technologiesTags}}
+> ##### Op te leveren
+> * aantonen dat het basisproces van MVC-frameworks wordt begrepen
+> * aantonen dat het gebruik routes wordt begrepen 
+> * aantonen dat gecentraliseerde layouts en gebruik van css-files kan worden toegepast en goed georganiseerd
+> * aantonen dat het gebruik middleware wordt begrepen 
+> * aantonen dat services wordt begerepen
+> * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
+> * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden  
+

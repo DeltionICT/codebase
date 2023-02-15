@@ -21,6 +21,7 @@ author: rkerssies
 ### Taken
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
+<hr>
 1. Maak een programma met een werking; 
    * als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen
 
@@ -91,3 +92,7 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
     * verbeter de verwerking van database-queries door gebruik te maken van parameter-binding
     * geef data aan de query-method in de vorm van een multi associative array
 
+
+> ##### Op te leveren
+> * een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
+> * het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel

@@ -40,8 +40,9 @@ en [WireFrames explained]({{ 'https://www.lucidchart.com/pages/wireframe' | url 
 
 
 NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
-
 <img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
 
-
+> ##### Op te leveren
+> * een WireFrame maken van elke applicatie-scherm en de onderlinge relaties daartussen inzichtelijk maken
+> * WireFrames en ontwerp koppelen aan project-data/archiveren
 

@@ -10,7 +10,7 @@ author: rkerssies
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
 
-> > ##### Voorkennis
+> ##### Voorkennis
 > * programmeer-basics, functions, OOP, MVC-frameworks, API, git
 > * API-toepassen, json
 
@@ -26,7 +26,7 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 
 Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com' | url }})
 
->>>>
+<hr>
 1. Maak een API-server in een framework met de volgende werking;
 * inloggen en een token ontvangen voor gebruik in de front-end door inloggegevens te sturen naar een API-url
 * begrip SSL vereiste voor het gebruik van tokens
@@ -53,4 +53,15 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte api-routes om de requests van de url op te vangen
 
-> {{technologiesTags}}
+> ##### Op te leveren
+> * een uitbreiding op een basis REST API-applicatie met;
+>   * alle request kunnen alleen worden uitgevoerd met een valide token
+>   * API-request kunnen alleen worden uitgevoerd met een valide token
+>   * foutive tokens leveren een 403 in json
+>   * dat API-request alleen kunnen worden uitgevoerd als het token aan een gebruiker is gekoppeld met de juiste permissies 
+>   * tokens zijn gekoppeld met een gebruiker die (meerdere) rollen mogen hebben
+>   * rollen zijn dynamisch gekoppeld aan één of meerdere permissies/abilities (bijv. via relaties in een database)
+>   * alle request kunnen worden getest in Postman
+
+
+

@@ -27,7 +27,7 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 
 Alle request worden gestest met een API-testtool, zoals [Postman]({{ 'https://www.postman.com' | url }})
 
->>>>
+<hr>
 1. Maak een API-server in een framework met de volgende werking;
 * alle responses zijn in json, met daarbij extra meta-data ook in json
 * in de url is duidelijk welk model/databasetabel wordt aangesproken
@@ -61,4 +61,12 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen
 * instatieer een model-class en validatie-class op basis van de class-naam in de url   
 
-> {{technologiesTags}}
+> ##### Op te leveren
+> * een REST API-applicatie met;
+>   * die alle data uit verschillende databas-tabellen kan teruggeven in json 
+>   * die een enkel record uit verschillende database-tabellen kan teruggeven in json
+>   * die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft
+>   * alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten
+>   * foutieve API-requests geven een foutmelding en status in json terug
+>   * alle request kunnen worden getest in Postman
+
