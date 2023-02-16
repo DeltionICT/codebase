@@ -8,7 +8,11 @@
 {% endfor %}
 </ul>
 <h2>Technologies</h2>
+<ul>
 {% for technology in technologies %}
-    <li><a href="{{ '/technologies/' | url }}{{ technology.key | slug }}/">({{ technology.key }}) - {{ technology.name }}</a></li>
+    <li>
+        <a href="{{ '/technologies/' | url }}{{ technology.key | slug }}/">({{ technology.key }}) - {{ technology.name }}</a>
+    </li>
 {% endfor %}
+</ul>
 {% endblock %}

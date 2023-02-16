@@ -1,9 +1,11 @@
 {% extends "layout.njk" %}
 {% block modules %}
 <h4 class="coursetitle">Modules</h4>
-<ul class="modules">
+<div class="modules">
 {% for p in modules %}
-    <li><a href="{{ '/module/' | url }}{{ p.key | slug }}/">{{ p.name }}</a></li>
+    <a href="{{ '/module/' | url }}{{ p.key | slug }}/">
+        <div>{{ p.name }}</div>
+    </a>
 {% endfor %}
-</ul>
+</div>
 {% endblock %}

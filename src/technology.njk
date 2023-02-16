@@ -18,6 +18,12 @@ permalink: "/technologies/{{ technology.key | slug }}/index.html"
 {% set posts = collections.all | getPostsByTechnology(technology.key) %}
 <ul>
 {% for post in posts %}
-	<li><a href="{{post.url | url }}">{{post.data.title}}</a></li>
+	<li>
+        <a href="#" onclick="addAssignment({{ post.data.key }})">[{{ post.data.key }}]</a> | 
+        <a href="{{post.url | url }}">{{post.data.title}}</a>
+    </li>
 {% endfor %}
 </ul>
+<div id="assignments"></div>
+<a href="#" onclick="clearAssignments()">clear</a><br>
+

@@ -2,24 +2,101 @@
     {
         "key": "K0721",
         "name": "Basis webdevelopment",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment//cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
         "fase": "basis",
-        "description": "Backend description",
-        "assignments": [1413, 2410, 2411, 2413, 2412]
+        "description": "In dit keuzedeel ontwikkelt de beginnend beroepsbeoefenaar een eenvoudige website/webshop en past hij bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook houdt hij zich bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
+        "assignments": [2008,2004,2005,2011]
     },  
     {
         "key": "K0719",
         "name": "Basis programmeren",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren/",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren//cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
         "fase": "basis",
-        "description": "Backend description",
-        "assignments": [1408, 1418, 2411, 1414, 2006]
+        "description": "In dit keuzedeel leert de beginnend beroepsbeoefenaar eenvoudige applicatie te programmeren(bijv. softwareprogramma's, apps). Hij past bij het programmeren de ontwerpprincipes en de structuur en opbouw van programmeertalen toe.",
+        "assignments": [1005,1006,1045,1047,1007,1001,1052,1040,1035]
     },  
     {
-        "key": "fullstack",
-        "name": "Fullstack developer",
-        "subjects": "html, css, js, php, csharp, dbq, dbo, scrum, uml",
+        "key": "K0722",
+        "name": "Frontend development",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
         "description": "Fullstack description",
-        "assignments": [2404, 2401, 2407, 1305, 1306]
+        "assignments": [2104]
+    },
+    {
+        "key": "K0729",
+        "name": "Mobile application design",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/mobile-application-design/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Fullstack description",
+        "assignments": [2403,2409,2414]
+    },
+    {
+        "key": "K0497",
+        "name": "Mobile application development",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/mobile-application-development/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Fullstack description",
+        "assignments": [2404]
+    },
+    {
+        "key": "K0730",
+        "name": "Programmeren van microcontrollers",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/programmeren-van-microcontrollers/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDI3O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Fullstack description",
+        "assignments": [2404]
+    },
+    {
+        "key": "K0767",
+        "name": "Grafisch ontwerp voor webdevelopment",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/grafisch-ontwerp-voor-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDc4O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "De beginnend beroepsbeoefenaar maakt in dit keuzedeel een eenvoudig grafisch ontwerp van een (web-) user interface. Bij complexe grafische ontwerpen adviseert hij over de implementatie van het ontwerp. Tevens maakt hij de grafische elementen uit het ontwerp en integreert deze in de beoogde interface.",
+        "assignments": [2404]
+    },
+    {
+        "key": "K0529",
+        "name": "Interaction design",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/interaction-design/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zNjAwO2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Dit keuzedeel is een verdieping op de kwalificatie Mediavormgever en gaat in op interaction design en de realisatie ervan. Bij interaction design gaat het om tweerichtingsverkeer, om actieve gebruikers die op zoek zijn naar bepaalde informatie en is gebruiksgemak een belangrijk issue. In de uitvoering wordt aandacht besteed aan zowel de visuele kant van interactieve producten als ook de gebruikerservaring en de technische realisatie.",
+        "assignments": [2404]
+    },
+    {
+        "key": "K1105",
+        "name": "Oriëntatie Blockchain",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Door middel van dit keuzedeel vergroten beginnend beroepsbeoefenaren kennis van mogelijkheden en onmogelijkheden van blockchaintechnologie. Zij ontwikkelen inzicht in bedrijfsprocessen die verbeterd kunnen worden door toepassing van blockchaintechnologie.",
+        "assignments": [2404]
+    },
+    {
+        "key": "K1114",
+        "name": "Verdieping blockchain",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Door middel van dit keuzedeel vergroten beginnend beroepsbeoefenaren kennis van mogelijkheden van blockchaintechnologie. Zij ontwikkelen vaardigheid in het uitwerken van een eenvoudige blockchaintoepassing.",
+        "assignments": [2404]
+    },
+    {
+        "key": "K0720",
+        "name": "Basis scripting & databases",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "De beginnend beroepsbeoefenaar bouwt praktische en eenvoudige toepassingen voor databases met behulp van scripts. De focus ligt daarbij op scripts ten behoeve van ICT-beheer. Hij past op een gestructureerde wijze de basismogelijkheden van scripttalen toe, zoals het gebruik van variabelen (local en global) en basisfuncties.",
+        "assignments": [1417,2208,2204,2209,2203,1416]
+    },
+    {
+        "key": "K1232",
+        "name": "DevOps voor IT experts",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
+        "fase": "basis",
+        "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
+        "assignments": [2202,2208,2209,2201]
     }
+
+    
+
+
 ]

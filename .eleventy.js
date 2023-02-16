@@ -73,6 +73,7 @@ module.exports = function(eleventyConfig) {
         keys.forEach(key =>
             items.push(x.find(item => item.data.key == key))
         );
+        console.log(items)
         return items
 	});
 

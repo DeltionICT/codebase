@@ -227,3 +227,29 @@ div.author {
    font-style: italic;
    font-size: 0.9rem;
 }
+
+div.modules {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.modules div {
+    width: 220px;
+    height:220px;
+    background-color: #ff5700;
+    color:white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow:var(--c-box-shadow);
+}
+
+div.modules a {
+    text-decoration: none;
+    color:white;
+}
+
+div.modules a > div {
+    
+}
+

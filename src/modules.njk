@@ -14,16 +14,14 @@ author: jsiewers
 
 <h1>{{ module.name }}</h1>
 <a href="https://kwalificatie-mijn.s-bb.nl/keuzedeel/{{ module.name | slug }}">SBB</a>
+<div class="description">{{ module.description }}</div>
 
 {% set posts = collections.all | getPostsByKeys(module.assignments) %}
 <ul>
 {% for post in posts %}
 	<li>
-        <a href="#" onclick="addAssignment({{ post.data.key }})">[{{ post.data.key }}]</a> 
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a> 
     </li>
 {% endfor %}
-<a href="#" onclick="clearAssignments()">clear</a><br>
 
 </ul>
-<div id="assignments"></div>
