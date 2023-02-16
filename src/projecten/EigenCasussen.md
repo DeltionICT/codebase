@@ -1,8 +1,9 @@
 ---
 title: Eigen Casus
+key: 2201
 difficulty: expert
 date: 2022-12-12
-technology: scrum, all
+technology: scrum
 author: rkerssies
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: DBQ cursussen
+key: 1412
 difficulty: basic
 date: 2022-11-10
 author: jsiewers
+technology: dbq
 ---
 
 

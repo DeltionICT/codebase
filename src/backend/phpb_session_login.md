@@ -1,8 +1,10 @@
 ---
 title: PHPB Sessie login
+key: 1408
 difficulty: basic
 date: 2022-10-10
 author: jsiewers
+technology: html, php
 ---
 
 

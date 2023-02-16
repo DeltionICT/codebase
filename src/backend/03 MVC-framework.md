@@ -1,8 +1,9 @@
 ---
 title: MVC-Framework PHP
+key: 1402
 difficulty: medium
 date: 2023-01-03
-technology: html,php,database
+technology: html, php, dbq, dbo
 author: rkerssies
 ---
 

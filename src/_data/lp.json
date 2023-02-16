@@ -1,0 +1,21 @@
+[
+    {
+        "key": "frontend",
+        "name": "Frontend development",
+        "fase": 1,
+        "assignments": [1413, 2410, 2411, 2413, 2412]
+    },  
+    {
+        "key": "backend",
+        "name": "Backend developer",
+        "description": "Backend description",
+        "assignments": [1408, 1418, 2411, 1414, 2006]
+    },  
+    {
+        "key": "fullstack",
+        "name": "Fullstack developer",
+        "subjects": "html, css, js, php, csharp, dbq, dbo, scrum, uml",
+        "description": "Fullstack description",
+        "assignments": [2404, 2401, 2407, 1305, 1306]
+    }
+]

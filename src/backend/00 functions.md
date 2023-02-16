@@ -1,8 +1,9 @@
 ---
 title: Functions PHP
+key: 1407
 difficulty: medium
 date: 2022-12-30
-technology: html,php
+technology: html, php
 author: rkerssies
 ---
 

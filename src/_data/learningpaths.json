@@ -1,0 +1,38 @@
+[
+    {
+        "key": "frontend",
+        "name": "Frontend development",
+        "subjects": "html, css, js, scrum, uml",
+        "description": "Frontend description"
+    },  
+    {
+        "key": "backend",
+        "name": "Backend developer",
+        "subjects": "html, php, csharp, dbq, dbo, scrum, uml",
+        "description": "Backend description"
+    },  
+    {
+        "key": "fullstack",
+        "name": "Fullstack developer",
+        "subjects": "html, css, js, php, csharp, dbq, dbo, scrum, uml",
+        "description": "Fullstack description"
+    },  
+    {        
+        "key": "python",
+        "name": "Python developer",
+        "subjects": "python, dbq, dbo, scrum, uml",
+        "description": "Python description"
+    },    
+    {
+        "key": "content",
+        "name": "Contentdeveloper",
+        "subjects": "html, css, php, wp, seo",
+        "description": "Content Developers research, prepare, write, and edit online content for marketing and front-end web development. They are involved in the writing of blog posts, static copy, and video content and well as the technical aspects, such as SEO and HTML formatting."
+    },   
+    {
+        "key": "creative",
+        "name": "Creative",
+        "subjects": "html, css, php, wp, seo",
+        "description": "Creative description"
+    }
+]

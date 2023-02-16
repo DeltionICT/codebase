@@ -1,8 +1,9 @@
 ---
 title: MVC-basics PHP
+key: 1401
 difficulty: medium
 date: 2023-01-02
-technology: html,php,laravel
+technology: html, php, laravel
 author: rkerssies
 ---
 

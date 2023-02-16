@@ -1,9 +1,10 @@
 ---
 title: HTML Afbeeldingen
+key: 2004
 difficulty: basic
 date: 2023-01-10
 author: jsiewers
-technology: testen, api
+technology: html
 ---
 
 # {{ title }}

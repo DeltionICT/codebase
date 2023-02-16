@@ -1,0 +1,24 @@
+---
+key: 1305
+layout: layout.njk
+title: Startpagina
+difficulty: basic
+date: 2023-01-10
+pagination:
+    data: learningpaths
+    size: 1
+    alias: learningpath
+permalink: "/learningpath/{{ learningpath.key | slug }}/index.html"
+author: jsiewers
+---
+
+<h1>{{ learningpath.name }}</h1>
+<p>{{ learningpath.description }}</p>
+{% for subject in learningpath.subjects | toArray() %}
+{% set posts = collections.all | getPostsByTechnology(subject) %}
+<ul>
+{% for post in posts %}
+	<li><a href="{{post.url | url }}">{{post.data.title}}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}

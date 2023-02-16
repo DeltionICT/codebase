@@ -1,8 +1,10 @@
 ---
-title: IDE C#
+title: IDE C
+key: 2102
 difficulty: basic #basic | medium | expert
 date: 2023-01-12
 author: kstarreveld
+technology: csharp
 ---
 
 # {{ title }}

@@ -1,8 +1,10 @@
 ---
 title: PHPB Database login
+key: 1414
 difficulty: basic
 date: 2022-11-10
 author: jsiewers
+technology: php
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 title: js22 | Tafels
+key: 2009
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
 author: cstegeman

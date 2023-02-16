@@ -1,8 +1,9 @@
 ---
 title: Zwabbertje-casus
+key: 2205
 difficulty: medium
 date: 2022-03-01
-technology: scrum, all
+technology: scrum
 author: rkerssies
 ---
 

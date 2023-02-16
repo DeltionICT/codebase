@@ -1,8 +1,10 @@
 ---
 title: HTML Eerste website
+key: 2008
 difficulty: basic
 date: 2023-01-09
 author: jsiewers
+technology: html
 ---
 
 
