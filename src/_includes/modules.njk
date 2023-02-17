@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block modules %}
+<h4 class="coursetitle">Modules</h4>
+<div class="modules">
+{% for p in modules %}
+    <a href="{{ '/module/' | url }}{{ p.key | slug }}/">
+        <div>{{ p.name }}</div>
+    </a>
+{% endfor %}
+</div>
+{% endblock %}

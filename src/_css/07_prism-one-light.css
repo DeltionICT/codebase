@@ -29,7 +29,8 @@
  */
 
  code[class*="language-"],
- pre[class*="language-"] {
+ pre[class*="language-"],
+ #assignments  {
      background-color: var(--c-code);
      color: hsl(230, 8%, 24%);
      font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
@@ -66,7 +67,7 @@
  }
  
  /* Code blocks */
- pre[class*="language-"] {
+ #assignments, pre[class*="language-"] {
      padding: 1em;
      margin: 0.5em 0;
      border-radius: 0.3em;
