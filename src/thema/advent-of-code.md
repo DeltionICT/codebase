@@ -27,4 +27,5 @@ Ga dan een challange aan. Je krijgt elke dag in 4 weken een nieuwe uitdaging.
 [Advent of Code 2022]({{ 'https://adventofcode.com' | url }})<br>
 [Advent of Code 2021]({{ 'https://adventofcode.com/2021' | url }})<br>
 
-
+> ##### Op te leveren
+> * eindscore van de 'Advent of Code' (punten waarmee de 4 weken zijn afgerond)

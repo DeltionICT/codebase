@@ -44,5 +44,11 @@ Projecten kan je in vele methodes uitvoeren, de volgende zijn in het boek uitgew
 * Waterval (PRINCE2 variant)
 * Kanban
 
+> ##### Op te leveren
+> * bewijs dat je;
+>   * kan meewerken in een SCRUM-team aan een 'echt' project
+>   * eigen UserStories en taken uitwerken in DevOps
+>   * kan meedoen en bijdragen aan een dailystandup
+>   * kan meedoen en bijdragen aan een ProductReview
+>   * kan meedoen en bijdragen aan een retrospective
 
-> {{technologiesTags}}

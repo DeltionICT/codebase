@@ -41,3 +41,8 @@ Details over ActiviteitenDiagrammen zijn te vinden op how to: [ActivityDiagram](
 
 NB: ActiviteitenDigrammen vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
 <img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
+
+> ##### Op te leveren
+> * een ActiviteitenDiagram van een (complex) stukje programmeerwerk, voordat er wordt geprogrammeerd
+> * ActiviteitenDiagrammen maken bij elk (mogelijk) lastige processen
+> * Diagrammen en ontwerp koppelen aan project-data/archiveren

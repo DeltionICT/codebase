@@ -38,5 +38,9 @@ en [SequenceDiagram explained]({{ 'https://www.lucidchart.com/pages/uml-sequence
 
 
 NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
-
 <img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
+
+> ##### Op te leveren
+> * een SequenceDiagram maken van een (complex) stukje programmeerwerk, voordat er wordt geprogrammeerd
+> * SequenceDiagrammen maken bij elk (complex) proces tussen verschillende objecten en methods 
+> * SequenceDiagrammen en ontwerp koppelen aan project-data/archiveren
