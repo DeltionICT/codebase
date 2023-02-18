@@ -253,3 +253,7 @@ div.modules a > div {
     
 }
 
+input#assignments {
+    width:80%;
+    display:block;
+}

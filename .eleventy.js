@@ -70,9 +70,22 @@ module.exports = function(eleventyConfig) {
             return (p.data.key) ? keys.includes(p.data.key) : false;
         })
         items = []
-        keys.forEach(key => items.push(x.find(item => item.data.key == key)));
+
+        keys.forEach(key =>
+            items.push(x.find(item => item.data.key == key))
+        );
+
         return items
 	});
+    
+    eleventyConfig.addFilter("postsAscending", (collection) => {
+        return collection.sort((a,b) => {
+            if (a.data.title > b.data.title) return 1;
+            else if (a.data.title < b.data.title) return -1;
+            else return 0;
+        })
+    });
+
 
     eleventyConfig.addFilter('toArray', (text) => {
         thetxt = text + ''

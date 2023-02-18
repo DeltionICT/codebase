@@ -2,7 +2,8 @@
 {% block aside %}
 <aside id="right">
     <ul>
-    {% for p in collections[tags] %}
+    {% set posts = collections[tags] | postsAscending() %}
+    {% for p in posts %}
         <li {% if p.url == page.url %}aria-current="page" data-state="active"{% endif %}>
             <a class="page-link" href="{{ p.url | url }}">
                 <div>
