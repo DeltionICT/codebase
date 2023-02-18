@@ -1,5 +1,4 @@
 ---
-key: 1310
 layout: layout.njk
 title: Startpagina
 difficulty: basic
@@ -18,21 +17,46 @@ author: jsiewers
     {{ module.description }}
 </div>
 <ul>
-    <li>sbu: {{ module.sbu }}</li>
-    <li>evc: {{ module.evc }}</li>
-    <li>subjects: {{ module.subjects }}</li>
+    <li>Studiebelasting: {{ module.sbu }} ( ± {{ (module.sbu)/24 }} weken)</li>
+    {%  set evcs =  module.evc | toArray() | getObj(modules) %}
+    {% if evcs | length > 0  %}  
     <li>
-        Gekoppelde opleidingen
+        Voorkennis
         <ul>
-            {%  set quals =  module.gekoppelde_kwalificaties | toArray() %}
-            {%  set cs = quals | getObj(crebos) %}
-            {% for c in cs %}
-                <li>{{ c.key }} - {{ c.description }}</li>
+            {% for c in evcs %}
+                <li>{{ c.name }}</li>
+            {% endfor %}
+        </ul>      
+    </li>
+    {% else %}
+    <li>Geen voorkennis nodig</li>
+    {% endif %}
+
+    </li>
+    {%  set subs =  module.subjects | toArray() | getObj(technologies) %}
+    {% if subs | length > 0  %}  
+    <li>
+        Onderwerpen
+        <ul>
+            {% for s in subs %}
+                <li>{{ s.name }}</li>
             {% endfor %}
         </ul>
     </li>
-
-
+    {% endif %}
+    {%  set cs =  module.crebos | toArray() | getObj(crebos) %}
+    {% if cs | length > 0  %}  
+    <li>
+        Opleidingen
+        <ul>
+            {% for c in cs %}
+                <li>{{ c.key }} - {{ c.description }}</li>
+            {% endfor %}
+        </ul>      
+    </li>
+    {% else %}
+    <li>Geen gekoppelde opleidingen</li>
+    {% endif %}
 </ul>
 
 {% set posts = collections.all | getPostsByKeys(module.assignments) %}

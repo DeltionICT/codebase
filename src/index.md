@@ -1,6 +1,5 @@
 ---
 title: Introductie
-key: 1302
 coursetitle: nothing
 layout: modules.njk
 difficulty: basic

@@ -1,7 +1,7 @@
 [
     {
         "key":"25604",
-        "description":"Software Software Developer"
+        "description":"Software Developer"
     },
     {
         "key":"25606",
@@ -14,5 +14,9 @@
     {
         "key":"25605",
         "description":"Allround medewerker systems & devices"
+    },
+    {
+        "key":"25837",
+        "description":"Middenkader functionaris smary industry"
     }
 ]

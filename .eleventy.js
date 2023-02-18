@@ -55,16 +55,9 @@ module.exports = function(eleventyConfig) {
         })
 	});
 
-    eleventyConfig.addFilter("getObj", (keyv, crebos) => {
-        // keys = keys + ""
-        // akeys = keys.split(',')
-        // tkeys = akeys.map(a => a.trim())
-        // thekeys =  keys.filter(k => {
-        //     return (k.key == key) ? true : false;
-        // })
-        thekeys = crebos.filter(c => keyv.includes(c.key))
-        console.log(thekeys)
-        return thekeys
+    eleventyConfig.addFilter("getObj", (keys, objs) => {
+        keyobjs = objs.filter(c => keys.includes(c.key))
+        return keyobjs
     })
 
     eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
@@ -81,11 +74,9 @@ module.exports = function(eleventyConfig) {
             return (p.data.key) ? keys.includes(p.data.key) : false;
         })
         items = []
-
         keys.forEach(key =>
             items.push(x.find(item => item.data.key == key))
         );
-
         return items
 	});
     

@@ -4,8 +4,72 @@
         "name":"PHP"
     },
     {
+        "key":"ux",
+        "name":"User experience design"
+    },
+    {
+        "key":"ui",
+        "name":"User interface design"
+    },
+    {
         "key":"html",
         "name":"HTML"
+    },
+    {
+        "key":"linux",
+        "name":"Linux Serverbeheer"
+    },
+    {
+        "key":"win",
+        "name":"Windows Serverbeheer"
+    },
+    {
+        "key":"cms",
+        "name":"Content management systems"
+    },
+    {
+        "key":"vue",
+        "name":"Vue"
+    },
+    {
+        "key":"npm",
+        "name":"Node.js en node package manager"
+    },
+    {
+        "key":"git",
+        "name":"Git en github versiesysteem"
+    },    
+    {
+        "key":"oop",
+        "name":"Object georiënteerd programmeren"
+    },
+    {
+        "key":"owasp",
+        "name":"Open worldwide application security project"
+    },
+    {
+        "key":"ssd",
+        "name":"Secure software development"
+    },
+    {
+        "key":"erd",
+        "name":"Entiteit relatie diagram"
+    },
+    {
+        "key":"pwa",
+        "name":"Progressive webapps"
+    },
+    {
+        "key":"ide",
+        "name":"Installeren van een integrated development environment (IDE)"
+    },
+    {
+        "key":"hosting",
+        "name":"Applicaties publiceren op internet (hosting)"
+    },
+    {
+        "key":"seo",
+        "name":"Search engine optimization"
     },
     {
         "key":"css",
@@ -14,6 +78,14 @@
     {
         "key":"csharp",
         "name":"C#"
+    },    
+    {
+        "key":"react",
+        "name":"React"
+    },    
+    {
+        "key":"reactn",
+        "name":"React Native"
     },    
     {
         "key":"js",
@@ -25,7 +97,7 @@
     },
     {
         "key":"uml",
-        "name":"UML"
+        "name":"Unified modelling language (UML)"
     },
     {
         "key":"all",
@@ -43,5 +115,4 @@
         "key":"api",
         "name":"Webservices/api" 
     }
-
 ]
