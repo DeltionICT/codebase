@@ -14,7 +14,26 @@ author: jsiewers
 
 <h1>{{ module.name }}</h1>
 <a href="{{ module.sbb }}">SBB</a>
-<div class="description">{{ module.description }}</div>
+<div class="description">
+    {{ module.description }}
+</div>
+<ul>
+    <li>sbu: {{ module.sbu }}</li>
+    <li>evc: {{ module.evc }}</li>
+    <li>subjects: {{ module.subjects }}</li>
+    <li>
+        Gekoppelde opleidingen
+        <ul>
+            {%  set quals =  module.gekoppelde_kwalificaties | toArray() %}
+            {%  set cs = quals | getObj(crebos) %}
+            {% for c in cs %}
+                <li>{{ c.key }} - {{ c.description }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+
+</ul>
 
 {% set posts = collections.all | getPostsByKeys(module.assignments) %}
 <ul>

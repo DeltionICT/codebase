@@ -55,6 +55,17 @@ module.exports = function(eleventyConfig) {
         })
 	});
 
+    eleventyConfig.addFilter("getObj", (keyv, crebos) => {
+        // keys = keys + ""
+        // akeys = keys.split(',')
+        // tkeys = akeys.map(a => a.trim())
+        // thekeys =  keys.filter(k => {
+        //     return (k.key == key) ? true : false;
+        // })
+        thekeys = crebos.filter(c => keyv.includes(c.key))
+        console.log(thekeys)
+        return thekeys
+    })
 
     eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
         return posts.filter(p => {
