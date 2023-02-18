@@ -13,7 +13,7 @@ author: jsiewers
 ---
 
 <h1>{{ module.name }}</h1>
-<a href="https://kwalificatie-mijn.s-bb.nl/keuzedeel/{{ module.name | slug }}">SBB</a>
+<a href="{{ module.sbb }}">SBB</a>
 <div class="description">{{ module.description }}</div>
 
 {% set posts = collections.all | getPostsByKeys(module.assignments) %}

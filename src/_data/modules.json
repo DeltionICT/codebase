@@ -2,101 +2,194 @@
     {
         "key": "K0721",
         "name": "Basis webdevelopment",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment//cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
+        "sbu":480,
+        "subjects":"html, css, seo, cms, hosting",
+        "gekoppelde_kwalificaties": "25633, 25605",
+        "evc": "",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
         "description": "In dit keuzedeel ontwikkelt de beginnend beroepsbeoefenaar een eenvoudige website/webshop en past hij bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook houdt hij zich bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
-        "assignments": [2008,2004,2005,2011]
+        "assignments": [1408,1414,1409,1407,1401]
     },  
     {
         "key": "K0719",
         "name": "Basis programmeren",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren//cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
+        "sbu":480,
+        "subjects":"ide, codebase, testen, uml",
+        "evc": "",
+        "gekoppelde_kwalificaties": "",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDA2O2t3YWxpZmljYXRpZUlkPTA=",
         "description": "In dit keuzedeel leert de beginnend beroepsbeoefenaar eenvoudige applicatie te programmeren(bijv. softwareprogramma's, apps). Hij past bij het programmeren de ontwerpprincipes en de structuur en opbouw van programmeertalen toe.",
         "assignments": [1005,1006,1045,1047,1007,1001,1052,1040,1035]
     },  
     {
         "key": "K0722",
         "name": "Frontend development",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
-        "description": "Fullstack description",
+        "sbu":240,
+        "subjects":"seo, javascript, react, vue, git, npm, pwa",
+        "evc": "K0719, K0721, K0882",
+        "gekoppelde_kwalificaties": "25604, 25633",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/frontend-development/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zOTg0O2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Dit keuzedeel is een verdieping op het gebied van frontend development.In dit keuzedeel gaat de beginnend beroepsbeoefenaar aan de slag met het ontwerpen en realiseren van de frontend. Met behulp van frontend development tools zorgt hij ervoor dat de gebruiker op de meest optimale manier kan communiceren met de webapplicatie. Hierbij houdt hij rekening met de gebruikerservaringen.",
+        "assignments": [2104]
+    },
+    {
+        "key": "K0882",
+        "name": "Object georiënteerd programmeren",
+        "sbu":480,
+        "subjects":"oop, uml, mvc, api, testen, git, erd",
+        "evc": "K0719, K0721",
+        "gekoppelde_kwalificaties": "",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-object-geori%C3%ABnteerd-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NjUyO2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Het keuzedeel Verdieping object georiënteerd programmeren (OOP) is een verdieping op deze specifieke programmeer-methodiek. Het bevat kennis en vaardigheden om een applicatie te ontwerpen, te ontwikkelen en te implementeren volgens de principes van het object georiënteerd programmeren.",
+        "assignments": [2104]
+    },
+    {
+        "key": "K0501",
+        "name": "Veilig programmeren",
+        "sbu":240,
+        "subjects":"owasp, ssd",
+        "evc": "K0719, K0721, K0882",
+        "gekoppelde_kwalificaties": "25837",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/veilig-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zOTM4O2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Het keuzedeel Veilig programmeren gaat in op de beveiligingsaspecten van het ontwikkelen van applicaties. In dit keuzedeel doet de beginnend beroepsbeoefenaar specialistische kennis en vaardigheden op om tijdens het ontwikkelen van applicaties voldoende maatregelen te treffen op het gebied van beveiliging. In dit keuzedeel komen specialistische kennis en vaardigheden aan bod rondom het specificeren, ontwerpen en ontwikkelen van veilige applicaties, het onderhouden van applicaties ten behoeve van de veiligheid en het testen van veiligheid van applicaties.",
         "assignments": [2104]
     },
     {
         "key": "K0729",
         "name": "Mobile application design",
+        "sbu":240,
+        "subjects":"concept, ux, storyboard, testen, xd",
+        "evc": "K0721",
+        "gekoppelde_kwalificaties": "25604, 25633",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/mobile-application-design/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
-        "description": "Fullstack description",
+        "description": "In dit keuzedeel bepaalt en ontwikkelt de beginnend beroepsbeoefenaar de vormgeving van een mobile app.",
         "assignments": [2403,2409,2414]
     },
     {
         "key": "K0497",
         "name": "Mobile application development",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/mobile-application-development/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00Mjc4O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
-        "description": "Fullstack description",
+        "subjects":"react",
+        "sbu":240,
+        "evc": "K0719, K0721, K0882",
+        "gekoppelde_kwalificaties": "25604",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/mobile-application-development/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zOTcyO2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Het keuzedeel bevat specialistische kennis van ontwikkelomgevingen voor mobiele applicaties, types mobiele applicaties en hardware-specifieke functionaliteiten en beschrijft de processen van het realiseren van (onderdelen van) mobiele applicaties.",
         "assignments": [2404]
     },
     {
         "key": "K0730",
         "name": "Programmeren van microcontrollers",
+        "subjects":"mc, python",
+        "sbu": 240,
+        "evc": "K0719",
+        "gekoppelde_kwalificaties": "25604, 25606",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/programmeren-van-microcontrollers/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDI3O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
-        "description": "Fullstack description",
+        "description": "De beginnend beroepsbeoefenaar kan met dit keuzedeel de aansturing van apparatuur realiseren door middel van het bouwen van een (relatief eenvoudige) schakeling en het programmeren van een microcontroller die de schakeling aanstuurt. De kern van dit keuzedeel ligt vooral bij het programmeren van microcontrollers. Het kan zijn dat de microcontroller ingebouwd is in een singleboard computer, of extern is geplaatst (singlechip controller).",
         "assignments": [2404]
     },
     {
         "key": "K0767",
         "name": "Grafisch ontwerp voor webdevelopment",
+        "subjects":"xd, ps",
+        "sbu":240,
+        "evc": "K0721",
+        "gekoppelde_kwalificaties": "25604",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/grafisch-ontwerp-voor-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDc4O2t3YWxpZmljYXRpZUlkPTA=",
         "fase": "basis",
         "description": "De beginnend beroepsbeoefenaar maakt in dit keuzedeel een eenvoudig grafisch ontwerp van een (web-) user interface. Bij complexe grafische ontwerpen adviseert hij over de implementatie van het ontwerp. Tevens maakt hij de grafische elementen uit het ontwerp en integreert deze in de beoogde interface.",
         "assignments": [2404]
     },
     {
-        "key": "K0529",
-        "name": "Interaction design",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/interaction-design/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zNjAwO2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
-        "description": "Dit keuzedeel is een verdieping op de kwalificatie Mediavormgever en gaat in op interaction design en de realisatie ervan. Bij interaction design gaat het om tweerichtingsverkeer, om actieve gebruikers die op zoek zijn naar bepaalde informatie en is gebruiksgemak een belangrijk issue. In de uitvoering wordt aandacht besteed aan zowel de visuele kant van interactieve producten als ook de gebruikerservaring en de technische realisatie.",
-        "assignments": [2404]
-    },
-    {
         "key": "K1105",
         "name": "Oriëntatie Blockchain",
+        "subjects":"",
+        "sbu":240,
+        "evc": "",
+        "gekoppelde_kwalificaties": "25604, 25606, 25605",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
         "description": "Door middel van dit keuzedeel vergroten beginnend beroepsbeoefenaren kennis van mogelijkheden en onmogelijkheden van blockchaintechnologie. Zij ontwikkelen inzicht in bedrijfsprocessen die verbeterd kunnen worden door toepassing van blockchaintechnologie.",
         "assignments": [2404]
     },
     {
         "key": "K1114",
         "name": "Verdieping blockchain",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
+        "subjects":"javascript",
+        "sbu":240,
+        "evc": "K0719, K0721, K0882, K1105",
+        "gekoppelde_kwalificaties": "25604, 25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MTg2O2t3YWxpZmljYXRpZUlkPTA=",
         "description": "Door middel van dit keuzedeel vergroten beginnend beroepsbeoefenaren kennis van mogelijkheden van blockchaintechnologie. Zij ontwikkelen vaardigheid in het uitwerken van een eenvoudige blockchaintoepassing.",
         "assignments": [2404]
     },
     {
         "key": "K0720",
         "name": "Basis scripting & databases",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
+        "subjects":"queries, uml",
+        "sbu": 240,
+        "evc": "K0719",
+        "gekoppelde_kwalificaties": "",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-scripting-databases/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDA1O2t3YWxpZmljYXRpZUlkPTA=",
         "description": "De beginnend beroepsbeoefenaar bouwt praktische en eenvoudige toepassingen voor databases met behulp van scripts. De focus ligt daarbij op scripts ten behoeve van ICT-beheer. Hij past op een gestructureerde wijze de basismogelijkheden van scripttalen toe, zoals het gebruik van variabelen (local en global) en basisfuncties.",
-        "assignments": [1417,2208,2204,2209,2203,1416]
+        "assignments": [2402]
     },
     {
         "key": "K1232",
         "name": "DevOps voor IT experts",
-        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ori%C3%ABntatie-blockchain/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01MjU1O2t3YWxpZmljYXRpZUlkPTA=",
-        "fase": "basis",
+        "sbu": 240,
+        "evc": "K0719, K0720",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/devops-voor-it-experts/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD01NTkxO2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
+        "assignments": [2202,2208,2209,2201]
+    },
+    {
+        "key": "K0519",
+        "name": "Online marketing en het toepassen van e-commerce",
+        "sbu":240,
+        "evc": "K0719, K0721, K0767",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/online-marketing-en-het-toepassen-van-ecommerce/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zNTg4O2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
+        "assignments": [2202,2208,2209,2201]
+    },
+    {
+        "key": "K0165",
+        "name": "Ondernemerschap MBO",
+        "sbu":480,
+        "evc": "",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/ondernemerschap-mbo/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0yNTcwO2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Dit keuzedeel beschrijft de vakkennis, vaardigheden en taken van een kleine zelfstandig ondernemer, die een onderneming start en/of runt. Dit kan een onderneming op allerlei gebied en in verschillende sectoren zijn. De beschreven ondernemer heeft in principe geen personeel/is een freelancer en kan zijn onderneming voeren op lokaal, regionaal, nationaal en internationaal niveau. Hij runt de onderneming conform zijn plannen, waarbij hij voortdurend inspeelt op zijn omgeving. Als eigenaar van zijn onderneming bepaalt hij zelf de reikwijdte en de inrichting van zijn werkzaamheden. De sector/branche waarin de onderneming gevoerd wordt geeft tevens richting en inhoud aan het ondernemerschap.",
+        "assignments": []
+    },    
+    {
+        "key": "K0505",
+        "name": "Verdieping software",
+        "sbu":240,
+        "evc": "K0719",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-software/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0zOTA4O2t3YWxpZmljYXRpZUlkPTA=",
+        "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
+        "assignments": [2202,2208,2209,2201]
+    },
+    {
+        "key": "K1315",
+        "name": "Verdieping software 2",
+        "sbu":240,
+        "evc": "K0719",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-software-2/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0yNTkyNjtrd2FsaWZpY2F0aWVJZD0w",
+        "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
+        "assignments": [2202,2208,2209,2201]
+    },
+    {
+        "key": "K1316",
+        "name": "Verdieping software 3",
+        "sbu":240,
+        "evc": "K0719",
+        "gekoppelde_kwalificaties": "25606",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-software-3/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD0yNTkyNztrd2FsaWZpY2F0aWVJZD0w",
         "description": "Door middel van het keuzedeel ontwikkelt de beginnend beroepsbeoefenaar kennis en vaardigheid in het automatiseren van het uitrollen en beheren van software en netwerkdiensten op een ICT-infrastructuur door middel van een CI/CD pijplijn. Daarnaast worden principes rond veilige software ontwikkelingsmethodieken toegepast en worden veilige en schaalbare netwerkoplossingen gerealiseerd.",
         "assignments": [2202,2208,2209,2201]
     }
-
-    
-
-
 ]

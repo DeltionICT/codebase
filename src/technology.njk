@@ -24,6 +24,7 @@ permalink: "/technologies/{{ technology.key | slug }}/index.html"
     </li>
 {% endfor %}
 </ul>
-<div id="assignments"></div>
-<a href="#" onclick="clearAssignments()">clear</a><br>
+<input type="text" id="assignments">
+<a href="#" onclick="clearAssignments()">clear</a> | 
+<a href="#" onclick="copyThis()">copy</a><br>
 

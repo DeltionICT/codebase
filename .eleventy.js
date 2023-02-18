@@ -73,9 +73,17 @@ module.exports = function(eleventyConfig) {
         keys.forEach(key =>
             items.push(x.find(item => item.data.key == key))
         );
-        console.log(items)
         return items
 	});
+    
+    eleventyConfig.addFilter("postsAscending", (collection) => {
+        return collection.sort((a,b) => {
+            if (a.data.title > b.data.title) return 1;
+            else if (a.data.title < b.data.title) return -1;
+            else return 0;
+        })
+    });
+
 
     eleventyConfig.addFilter('toArray', (text) => {
         thetxt = text + ''
