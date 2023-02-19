@@ -1,8 +1,8 @@
-{% extends "title.njk" %}
+{% extends "layout.njk" %}
 {% block aside %}
 <aside id="right">
     <ul>
-    {% set posts = collections[tags] | postsAscending() %}
+    {% set posts = collections.all | getPostsByKeys(module.assignments) %}
     {% for p in posts %}
     {% include "posts.njk" %}
     {% endfor %}

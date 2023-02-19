@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: modules_aside.njk
 title: Startpagina
 difficulty: basic
 date: 2023-01-10
@@ -12,10 +12,11 @@ author: jsiewers
 ---
 
 <h1>{{ module.name }}</h1>
-<a href="{{ module.sbb }}">SBB</a>
+<h3>Omschrijving</h3>
 <div class="description">
     {{ module.description }}
 </div>
+<h3>Informatie over deze module</h3>
 <ul>
     <li>Studiebelasting: {{ module.sbu }} ( ± {{ (module.sbu)/24 }} weken)</li>
     {%  set evcs =  module.evc | toArray() | getObj(modules) %}
@@ -58,13 +59,8 @@ author: jsiewers
     <li>Basisdeel opleiding Software development</li>
     {% endif %}
 </ul>
-
-{% set posts = collections.all | getPostsByKeys(module.assignments) %}
+<h3>Links</h3>
 <ul>
-{% for post in posts %}
-	<li>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a> 
-    </li>
-{% endfor %}
-
+    <li><a href="{{ module.sbb }}">Informatie over deze kwalificatie op s-bb.nl</a></li>
+    <li><a href="{{ module.linkedinlearning }}">Lesmateriaal op Linkedin Learning</a></li>
 </ul>
