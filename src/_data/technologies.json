@@ -1,7 +1,11 @@
 [
     {
         "key":"php",
-        "name":"PHP"
+        "name":"Programmeren met php"
+    },
+    {
+        "key":"python",
+        "name":"Programmeren met python"
     },
     {
         "key":"ux",

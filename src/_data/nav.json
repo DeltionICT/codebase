@@ -1,20 +1,16 @@
 {
     "items": [
       {
-        "url": "/omgeving/introductie/",
-        "name": "Omgeving"
-      },  
-      {
         "url": "/basis/introductie/",
-        "name": "Basis"
+        "name": "Codebase"
       },  
       {
-        "url": "/frontend/introductie/",
-        "name": "Frontend"
+        "url": "/learningpaths/",
+        "name": "Leerlijnen"
       },    
       {
-        "url": "/backend/introductie/",
-        "name": "Backend"
+        "url": "/modules/",
+        "name": "Modules"
       },
       {
         "url": "/projecten/introductie/",
@@ -25,7 +21,7 @@
         "name": "Thema"
       },
       {
-        "url": "/authors/",
+        "url": "/more/",
         "name": "More.."
       }
     ]

@@ -1,0 +1,15 @@
+{% extends "layout.njk" %}
+{% block modules %}
+<h1>Modules</h1>
+{% for m in modules %}
+{% if m.key %}
+    <li>
+        <a href="#" onclick="addAssignment('{{ m.key }}')">[{{ m.key }}]</a> | 
+	    <a href="{{ ('/modules/' + m.key + '/') | url }}">{{ m.sbu }} | {{ m.name }}</a>
+    </li>
+{% endif %}
+{% endfor %}
+</ul>
+<input type="text" id="assignments">
+<a href="#" onclick="clearAssignments()">clear</a><br>
+{% endblock %}

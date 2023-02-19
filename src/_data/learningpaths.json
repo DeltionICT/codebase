@@ -2,40 +2,39 @@
     {
         "key": "frontend",
         "name": "Frontend developer",
-        "subjects": "html, css, js, scrum, uml",
         "description": "Frontend description",
-        "pages" : {
-
-        }
-    },  
+        "modules":["K0719","K0721","K0721b","K0882","K0722"]
+     },  
     {
         "key": "backend",
         "name": "Backend developer",
-        "subjects": "html, php, csharp, dbq, dbo, scrum, uml",
-        "description": "Backend description"
-    },  
-    {
-        "key": "fullstack",
-        "name": "Fullstack developer",
-        "subjects": "html, css, js, php, csharp, dbq, dbo, scrum, uml",
-        "description": "Fullstack description"
+        "description": "Backend description",
+        "modules":["K0719","K0721","K0882","K0720","K1315"],
+        "vacatures":"https://nl.indeed.com/jobs?q=backend&l=zwolle"
     },  
     {        
-        "key": "python",
-        "name": "Python developer",
-        "subjects": "python, dbq, dbo, scrum, uml",
-        "description": "Python description"
+        "key": "data_engineer",
+        "name": "Data engineer",
+        "description": "Als data engineer maak je bruikbare informatie van data, zodat er antwoord kan worden gegeven op de vragen van alle stakeholders. Ook geef ik de data zo goed mogelijk grafisch weer door middel van dashboard en rapportages.",
+        "modules":[]
     },    
     {
         "key": "content",
-        "name": "Contentdeveloper",
-        "subjects": "html, css, php, wp, seo",
-        "description": "Content Developers research, prepare, write, and edit online content for marketing and front-end web development. They are involved in the writing of blog posts, static copy, and video content and well as the technical aspects, such as SEO and HTML formatting."
+        "name": "Content developer",
+        "description": "Content Developers research, prepare, write, and edit online content for marketing and front-end web development. They are involved in the writing of blog posts, static copy, and video content and well as the technical aspects, such as SEO and HTML formatting.",
+        "modules":[]
+    },   
+    {
+        "key": "windows",
+        "name": ".Net developer",
+        "description": "",
+        "modules":[]
     },   
     {
         "key": "creative",
         "name": "Creative",
-        "subjects": "html, css, php, wp, seo",
-        "description": "Creative description"
+        "description": "Creative description",
+        "modules":[],
+        "vacatures":"https://nl.indeed.com/jobs?q=wordpress"
     }
 ]

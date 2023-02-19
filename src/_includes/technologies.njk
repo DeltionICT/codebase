@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block authors %}
+<h4 class="coursetitle">More....</h4>
+<h2>Technologies</h2>
+<ul>
+{% for technology in technologies %}
+    <li>
+        <a href="{{ '/technologies/' | url }}{{ technology.key | slug }}/">({{ technology.key }}) - {{ technology.name }}</a>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

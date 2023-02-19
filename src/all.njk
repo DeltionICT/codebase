@@ -5,8 +5,8 @@ date: 2023-01-10
 permalink: "/api/index.json"
 author: jsiewers
 ---
-
-{% for p in collections.all %}    { {% if p.data.key %}
+{% set labels = "key, difficulty, technology, author, date" %}
+{% for p in collections.all | getOnlyPosts(labels) %}    { {% if p.data.key %}
         "key": {{ p.data.key }},{% endif %}
         "url":"{{ p.url | url }}",
         "title":"{{ p.data.title }}",{% if p.data.difficulty %}

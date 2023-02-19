@@ -57,10 +57,30 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("getObj", (keys, objs) => {
         keyobjs = objs.filter(c => keys.includes(c.key))
-        return keyobjs
+        let sortedkeys = []
+        let foundObj = {}
+        if(keyobjs.length > 0) {
+            keys.forEach(k => {
+                (foundObj = keyobjs.find(obj => obj.key == k)) ? sortedkeys.push(foundObj) : false;
+            })
+        }
+        return sortedkeys
     })
 
-    eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
+    eleventyConfig.addFilter("getOnlyPosts", (posts, labels) => {
+        mylabels = (labels + '').split(', ')
+        trimmedlabels = mylabels.map(a => a.trim())
+        filteredposts = posts.filter(p => {
+            datacomplete = 0
+            trimmedlabels.forEach(l => {       
+                datacomplete += (p.data[l]) ? 1 : 0;
+
+            })
+            return datacomplete == trimmedlabels.length
+        })
+        return filteredposts
+    })
+        eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
         return posts.filter(p => {
             pagetechnologytxt = p.data.technology + '';
             pagetechnologies = pagetechnologytxt.split(',');
@@ -118,17 +138,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("dir", function(url){
         parts = url.split('/')
         let mypath = ""
-        for (i = 0; i < (parts.length - 2); i++) {
-            mypath += "/";
-            mypath += parts[i];
-          }
-        return mypath
-    });
-    
-    eleventyConfig.addFilter("dirtest", function(url){
-        parts = url.split('/')
-        let mypath = ""
-        for (i = 0; i < (parts.length - 1); i++) {
+        for (i = 0; i < 2; i++) {
             mypath += "/";
             mypath += parts[i];
           }

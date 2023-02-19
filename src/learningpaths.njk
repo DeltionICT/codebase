@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+title: Learningpaths
+difficulty: basic
+date: 2023-01-10
+pagination:
+    data: learningpaths
+    size: 1
+    alias: learningpath
+permalink: "/learningpaths/{{ learningpath.key | slug }}/index.html"
+author: jsiewers
+---
+<h1>Leerlijnen</h1>
+<h2>{{ learningpath.name }}</h2>
+<h3>Modules</h3>
+<ul>
+{%  set mymodules =  learningpath.modules | toArray() | getObj(modules) %}
+{% if mymodules | length > 0  %} 
+{% set totalsbu = 0 %}
+{% for m in mymodules %}
+{% set totalsbu = totalsbu + m.sbu %}
+<li>{{ m.key }} | <a href="{{ ('/modules/' + m.key) | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
+{% endfor %}
+</ul>
+Totaal: {{ totalsbu }} SBU.
+{% endif %} 
