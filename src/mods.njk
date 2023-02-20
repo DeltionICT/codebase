@@ -7,7 +7,7 @@ pagination:
     data: mods
     size: 1
     alias: module
-permalink: "/mods/{{ module.key | slug }}/index.html"
+permalink: "/mods/{{ module.key | lower | slug }}/index.html"
 author: jsiewers
 ---
 

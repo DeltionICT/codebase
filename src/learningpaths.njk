@@ -19,7 +19,7 @@ author: jsiewers
 {% set totalsbu = 0 %}
 {% for m in mymodules %}
 {% set totalsbu = totalsbu + m.sbu %}
-<li>{{ m.key }} | <a href="{{ ('/mods/' + m.key) | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
+<li>{{ m.key }} | <a href="{{ ('/mods/' + m.key) | lower | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
 {% endfor %}
 </ul>
 Totaal: {{ totalsbu }} SBU.
