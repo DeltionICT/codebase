@@ -26,8 +26,7 @@ Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 
-
->>>>
+<hr>
 1. Maak een applicatie in een framework met de volgende werking;
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
@@ -43,7 +42,7 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
 * als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.
 * als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
 
-In het framework zijn de volgende technische eigenschappen toegepast:
+<b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte routes om de requests van de url op te vangen
 * overzichtelijk en goed toegepaste controllers en actions
 * in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view
@@ -59,6 +58,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 <hr>
 2. Maak een applicatie in een framework met de volgende werking;
+
 * als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
     * kanttekening 1: leeftijdscheck >= 18 jaar
     * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
@@ -66,7 +66,8 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * de naam in de browser-tab wordt bijgewerkt m.b.v. services
 * het email-account wordt bewaard in de config-file en goed beveiligd
 
-In het framework zijn de volgende technische eigenschappen toegepast:
+
+<b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
 * middleware
 * middleware op routes
 * services
@@ -74,6 +75,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 <hr>
 3. Update het applicatie met de volgende werking;
+
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
 * als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken
@@ -94,9 +96,20 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * als administrator kan ik gebruikers forceren een nieuw wachtwoord aan te maken, om misbruik van wachtwoorden te voorkomen
 * als gebruiker kan ik geforceerd worden een nieuw wachtwoord op te geven, zodat ik een veilig account behoudt en geen beveiligde content kan benaderen
 
-In het framework zijn de volgende technische eigenschappen toegepast:
+<b>!</b> In het framework zijn de volgende technische eigenschappen toegepast:
 * RBAC (rollbased-access-control)
   * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer' | url }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me' | url }})
 * dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen
 
-> {{technologiesTags}}
+> ##### Op te leveren
+> * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)
+>   * optimaalgebruik van de mogelijkheden van het framework
+>   * bezoekers kunnen de content en gallery bekijken
+>   * content-beheer met validatie (front- en backend) voor de rol administrator
+>   * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
+>   * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden
+>   * gebruikersbeheer met validatie (front- en backend) en gebruikers forceren een nieuw wachtwoord op te geven
+>   * een gallery tonen en de mogelijkheid om afbeeldingen hiervoor te uploaden (gevalideerd) als administrator
+>   * een inlogsysteem met o.a. registratie voor 18+, password-forgot
+>   * prettige look n feel, seo-geoptimaliseerd
+

@@ -41,3 +41,8 @@ en [ClassDiagrammen explained]({{ 'https://www.lucidchart.com/pages/uml-class-di
 NB: Wireframes vallen onder [UML]({{ 'https://www.lucidchart.com/pages/nl/wat-is-unified-modeling-language' | url }})-bibliotheek.
 
 <img src="{{ '/_assets/themas/UML_diagram.png' | url }}" style="width:60%;">
+
+> ##### Op te leveren
+> * een ClassenDiagram van een (complex) stukje programmeerwerk, voordat er wordt geprogrammeerd
+> * ClassenDiagrammen maken bij elk (mogelijk) complexe relaties tussen classes
+> * Diagrammen en ontwerp koppelen aan project-data/archiveren

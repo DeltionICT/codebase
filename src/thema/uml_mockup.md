@@ -33,5 +33,7 @@ Maak bij aanvang van elk project mockups, zodat de opdracvhtgever en het develop
 hoe de app/applicatie er visueel moet uit zien.
 
 
-
+> ##### Op te leveren
+> * een Mockups maken van elke applicatie-scherm
+> * Mockups en ontwerp koppelen aan project-data/archiveren
 

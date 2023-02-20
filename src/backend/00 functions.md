@@ -22,9 +22,9 @@ author: rkerssies
 * Programmeertaal: PHP of een andere backend-taal
 
 ***Taken:***
-
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
+<hr>
 1. Maak een programma met een werking;
 * als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
 * als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
@@ -64,3 +64,12 @@ Voorbeelden van de uitwerking;
     <img src="{{ '/_assets/api/functions/jungle_logoff.png' | url }}" style="width:15%;">
 </div>
 
+
+> ##### Op te leveren
+> * een web-applicatie opgebouwd met uitsluited functions
+> * de applicatie toon content uit een database-tabel
+> * de applicatie toont een gallery op basis van image-bestanden in een image-folder
+> * de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
+> * gebruikers-beheer is alleen toegankelijk na inloggen
+> * de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
+    vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst 
