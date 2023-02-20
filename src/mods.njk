@@ -4,10 +4,10 @@ title: Startpagina
 difficulty: basic
 date: 2023-01-10
 pagination:
-    data: modules
+    data: mods
     size: 1
     alias: module
-permalink: "/modules/{{ module.key | slug }}/index.html"
+permalink: "/mods/{{ module.key | slug }}/index.html"
 author: jsiewers
 ---
 
@@ -19,7 +19,7 @@ author: jsiewers
 <h3>Informatie over deze module</h3>
 <ul>
     <li>Studiebelasting: {{ module.sbu }} ( ± {{ (module.sbu)/24 }} weken)</li>
-    {%  set evcs =  module.evc | toArray() | getObj(modules) %}
+    {%  set evcs =  module.evc | toArray() | getObj(mods) %}
     {% if evcs | length > 0  %}  
     <li>
         Voorkennis

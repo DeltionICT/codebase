@@ -14,12 +14,12 @@ author: jsiewers
 <h2>{{ learningpath.name }}</h2>
 <h3>Modules</h3>
 <ul>
-{%  set mymodules =  learningpath.modules | toArray() | getObj(modules) %}
+{%  set mymodules =  learningpath.modules | toArray() | getObj(mods) %}
 {% if mymodules | length > 0  %} 
 {% set totalsbu = 0 %}
 {% for m in mymodules %}
 {% set totalsbu = totalsbu + m.sbu %}
-<li>{{ m.key }} | <a href="{{ ('/modules/' + m.key) | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
+<li>{{ m.key }} | <a href="{{ ('/mods/' + m.key) | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
 {% endfor %}
 </ul>
 Totaal: {{ totalsbu }} SBU.

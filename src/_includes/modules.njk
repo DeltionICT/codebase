@@ -2,8 +2,8 @@
 {% block modules %}
 <h4 class="coursetitle">Modules</h4>
 <div class="modules">
-{% for p in modules %}
-    <a href="{{ '/modules/' | url }}{{ p.key | slug }}/">
+{% for p in mods %}
+    <a href="{{ '/mods/' | url }}{{ p.key | slug }}/">
         <div>{{ p.name }}</div>
     </a>
 {% endfor %}
