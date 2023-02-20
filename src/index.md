@@ -1,7 +1,7 @@
 ---
 title: Introductie
 coursetitle: nothing
-layout: modules.njk
+layout: learningpaths.njk
 difficulty: basic
 tags: frontpage
 date: 2022-04-01

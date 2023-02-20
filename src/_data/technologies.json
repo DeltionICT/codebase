@@ -17,7 +17,7 @@
     },
     {
         "key":"html",
-        "name":"HTML"
+        "name":"Webpagina's structureren met HTML"
     },
     {
         "key":"linux",
@@ -29,7 +29,11 @@
     },
     {
         "key":"cms",
-        "name":"Content management systems"
+        "name":"Installeren, configureren, vormgeven van een content management systeem (bijv. Wordpress)"
+    },
+    {
+        "key":"webshop",
+        "name":"Installeren, configureren, vormgeven van een webshop op basis van een content management systeem (bijv. WooCommerce)"
     },
     {
         "key":"vue",
@@ -41,7 +45,7 @@
     },
     {
         "key":"git",
-        "name":"Git en github versiesysteem"
+        "name":"Versiebeheer met Git en github"
     },    
     {
         "key":"oop",
@@ -49,15 +53,15 @@
     },
     {
         "key":"owasp",
-        "name":"Open worldwide application security project"
+        "name":"Security toepassen op basis van de top-10 van het Open worldwide application security project (OWASP)"
     },
     {
         "key":"ssd",
-        "name":"Secure software development"
+        "name":"Security by design volgens de methode van secure software development (SSD)"
     },
     {
         "key":"erd",
-        "name":"Entiteit relatie diagram"
+        "name":"Technisch ontwerpen van een database"
     },
     {
         "key":"pwa",
@@ -73,15 +77,15 @@
     },
     {
         "key":"seo",
-        "name":"Search engine optimization"
+        "name":"Optimaliseren van de vindbaarheid van webistes door zoekmachines"
     },
     {
         "key":"css",
-        "name":"CSS"
+        "name":"Websites en webapps vormgeven met CSS"
     },       
     {
         "key":"csharp",
-        "name":"C#"
+        "name":"Ontwikkelen in C#"
     },    
     {
         "key":"react",
@@ -93,11 +97,15 @@
     },    
     {
         "key":"js",
-        "name":"Javascript"
+        "name":"Programmeren met javascript en het document object model"
     },
     {
         "key":"scrum",
-        "name":"Scrum"
+        "name":"Samenwerken volgens scrum-methodiek"
+    },
+    {
+        "key":"design",
+        "name":"Ontwerpen begrijpen en omzetten in een werkend product"
     },
     {
         "key":"uml",
@@ -118,5 +126,13 @@
     {
         "key":"api",
         "name":"Webservices/api" 
+    },
+    {
+        "key":"codebase",
+        "name":"Eenvoudige programma's ontwikkelen in een willekeurige programmeertaal" 
+    },
+    {
+        "key":"content",
+        "name":"Content beheren in een CMS" 
     }
 ]
