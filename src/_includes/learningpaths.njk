@@ -1,6 +1,6 @@
 {% extends "layout.njk" %}
 {% block modules %}
-<h4 class="coursetitle">Leerlijnen</h4>
+<h1>Profielen</h1>
 <div class="modules">
 {% for p in learningpaths %}
     <a href="{{ '/learningpaths/' | url }}{{ p.key | slug }}/">

@@ -2,39 +2,73 @@
     {
         "key": "frontend",
         "name": "Frontend developer",
-        "description": "Frontend description",
-        "modules":["K0719","K0721","K0721b","K0882","K0722"]
+        "description": "Een front-end developer ontwikkelt de voorzijde van websites, webshops, programma's en apps. Oftewel het voor de gebruiker zichtbare gedeelte. Front-end ontwikkelaars zorgen ervoor dat applicaties, computerprogramma's, sites en shops gebruiksvriendelijk zijn en werken met alle gangbare browsers, besturingssystemen en resoluties. Deze professionals werken niet alleen aan de technische aspecten van digitale toepassingen, maar kijken ook of het design ervan aantrekkelijk is. Meestal specialiseert een front-end specialist zich in een aantal script- en opmaaktalen, waaronder HTML, CSS, JavaScript en Javascript frameworks zoals Vue en React.",
+        "modules":[
+            ["K0719","K0721", "K0496", "K0882"],
+            ["K0001","K0722"],
+            ["K0002","K0505"]
+        ]
      },  
     {
         "key": "backend",
-        "name": "Backend developer",
-        "description": "Backend description",
-        "modules":["K0719","K0721","K0882","K0720","K1315"],
+        "name": "Laravel developer",
+        "description": "Een Laravel developer is verantwoordelijk voor de “achterkant” van bijvoorbeeld een website. De achterkant bestaat uit diverse processen en datastromen, die gezamenlijk gestructureerd moeten lopen. Een back end developer doet dit door middel van het Laravel PHP-framework.",
+        "modules":[
+            ["K0719","K0721", "K0496", "K0882"],
+            ["K0001","K0882b"],
+            ["K0002","K0501"]
+        ],
         "vacatures":"https://nl.indeed.com/jobs?q=backend&l=zwolle"
     },  
     {        
         "key": "data_engineer",
-        "name": "Data engineer",
-        "description": "Als data engineer maak je bruikbare informatie van data, zodat er antwoord kan worden gegeven op de vragen van alle stakeholders. Ook geef ik de data zo goed mogelijk grafisch weer door middel van dashboard en rapportages.",
-        "modules":[]
+        "name": "Python Data engineer",
+        "description": "Als data engineer maak je bruikbare informatie van data. Denk aan rapportages of grafische weergaves die data betekenis geven. Python is hier uitermate geschikt voor.",
+        "modules":[
+            ["K0719","K0496","K0882","K0501"],
+            ["K0001","K0505"],
+            ["K0002","K1105"]
+        ]    
     },    
     {
         "key": "content",
         "name": "Content developer",
-        "description": "Content Developers research, prepare, write, and edit online content for marketing and front-end web development. They are involved in the writing of blog posts, static copy, and video content and well as the technical aspects, such as SEO and HTML formatting.",
-        "modules":[]
+        "description": "Een content developer onderscheidt zich van andere programmeurs door een hogere mate van oplossingsgericht-, innovatief- en ondernemend werken. Een content developer kijkt naar de context van de opdracht en begrijpt wat de opdrachtgever wil bereiken. Een content ontwikkelaar maakt zo veel mogelijk gebruik van bestaande tools om dit te bereiken. Denk aan Wordpress, Woocommerce of Drupal",
+        "modules":[
+            ["K0719","K0721","K0767","K0721b"],
+            ["K0001","K0496","K0722"],
+            ["K0002","K0519","K1315"]
+        ],        
+        "vacatures":"https://nl.indeed.com/jobs?q=wordpress"
     },   
     {
         "key": "windows",
-        "name": ".Net developer",
-        "description": "",
-        "modules":[]
+        "name": "C#/.Net developer",
+        "description": "C# en .Net zijn ontstaan op het Microsoft platform, waardoor je de meeste C#/.Net toepassingen op Windows zult vinden. Toch zijn C# en tools om er mee te programmeren inmiddels ook beschikbaar op andere platforms.  ",
+        "modules":[
+            ["K0719","K0721","K0882"],
+            ["K0001","K0882c"],
+            ["K0002","K0501"]
+        ]
     },   
     {
         "key": "creative",
-        "name": "Creative",
-        "description": "Creative description",
-        "modules":[],
-        "vacatures":"https://nl.indeed.com/jobs?q=wordpress"
+        "name": "Creative Developer",
+        "description": "Creative developers werken aan creatieve games, VR-omgevingen en 3D visualisaties",
+        "modules":[
+            ["K0719","K0721"],
+            ["K0882","K0720"],
+            ["K1315"]
+        ]   
+    },
+    {
+        "key": "IoT",
+        "name": "IoT Developer",
+        "description": "IoT staat voor 'internet of things'. De IoT developer brengt informatie afkomstig van hardware en sensoren samen om daarmee 'slimme' oplossingen te bouwen. De IoT-developer maakt gebruik van netwerken, hard- en software om zijn doel te bereiken",
+        "modules":[
+            ["K0719","K0730","K0720"],
+            ["K0001","K0505","K1105"],
+            ["K0001","K0505","K1105"]
+        ]    
     }
 ]

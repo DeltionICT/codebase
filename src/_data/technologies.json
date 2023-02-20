@@ -20,12 +20,8 @@
         "name":"Webpagina's structureren met HTML"
     },
     {
-        "key":"linux",
-        "name":"Linux Serverbeheer"
-    },
-    {
-        "key":"win",
-        "name":"Windows Serverbeheer"
+        "key":"srv",
+        "name":"Installeren en configureren van een webserver met virtual hosts, ssh, git en meer."
     },
     {
         "key":"cms",

@@ -10,17 +10,26 @@ pagination:
 permalink: "/learningpaths/{{ learningpath.key | slug }}/index.html"
 author: jsiewers
 ---
-<h1>Leerlijnen</h1>
-<h2>{{ learningpath.name }}</h2>
+<h1>Profiel {{ learningpath.name }}</h1>
+<h3>Beroepsbeschrijving</h3>
+<p>{{ learningpath.description }}</p>
 <h3>Modules</h3>
 <ul>
-{%  set mymodules =  learningpath.modules | toArray() | getObj(mods) %}
+{%  set mymodules =  learningpath.modules %}
 {% if mymodules | length > 0  %} 
-{% set totalsbu = 0 %}
-{% for m in mymodules %}
-{% set totalsbu = totalsbu + m.sbu %}
-<li>{{ m.key }} | <a href="{{ ('/mods/' + m.key) | lower | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
-{% endfor %}
+    {% set totalsbu = 0 %}
+    {% set index = 1 %}
+    {% for fases in mymodules %}
+    <li>Fase {{ index }}</li>
+        <ul>
+        {% for m in fases | getObj(mods) %}
+        {% set totalsbu = totalsbu + m.sbu %}
+            <li>{{ m.key }} | <a href="{{ ('/mods/' + m.key) | lower | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
+        {% endfor %}
+        </ul>
+    {% set index = index + 1 %}
+    {% endfor %}
+    </li>
 </ul>
 Totaal: {{ totalsbu }} SBU.
 {% endif %} 

@@ -17,12 +17,18 @@ author: jsiewers
     {{ module.description }}
 </div>
 <h3>Informatie over deze module</h3>
+<br>
 <ul>
-    <li>Studiebelasting: {{ module.sbu }} ( ± {{ (module.sbu)/24 }} weken)</li>
+    <li>
+        <b>Studiebelasting</b>
+        <ul>
+            <li>{{ module.sbu }} ( ± {{ (module.sbu)/24 }} weken)</li>
+        </ul>
+    </li> 
     {%  set evcs =  module.evc | toArray() | getObj(mods) %}
     {% if evcs | length > 0  %}  
     <li>
-        Voorkennis
+        <b>Voorkennis</b>
         <ul>
             {% for c in evcs %}
                 <li>{{ c.name }}</li>
@@ -30,14 +36,16 @@ author: jsiewers
         </ul>      
     </li>
     {% else %}
-    <li>Geen voorkennis nodig</li>
+    <li>
+        <b>Geen voorkennis nodig</b>
+    </li>
     {% endif %}
 
     </li>
     {%  set subs =  module.subjects | toArray() | getObj(technologies) %}
     {% if subs | length > 0  %}  
     <li>
-        Onderwerpen
+        <b>Onderwerpen</b>
         <ul>
             {% for s in subs %}
                 <li>{{ s.name }}</li>
@@ -48,7 +56,7 @@ author: jsiewers
     {%  set cs =  module.crebos | toArray() | getObj(crebos) %}
     {% if cs | length > 0  %}  
     <li>
-        Opleidingen
+        <b>Keuzedeel voor opleidingen</b>
         <ul>
             {% for c in cs %}
                 <li>{{ c.key }} - {{ c.description }}</li>
@@ -56,11 +64,18 @@ author: jsiewers
         </ul>      
     </li>
     {% else %}
-    <li>Basisdeel opleiding Software development</li>
+    <li>
+        <b>Basisdeel voor opleiding</b>
+        <ul>
+            <li> Software development</li>
+        </ul>
+    </li>
     {% endif %}
 </ul>
 <h3>Links</h3>
 <ul>
     <li><a href="{{ module.sbb }}">Informatie over deze kwalificatie op s-bb.nl</a></li>
-    <li><a href="{{ module.linkedinlearning }}">Lesmateriaal op Linkedin Learning</a></li>
+    {% for l in module.coursematerials %}
+    <li><a href="{{ l.url }}">{{ l.description }}</a></li>
+    {% endfor %}
 </ul>
