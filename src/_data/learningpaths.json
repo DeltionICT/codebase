@@ -25,8 +25,8 @@
         "name": "Python Data engineer",
         "description": "Als data engineer maak je bruikbare informatie van data. Denk aan rapportages of grafische weergaves die data betekenis geven. Python is hier uitermate geschikt voor.",
         "modules":[
-            ["K0719","K0496","K0882","K0501"],
-            ["K0001","K0505"],
+            ["K0719","K0496","K0720","K0882"],
+            ["K0001","K0501","K0505"],
             ["K0002","K1105"]
         ]    
     },    

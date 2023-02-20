@@ -80,7 +80,15 @@ module.exports = function(eleventyConfig) {
         })
         return filteredposts
     })
-        eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
+
+    eleventyConfig.addFilter("getNewKey", (objs) => {
+        let keys = []
+        objs.forEach(obj => keys.push(obj.data.key))
+        // return Math.max(keys)
+        return (Math.max(...keys) + 1)
+    })
+
+    eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
         return posts.filter(p => {
             pagetechnologytxt = p.data.technology + '';
             pagetechnologies = pagetechnologytxt.split(',');
