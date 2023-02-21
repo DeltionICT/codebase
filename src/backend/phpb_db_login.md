@@ -1,9 +1,9 @@
 ---
 title: PHPB Database login
-difficulty: basic
+difficulty: medium
 date: 2022-11-10
 author: jsiewers
-technology: php
+technology: php, dbq, html
 ---
 
 

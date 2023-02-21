@@ -3,7 +3,7 @@ title: PHPB Simpele login
 difficulty: basic
 date: 2022-10-01
 author: jsiewers
-technology: php
+technology: php, html
 ---
 
 
