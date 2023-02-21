@@ -5,7 +5,7 @@
 {% if m.key %}
     <li>
         <a href="#" onclick="addAssignment('{{ m.key }}')">[{{ m.key }}]</a> | 
-	    <a href="{{ ('/mods/' + m.key + '/') | url }}">{{ m.sbu }} | {{ m.name }}</a>
+	    <a href="{{ ('/mods/' + m.key + '/') | lower | url }}">{{ m.sbu }} | {{ m.name }}</a>
     </li>
 {% endif %}
 {% endfor %}

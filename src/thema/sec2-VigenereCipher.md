@@ -1,4 +1,5 @@
 ---
+key: 2420
 title: sec | Sec 2-Vigenere Cipher
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
