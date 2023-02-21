@@ -9,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/basis/basics.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
 > Programmeertaal: naar keuze
