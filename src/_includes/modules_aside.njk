@@ -1,11 +1,11 @@
 {% extends "layout.njk" %}
 {% block aside %}
-<aside id="right">
+<div>
     <ul>
     {% set posts = collections.all | getPostsByKeys(module.assignments) %}
     {% for p in posts %}
     {% include "posts.njk" %}
     {% endfor %}
     </ul>
-</aside>
+</div>
 {% endblock %}

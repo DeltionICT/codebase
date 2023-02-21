@@ -89,14 +89,12 @@ module.exports = function(eleventyConfig) {
     })
 
     eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
-        myposts =  posts.filter(p => {
+        return posts.filter(p => {
             pagetechnologytxt = p.data.technology + '';
             pagetechnologies = pagetechnologytxt.split(',');
             pagetrimmed = pagetechnologies.map(a => a.trim())
             return (pagetrimmed.includes(technology)) ?  true :  false;
         })
-        console.log(myposts)
-        return myposts
 	});
 
     eleventyConfig.addFilter("getPostsByKeys", (posts, keys) => {
