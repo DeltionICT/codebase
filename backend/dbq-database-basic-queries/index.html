@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | MVC-basics PHP</title>
+    <title>Deltion Software Development | DBQ Database basic queries</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/02 MVC-basics.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/dbq_databases.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/02 MVC-basics.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/dbq_databases.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -217,7 +217,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/backend/dbq-database-basic-queries/">
                 <div>
                     <div class="title">DBQ Database basic queries</div>
@@ -295,7 +295,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/backend/mvc-basics-php/">
                 <div>
                     <div class="title">MVC-basics PHP</div>
@@ -450,19 +450,19 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     <h4 class="coursetitle">Backend</h4>
 
-    <div class="author">Ronald Kerssies | Jan, 2023</div>
+    <div class="author">Ronald Kerssies | Nov, 2022</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -482,86 +482,110 @@
 
 
         
-    <h1 id="mvc-basics-php">MVC-basics PHP</h1>
-<img src="/codebase/_assets/api/PHP-logo.png" style="width:10%;">
+    <h1 id="dbq-database-basic-queries">DBQ Database basic queries</h1>
+<img src="/codebase/_assets/api/database.png" style="width:10%;">
 <blockquote>
 <h5 id="voorkennis">Voorkennis</h5>
 <ul>
-<li>programmeer-basics, functions, git</li>
-<li>classes, methods, overerven, databases, select en crud-queries</li>
+<li>programmeer-basics, git</li>
 </ul>
 </blockquote>
 <blockquote>
 <h5 id="doel">Doel</h5>
 <ul>
-<li>introductie op de basis principes van een MVC-framework</li>
+<li>een database opzetten</li>
+<li>een database-tabel opzetten</li>
+<li>een database-tabel vullen met data</li>
+<li>data op verschillende manieren uit de database-tabel opvragen m.b.v. queries</li>
+<li>data op verschillende manieren samenvoegen/combineren m.b.v. queries</li>
+<li>data toevoegen m.b.v. queries</li>
+<li>data verwijderen m.b.v. queries</li>
+<li>data wijzigen m.b.v. queries</li>
 </ul>
 </blockquote>
 <ul>
 <li>Programmeertaal: PHP of een andere backend-taal</li>
 </ul>
-<img src="/codebase/_assets/api/mvc-concept.png" style="width:30%;">
 <p><em><strong>Taken:</strong></em></p>
-<p>Voer de code uit volgens “best practice” en eerder geleerde technieken.
-Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd,
-dit is te vinden op: GitHub-<a href="https://github.com/InCubics/mvc2022">MVC2022</a>.
-Dit MVC-project vereist  <a href="/codebase/thema/local-domainnames/">clean-urls</a>
-Video's met uitleg over basic MVC-werking en staan in de 'bestanden' van het PHP <a href="https://teams.microsoft.com/l/channel/19%3a58331b90c22b40ac8c56aad6cea82c5a%40thread.skype/04a%2520MVC%2520fundamentals?groupId=88bc2e4b-541f-4638-b34b-de6546be3aa7&amp;tenantId=2867a850-2fe5-43f7-92b9-8e326586b667">Teams-kanaal</a> (vraag evt om toegang)</p>
-<p>Pull het Git-project binnen naar jouw localhost.
-Zet een database op voor het project en gebruik daarvoor de bijgevoegde sql-file.
-In de projectmap kan je het bestand app/config/config.ini zijn de database-instellingen voor het project aanpassen naar jouw specifieke situatie.
-Met de url http://localhost/mvc2022/public wordt de MVC-applicatie getoond.
-Het standaard account is: admin@app.com met het wachtwoord: password</p>
 <hr>
-1. Maak een programma met een werking;
-* als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
-* als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
-* als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken 
-* als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat
-* als bezoeker zie ik alle content-items in het menu onder een dropbox, zodat een overzichtelijke navigatie-bar heb
-* als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken
-* als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken
-* als gebruiker kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden
-* als gebruiker kan ik nieuwe content verwijderen, zodat ik de verouderde artikelen kan verwijderen
-* als gebruiker kan ik content wijzigen, zodat ik de artikelen kan aanpassen
-* als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers. 
-* als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
-<p>Het programma heeft de volgende technische eigenschappen:</p>
+1. Maak een database aan voor een test-database, bijv.: `tryout_db` met det tabel `users`
+* Als XAMPP is geïnstalleerd kan je een web-beheertool benaderen via http://localhost/phpmyadmin<br>
+  NB: de service MySQL / MariaDB moet wel aan staan
+<ol start="2">
+<li>
+<p>Kies de juiste database en maak een tabel aan. De &quot;structuur&quot; van de tabel met
+daarin de kolommen en soort gegevens die je wil opslaan moet worden uitgewerkt.
+Zorg dat je in ieder geval kan werken met;</p>
 <ul>
-<li>correcte routes om de requests van de url op te vangen</li>
-<li>overzichtelijk en goed toegepaste controllers en actions</li>
-<li>in een action worden gegevens op een praktische manier beschikbaar gesteld aan de correcte view</li>
-<li>alle databaseverzoeken worden via een model's uitgevoerd</li>
-<li>alle datainvoer wordt in ieder geval op de backend gevalideerd</li>
-<li>er is slechts één html-structuur die in de layout-file is uitgewerkt</li>
-<li>configureerbare waarden worden centraal opgeslagen in een config-file</li>
-<li>alle nieuwe classes zijn voorzien van namespaces en autoloader-proof</li>
+<li>primaire sleutel (met auto increment / AI)</li>
+<li>datatypes, zoals: VARCHAR, LONGTEXT, INT, REAL, DOUBLE, TIMESTAMP, DATETIME en BOOL</li>
+<li>standaardwaarden, waaronder NULL</li>
+<li>meerdere kolommen aan kan maken
+NB: de structuur van de <code>users</code> tabel kan er als volgt uit zien:<br>
+id (INT AI, 11), email (VARCHAR, 30), password (VARCHAR,30), role_id (INT, 2)<br>
+NB: de structuur van de <code>products</code> tabel kan er als volgt uit zien:<br>
+id (INT AI, 11), name (VARCHAR, 60), descr (VARCHAR,300), price (DOUBLE, 6,2), stock (INT,4)</li>
 </ul>
-<hr>
-2. Maak een programma met een werking;
-* als bezoeker wil ik mij kunnen registreren, zodat ik zelf ook toegang krijg tot beveiligde content
-  * kanttekening 1: leeftijdscheck >= 18 jaar
-  * kanttekening 2: er wordt gebruik gemaakt van emailverificatie
-* meta-tags en seo worden optimaliseert met behulp van services
-* de naam in de browser-tab wordt bijgewerkt m.b.v. services
-* het email-account wordt bewaard in de config-file en goed beveiligd
-<p>Het programma heeft de volgende technische eigenschappen toegepast:</p>
+</li>
+<li>
+<p>Data toevoegen kan op een voor nu op een simpele manier onder de tab &quot;Invoegen&quot;.
+Voeg meerdere setjes gegevens (records) aan de database-tabel</p>
+</li>
+<li>
+<p>Als de tabel is aangemaakt en de structuur staat vast en er is data toegevoegd aan de tabel,
+dan kan er data worden uitgevraagd met queries (databaseverzoeken).<br>
+Gebruik hiervoor de volgende mogelijkheden;</p>
 <ul>
-<li>middleware</li>
-<li>middleware op routes</li>
-<li>services</li>
-<li>classes in de lib-folder, zoals die voor email, zijn maximaal herbruikbaar en maken gebruik van namespaces</li>
+<li>SELECT</li>
+<li>WHERE</li>
+<li>AND / OR / NOT</li>
+<li>LIKE met wildcards, https://www.w3schools.com/mysql/mysql_wildcards.asp</li>
+<li>BETWEEN</li>
+<li>ORDER BY
+voor voorbeelden zie: https://www.w3schools.com/mysql/mysql_intro.asp</li>
 </ul>
+</li>
+<li>
+<p>Opgevraagde gegevens met SELECT kunnen ook worden gecombineerd. Maak hierbij o.a.gebruik van de volgende mogelijkheden;</p>
+<ul>
+<li>MIN en MAX</li>
+<li>COUNT en SUM</li>
+<li>AVG</li>
+<li>LIMIT</li>
+<li>GROUP BY</li>
+<li>DISTINCT</li>
+<li>UNION</li>
+</ul>
+</li>
+<li>
+<p>Uitraard kunnen we records nieuwe records niet blijven toevoegen door gebruik te maken van 'phpMyAdmin'.
+Dit wordt gedaan door een query vanuit een programmeertaal naar de database te versturen, INSERT.</p>
+<ul>
+<li>schrijf een query die een record toevoegt aan de database-tabel
+voor voorbeelden zie: https://www.w3schools.com/mysql/mysql_insert.asp</li>
+</ul>
+</li>
+<li>
+<p>Ook verwijderen van records uit de database kan met een query; DELETE</p>
+<ul>
+<li>gebruik om één specifiek record te verwijden WHERE en het <code>id</code> van het record</li>
+<li>schrijf een queries die een record of meerdere records kan verwijderen aan de database-tabel
+voor voorbeelden zie: https://www.w3schools.com/mysql/mysql_delete.asp</li>
+</ul>
+</li>
+<li>
+<p>Schrijf queries die record(s) kan wijzigen in de database-tabel; UPDATE.</p>
+<ul>
+<li>om één specifiek record te wijzigen WHERE en het <code>id</code> van het record</li>
+<li>schrijf een queries die een record of meerdere records kan wijzigen aan de database-tabel
+voor voorbeelden zie: https://www.w3schools.com/mysql/mysql_update.asp</li>
+</ul>
+</li>
+</ol>
 <blockquote>
 <h5 id="op-te-leveren">Op te leveren</h5>
 <ul>
-<li>aantonen dat het basisproces van MVC-frameworks wordt begrepen</li>
-<li>aantonen dat het gebruik routes wordt begrepen</li>
-<li>aantonen dat gecentraliseerde layouts en gebruik van css-files kan worden toegepast en goed georganiseerd</li>
-<li>aantonen dat het gebruik middleware wordt begrepen</li>
-<li>aantonen dat services wordt begerepen</li>
-<li>aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)</li>
-<li>aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden</li>
+<li>op verschillende manieren en in situaties: SELECT-, aggregate-,INSERT-, DELETE- en UPDATE-queries kunnen toepassen.</li>
 </ul>
 </blockquote>
 
