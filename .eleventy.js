@@ -84,7 +84,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("getNewKey", (objs) => {
         let keys = []
         objs.forEach(obj => keys.push(obj.data.key))
-        // return Math.max(keys)
         return (Math.max(...keys) + 1)
     })
 

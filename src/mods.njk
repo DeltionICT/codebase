@@ -79,3 +79,12 @@ author: jsiewers
     <li><a href="{{ l.url }}">{{ l.description }}</a></li>
     {% endfor %}
 </ul>
+<h3>Opdrachten</h3>
+<div class="assignments">
+    <ul>
+    {% set posts = collections.all | getPostsByKeys(module.assignments) %}
+    {% for p in posts %}
+    {% include "posts.njk" %}
+    {% endfor %}
+    </ul>
+</div>

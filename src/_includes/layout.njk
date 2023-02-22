@@ -57,7 +57,6 @@
         </div>
     </div>
 </header>
-
 </div>
 <main>
     <div id="mobile">
@@ -67,6 +66,7 @@
             {% endfor %}
             <a href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>    
         </nav>
+               {% block aside %}{% endblock %}
 
     </div>
     <div id="content">
@@ -78,7 +78,7 @@
         {% block modules %}{% endblock %}
         {% block toc %}{% endblock %}
     </div>
-        {% block aside %}{% endblock %}
+        {% block assignments %}{% endblock %}
 </main>
 
 <footer>

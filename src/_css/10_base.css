@@ -257,3 +257,9 @@ input#assignments {
     width:80%;
     display:block;
 }
+
+div.assignments {
+    background-color:#dddddd;
+    padding: 2px 1rem 2px 1rem;
+    border-radius: 8px;
+}
