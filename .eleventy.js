@@ -97,6 +97,7 @@ module.exports = function(eleventyConfig) {
 	});
 
     eleventyConfig.addFilter("getPostsByKeys", (posts, keys) => {
+
         x = posts.filter(p => {
             return (p.data.key) ? keys.includes(p.data.key) : false;
         })
@@ -105,6 +106,32 @@ module.exports = function(eleventyConfig) {
             items.push(x.find(item => item.data.key == key))
         );
         return items
+	});
+
+    eleventyConfig.addFilter("getAssignments", (posts, assignments) => {
+        let asstypes = Object.keys(assignments)
+        let postobjects = {}
+        let sorteditems = []
+        asstypes.forEach(key => {
+            filteredposts = posts.filter(p => {
+                return (p.data.key) ? assignments[key].includes(p.data.key) : false;
+            })
+            sorteditems[key] = []
+            assignments[key].forEach(k =>
+                sorteditems[key].push(filteredposts.find(p => p.data.key == k))
+            );          
+            postobjects[key] = sorteditems[key]
+        })
+        // x = posts.filter(p => {
+        //     return (p.data.key) ? keys.includes(p.data.key) : false;
+        // })
+        // items = []
+        // keys.forEach(key =>
+        //   
+          //items.push(x.find(item => item.data.key == key))
+        // );
+        // return items
+        return postobjects
 	});
     
     eleventyConfig.addFilter("postsAscending", (collection) => {

@@ -81,10 +81,13 @@ author: jsiewers
 </ul>
 <h3>Opdrachten</h3>
 <div class="assignments">
+    {% set posts = collections.all | getAssignments(module.assignments) %}
+    {% for key, value in posts %}
+    <h3>{{ key }}</h3>
     <ul>
-    {% set posts = collections.all | getPostsByKeys(module.assignments) %}
-    {% for p in posts %}
-    {% include "posts.njk" %}
-    {% endfor %}
+        {% for v in value %}
+            <li>{{v.data.title}}({{v.data.key}})</li>
+        {% endfor%}
     </ul>
+    {% endfor %}
 </div>
