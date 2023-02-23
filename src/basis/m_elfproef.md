@@ -16,7 +16,8 @@ technologies: all
 > * string functies ( strlen,  substr)
 
 > #### Doelen:  
-> * leren hoe je strings doorloopt en opsplitst
+> * leren hoe je strings doorloopt en opsplitst ( Van string naar array)
+> * leren hoe je van character naar getal gaat om er mee te rekenen.
 > * leren een iets moeilijkere berekening te maken mbv. de modulo functie ( mod of symbool: %)
 
 
@@ -45,6 +46,8 @@ Daarna worden alle producten bij elkaar opgeteld, als deze som een veelvoud van 
 >   275 delen door 11  
 >   275/11 geeft 25. 
 > dus 199858535 is een correct banknummer    
-> Om te kijken of er een rest na deling is gebruik je mod operator  (van modulo:  %    
+> Om te kijken of er een rest na deling is gebruik je mod operator  (van modulo:  % )   
 > In code:     
->      int rest = 275 % 11; 
+> ```shell
+> int rest = 275 % 11;
+> ```
