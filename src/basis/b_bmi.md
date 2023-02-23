@@ -1,5 +1,5 @@
 ---
-key: 2421
+key: 2424
 title: BMI
 difficulty: medium
 date: 2023-01-02
