@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Brackets</title>
+    <title>Deltion Software Development | Intake; Ubuntu</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/x_brackets.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/b_01Ubuntu-server.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/x_brackets.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/b_01Ubuntu-server.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -109,7 +109,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/basis/intake-ubuntu/">
                 <div>
                     <div class="title">Intake; Ubuntu</div>
@@ -982,7 +982,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/basis/brackets/">
                 <div>
                     <div class="title">Brackets</div>
@@ -1147,121 +1147,121 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <h4 class="coursetitle">Basis programmeren</h4>
 
-    <div class="author">Jeroen Heuvelman | Jan, 2023</div>
+    <div class="author">Ronald Kerssies | Jan, 2023</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1283,27 +1283,75 @@
 
 
         
-    <h1 id="brackets">Brackets</h1>
+    <h1 id="intake%3B-ubuntu">Intake; Ubuntu</h1>
+<img src="/codebase/_assets/basis/newbie.png" style="width:13%; border-radius:10px;">
+<p>Welkom bij het ICT-Lyceum. Je zit nu in een intake-moment en krijgt de tijd om een beroepservaring op te doen.
+Hopelijk kom je er zo achter of dit beroep als ICT-beheerder (Expert-IT of All-round) bij jou past.</p>
 <blockquote>
-<h3 id="voorkennis">Voorkennis</h3>
-<p>Programmeertaal: naar keuze</p>
+<h5 id="doel">Doel</h5>
+<ul>
+<li>Ervaren of de opleiding en het beroep van ICT-beheerder bij jou past</li>
+<li>Werken met virtuele computers (gesimuleerde hardware)</li>
+<li>Een ervaring in het installeren van een operatingsysteem</li>
+<li>Kennismaken specificaties voor computerhardware</li>
+<li>Een ervaring met gevirtualiseerde hardware</li>
+<li>Een ervaring op doen met een ander Operatingsysteem dan Windows, namelijk Linux.</li>
+<li>Moment om vragen te stellen aan docenten en studenten over de opleiding, de sfeer en het beroep</li>
+</ul>
 </blockquote>
-<h3 id="omschrijving">Omschrijving</h3>
-<p>Een bracket wordt gezien als één van de volgende karakters: <code>(, ), {, }, [, ]</code><br>
-Twee brackets worden gezien als aan paar als de opening bracket <code>(, [ of {)</code> links staat van een closing bracket <code>), ] of } </code> van hetzelfde type.
-Er zijn drie paren: <code>(), {} en [ ]</code>.<br>
-Een paar is niet in balans als de set van brackets die het omsluit niet overeen komt. Bijvoorbeeld <code>{ [ ( ] ) }</code> is niet in balans omdat de content tussen de <code>{</code> en <code>}</code> niet in balans is.</p>
-<p>Een voorbeeld van gebalanceerde brackets zijn:<br>
-<code>[ ]{ }( )</code><br>
-<code>[ ( { } ) ]{ }( )</code><br>
-<code>( { ( ) { } [ ] ) [ ]</code></p>
-<h3 id="resultaat">Resultaat</h3>
-<p>Schrijf een programma dat de gebruiker vraagt een set brackets in te voeren.<br>
-Zorg ervoor dat de gebruiker alleen brackets kan invoeren, andere tekens zijn niet toegestaan.<br>
-Wanneer de bracket invoer in balans is, print het programma &quot;Ja&quot;.<br>
-Wanneer de bracket invoer niet in balans is, print het programma &quot;Nee&quot;.</p>
-<h4 id="voorbeeld">Voorbeeld</h4>
-<pre class="language-shell"><code class="language-shell">Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">(</span> <span class="token punctuation">{</span> <span class="token punctuation">(</span> <span class="token punctuation">)</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span> <span class="token punctuation">]</span> <br>Ja <br><br>Voer een <span class="token builtin class-name">set</span> brackets in:<br><span class="token punctuation">[</span>afdh<span class="token punctuation">]</span> <br>Onjuiste invoer <br><br>Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span>  <span class="token punctuation">]</span> <br>Nee</code></pre>
+<p><em><strong>Een gevirtualiseerde desktop opzetten:</strong></em>
+Binnen de ICT-beheer wordt veel gewerkt met VMWare.
+Met VMWare kun je onder andere op je eigen PC/Laptop “virtuele computers” aanmaken.
+Hierbij wordt hardware gesimuleerd door software. Op deze ‘virtuele computers’
+kun je een besturingssysteem installeren, zoals Windows 10/11, Windows Server, Linux, etc.
+Deze ‘virtuele computers’ zijn in het bedrijf in te zetten als echte computers en/of servers.</p>
+<h2 id="de-opdracht">De opdracht</h2>
+<p>In deze opdracht ga je een Linux-distributie naar keuze installeren op een virtuele computer in VM-ware.
+VM-ware is één van de bedrijven die virtualisatie software maakt.
+Die na de installatie ook toegang tot het Internet heeft, controleer dit na de installatie.<br></p>
+<h4 id="voorbereiding">Voorbereiding</h4>
+<p>Voordat je gaat beginnen, zorg je ervoor dat de PC in het lokaal ook toegang heeft tot het Internet.</p>
+<ul>
+<li>Hierbij moet je ervoor zorgen dat de IP-instellingen op de PC op automatisch staan ingesteld en
+dat de netwerkkabel aangesloten is op de geschikte poort aan de achterkant van de PC.</li>
+<li>De andere kant van de kabel moet op een oneven-poort in een muur-outlet komen (Bijvoorbeeld 33, 47, etc.</li>
+<li>De poorten die beginnen met een letter kun je niet gebruiken, dus bijvoorbeeld A11, D3).</li>
+</ul>
+<h4 id="ubuntu-installatie-%22schijf%22-downloaden">Ubuntu installatie &quot;schijf&quot; downloaden</h4>
+<p>Voor de installatie van de Linux distributie naar keuze, moet je een zogenoemd
+ISO-bestand te downloaden vanaf het Internet.
+Dit bestand bevat de installatiebestanden van het gekozen besturingssysteem.<br>
+Een van de meest gebruikte Linux distributies is <a href="https://ubuntu.com/desktop">Ubuntu desktop</a>,
+dus ben je hier nog niet bekend met Linux.</p>
+<ul>
+<li>Download Ubuntu-desktop, in de downloads-map komt een .iso-bestand te staan.</li>
+</ul>
+<h4 id="de-virtuele-%22computer%22-opzetten-en-installatie-ubuntu">De virtuele &quot;computer&quot; opzetten en installatie Ubuntu</h4>
+<p>Ga zelf op onderzoek uit (google) hoe je virtuele computer kunt aanmaken in
+VMWare workstation en hoe je het gekozen besturingssysteem vervolgens kunt installeren hierop.<br>
+<img src="/codebase/_assets/basis/vm-ware.jpg" style="width:50%;"><br></p>
+<ul>
+<li>Maak een virtuele machine aan die voldoet aan de volgende specificaties:
+<ul>
+<li>CPU: 				1 Processor met 2 cores</li>
+<li>RAM-geheugen: 		2GB (2048 MB)</li>
+<li>Harde schijf: 		20GB</li>
+<li>Eén netwerkkaart: 	ingesteld op NAT</li>
+<li>Eén CD/DVD speler</li>
+</ul>
+</li>
+<li>Koppel de gedownloade ISO-file aan de &quot;CD/DVD-speler&quot;</li>
+<li>Start de installatie procedure van Ubuntu en volg de instructies. Kies &quot;Installeer Ubuntu&quot;, NIET de &quot;Tryout&quot;.</li>
+<li>Ga eens op ontdekking uit wat Ubuntu-Linux allemaal voor jou te bieden heeft. 😊<br>
+<img src="/codebase/_assets/basis/ubuntu.jpg" style="width:50%;"></li>
+</ul>
+<blockquote>
+<h5 id="op-te-leveren">Op te leveren</h5>
+<ul>
+<li>een gevirtualiseerde Linux-installatie</li>
+<li>jouw feedback of de opleiding bij jou past</li>
+</ul>
+</blockquote>
 
         
         

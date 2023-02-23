@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | Brackets</title>
+    <title>Deltion Software Development | Meelopen bij SD</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/x_brackets.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/b_0bezoeker.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/x_brackets.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/basis/b_0bezoeker.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -124,7 +124,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/basis/meelopen-bij-sd/">
                 <div>
                     <div class="title">Meelopen bij SD</div>
@@ -982,7 +982,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/basis/brackets/">
                 <div>
                     <div class="title">Brackets</div>
@@ -1149,119 +1149,119 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <h4 class="coursetitle">Basis programmeren</h4>
 
-    <div class="author">Jeroen Heuvelman | Jan, 2023</div>
+    <div class="author">Ronald Kerssies | Jan, 2023</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1283,27 +1283,89 @@
 
 
         
-    <h1 id="brackets">Brackets</h1>
+    <h1 id="meelopen-bij-sd">Meelopen bij SD</h1>
+<img src="/codebase/_assets/basis/newbie.png" style="width:13%; border-radius:10px;">
+<p>Welkom bij het ICT-Lyceum. Je komt vast een dagje meelopen.
+Het idee is dat jij een SoftwareDeveloper beroepservaring krijgt, om te zien of het beroep bij jou past.
+Voor deze opdracht heb je ongeveer een dagdeel de tijd.</p>
 <blockquote>
-<h3 id="voorkennis">Voorkennis</h3>
-<p>Programmeertaal: naar keuze</p>
+<h5 id="doel">Doel</h5>
+<ul>
+<li>Ervaren of de opleiding en het beroep van softwareDeveloper bij jou past</li>
+<li>Moment om vragen te stellen aan docenten en studenten over de opleiding, de sfeer en het beroep</li>
+</ul>
 </blockquote>
-<h3 id="omschrijving">Omschrijving</h3>
-<p>Een bracket wordt gezien als één van de volgende karakters: <code>(, ), {, }, [, ]</code><br>
-Twee brackets worden gezien als aan paar als de opening bracket <code>(, [ of {)</code> links staat van een closing bracket <code>), ] of } </code> van hetzelfde type.
-Er zijn drie paren: <code>(), {} en [ ]</code>.<br>
-Een paar is niet in balans als de set van brackets die het omsluit niet overeen komt. Bijvoorbeeld <code>{ [ ( ] ) }</code> is niet in balans omdat de content tussen de <code>{</code> en <code>}</code> niet in balans is.</p>
-<p>Een voorbeeld van gebalanceerde brackets zijn:<br>
-<code>[ ]{ }( )</code><br>
-<code>[ ( { } ) ]{ }( )</code><br>
-<code>( { ( ) { } [ ] ) [ ]</code></p>
-<h3 id="resultaat">Resultaat</h3>
-<p>Schrijf een programma dat de gebruiker vraagt een set brackets in te voeren.<br>
-Zorg ervoor dat de gebruiker alleen brackets kan invoeren, andere tekens zijn niet toegestaan.<br>
-Wanneer de bracket invoer in balans is, print het programma &quot;Ja&quot;.<br>
-Wanneer de bracket invoer niet in balans is, print het programma &quot;Nee&quot;.</p>
-<h4 id="voorbeeld">Voorbeeld</h4>
-<pre class="language-shell"><code class="language-shell">Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> <span class="token punctuation">(</span> <span class="token punctuation">{</span> <span class="token punctuation">(</span> <span class="token punctuation">)</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span> <span class="token punctuation">]</span> <br>Ja <br><br>Voer een <span class="token builtin class-name">set</span> brackets in:<br><span class="token punctuation">[</span>afdh<span class="token punctuation">]</span> <br>Onjuiste invoer <br><br>Voer een <span class="token builtin class-name">set</span> brackets in: <br><span class="token punctuation">[</span> <span class="token punctuation">{</span>  <span class="token punctuation">]</span> <br>Nee</code></pre>
+<p><em><strong>Voor het eerst coderen:</strong></em></p>
+<ol>
+<li>
+<p>Installeer XAMPP op jouw laptop/PC.
+<a href="https://www.apachefriends.org/download.html">XAMPP downloaden</a> en installeren in C:\XAMPP</p>
+</li>
+<li>
+<p>Start de XAMPP-controller op en start de &quot;Apache&quot;. Het wword &quot;Apache&quot; krijgt een groene achtergrondskleur.</p>
+</li>
+<li>
+<p>Typ in de Windows-zoekbar: CMD<br>
+en open de Command prompt, ofewel de DOS-PROMPT; <br>
+<img src="/codebase/_assets/basis/windows_cmd.png" style="width:40%;"></p>
+</li>
+<li>
+<p>Download en installeer <a href="https://notepad-plus-plus.org/downloads/l">NotePad++</a><br>
+Open de applicatie en maak een PHP-file aan met in de volgende folder: c:\tryout_php\01_test.php<br>
+Maak zo nodig de folder aan en schrijf de volgende code in de PHP-file;<br>
+<code> &lt;?php echo 'Mijn eerste PHP-code !'; ?&gt;</code>
+Sla het bestand op.</p>
+</li>
+<li>
+<p>Zorg dat de &quot;prompt&quot; staat in de folder C:\tryout_php door het volgende te typen afgesloten met een 'enter': cd tryout_php<br>
+Nu sta je met de prompt in de folder waarin jouw PHP-file staat.</p>
+</li>
+<li>
+<p>De code in de PHP-file is met behulp van de PHP-service in XAMPP. De PHP-code in het bestand 01_test.php kan je uitvoeren door
+het volgende commando in de DOD-PROMPT te typen afgesloten met een enter;<br>
+php 01_test.php<br>
+<br>
+🎉🇳🇱Gefeliciteerd jouw eerste uitgevoerde PHP-code !</p>
+</li>
+</ol>
+<hr>
+<ol start="7">
+<li>
+<p>Probeer één van de opdrachten onder het menu-item &quot;Basis&quot; met één peper <img src="/codebase/_assets/green_pepper.svg" style="width:20px;"><br>
+Bijvoorbeeld de opdrachten:</p>
+<ul>
+<li>Hoofdletters</li>
+<li>Deelbaar</li>
+<li>Cirkel</li>
+</ul>
+<p>Hieronder staat een klein voorbeeld van code waarin verschillende mogelijkheden samenkomen:</p>
+</li>
+</ol>
+<blockquote>
+<p>$name = (string) readline(&quot;Your name: &quot;);<br>
+if(strlen($name &gt; 3))<br>
+{<br>
+for($i=1; $i&lt;=10; $i++)<br>
+{<br>
+echo $i.' de naam is: '.$name.&quot;\r\n&quot;;<br>
+}<br>
+}<br>
+else {<br>
+echo 'er zijn te weinig karakters opgegeven';<br>
+}<br></p>
+</blockquote>
+<p>NB: Deze code toont tien regels onder elkaar met een nummer, daarna de tekst &quot;de naam is: &quot; gevolgd door wat er is ingevoerd.</p>
+<p>Basis mogelijkheden met uitleg zijn: <a href="https://www.w3schools.com/php/php_if_else.asp">If-else</a> en
+<a href="https://www.w3schools.com/php/php_looping.asp">Loops</a>.
+Andere <a href="https://www.w3schools.com/php/php_ref_overview.asp">mogelijkheden</a> , zoals
+Math, String, Array, Date zijn onder deze link thematisch uitgewerkt.</p>
+<blockquote>
+<h5 id="op-te-leveren">Op te leveren</h5>
+<ul>
+<li>een passend stukje code bij een 'kleine' uitdaging</li>
+<li>jouw feedback of de opleiding bij jou past</li>
+</ul>
+</blockquote>
 
         
         
