@@ -27,23 +27,24 @@ technologies: all
 Daarna worden alle producten bij elkaar opgeteld, als deze som een veelvoud van 11 is, is het banknummer correct. Het programma stopt als een 0 wordt ingevoerd. En er moet gecontroleerd worden of er wel echt negen cijfers zijn opgegeven. 
  
 > #### Voorbeeld:. 
-> Bankrekeningnummer  = 199858535 
+> Bankrekeningnummer  = 199858535
+>
 > 1 * 9 =  9  
-> 9 * 8 = 72 
-> 9 * 7 = 63 
-> 8 * 6 = 48 
-> 5 * 5 = 25 
-> 8 * 4 = 32 
-> 5 * 3 = 15 
-> 3 * 2 =  6 
-> 5 * 1 =  5 
- 
+> 9 * 8 = 72  
+> 9 * 7 = 63   
+> 8 * 6 = 48   
+> 5 * 5 = 25   
+> 8 * 4 = 32   
+> 5 * 3 = 15  
+> 3 * 2 =  6  
+> 5 * 1 =  5  
+>
+>
 > Alles bij elkaar optellen: 
-> 9+72+63+48+25+32+15+6+5 = 275 
- 
-> 275 delen door 11  
-> 275/11 geeft 25. 
-> dus 199858535 is een correct banknummer 
- 
-> Om te kijken of er een rest na deling is gebruik je mod operator  (van modulo):  % In code:    
+> 9+72+63+48+25+32+15+6+5 = 275    
+>   275 delen door 11  
+>   275/11 geeft 25. 
+> dus 199858535 is een correct banknummer    
+> Om te kijken of er een rest na deling is gebruik je mod operator  (van modulo:  %    
+> In code:     
 >      int rest = 275 % 11; 
