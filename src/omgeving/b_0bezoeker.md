@@ -9,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<img src="{{ '/_assets/basis/newbie.png' | url }}" style="width:13%; border-radius:10px;">
+<img src="{{ '/_assets/omgevingen/newbie.png' | url }}" style="width:13%; border-radius:10px;">
 
 Welkom bij het ICT-Lyceum. Je komt vast een dagje meelopen.
 Het idee is dat jij een SoftwareDeveloper beroepservaring krijgt, om te zien of het beroep bij jou past. 
@@ -24,7 +24,7 @@ Voor deze opdracht heb je ongeveer een dagdeel de tijd.
 ***Voor het eerst coderen:***
 1. Installeer XAMPP op jouw laptop/PC. 
     [XAMPP downloaden]({{ 'https://www.apachefriends.org/download.html' | url }}) en installeren in C:\XAMPP 
-2. Start de XAMPP-controller op en start de "Apache". Het wword "Apache" krijgt een groene achtergrondskleur.
+2. Start de XAMPP-controller op en start de "Apache". Het woord "Apache" krijgt een groene achtergrondskleur.
 3. Typ in de Windows-zoekbar: CMD<br>
     en open de Command prompt, ofewel de DOS-PROMPT; <br>
    <img src="{{ '/_assets/basis/windows_cmd.png' | url }}" style="width:40%;">
