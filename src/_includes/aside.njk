@@ -1,10 +1,11 @@
-{% extends "title.njk" %}
+{% extends "layout.njk" %}
 {% block aside %}
-<aside class="right">    <ul>
-    {% set posts = collections[tags] | postsAscending() %}
-    {% for p in posts %}
-    {% include "posts.njk" %}
-    {% endfor %}
+<aside id="right">    
+    <ul>
+        {% set posts = collections[tags] | postsAscending() %}
+        {% for p in posts %}
+        {% include "posts.njk" %}
+        {% endfor %}
     </ul>
 </aside>
 {% endblock %}

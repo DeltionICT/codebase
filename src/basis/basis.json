@@ -1,5 +1,5 @@
 {
-    "layout": "final.njk",
+    "layout": "aside.njk",
     "coursetitle": "Basis programmeren",
     "tags": ["basis"],
     "permalink": "/basis/{{ title | slug }}/{{ page.index }}",

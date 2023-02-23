@@ -1,5 +1,4 @@
 ---
-layout: index.njk
 title: Introductie
 key: 1038
 difficulty: test

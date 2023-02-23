@@ -1,5 +1,5 @@
 ---
-title: PROJ FarOut
+title: Project FarOut
 key: 2208
 difficulty: medium
 date: 2022-11-10
