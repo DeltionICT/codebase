@@ -51,7 +51,7 @@
     {
         "key": "K0719",
         "name": "Basis programmeren",
-        "sbu":240,
+        "sbu":480,
         "subjects":"ide, codebase, git, design",
         "evc": "",
         "crebos": "",
@@ -72,6 +72,7 @@
             "eindopdracht":[1035]
         }
     },  
+    
     {
         "key": "K0722",
         "name": "Frontend development",

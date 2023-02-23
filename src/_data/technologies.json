@@ -101,11 +101,11 @@
     },
     {
         "key":"design",
-        "name":"Ontwerpen begrijpen en omzetten in een werkend product"
+        "name":"Functionele en technische ontwerpen begrijpen en omzetten in een werkend product"
     },
     {
         "key":"uml",
-        "name":"Unified modelling language (UML)"
+        "name":"Technisch ontwerpen op basis van de Unified modelling language (UML)"
     },
     {
         "key":"all",
@@ -113,7 +113,7 @@
     },
     {
         "key":"database",
-        "name":"Databases"
+        "name":"Database queries en data manipulatie (CRUD)"
     },
     {
         "key":"testen",
@@ -125,7 +125,7 @@
     },
     {
         "key":"codebase",
-        "name":"Eenvoudige programma's ontwikkelen in een willekeurige programmeertaal" 
+        "name":"Eenvoudige programma's ontwikkelen in een willekeurige programmeertaal (codebase)" 
     },
     {
         "key":"content",
