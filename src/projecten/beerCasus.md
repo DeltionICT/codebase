@@ -1,5 +1,6 @@
 ---
 title: Beer-casus
+key: 2202
 difficulty: medium
 date: 2022-03-01
 technology: scrum, api

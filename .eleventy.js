@@ -55,14 +55,33 @@ module.exports = function(eleventyConfig) {
         })
 	});
 
+
     eleventyConfig.addFilter("getPostsByTechnology", (posts, technology) => {	
         return posts.filter(p => {
-            technologytxt = p.data.technology + '';
-            technologies = technologytxt.split(',');
-            trimmed = technologies.map(a => a.trim())
-            return (trimmed.includes(technology)) ?  true :  false;
+            pagetechnologytxt = p.data.technology + '';
+            pagetechnologies = pagetechnologytxt.split(',');
+            pagetrimmed = pagetechnologies.map(a => a.trim())
+            return (pagetrimmed.includes(technology)) ?  true :  false;
         })
 	});
+
+    eleventyConfig.addFilter("getPostsByKeys", (posts, keys) => {
+        x = posts.filter(p => {
+            return (p.data.key) ? keys.includes(p.data.key) : false;
+        })
+        items = []
+        keys.forEach(key =>
+            items.push(x.find(item => item.data.key == key))
+        );
+        return items
+	});
+
+    eleventyConfig.addFilter('toArray', (text) => {
+        thetxt = text + ''
+        let myarray = thetxt.split(',')
+        trimmed = myarray.map(a => a.trim())
+        return trimmed
+    });
 
     eleventyConfig.addFilter('date', dateFilter)
 
@@ -73,7 +92,6 @@ module.exports = function(eleventyConfig) {
         theauthors =  authors.filter(a => trimmed.includes(a.key));
         authornames = theauthors.map(a => a.name)
         return authornames.join(', ')
-
 	});
 
     eleventyConfig.addFilter("cssmin", function(code) {

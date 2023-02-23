@@ -1,5 +1,6 @@
 ---
 title: Wie is de winnaar
+key: 1060
 difficulty: basic #basic | medium | expert
 date: 2023-01-02
 author: jheuvelman

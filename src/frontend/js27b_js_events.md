@@ -1,5 +1,6 @@
 ---
 title: js27b | JS Events
+key: 2002
 difficulty: basic #basic | medium | expert
 date: 2023-01-31
 technology: js

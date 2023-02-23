@@ -1,5 +1,6 @@
 ---
 title: PHPB Sessie login
+key: 1408
 difficulty: basic
 date: 2022-10-10
 author: jsiewers
@@ -20,4 +21,4 @@ technology: html, php
 Als gebruiker wil ik kunnen inloggen zodat ik toegang krijg tot de content van de website.
 
 ## Activity diagram
-![sessionlogin]({{ '/_assets/backend/sessionlogin.svg' | url }})
+![sessionlogin]({{ '/_assets/backend/session_login.svg' | url }})

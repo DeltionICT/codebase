@@ -1,5 +1,6 @@
 ---
 title: PHPB Kleurkiezer
+key: 1415
 difficulty: basic
 date: 2022-16-11
 author: jsiewers
