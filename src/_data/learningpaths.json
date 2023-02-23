@@ -1,5 +1,15 @@
 [
     {
+        "key": "allround",
+        "name": "Allround Software developer",
+        "description": "Een allround software developer heeft een brede kennis van verschillende programmeertalen en technieken. Naast backend-expertise kan deze developer ook frontend applicaties bouwen volgens de laatste standaarden.",
+        "modules":[
+            ["K0719","K0721", "K0496", "K0882"],
+            ["K0001","K0722"],
+            ["K0002","K0505"]
+        ]
+     },  
+     {
         "key": "frontend",
         "name": "Frontend developer",
         "description": "Een front-end developer ontwikkelt de voorzijde van websites, webshops, programma's en apps. Oftewel het voor de gebruiker zichtbare gedeelte. Front-end ontwikkelaars zorgen ervoor dat applicaties, computerprogramma's, sites en shops gebruiksvriendelijk zijn en werken met alle gangbare browsers, besturingssystemen en resoluties. Deze professionals werken niet alleen aan de technische aspecten van digitale toepassingen, maar kijken ook of het design ervan aantrekkelijk is. Meestal specialiseert een front-end specialist zich in een aantal script- en opmaaktalen, waaronder HTML, CSS, JavaScript en Javascript frameworks zoals Vue en React.",

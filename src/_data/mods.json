@@ -243,7 +243,7 @@
     },
     {
         "key": "K0496",
-        "name": "Mediabeheer",
+        "name": "Ontwikkelen, testen en publiceren",
         "sbu":240,
         "subjects":"srv, hosting",
         "evc": "",
@@ -259,7 +259,7 @@
                 "url": "https://www.edutorial.nl"
             }
         ],
-        "description": "Het keuzedeel Mediabeheer beschrijft het inrichten en testen van een eenvoudig netwerk, waarbij een werkstation gerealiseerd wordt en een eenvoudige server wordt ingericht en getest. De eigen werkplek wordt ingericht en opgenomen in het gerealiseerde netwerk.",
+        "description": "Het onderdeel Ontwikkelen, testen en publiceren beschrijft het proces van ontwikkeling naar testomgeving naar publicatie op een internet-domein.",
         "assignments": {
             "oefeningen": [2404]
         }

@@ -1,5 +1,5 @@
 ---
-layout: index.njk
+layout: aside.njk
 title: Introductie
 key: 2410
 difficulty: basic
