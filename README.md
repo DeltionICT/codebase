@@ -16,7 +16,10 @@ De codebase bestaat uit alle opdrachten uit de codebase van ICT-Flex. Daarnaast 
 
 ```python
 ---
+key: 2433
+subjects: php, html, css
 title: Array
+author: rkerssies, jsiewers, cstegeman, kstarreveld
 difficulty: basic #basic | medium | expert
 date: 2023-01-02
 ---
@@ -28,9 +31,13 @@ date: 2023-01-02
 ```
 * Op de plek van coursetitle komt bovenin het scherm 'codebase' te staan (met een streep eronder).
 * De tekst die tussen de '---' en de '---' staat wordt 'frontmatter' genoemd.
-* Difficulty bepaalt het aantal 'pepertjes' dat wordt getoond naast de titel van een opdracht.
+* Op de plek van key komt een unieke key te staan. [Je kunt de key opvragen via deze link](https://edu.tydglas.nl/codebase/newkey)
 * Date bepaalt niet alleen de datum, maar ook de volgorde waarin opdrachten worden weergegeven (beetje awkward, maar voorlopig werk het zo!)
+* Subjects is een kommagescheiden reeks met onderwerpen, die afgeleid zijn van de keys in ./_data/technology.json
 * Op de plek van {{ title }} komt de waarde van de variabele title te staan. In dit geval 'Array'.
+* Author is de key van een of meerdere auteurs in ./_data/authors.json.
+* Difficulty bepaalt het aantal 'pepertjes' dat wordt getoond naast de titel van een opdracht.
+* date: datum waarop het document is aangemaakt. De datum verschijnt bovenaan iedere opdracht.
 
 ### Codefragmenten
 Een codefragment kun je genereren door te starten met <code>'''javascript</code> en ook te eindigen met <code>'''</code>. In plaats van javascript kun je ook andere talen gebruiken (php, python, csv, sql en meer).
@@ -112,6 +119,7 @@ Deze functie werkt alleen als er in de front matter ook een auteur(s) en/of tech
 
 Voorbeeld:
 
+key: 2456
 title: Whatever
 author: jsiewers, cstegeman
 technology: php, html, css
