@@ -1,10 +1,10 @@
 ---
+key: 2501
 title: Elfproef
 difficulty: medium #basic | medium | expert
 date: 2023-01-02
 author: kstarreveld
-key: all
-technologies: all
+technology: all
 ---
 
 
