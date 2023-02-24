@@ -19,8 +19,10 @@
         ],
         "description": "In dit keuzedeel ontwikkelt de beginnend beroepsbeoefenaar een eenvoudige website/webshop en past hij bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook houdt hij zich bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
         "assignments": {
-            "opdrachten":[2104,2008,2004,2005],
-            "eindopdracht":[2011]
+            "Ontwikkelomgeving inrichten":[2104],
+            "HTML opdrachten":[2008,2004,2005],
+            "Javascript opdrachten": [2001,2009,2010,2006],
+            "Hosting":[2502]
         }    
     },  
     {

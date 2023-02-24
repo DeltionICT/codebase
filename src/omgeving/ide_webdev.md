@@ -1,5 +1,5 @@
 ---
-title: IDE webdevelopment
+title: Ontwikkelomgeving voor webdevelopment
 key: 2104
 difficulty: basic
 date: 2023-01-05
