@@ -71,4 +71,8 @@ a#logolink {
     display:block;
 }
 
+li > p {
+    margin: 0;
+}
+
 

@@ -4,7 +4,7 @@ title: Een statische website hosten
 difficulty: medium
 date: 2023-01-14
 author: jsiewers
-technology: git
+technology: git, hosting
 ---
 
 # {{ title }}

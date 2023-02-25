@@ -80,13 +80,14 @@ author: jsiewers
     {% endfor %}
 </ul>
 <h2>Opdrachten</h2>
+<br>
 <div class="assignments">
     {% set posts = collections.all | getAssignments(module.assignments) %}
     {% for key, value in posts %}
     <h4>{{ key }}</h4>
     <ul>
         {% for v in value %}
-            <li><a href="{{ v.url | url }}">{{v.data.title}}({{v.data.key}})</a></li>
+            <li>{{v.data.key}} | <a href="{{ v.url | url }}">{{v.data.title}}</a></li>
         {% endfor%}
     </ul>
     {% endfor %}
