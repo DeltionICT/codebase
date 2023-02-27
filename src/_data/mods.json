@@ -70,8 +70,9 @@
         ],
         "description": "In dit basisdeel voor de opleiding Software Development leert de beginnend beroepsbeoefenaar eenvoudige applicatie te programmeren(bijv. softwareprogramma's, apps). Hij past bij het programmeren de ontwerpprincipes en de structuur en opbouw van programmeertalen toe.",
         "assignments": {
-            "oefeningen":[1005,1006,1045,1047,1007,1001,1052,1040],
-            "eindopdracht":[1035]
+            "Codebase":[1038],
+            "Opdrachten":[1035],
+            "Eindproject":[2203]
         }
     },  
     

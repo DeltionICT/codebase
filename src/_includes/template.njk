@@ -4,7 +4,10 @@
 {% set mykey = collections.all | getOnlyPosts(labels) | getNewKey() %} 
 {{ mykey }}
 {% block template %}
-<pre><code>
+
+<div class="template">
+<button onclick="copyIt('copyTemplate')">Copy</button>
+<textarea id="copyTemplate" readonly>
 ---
 title: Template
 key: {{ mykey }}
@@ -24,9 +27,16 @@ technology: ide, html, css
 > * Testen: Je test de nieuwe opdracht in een lokale omgeving
 > * Indienen van een pull-request
 
-## Resultaat
 ## Opdracht
-## Evaluatie
-</code></pre>
+Dit beschrijft wat je moet doen en wat er van je wordt verwacht
 
+## Resultaat
+Dit is het gewenste resultaat
+Hier wordt aangegeveen wat je moet opleveren en waar.
+
+## Evaluatie
+Dit is een rubrics of checklist  waaraan je kunt zien of de opdracht juist is uitgevoerd
+</textarea>
+
+</div>
 {% endblock %}

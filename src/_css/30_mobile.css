@@ -11,6 +11,10 @@
         display:block;
     }
 
+    div.template > div {
+        top: 20px;
+    }
+
 }
 @media only screen and (max-width: 1280px) {
 
@@ -124,5 +128,10 @@
         width: calc(90vw );
         max-width: calc(90vw - 2rem);
     }
+
+    div.template > div {
+        right: 3rem;
+    }
+
 }
 

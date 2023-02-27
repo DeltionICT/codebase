@@ -31,7 +31,7 @@ technology: ide
         * een datum
         * difficulty geeft aan hoeveel pepertjes worden getoon in de codebase (basic, medium of expert)
         * een of meerdere auteurs (komma gescheiden). Eerste letter voornaam direct gevolgd door volledige achternaam (jsiewers, pvangemert). De auteurgegevens zijn te vinden in '_data/authors.json'
-        * technology: Een of meerdere afkortingen voor overeenkomende technologiën (php, hosting, ide etc.). Technology zijn te vinden in '_data/technologies.json'
+        * technology: Een of meerdere afkortingen voor overeenkomende technologiën (php, hosting, ide etc.). Technology zijn te vinden in '_data/technologies.json'.  
     * De opdracht heeft de volgende kenmerken
         * Er is een 'blockquote' ('>' in md) met daarin:
             * Vereiste voorkennis of voorbereiding
@@ -49,6 +49,6 @@ technology: ide
     *  Houdt er rekening mee dat je een nieuwe key genereerd vanaf je localhost. Dit is vooral van belang als je meerdere opdrachten wilt toevoegen.
     *  Keynummers zijn oplopend
 
+## Opdracht
 ## Resultaat
-## In- of opleveren
 ## Evaluatie
