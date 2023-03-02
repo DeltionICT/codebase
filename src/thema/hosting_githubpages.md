@@ -7,7 +7,7 @@ author: jsiewers
 technology: git, hosting
 ---
 
-# {{ title }}
+
 
 > Voorbereiding
 > Je hebt een website gemaakt die je op internet wilt plaatsen

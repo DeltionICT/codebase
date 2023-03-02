@@ -7,7 +7,7 @@ author: rkerssies
 technologies: webservices
 ---
 
-# {{ title }}
+
 <img src="{{ '/_assets/themas/webserver.png' | url }}" style="width:10%;">
 
 

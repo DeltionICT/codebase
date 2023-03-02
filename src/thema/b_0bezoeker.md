@@ -8,7 +8,7 @@ author: rkerssies
 ---
 
 
-# {{ title }}
+
 
 <img src="{{ '/_assets/omgevingen/newbie.png' | url }}" style="width:13%; border-radius:10px;">
 

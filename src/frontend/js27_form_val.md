@@ -8,7 +8,7 @@ technology: js
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * JS Functions ([w3schools](https://www.w3schools.com/js/js_functions.asp))

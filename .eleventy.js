@@ -81,6 +81,15 @@ module.exports = function(eleventyConfig) {
         return filteredposts
     })
 
+    eleventyConfig.addShortcode("newdate", () => {
+            let d  = new Date()
+            let m = '' + (d.getMonth() + 1)
+            let day = '' + (d.getDate())
+            let y = '' + d.getFullYear()
+            console.log([y, m, day].join('-'))
+            return [y, m, day].join('-') 
+    });
+
     eleventyConfig.addFilter("getNewKey", (objs) => {
         let keys = []
         objs.forEach(obj => keys.push(obj.data.key))
@@ -122,15 +131,6 @@ module.exports = function(eleventyConfig) {
             );          
             postobjects[key] = sorteditems[key]
         })
-        // x = posts.filter(p => {
-        //     return (p.data.key) ? keys.includes(p.data.key) : false;
-        // })
-        // items = []
-        // keys.forEach(key =>
-        //   
-          //items.push(x.find(item => item.data.key == key))
-        // );
-        // return items
         return postobjects
 	});
     

@@ -8,7 +8,7 @@ technologies: [php]
 ---
 
 
-# {{ title }}
+
 
 
 <img src="{{ '/_assets/_icons/xampp-logo.png' | url }}" style="width:10%;">

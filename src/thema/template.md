@@ -3,12 +3,12 @@ layout: template.njk
 title: Template
 key: 2503
 difficulty: basic
-date: 2023-02-25
+date: 2023-01-01
 author: jsiewers
 technology: ide
 ---
 
-# {{ title }}
+
 
 > #### Voorkennis
 > * Je hebt je docentenopleiding afgerond ; )

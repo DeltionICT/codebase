@@ -1,5 +1,5 @@
 ---
-title: IDE Python
+title: Ontwikkelomgeving voor Python
 key: 2101
 difficulty: basic
 date: 2023-01-11
@@ -8,7 +8,7 @@ technology: python, ide
 ---
 
 
-# {{ title }}
+
 
 > #### Leerdoelen
 > Ontwikkelomgeving opzetten voor Python

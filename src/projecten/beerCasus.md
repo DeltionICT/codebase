@@ -9,7 +9,7 @@ author: rkerssies, cstegeman
 ---
 
 
-# {{ title }}
+
 
 <img src="{{ '/_assets/projecten/beer/prj_biertjes.png' | url }}" style="width:10%;">
 

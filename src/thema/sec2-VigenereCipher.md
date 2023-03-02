@@ -8,7 +8,7 @@ author: kstarreveld
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * Basis Programmeren 

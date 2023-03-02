@@ -6,7 +6,7 @@ date: 2023-01-31
 technology: js
 ---
 
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * JS Functions 

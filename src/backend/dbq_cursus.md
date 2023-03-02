@@ -8,7 +8,7 @@ technology: dbq
 ---
 
 
-# {{ title }}
+
 
 ## Casus
 * Een bedrijf organiseert cursussen voor medewerkers.  

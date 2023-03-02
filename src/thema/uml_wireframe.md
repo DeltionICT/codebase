@@ -8,7 +8,7 @@ author: rkerssies
 ---
 
 
-# {{ title }}
+
 <img src="{{ '/_assets/themas/design.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis

@@ -7,9 +7,6 @@ author: jsiewers
 technology: all
 ---
 
-
-# {{ title }}
-
 > #### Voorbereiding
 > * In principe heb je geen voorkennis nodig om codebase-opdrachten uit te voeren.
 > * Je hebt een ontwikkelomgeving op je laptop geïnstalleerd

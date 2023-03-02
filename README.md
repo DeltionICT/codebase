@@ -26,7 +26,7 @@ date: 2023-01-02
 
 #### {{ coursetitle }}
 
-## {{ title }}
+#
 
 ```
 * Op de plek van coursetitle komt bovenin het scherm 'codebase' te staan (met een streep eronder).

@@ -8,7 +8,7 @@ technology: html, php
 ---
 
 
-# {{ title }}
+
 
 ## Resultaat
 * Een website voor Pizzeria "circulare delicioso" waar je pizza's kunt bestellen.

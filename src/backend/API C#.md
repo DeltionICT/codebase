@@ -8,7 +8,7 @@ technology: cscharp
 ---
 
 
-# {{ title }}
+
 
 * Programmeertaal: C#
 

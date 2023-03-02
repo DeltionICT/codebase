@@ -8,7 +8,7 @@ technology: scrum
 ---
 
 
-# {{ title }}
+
 
 > ##### Voorkennis
 > * Backend frameworks, frontend frameworks, scrum, git 

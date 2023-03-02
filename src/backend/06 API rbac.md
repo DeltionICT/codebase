@@ -7,7 +7,7 @@ technology: php, dbo, dbq
 author: rkerssies
 ---
 
-# {{ title }}
+
 
 <img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
 

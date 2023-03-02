@@ -1,5 +1,5 @@
 ---
-title: IDE C
+title: Ontwikkelomgeving C#
 key: 2102
 difficulty: basic #basic | medium | expert
 date: 2023-01-12
@@ -7,7 +7,7 @@ author: kstarreveld
 technology: csharp, ide
 ---
 
-# {{ title }}
+
 
 > #### Leerdoelen
 > Ontwikkelomgeving opzetten in C#

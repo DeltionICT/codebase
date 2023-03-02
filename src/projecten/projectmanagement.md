@@ -7,7 +7,7 @@ technology: scrum
 author: rkerssies
 ---
 
-# {{ title }}
+
 
 <img src="{{ '/_assets/projecten/boekProjectmanagement.jpg' | url }}" style="width:10%;">
 versie 2022, ISBN: 9789037262124

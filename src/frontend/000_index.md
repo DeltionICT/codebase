@@ -8,7 +8,7 @@ author: jsiewers
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis
 > * Om te starten met de frontend onderwerpen heb je in principe geen voorkennis nodig.

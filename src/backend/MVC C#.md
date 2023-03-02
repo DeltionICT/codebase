@@ -8,7 +8,7 @@ technology: csharp
 ---
 
 
-# {{ title }}
+
 
 
 * Programmeertaal: C# 

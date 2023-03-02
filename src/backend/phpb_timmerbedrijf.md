@@ -8,7 +8,7 @@ technology: html, php
 ---
 
 
-# {{ title }}
+
 
 ## Resultaat
 * Maak een calculatieprogramma voor Timmerbedrijf "About Hout".

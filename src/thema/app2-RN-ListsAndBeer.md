@@ -7,7 +7,7 @@ lang: javascript, reactnative
 author: kstarreveld
 ---
 
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * Basis Javascript 

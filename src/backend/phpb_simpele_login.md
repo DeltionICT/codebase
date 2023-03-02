@@ -8,7 +8,7 @@ technology: php, html
 ---
 
 
-# {{ title }}
+
 
 ## Resultaat
 * Een login-systeem met een formulier waar je een naam en een wachtwoord in kunt vullen.

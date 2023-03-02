@@ -8,7 +8,7 @@ technology: php
 ---
 
 
-# {{ title }}
+
 
 > ##### Voorkennis
 > * Basiskennis HTML

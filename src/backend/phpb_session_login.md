@@ -8,7 +8,7 @@ technology: html, php
 ---
 
 
-# {{ title }}
+
 
 ## Resultaat
 * Een website die bestaat uit 3 pagina's

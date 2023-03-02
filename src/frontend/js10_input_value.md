@@ -8,7 +8,7 @@ technology: js
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * JS Functions 

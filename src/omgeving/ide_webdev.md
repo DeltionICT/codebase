@@ -4,11 +4,11 @@ key: 2104
 difficulty: basic
 date: 2023-01-05
 author: jsiewers
-technology: ide
+technology: ide, php, html, css
 ---
 
 
-# {{ title }}
+
 
 > #### Leerdoelen
 > Ontwikkelomgeving opzetten voor webontwikkeling

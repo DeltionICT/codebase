@@ -1,5 +1,5 @@
 ---
-title: IDE API
+title: Ontwikkelomgeving voor API's
 key: 2103
 difficulty: medium
 date: 2023-01-14
@@ -8,7 +8,7 @@ author: rkerssies
 technology: all, ide
 ---
 
-# {{ title }}
+
 
 > ##### Voorkennis
 > API-requests, json

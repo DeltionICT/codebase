@@ -9,7 +9,7 @@ technology: all
 
 
 
-# {{ title }}
+
 
 > ### Voorkennis
 > * Basis HTML

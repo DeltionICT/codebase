@@ -6,7 +6,7 @@ date: 2023-02-09
 lang: javascript, reactnative
 author: kstarreveld
 ---
-# {{ title }}
+
 
 > #### Voorkennis:  
 > * Basis Javascript 

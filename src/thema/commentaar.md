@@ -7,7 +7,7 @@ technologies: php, all
 author: rkerssies
 ---
 
-# {{ title }}
+
 <img src="{{ '/_assets/themas/process.png' | url }}" style="width:10%;">
 
 

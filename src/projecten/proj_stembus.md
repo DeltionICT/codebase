@@ -8,7 +8,7 @@ technology: all
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis
 > * Een repository beheren met git en github.com

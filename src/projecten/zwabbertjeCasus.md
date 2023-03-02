@@ -8,7 +8,7 @@ author: rkerssies
 ---
 
 
-# {{ title }}
+
 
 <img src="{{ '/_assets/projecten/project-laptop.png' | url }}" style="width:10%;">
 

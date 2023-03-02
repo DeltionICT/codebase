@@ -17,9 +17,9 @@
                 "url": "https://www.edutorial.nl"
             }
         ],
-        "description": "In dit keuzedeel ontwikkelt de beginnend beroepsbeoefenaar een eenvoudige website/webshop en past hij bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook houdt hij zich bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
+        "description": "In dit onderdeel ontwikkel je een eenvoudige website/webshop en je past bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook hou je je bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
         "assignments": {
-            "Ontwikkelomgeving inrichten":[2104],
+            "Ontwikkelomgeving":[2104],
             "HTML opdrachten":[2008,2004,2011,2005],
             "Javascript opdrachten": [2001,2009,2010,2006],
             "Hosting":[2502]
@@ -68,11 +68,11 @@
                 "url": "https://www.edutorial.nl"
             }
         ],
-        "description": "In dit basisdeel voor de opleiding Software Development leert de beginnend beroepsbeoefenaar eenvoudige applicatie te programmeren(bijv. softwareprogramma's, apps). Hij past bij het programmeren de ontwerpprincipes en de structuur en opbouw van programmeertalen toe.",
+        "description": "In dit onderdeel van de opleiding start je met programmeren en leer je eenvoudige applicaties te maken. Je past bij het programmeren de ontwerpprincipes en de structuur en opbouw van programmeertalen toe.",
         "assignments": {
+            "Opdrachten":[2105, 2505],
             "Codebase":[1038],
-            "Opdrachten":[1035],
-            "Eindproject":[2203]
+            "Keuze eindproject":[2507, 2203]
         }
     },  
     
@@ -96,8 +96,9 @@
         ],
         "description": "Dit keuzedeel is een verdieping op het gebied van frontend development. In dit keuzedeel gaat de beginnend beroepsbeoefenaar aan de slag met het ontwerpen en realiseren van de frontend. Met behulp van frontend development tools zorgt hij ervoor dat de gebruiker op de meest optimale manier kan communiceren met de webapplicatie. Hierbij houdt hij rekening met de gebruikerservaringen.",
         "assignments": {
-            "oefeningen":[2403,2409,2414],
-            "eindopdracht":[2201]
+            "Ontwikkelomgeving":[2504],
+            "Ontwerpen":[2403,2409,2414],
+            "Eindopdracht":[2201]
         }
     },
     {

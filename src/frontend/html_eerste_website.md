@@ -8,7 +8,7 @@ technology: html
 ---
 
 
-# {{ title }}
+
 
 > #### Voorkennis
 > Basis HTML kennis

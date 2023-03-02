@@ -9,7 +9,7 @@ technology: dbo
 
 
 
-# {{ title }}
+
 
 > ##### Voorkennis
 > * SQL Queries

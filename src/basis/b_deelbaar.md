@@ -7,7 +7,7 @@ author: jheuvelman
 technology: all
 ---
 
-# {{ title }}
+
 
 > ### Voorkennis
 > Programmeertaal: naar keuze
