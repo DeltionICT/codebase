@@ -10,7 +10,7 @@ technology: js
 # {{ title }}
 
 > #### Voorkennis:  
-> * Javascript Functions 
+> * Javascript functions 
 > * input tag
 
 
