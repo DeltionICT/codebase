@@ -21,6 +21,6 @@ technology: js
 Maak de movegame met behulp van [deze tutorial](https://std.stegion.nl/codebase/js41_movegame/index.html).<br>
 
 <video  height="150" controls>
-    <source src="/_assets/frontend/video_movegame.mp4" type="video/mp4" >
+    <source src="https://std.stegion.nl/codebase/js41_movegame/img/video_movegame.mp4" type="video/mp4" >
     Your browser does not support the video tag.
 </video>
