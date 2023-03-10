@@ -28,6 +28,23 @@
         "name":"Jeroen Heuvelman",
         "website":"",
         "photo":"https://avatars.githubusercontent.com/u/78073501?s=64&v=4"
-    } 
-
+    },
+    {
+        "key":"adalmolen",
+        "name":"André Dalmolen",
+        "website":"",
+        "photo":"https://avatars.githubusercontent.com/u/32030804?v=4"
+    }, 
+    {
+        "key":"pvangemert",
+        "name":"Peter van Gemert",
+        "website":"",
+        "photo":"https://avatars.githubusercontent.com/u/22469110?v=4"
+    },
+    {
+        "key":"kscheening",
+        "name":"Kevin Scheening",
+        "website":"",
+        "photo":"https://avatars.githubusercontent.com/u/103201670?v=4"
+    }  
 ]

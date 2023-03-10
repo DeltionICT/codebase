@@ -43,7 +43,7 @@
                 {% for item in nav.items %}
                     <a href="{{ item.url | url }}" class="nav-link" {% if item.url | dir  == page.url | dir %}aria-current="page" data-state="active"{% endif %}>{{ item.name }}</a>
                 {% endfor %}
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a>
+                <!-- <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/{{ page.inputPath }}"><span class="material-icons">edit</span></a> -->
                 {#
                 <ul class="prevnext">
                 {% for p in collections[tags] %}
