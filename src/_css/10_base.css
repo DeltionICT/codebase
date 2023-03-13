@@ -1,13 +1,15 @@
 /* Reset */
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 
 }
 
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-family: var(--fontfamily);
     font-weight: 400;
@@ -19,98 +21,119 @@ body {
 
 header {
     width: 100vw;
-    margin:0 auto 0 auto;
+    margin: 0 auto 0 auto;
     height: 5rem;
-    min-height:5rem;
+    min-height: 5rem;
     background-color: var(--c-bg);
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
-    box-shadow:var(--c-box-shadow);
+    box-shadow: var(--c-box-shadow);
 }
 
 
-header > div, footer {
-    display:flex;
+header>div,
+footer {
+    display: flex;
     justify-content: space-between;
-    width:80vw;
-    max-width:1280px;
+    width: 80vw;
+    max-width: 1280px;
     margin: 0 auto 0 auto;
-    margin-top:1rem;
+    margin-top: 1rem;
+    background-color: var(--c-bg);
 }
 
-header > div > div {
-    display:flex;
+footer {
+    padding: 5px;
+    justify-content: start;
+    border-radius: 8px;
+    background-color: var(--c-text-light-3);
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer>div {
+    margin-left: 1rem;
+}
+
+footer>img {
+    width: 9%;
+    height: 9%;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+header>div>div {
+    display: flex;
 }
 
 a.hamburger {
-    display:none;
+    display: none;
 }
 
-main  {
-    width:80vw;
-    max-width:1280px;
-    margin:0 auto 0 auto;
+main {
+    width: 80vw;
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
     display: flex;
     flex-direction: row;
     min-height: calc(100vh - 220px);
 }
 
-main > div#content {
-    padding:1.1rem 0px 1rem 1rem;
+main>div#content {
+    padding: 1.1rem 0px 1rem 1rem;
     width: calc(80vw - 238px);
 }
 
-footer {
-    padding-top:16px;
-}
 
 ol p {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 img {
-    width:100%;
+    width: 100%;
 }
 
 
 
 /* Logo settings */
 #logo {
-    width:120px;
-    margin-left:1rem;
+    width: 120px;
+    margin-left: 1rem;
 }
 
 aside {
-    margin-top:1.5rem;
+    margin-top: 1.5rem;
     /* background-color: var(--c-bg-light); */
-    width:240px;
-    min-width:240px;
+    width: 240px;
+    min-width: 240px;
 }
 
 aside a {
     text-decoration: none;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: none;
-    padding:0px;
-    margin-right: 1rem;    
+    padding: 0px;
+    margin-right: 1rem;
 }
 
-aside > ul li {
-    padding:3px 6px 3px 6px;
-    background-color:var(--c-text-light-3);
-    border: 1px solid var(--c-text-light-3);   
-    margin:2px;
-    border-radius:4px;
-    display:inline-block;
-    width:100%;
-    height:100%;
-    margin-left:0px;
+aside>ul li {
+    padding: 3px 6px 3px 6px;
+    background-color: var(--c-text-light-3);
+    border: 1px solid var(--c-text-light-3);
+    margin: 2px;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
 }
 
-aside > ul li:hover {
+aside>ul li:hover {
     background-color: #fff;
-    border: 1px solid var(--c-text-light-1);   
+    border: 1px solid var(--c-text-light-1);
 }
 
 /* aside > ul li a:hover {
@@ -121,7 +144,8 @@ aside > ul li a:active {
 
 } */
 
-.active, [aria-current] {
+.active,
+[aria-current] {
     background-color: #fff;
     border: 1px solid var(--c-text-light-1);
 }
@@ -131,8 +155,8 @@ li[aria-current] a {
 }
 
 div#prevnext {
-    display:block;
-    background-color: rgb(200,200,200);
+    display: block;
+    background-color: rgb(200, 200, 200);
     margin-left: 32px;
     border-radius: 8px;
     padding-right: 38px;
@@ -140,42 +164,46 @@ div#prevnext {
 
 ul.prevnext {
     list-style-type: none;
-    padding:0;
-    margin-top:4px;
+    padding: 0;
+    margin-top: 4px;
 }
 
 a#previous-link {
-    margin-right:32px;
+    margin-right: 32px;
 }
 
-a.page-link > div, #prevnext {
-    display:flex; 
+a.page-link>div,
+#prevnext {
+    display: flex;
     justify-content:
-    space-between; width:100%;
+        space-between;
+    width: 100%;
 }
 
-#arrow-back, #arrow-forward {
+#arrow-back,
+#arrow-forward {
     position: relative;
-    top:2px;
-    font-size:0.8rem;
+    top: 2px;
+    font-size: 0.8rem;
 }
 
-#previous-link .title, #next-link .title {
-    font-size:0.8rem;
+#previous-link .title,
+#next-link .title {
+    font-size: 0.8rem;
 }
 
 div.title {
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
 
 div.difficulty {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
 
 div.difficulty img {
-    height:20px;
-    width:auto;
+    height: 20px;
+    width: auto;
 }
 
 
@@ -184,23 +212,23 @@ div.difficulty img {
 /* Eleventy TOC */
 div.toc ul {
     list-style-type: none;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 blockquote {
     background-color: var(--c-bg-blockquote);
     border: 1px solid var(--c-text-light-1);
     border-left: 5px solid var(--c-text-light-1);
-    padding:0.5rem;
-    border-radius:4px;
+    padding: 0.5rem;
+    border-radius: 4px;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    box-shadow:var(--c-box-shadow);
+    box-shadow: var(--c-box-shadow);
 }
 
 nav#topnav {
-    display:block;
+    display: block;
 }
 
 .nav-link {
@@ -208,11 +236,11 @@ nav#topnav {
 }
 
 .nav-link:hover {
-    color:#ff5700;
+    color: #ff5700;
 }
 
 .nav-link .material-icons {
-    vertical-align:bottom;
+    vertical-align: bottom;
 }
 
 a.nav-link {
@@ -221,74 +249,91 @@ a.nav-link {
 }
 
 div.author {
-   width:100%;
-   text-align: right;
-   font-weight: 400;
-   font-style: italic;
-   font-size: 0.9rem;
+    width: 100%;
+    text-align: right;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
 }
 
 div.modules {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
 div.modules div {
     width: 220px;
-    height:220px;
+    height: 220px;
     background-color: #ff5700;
-    color:white;
+    color: white;
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow:var(--c-box-shadow);
+    box-shadow: var(--c-box-shadow);
 }
 
 div.modules a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-div.modules a > div {
-    
-}
+div.modules a>div {}
 
 input#assignments {
-    width:80%;
-    display:block;
+    width: 80%;
+    display: block;
 }
 
 div.assignments {
-    background-color:#dddddd;
+    background-color: #dddddd;
     padding: 1rem 1rem 2px 1rem;
     border-radius: 8px;
 }
 
-div.template > button {
-    float:right;
+div.template>button {
+    float: right;
     position: relative;
     top: 24px;
     background-color: black;
-    color:white;
-    width:70px;
-    height:24px;
+    color: white;
+    width: 70px;
+    height: 24px;
     text-align: center;
-    font-size:0.8rem;
-    line-height:20px;
+    font-size: 0.8rem;
+    line-height: 20px;
 }
 
 div.template {
-    max-width:1024px;
-    width:90%;
+    max-width: 1024px;
+    width: 90%;
 }
 
 div.template textarea {
-    resize:none;
+    resize: none;
 
-    max-width:1024px;
-    width:100%;
+    max-width: 1024px;
+    width: 100%;
     height: 500px;
-    padding:0.5rem;
+    padding: 0.5rem;
     border-radius: 8px;
-    overflow:hidden;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--c-text-light-3);
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 700;
 }

@@ -17,9 +17,6 @@ technology: ide, html, css
 > - Geen programmeer voorkennis vereist
 > - Je kunt werken met een computer
 
-{{ '/_assets/cc-by-nc.png' | url | image: 'Cursus databases ERD', 8 }}
-
-Dit werk valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 internationaal-licentie. [http://creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Introductie
 
@@ -87,9 +84,7 @@ zoals:
 Je hebt meerdere browsers nodig om een website goed te kunnen testen. In
 de volgende taak installeer je daarom extra browsers.
 
-## Taak
-
-#### Installeren van extra webbrowsers
+#### Taak: Installeren van extra webbrowsers
 
 De onderstaande stappen beschrijven een installatie op windows. Als je een MacOs- of
 Linuxgebruiker bent, gebruik dan de methode die voor jouw OS beschikbaar is.
@@ -329,7 +324,7 @@ De volgende onderdelen zijn voor studenten beschikbaar:
 Jij kunt deze apps via de webportal gebruiken maar je kunt de apps ook
 installeren in Windows of MacOs.
 
-## Delen van en samenwerken in documenten
+## Samenwerken in documenten
 
 Gedurende de opleiding zul je in projectteams werken aan verschillende
 opdrachten. Voor deze opdrachten schrijf jij aan verslagen en
@@ -402,7 +397,7 @@ opdrachten.
 | Installeer Sourcetree         |                |                |           |
 | Installeer Office 365         |                |                |           |
 
-### Rubric Ontwikkelomgeving
+## Rubric Ontwikkelomgeving
 
 #### Webbrowsers
 
@@ -454,7 +449,7 @@ opdrachten.
 | Ik kan een repository maken op GitHub               |     |     |     |     |
 | Ik kan een repository clonen van GitHub             |     |     |     |     |
 
-## Office 365
+#### Office 365
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_                 |     |     |     |     |
 | :------------------------------------------------------------------ | :-- | :-- | :-- | :-- |
@@ -471,4 +466,3 @@ opdrachten.
 | Ik kan wijzigingen bijhouden in Office 365 documenten               |     |     |     |     |
 | Ik kan wijzigingen accepteren en verwerpen in Office 365 documenten |     |     |     |     |
 
-# End of File

@@ -1,5 +1,8 @@
 {% extends "title.njk" %}
 {% block h2_toc %}
-<h2>Inhoud</h2>
+<aside id="right">
+    <h2>Inhoud</h2>
+    <br>
     {{ content | toc | safe }}
+</aside>
 {% endblock %}
