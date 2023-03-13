@@ -3,9 +3,9 @@ layout: h2_toc
 title: Programmeren basis
 key: 2511
 difficulty: basic
-date: 2023-01-01
-author: jsiewers
-technology: ide, html, css
+date: 2023-03-13
+author: jsiewers, pvangemert, adalmolen, jheuvelman
+technology: php
 ---
 
 
