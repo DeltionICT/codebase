@@ -49,7 +49,7 @@ Als developer wil je vanuit iedere directory php kunnen opstarten zonder dat je 
 ## Een editor installeren
 * Installeer Visual Studio Code of PHPstorm op je systeem
 * Installeer eventueel relevante plugins afhankelijk van de taal waarin je gaat programmeren
-    * 
+
 ## Git installeren
 In de opleiding ga je uitgebreid werken met Git. Voor nu is het voldoende als je git op je laptop hebt geïnstalleerd.  
 Installeer git vanaf [git-scm.com](https://git-scm.com)

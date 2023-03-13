@@ -1,5 +1,5 @@
 ---
-layout: toc.njk
+layout: folder_toc.njk
 title: Introductie Ontwikkelomgeving
 key: 2105
 difficulty: test
@@ -29,4 +29,4 @@ Je kunt de hello-world applicatie in de taal waarin je gaat programmeren present
 * Alle onderdelen van de ontwikkelomgeving zijn goed geïnstalleerd
 * De hello-world applicatie toont "hello world" op het scherm.
 
-{{ toc }}
+{{ folder_toc }}
