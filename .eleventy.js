@@ -210,6 +210,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addShortcode("year", () =>
         `${new Date().getFullYear()}`
     );
+
+    eleventyConfig.addShortcode("page_toc", (collection) => {
+            console.log(collection)
+            htmlStrings = collection.map(item => `<li><a href="{page.url}">{page.title}</a></li>`)
+            console.log(html)
+            return htmlStrings
+    });
+
     eleventyConfig.addShortcode("video", (yt_id) => {
         // Path to the button component file.
         const filePath = path.join(__dirname, "./src/_includes/video.njk");

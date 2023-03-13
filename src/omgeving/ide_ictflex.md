@@ -19,8 +19,6 @@ technology: ide, html, css
 
 {{ '/_assets/cc-by-nc.png' | url | image: 'Cursus databases ERD', 8 }}
 
-
-
 Dit werk valt onder een Creative Commons Naamsvermelding-NietCommercieel 4.0 internationaal-licentie. [http://creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Introductie
@@ -93,15 +91,11 @@ de volgende taak installeer je daarom extra browsers.
 
 #### Installeren van extra webbrowsers
 
-De onderstaande stappen
-beschrijven een installatie op windows. Als je een MacOs- of
-Linuxgebruiker bent, gebruik dan de methode die voor jouw OS beschikbaar
-is.
+De onderstaande stappen beschrijven een installatie op windows. Als je een MacOs- of
+Linuxgebruiker bent, gebruik dan de methode die voor jouw OS beschikbaar is.
 
 - installeer Chrome  
-  "Nu nog eenvoudiger, veiliger en sneller met slimme Google-functies
-  ingebouwd."  ()
-
+  "Nu nog eenvoudiger, veiliger en sneller met slimme Google-functies ingebouwd."
   1.  navigeer naar  
       [https://www.google.com/intl/nl_nl/chrome/](https://www.google.com/intl/nl_nl/chrome/)
   2.  download de installer;
@@ -110,8 +104,7 @@ is.
   5.  navigeer naar een zelf gekozen website.
 
 - installeer Firefox  
-  "Download de browser die beschermt wat belangrijk is."  ( )
-
+  "Download de browser die beschermt wat belangrijk is."
   1.  navigeer naar  
       [https://www.mozilla.org/nl/firefox/new/](https://www.mozilla.org/nl/firefox/new/)
   2.  download de installer
@@ -120,7 +113,7 @@ is.
   5.  Navigeer naar een zelf gekozen website
 
 - installeer Opera  
-  "A browser for the real you."  ()
+  "A browser for the real you."
   1.  navigeer naar  
       [https://www.opera.com/download](https://www.opera.com/download)
   2.  download de installer
@@ -128,7 +121,7 @@ is.
   4.  start Opera;
   5.  Navigeer naar een zelf gekozen website
 
-# Editors
+## Editors
 
 Editors gebruik je om code te schrijven. Er zijn tegenwoordig veel
 editors beschikbaar. Sommige zijn betaald, andere zijn gratis.
@@ -137,10 +130,9 @@ In de volgende taak installeer je twee veel gebruikte, gratis editors.
 Als jij ervaring hebt met een andere editor, dan mag je die na
 goedkeuring van een docent ook gebruiken.
 
-**_Taak : Installeer editors_** De onderstaande stappen beschrijven een
-installatie op windows. Als je een MacOs- of linuxgebruiker bent,
+#### Taak : Installeer editors 
+De onderstaande stappen beschrijven een installatie op windows. Als je een MacOs- of linuxgebruiker bent,
 gerbuik dan de methode die voor jouw OS gangbaar is.
-
 - Installeer **Notepad++**  
   "Notepad++ is a tekst editor and source code editor for use under
   Microsoft Windows."  ()
@@ -173,11 +165,9 @@ gerbuik dan de methode die voor jouw OS gangbaar is.
   5.  Type enkele regels tekst en sla het bestand op; bedenk zelf een
       naam;
 
-# XAMPP
-
-"XAMPP is a completely free, easy to install Apache distribution
-containing MariaDB, PHP, and Perl. The XAMPP open source package has
-been set up to be incredibly easy to install and to use." ()
+## XAMPP
+"XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has
+been set up to be incredibly easy to install and to use."
 
 XAMPP is een verzameling software waarmee je op jouw laptop of desktop
 een webserver kunt draaien. Jij hebt XAMPP nodig zodat je eigen
@@ -185,8 +175,8 @@ webpagina’s kunt testen.
 
 In de volgende taak installeer jij XAMPP.
 
-**_Taak : Installeren van XAMPP_** Onderstaande stappen beschrijven de
-installatie op windows. Als je Windows of Linux gebruikt, gebruik dan de
+#### Taak : Installeren van XAMPP
+Onderstaande stappen beschrijven de installatie op windows. Als je Windows of Linux gebruikt, gebruik dan de
 gangbare installatiemethod voor je OS.
 
 - **XAMPP** instaleren
@@ -204,20 +194,16 @@ gangbare installatiemethod voor je OS.
 
   1.  start en stop de verschillende services in XAMPP
 
-**_Taak: Onderzoek de onderdelen van XAMPP_**
+#### Taak: Onderzoek de onderdelen van XAMPP
 
 - Zoek uit wat de verschillende onderdelen van Xampp zijn en wat hun
   taak is.
-
   - Apache
-
   - MariaDB
-
   - PHP
-
   - Perl
 
-# PHP
+## PHP
 
 "PHP is a popular general-purpose scripting language that is especially
 suited to web development. Fast, flexible and pragmatic, PHP powers
@@ -228,57 +214,41 @@ nodig. Wij hebben gekozen voor PHP.
 
 In de volgende taak installeer jij PHP.
 
-**\*Taak: Installeren van **PHP**\*** De volgende stappen beschrijven de
-installatie op Windows. Als jij MacOs of Linux gebruikt, gebruik dan de
+#### Taak: Installeren van PHP
+De volgende stappen beschrijven de installatie op Windows. Als jij MacOs of Linux gebruikt, gebruik dan de
 gangbare installatie methode voor je OS.
 
 - PHP downloaden
 
   1.  navigeer naar  
       <https://www.php.net/downloads.php>
-
   2.  download de huidige stabiele versie als zip.
-
   3.  maak een map aan op je C schijf genaamd PHP .
-
   4.  pak de inhoud van de zojuist gedownloadde zip file uit in de
       nieuw gemaakte PHP folder.
-
 - PHP in je PATH variabele zetten
-
   1.  druk op de windows toets en zoek op ’environment’.
-
   2.  klik op "Edit the system environment variables".
-
   3.  rechts onderaan (boven de Apply knop), zie je een knop genaamd
       ’Environment Variables’. Klik op deze knop.
-
   4.  zoek in de tabel (User variables) naar de Path variabelen, klik
       hier op en klik vervolgens op edit.
-
   5.  in het nieuwe scherm wat zich nu opent staat een knop ’New’ aan
       de rechter kant. Klik op deze knop.
-
   6.  typ nu: ’’ zonder de quote tekens.
-
   7.  klik op OK .
-
   8.  voer stap 4 tot 7 uit voor de System variables (de tweede
       tabel).
 
 - PHP testen
-
   1.  soms is het nodig om je pc te herstarten, doe dit wanneer je
       problemen ondervindt;
-
   2.  open Command Prompt of PowerShell;
-
   3.  voer het commando ’`php -v`’ uit; Als je ’command not found’ of
       iets dergelijke ziet, restart dan je pc en probeer het opnieuw.
       Werkt het nog steeds niet, vraag hulp van een student of docent.
 
-# Git
-
+## Git
 "Git is a free and open source distributed version control system
 designed to handle everything from small to very large projects with
 speed and efficiency."
@@ -291,7 +261,8 @@ Tegenwoordig is GIT één van de meest gebruikte versiebeheer producten.
 In deze taak ga je onderzoeken wat GIT precies inhoudt en hoe je er mee
 kunt werken. Ook installeer je git en de git cliënt .
 
-**_Taak : Installeer git_** Onderstaande stappen beschrijven de
+#### Taak : Installeer git
+Onderstaande stappen beschrijven de
 installatie op windows.
 
 - **Git** installeren
@@ -340,7 +311,7 @@ installatie op windows.
 
   1.  Koppel VScode aan jouw GitHub account
 
-# Office 365
+## Office 365
 
 Jij hebt als Deltion student het recht om Office 365 te gebruiken op je
 persoonlijke devices.
@@ -372,7 +343,7 @@ kennis met de volgende Office 365 / Onedrive mogelijkheden.
 
 3.  Opmerkingen plaatsen in Ms Word en MS Excel
 
-**_Taak: Leer Office 365 en Onedrive_**
+#### Taak: Leer Office 365 en Onedrive
 
 1.  Installeer de desktop apps van Word, Excel en Powerpoint van Office
     365 in Windows
@@ -389,7 +360,7 @@ kennis met de volgende Office 365 / Onedrive mogelijkheden.
 
 7.  Bestudeer hoe je bestanden beheert in OneDrive
 
-# Afronding
+## Afronding
 
 - Gebruik de rubric om te controleren of jij een voldoende of goed
   haalt voor deze opdracht. Overleg met studenten of docenten als je
@@ -407,7 +378,7 @@ kennis met de volgende Office 365 / Onedrive mogelijkheden.
 
 - Laat aan een docent zien dat je ontwikkelomgeving geïnstalleerd is.
 
-# Planning Ontwikkelomgeving
+## Planning Ontwikkelomgeving
 
 Je kunt onderstaande sjabloon gebruiken voor jouw eigen planning. Neem
 onderstaande sjabloon daarvoor over in jouw favoriete planningtool en
@@ -431,9 +402,9 @@ opdrachten.
 | Installeer Sourcetree         |                |                |           |
 | Installeer Office 365         |                |                |           |
 
-# Rubric Ontwikkelomgeving
+### Rubric Ontwikkelomgeving
 
-## Webbrowsers
+#### Webbrowsers
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_ |     |     |     |     |
 | :-------------------------------------------------- | :-- | :-- | :-- | :-- |
@@ -442,7 +413,7 @@ opdrachten.
 | Ik kan Firefox opstarten                            |     |     |     |     |
 | Ik kan Opera opstarten                              |     |     |     |     |
 
-## Editors
+#### Editors
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_ |     |     |     |     |
 | :-------------------------------------------------- | :-- | :-- | :-- | :-- |
@@ -450,7 +421,7 @@ opdrachten.
 | Ik kan Notepad++ opstarten                          |     |     |     |     |
 | Ik kan Visual studio code opstarten                 |     |     |     |     |
 
-## PHP
+#### PHP
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_              |     |     |     |     |
 | :--------------------------------------------------------------- | :-- | :-- | :-- | :-- |
@@ -458,7 +429,7 @@ opdrachten.
 | Ik kan vanaf de cli laten zien welke PHP versie geïnstalleerd is |     |     |     |     |
 | Ik kan vanaf de cli laten zien waar PHP geïnstalleerd is         |     |     |     |     |
 
-## XAMPP
+#### XAMPP
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_ |     |     |     |     |
 | :-------------------------------------------------- | :-- | :-- | :-- | :-- |
@@ -472,7 +443,7 @@ opdrachten.
 | Ik kan de functie van poort 443 uitleggen           |     |     |     |     |
 | Ik kan de functie van poort 3306 uitleggen          |     |     |     |     |
 
-## Git
+#### Git
 
 | _G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende_ |     |     |     |     |
 | :-------------------------------------------------- | :-- | :-- | :-- | :-- |
