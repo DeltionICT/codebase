@@ -11,7 +11,7 @@ technology: js
 
 
 > #### Voorkennis:  
-> * JS Functions 
+> * Javascript unctions 
 > * input tag
 
 
