@@ -1,0 +1,5 @@
+{% extends "title.njk" %}
+{% block h2_toc %}
+<h2>Inhoud</h2>
+    {{ content | toc | safe }}
+{% endblock %}

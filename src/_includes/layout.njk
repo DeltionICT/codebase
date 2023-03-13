@@ -73,11 +73,11 @@
 
     <div id="content">
         {% block title %}{% endblock %}
-        
+        {% block h2_toc %}{% endblock %}
     {{ content | safe }}
         {% block authors %}{% endblock %}
         {% block modules %}{% endblock %}
-        {% block toc %}{% endblock %}
+        {% block folder_toc %}{% endblock %}
         {% block template %}{% endblock %}
     </div>
         {% block assignments %}{% endblock %}
