@@ -400,7 +400,7 @@ opdrachten.
 
 ## Rubric Webpagina
 
-## Opdracht
+#### Opdracht
 
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende*                    |     |     |     |     |
 |:-----------------------------------------------------------------------|:----|:----|:----|:----|
@@ -410,7 +410,7 @@ opdrachten.
 | Ik heb git gebruikt tijdens deze opdracht                              |     |     |     |     |
 | Ik heb de code die ik wil bespreken met de docenten gedeeld via GitHub |     |     |     |     |
 
-## Kennis
+#### Kennis
 
 | *G=Goed \| V=Voldoende \| M=Matig \| O=Onvoldoende* |     |     |     |     |
 |:----------------------------------------------------|:----|:----|:----|:----|
@@ -451,7 +451,7 @@ opdrachten.
 | Ik kan de border property van CSS uitleggen                              |     |     |     |     |
 | Ik kan de margin property van CSS uitleggen                              |     |     |     |     |
 
-## CV pagina
+#### CV pagina
 
 |                                                                 |                                                                                           |                                                                                      |                                                                        |
 |:----------------------------------------------------------------|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
@@ -465,7 +465,7 @@ opdrachten.
 | *Goed*                                                          | *Voldoende*                                                                               | *Matig*                                                                              | *Onvoldoende*                                                          |
 | Ik kan een gevraagde wijziging direct doorvoeren in webpagina   | Ik kan een gevraagde wijziging na enig, niet hinderlijk, nadenken doorvoeren in webpagina | Ik kan een gevraagde wijziging na lang, hinderlijk, nadenken doorvoeren in webpagina | Ik kan een gevraagde wijziging niet doorvoeren in webpagina            |
 
-## Verslag webpagina
+#### Verslag webpagina
 
 |                                                                  |                                                                                           |                                                                                      |                                                                        |
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|

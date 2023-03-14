@@ -511,15 +511,10 @@ ontwerpen volgens vaste patronen:
 
 -   Een voettekst aan de onderkant met bedrijfsinformatie.
 
-In veel gevallen ziet het er dan in grote lijnen uit als in figuur
-<a href="#fig:stndlayout" data-reference-type="ref"
-data-reference="fig:stndlayout">10.1</a>:
+In veel gevallen ziet het er dan in grote lijnen uit als in onderstaande figuur
 
-<figure>
-<img src="Artwork/opdracht-layout-webpagina.jpg" id="fig:stndlayout"
-alt="Standaard webpagina layout" />
-<figcaption aria-hidden="true">Standaard webpagina layout</figcaption>
-</figure>
+{{ 'https://static.edutorial.nl/lucy/htmlcss/opdracht-layout-webpagina.jpg' | url | image: 'Standaard webpagina layout', 60 }}
+
 
 Als webdesigner/webdeveloper/programmeur ben je natuurlijk vrij om je
 eigen ontwerp te maken en hierin je eigen creativiteit te gebruiken.
@@ -680,7 +675,7 @@ opdrachten.
 | Bestudeer Responsive webdesign frameworks |                |                |           |
 | Afronding                                 |                |                |           |
 
-## Rubric HtmlCss
+## Rubric Html/Css
 
 #### Taak 1 - tabellen
 
@@ -699,7 +694,7 @@ opdrachten.
 | *Goed*                                                                     | *Voldoende*                                                          | *Matig*                                                                                    | *Onvoldoende*                        |
 | Ik kan de werking van de source code foutloos en zonder hapering uitleggen | Ik moet soms (niet hinderlijk) nadenken over werking van source code | Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina | Ik kan source code niet uitleggen    |
 
-## Taak 2 - Formulieren
+#### Taak 2 - Formulieren
 
 |                                                                                |                                                                                      |                                                                                            |                                   |
 |:-------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|:----------------------------------|
@@ -738,9 +733,9 @@ opdrachten.
 | *Goed*                                                                                                   | *Voldoende*                                                                                                   | *Matig*                                                                                    | *Onvoldoende*                                                                  |
 | Ik kan de werking van de source code foutloos en zonder hapering uitleggen                               | Ik moet soms (niet hinderlijk) nadenken over werking van source code                                          | Ik moet veel nadenken of antwoorden opzoeken bij uitleg van werking van source code pagina | Ik kan source code niet uitleggen                                              |
 | **Onderzoek / opleveringsgesprek**                                                                       |                                                                                                               |                                                                                            |                                                                                |
-| I                                                                                                        |                                                                                                               |                                                                                            |                                                                                |
+|                                                                                                         |                                                                                                               |                                                                                            |                                                                                |
 | *Goed*                                                                                                   | *Voldoende*                                                                                                   | *Matig*                                                                                    | *Onvoldoende*                                                                  |
-| k kan het verschil tussen een id en een class uitleggen                                                  |                                                                                                               |                                                                                            | Ik kan het verschil tussen een id en een class niet uitleggen                  |
+| Ik kan het verschil tussen een id en een class uitleggen                                                  |                                                                                                               |                                                                                            | Ik kan het verschil tussen een id en een class niet uitleggen                  |
 | Ik kan uitleggen wat de CSS flexbox techniek is                                                          |                                                                                                               |                                                                                            | Ik kan niet uitleggen wat de CSS flexbox techniek is                           |
 | Ik kan uitleggen wat responsive webdesign is                                                             |                                                                                                               |                                                                                            | Ik kan niet uitleggen wat responsive webdesign is                              |
 | Ik kan uitleggen wat clean code is, en wat hiervan het nut is                                            |                                                                                                               |                                                                                            | Ik kan niet uitleggen wat clean code is, en wat hiervan het nut is             |
