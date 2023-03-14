@@ -11,27 +11,14 @@ technology: html, css
 
 
 > #### Voorkennis
-> * Je hebt je docentenopleiding afgerond
-> * Je kunt werken met een computer
+> * Je heb de opdracht webpagina afgerond
+> * Je hebt basiskennis over basisstructuren van HTML en CSS
 
 > #### Dit ga je leren
-> * Je gaat aan de hand van een template een nieuwe opdracht maken voor een module
-> * Markdown: Je maakt gebruik van markdown om de opdracht vorm te geven
-> * Testen: Je test de nieuwe opdracht in een lokale omgeving
-> * Indienen van een pull-request
-
-## Opdracht
-Dit beschrijft wat je moet doen en wat er van je wordt verwacht
-
-## Resultaat
-Dit is het gewenste resultaat
-Hier wordt aangegeveen wat je moet opleveren en waar.
-
-## Evaluatie
-Dit is een rubrics of checklist  waaraan je kunt zien of de opdracht juist is uitgevoerd
-
- 
-
+> * Je je kennis over HTML/CSS verder uitbreiden
+> * Je gaat leren hoe je je HTML/CSS kennis kan toepassen in de praktijk
+> * Je gaat leren code van anderen te lezen, te begrijpen en aan te passen
+> * Je gaat leren 'clean' code te schrijven
 
 
 ## Introductie
