@@ -19,12 +19,12 @@ author: jsiewers
 <h3>Informatie over deze module</h3>
 <br>
 <ul>
-    <li>
+     <!-- <li>
         <b>Studiebelasting</b>
         <ul>
             <li>{{ module.sbu }} ( ± {{ (module.sbu/24) | round }} weken)</li>
         </ul>
-    </li> 
+    </li> --> 
     {%  set evcs =  module.evc | toArray() | getObj(mods) %}
     {% if evcs | length > 0  %}  
     <li>

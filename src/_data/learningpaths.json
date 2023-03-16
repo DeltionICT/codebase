@@ -10,6 +10,16 @@
         ]
      },  
      {
+        "key": "flex",
+        "name": "Flex Software developer",
+        "description": "Een flex software developer doet de flex-opleiding op het ict-lycem en hij heeft een brede kennis van verschillende programmeertalen en technieken. Naast backend-expertise kan deze developer ook frontend applicaties bouwen volgens de laatste standaarden.",
+        "modules":[
+            ["K0719Flex","K0721Flex", "proj"],
+            ["K0001","K0722"],
+            ["K0002","K0505"]
+        ]
+     },  
+      {
         "key": "frontend",
         "name": "Frontend developer",
         "description": "Een front-end developer ontwikkelt de voorzijde van websites, webshops, programma's en apps. Oftewel het voor de gebruiker zichtbare gedeelte. Front-end ontwikkelaars zorgen ervoor dat applicaties, computerprogramma's, sites en shops gebruiksvriendelijk zijn en werken met alle gangbare browsers, besturingssystemen en resoluties. Deze professionals werken niet alleen aan de technische aspecten van digitale toepassingen, maar kijken ook of het design ervan aantrekkelijk is. Meestal specialiseert een front-end specialist zich in een aantal script- en opmaaktalen, waaronder HTML, CSS, JavaScript en Javascript frameworks zoals Vue en React.",

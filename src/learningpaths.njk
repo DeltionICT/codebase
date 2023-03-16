@@ -24,7 +24,7 @@ author: jsiewers
         <ul>
         {% for m in fases | getObj(mods) %}
         {% set totalsbu = totalsbu + m.sbu %}
-            <li><a href="{{ ('/mods/' + m.key) | lower | url }}">{{ m.name }}</a> ({{ m.sbu }})</li>
+            <li><a href="{{ ('/mods/' + m.key) | lower | url }}">{{ m.name }}</a> <!-- ({{ m.sbu }}) --></li>
         {% endfor %}
         </ul>
     {% set index = index + 1 %}

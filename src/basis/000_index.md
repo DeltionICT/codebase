@@ -1,5 +1,5 @@
 ---
-title: Introductie
+title: Introductie Codebase
 key: 1038
 difficulty: none
 date: 2023-01-01
@@ -8,7 +8,7 @@ technology: all
 ---
 
 > #### Voorbereiding
-> * In principe heb je geen voorkennis nodig om codebase-opdrachten uit te voeren.
+> * Je hebt basis programmeer-kennis nodig om codebase-opdrachten uit te kunnen voeren.
 > * Je hebt een ontwikkelomgeving op je laptop geïnstalleerd
 
 > #### Dit ga je leren

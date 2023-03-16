@@ -1,28 +1,28 @@
 {
-    "items": [
-      {
-        "url": "/basis/introductie/",
-        "name": "Codebase"
-      },  
-      {
-        "url": "/learningpaths/",
-        "name": "Profielen"
-      },    
-      {
-        "url": "/mods/",
-        "name": "Modules"
-      },
-      {
-        "url": "/projecten/introductie/",
-        "name": "Projecten"
-      },   
-      {
-        "url": "/thema/introductie/",
-        "name": "Thema"
-      },
-      {
-        "url": "/more/",
-        "name": "More.."
-      }
-    ]
+  "items": [
+    {
+      "url": "/",
+      "name": "Home"
+    },
+    {
+      "url": "/mods/",
+      "name": "Modules"
+    },
+    {
+      "url": "/basis/introductie-codebase/",
+      "name": "Codebase"
+    },
+    {
+      "url": "/projecten/introductie-projecten/",
+      "name": "Projecten"
+    },
+    {
+      "url": "/thema/introductie/",
+      "name": "Thema"
+    },
+    {
+      "url": "/more/",
+      "name": "More.."
+    }
+  ]
 }
