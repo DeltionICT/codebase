@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | HTML Eerste website</title>
+    <title>Deltion Software Development | js14 | Array</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js14_array.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js14_array.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -94,7 +94,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/frontend/html-eerste-website/">
                 <div>
                     <div class="title">HTML Eerste website</div>
@@ -185,7 +185,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/frontend/js14-or-array/">
                 <div>
                     <div class="title">js14 | Array</div>
@@ -319,21 +319,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Frontend</h4>
 
-    <div class="author">Jan Jaap Siewers | Jan, 2023</div>
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="author">Chris Stegeman | Jan, 2023</div>
 
 
 
@@ -353,47 +353,41 @@
 
 
         
-    <h1 id="html-eerste-website">HTML Eerste website</h1>
+    <h1 id="js14-%7C-array">js14 | Array</h1>
 <blockquote>
-<h4 id="voorkennis">Voorkennis</h4>
-<p>Basis HTML kennis</p>
-<h4 id="doelen">Doelen</h4>
-<p>Leer html-kennis toe te passen in een eerste website</p>
+<h4 id="voorkennis%3A">Voorkennis:</h4>
+<ul>
+<li>JS basics: variabelen, console.log(), innerHTML</li>
+</ul>
 </blockquote>
-<h2 id="resultaat">Resultaat</h2>
-<p>Een website die je kunt tonen vanaf je eigen laptop.<br>
-De website voldoet aan onderstaande eisen:</p>
+<blockquote>
+<h4 id="doelen%3A">Doelen:</h4>
 <ul>
-<li>Verzin zelf een passend onderwerp voor de website (tandpasta, orgel spelen, bungy jumpen etc. etc.)</li>
-<li>Maak een website met (minimaal) 2 pagina's</li>
-<li>Gebruik in bestandsnamen en mappen geen spaties of andere vreemde tekens (een laag streepje mag wel '_')</li>
-<li>Gebruik alleen kleine letters!!</li>
-<li>Homepage
+<li>leren werken Javascript arrays</li>
+</ul>
+</blockquote>
+<p>Een array gebruik je als je een lijst wilt oplslaan, zoals een lijst met namen, autos, prijzen, enz.<br>
+Bekijk het volgende voorbeeld van JS arrays op <a href="https://www.w3schools.com/js/js_arrays.asp">w3schools</a><br></p>
+<h3 id="opdracht">opdracht</h3>
 <ul>
-<li>Een titel in de vensterbalk</li>
-<li>Een titel h1 om de pagina mee te beginnen over een onderwerp naar keuze.</li>
-<li>2 Afbeeldingen die je zelf hebt gedownload. Gebruik relatieve links!!</li>
-<li>Een link naar de andere pagina</li>
+<li>maak de voorbeeld array met de autos van w3Schools en zet er ook een tweede array bij met de prijs van de auto (getallen hoeven in een array niet met quootjes er omhee geschreven worden!)<br>
+Zet in een DIV de volgende tekst neer: &quot;De <i>Saab</i> kost €<i>17000</i>&quot; (cursief gedrukte tekst en getallen komen uit de array)</li>
+<li>zet (kopieer) die regels er voor de andere 2 auto's nog eens onder</li>
+<li>kijk op de w3Schools site en zorg dat de auto's met een for-loop toegeveoegd worden i.p.v. 3 nieuwe regels te schrijven</li>
+<li>Je moet meer auto's met hun prijs kunnen toevoegen:
+<ul>
+<li>maak 2 input-velden aan en een button met opschrift &quot;toevoegen&quot;</li>
+<li>kijk in het w3Schools voorbeeld hoe je met <i>push</i> elementen kan toevoegen</li>
+<li>Zorg dat als je op &quot;toevoegen&quot; klikt, in de ene array de auto, en in de andere de prijs wordt toegevoegd én zorg dat de lijst met auto's ververst wordt</li>
 </ul>
 </li>
-<li>Pagina met een artikel over je favoriete ondewerp
+<li>Zet onder de lijst de tekst: &quot;De totaalprijs van de <i>4</i> auto's is: €<i>67000</i>&quot; en dat veranderd automatisch als het aantal of de prijs van de auto's veranderd</li>
+</ul>
+<img src="/codebase/_assets/frontend/js14_base.png" alt="Voorbeeld arrays" style="width:250px">
+<h3 id="uitbreiding%3A">Uitbreiding:</h3>
 <ul>
-<li>h1 - heading met het onderwerp</li>
-<li>h3 - heading met de naam van het artikel
-<ul>
-<li>Artikeltekst mag je zelf verzinnen</li>
-<li>Een geordende lijst met links naar externe websites die gaan over je onderwerp</li>
+<li>Voeg inputs toe zodat je ook een auto kunt verwijderen of aanpassen</li>
 </ul>
-</li>
-</ul>
-</li>
-<li>Een link naar de homepage</li>
-</ul>
-<h2 id="een-website-valideren">Een website valideren</h2>
-<p>Op de <a href="https://validator.w3.org/">W3C Markup Validation Service</a> kun je bekijken of je geen fouten hebt gemaakt in je code.
-Soms lijkt je browser een pagina goed weer te geven, maar dan kan het toch nog zijn dat je niet voldoet aan de strenge regels die het W3C stelt aan HTML-code.</p>
-<h2 id="uitleg">Uitleg</h2>
-<p>Meer uitleg over de opdracht vind je <a href="https://www.edutorial.nl/html/eerste-website/">op deze website</a></p>
 
         
         

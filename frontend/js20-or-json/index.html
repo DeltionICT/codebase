@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | HTML Eerste website</title>
+    <title>Deltion Software Development | js20 | JSON</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js20_json.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js20_json.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -94,7 +94,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/frontend/html-eerste-website/">
                 <div>
                     <div class="title">HTML Eerste website</div>
@@ -200,7 +200,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/frontend/js20-or-json/">
                 <div>
                     <div class="title">js20 | JSON</div>
@@ -319,23 +319,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Frontend</h4>
 
-    <div class="author">Jan Jaap Siewers | Jan, 2023</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="author">Chris Stegeman | Jan, 2023</div>
 
 
 
@@ -353,47 +353,43 @@
 
 
         
-    <h1 id="html-eerste-website">HTML Eerste website</h1>
+    <h1 id="js20-%7C-json">js20 | JSON</h1>
 <blockquote>
-<h4 id="voorkennis">Voorkennis</h4>
-<p>Basis HTML kennis</p>
-<h4 id="doelen">Doelen</h4>
-<p>Leer html-kennis toe te passen in een eerste website</p>
+<h4 id="voorkennis%3A">Voorkennis:</h4>
+<ul>
+<li>JS basics: variabelen, console.log(), innerHTML</li>
+<li>JS Arrays</li>
+</ul>
 </blockquote>
-<h2 id="resultaat">Resultaat</h2>
-<p>Een website die je kunt tonen vanaf je eigen laptop.<br>
-De website voldoet aan onderstaande eisen:</p>
+<blockquote>
+<h4 id="doelen%3A">Doelen:</h4>
 <ul>
-<li>Verzin zelf een passend onderwerp voor de website (tandpasta, orgel spelen, bungy jumpen etc. etc.)</li>
-<li>Maak een website met (minimaal) 2 pagina's</li>
-<li>Gebruik in bestandsnamen en mappen geen spaties of andere vreemde tekens (een laag streepje mag wel '_')</li>
-<li>Gebruik alleen kleine letters!!</li>
-<li>Homepage
+<li>structuur / opbouw van JSON leren kennen</li>
+<li>leren werken JSON: JavaScript Object Notation</li>
+</ul>
+</blockquote>
+<p>Een <i>array</i> gebruik je als je een lijst wilt oplslaan, zoals een lijst met namen, autos, prijzen, enz..
+Het nadeel aan een Javascript array is dat ze niet &quot;assiociatief&quot; zijn; je kunt ze alleen met een nummer aanroepen
+en niet bij name, met een <i>key</i> of zo:<br></p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">let</span> studenten <span class="token operator">=</span> <span class="token punctuation">[</span><br>    <span class="token punctuation">[</span><span class="token string">"Jan"</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token string">"Jansen"</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token punctuation">[</span><span class="token string">"Piet"</span><span class="token punctuation">,</span> <span class="token string">"de"</span><span class="token punctuation">,</span> <span class="token string">"Grote"</span><span class="token punctuation">]</span><br><span class="token punctuation">]</span><span class="token punctuation">;</span><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"De naam van de tweede persoon is: "</span> <span class="token operator">+</span> studenten<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">" "</span><span class="token operator">+</span> studenten<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">" "</span><span class="token operator">+</span> studenten<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token comment">// levert op: "De naam van de tweede persoon is: Piet de Grote"</span></code></pre>
+<p>Een Javascript object is wel assiociatief. Hieronder een array (!) met 2 objecten:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">let</span> studenten <span class="token operator">=</span> <span class="token punctuation">[</span><br>    <span class="token punctuation">{</span> <span class="token string-property property">"voornaam"</span><span class="token operator">:</span><span class="token string">"Jan"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token string-property property">"achternaam"</span><span class="token operator">:</span><span class="token string">"Jansen"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>    <span class="token punctuation">{</span> <span class="token string-property property">"voornaam"</span><span class="token operator">:</span><span class="token string">"Piet"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span><span class="token string">"de"</span><span class="token punctuation">,</span> <span class="token string-property property">"achternaam"</span><span class="token operator">:</span><span class="token string">"Grote"</span> <span class="token punctuation">}</span><br><span class="token punctuation">]</span><span class="token punctuation">;</span><br><span class="token keyword">let</span> student <span class="token operator">=</span> studenten<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"De naam van de tweede persoon is: "</span> <span class="token operator">+</span> student<span class="token punctuation">.</span>voornaam <span class="token operator">+</span> <span class="token string">" "</span><span class="token operator">+</span> student<span class="token punctuation">.</span>tv <span class="token operator">+</span> <span class="token string">" "</span><span class="token operator">+</span> student<span class="token punctuation">.</span>achternaam<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token comment">// levert op: "De naam van de tweede persoon is: Piet de Grote"</span></code></pre>
+<h3 id="opdracht">opdracht</h3>
 <ul>
-<li>Een titel in de vensterbalk</li>
-<li>Een titel h1 om de pagina mee te beginnen over een onderwerp naar keuze.</li>
-<li>2 Afbeeldingen die je zelf hebt gedownload. Gebruik relatieve links!!</li>
-<li>Een link naar de andere pagina</li>
+<li>probeer bovenstaande voorbeelden uit</li>
+</ul>
+<p>Bekijk de uitleg  JSON op <a href="https://www.w3schools.com/js/js_json.asp">w3schools</a><br></p>
+<ul>
+<li>Maak een output-div waar je via een for-loop een tabel met studenten in zet mét de klas waar ze in zitten:
+<ul>
+<li>Maak een JSON array met 5 namen van studenten: voor- en achternaam, tussenvoegsel, en id van een klas.</li>
+<li>Maak een array &quot;aGroups&quot; aan,</li>
+<li>als aGroups[2] == &quot;SD2A&quot;, dan heeft &quot;SD2A&quot; het id 2.</li>
+<li>Maak een output-div waar je via een for-loop een tabel met studenten in zet mét de klas waar ze in zitten</li>
 </ul>
 </li>
-<li>Pagina met een artikel over je favoriete ondewerp
-<ul>
-<li>h1 - heading met het onderwerp</li>
-<li>h3 - heading met de naam van het artikel
-<ul>
-<li>Artikeltekst mag je zelf verzinnen</li>
-<li>Een geordende lijst met links naar externe websites die gaan over je onderwerp</li>
 </ul>
-</li>
-</ul>
-</li>
-<li>Een link naar de homepage</li>
-</ul>
-<h2 id="een-website-valideren">Een website valideren</h2>
-<p>Op de <a href="https://validator.w3.org/">W3C Markup Validation Service</a> kun je bekijken of je geen fouten hebt gemaakt in je code.
-Soms lijkt je browser een pagina goed weer te geven, maar dan kan het toch nog zijn dat je niet voldoet aan de strenge regels die het W3C stelt aan HTML-code.</p>
-<h2 id="uitleg">Uitleg</h2>
-<p>Meer uitleg over de opdracht vind je <a href="https://www.edutorial.nl/html/eerste-website/">op deze website</a></p>
+<!-- <img src="/codebase/_assets/frontend/js14_base.png" alt="Voorbeeld arrays" style="width:350px"> -->
 
         
         
