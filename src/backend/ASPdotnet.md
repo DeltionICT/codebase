@@ -1,7 +1,7 @@
 ---
 title: ASP.net C# Verdieping
-difficulty: medium
-date: 2023-02-21
+difficulty: expert
+date: 2023-03-21
 author: kscheening
 technology: cscharp, .netCore, Razor
 ---
@@ -11,6 +11,7 @@ technology: cscharp, .netCore, Razor
 > ##### Voorkennis
 > * programmeer-basics
 > * programmeertaal: C#
+> * front- & backend kennis
 
 > ##### Doel
 > * Het opzetten van een simpele ASP.net applicatie (frontend en backend) inclusief CRUD functionaliteiten met Razor pages.

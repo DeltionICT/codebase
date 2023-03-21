@@ -1,7 +1,7 @@
 ---
 title: Unity 3D programming C# Verdieping
 difficulty: medium
-date: 2023-02-21
+date: 2023-03-21
 author: kscheening
 technology: cscharp, Unity3D
 ---

@@ -1,7 +1,7 @@
 ---
 title: C# OOP Verdieping
 difficulty: medium
-date: 2023-02-21
+date: 2023-03-21
 author: kscheening
 technology: cscharp
 ---
@@ -27,7 +27,7 @@ o { color: lightslategray; font-style: italic;}
 
 Als je meer met ASP.net wilt gaan doen is het noodzakelijk dat je meer kennis opdoet van OOP (Object Oriented Programming) met C#; want alles draait op OOP principes als je met ASP.net gaat werken!
 
-Omdat deze principes abstract in nature zijn en snel te veel kunnen worden, worden deze concepten geintroduceerd in opgedeelde uitleg filmpjes en maak je een Textbased Adventure Game via een commandline applicatie! 
+Omdat deze principes abstract in nature zijn en snel te veel kunnen worden, worden deze concepten geintroduceerd in opgedeelde uitleg filmpjes en maak je een Textbased Adventure Game via een commandline applicatie! Waarom specifiek een game? De mechanieken van een game lenen zich heel goed uit voor de verschillende onderdelen van OOP.
 
 ***Opdrachten***
 
@@ -45,9 +45,9 @@ Uiteindelijk ben je vrij om opdrachten uit te breiden of eigen mechanics toe te 
 
  ## **Opdracht 1 - Humble Beginnings**
  
- Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen we beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de stappen in het Vantevoren blok hierboven.
+ Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen we beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de video in het *Vantevoren* blok hierboven.
 
- Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game door de vijf opdrachten uit te voeren en ondertussen leer je OOP programmeren in C#! 
+ Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game door de vijf opdrachten uit te voeren; en ondertussen leer je ook nog eens OOP programmeren in C#! 
  
 Breid wat je tot nu toe hebt met het volgende uit:
  
@@ -158,9 +158,11 @@ Kijk eerst het filmpje [QueuesandStacks](https://youtu.be/gdHm_txelq8); je weet 
 
 Voor deze opdracht gaan je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!
  
-Voeg aan <c>Entity</c> een nieuwe variabele <v>speed</v> met een default waarde van 1 toe. Zorg ervoor dat dit meegenomen wordt in de <m>constructor</m> en <m>getters</m> en <m>setters</m>. Aan Program.cs voeg je een queue toe van het type <c>Entity</c>. Maak een nieuwe methode/functie <m>CombatSetup()</m>, voor het opzetten van deze queue. Deze methode moet dus entiteiten in de queue stoppen wat de volgorde van beurten tijddens combat bepaalt. Wijzig de combat code zodat het gebruikt maakt van deze queue. Zodra een entiteit zijn actie(s) heeft gedaan wordt hij uit de queue gehaald (en weer gequeued) en krijgt de volgende entiteit zijn beurt. 
+Voeg aan <c>Entity</c> een nieuwe variabele <v>speed</v> met een default waarde van 1 toe. Zorg ervoor dat dit meegenomen wordt in de <m>constructor</m> en <m>getters</m> en <m>setters</m>. Aan Program.cs voeg je een queue toe van het type <c>Entity</c>. Maak een nieuwe methode/functie <m>CombatSetup()</m>, voor het opzetten van deze queue. Deze methode moet dus entiteiten in de queue stoppen wat de volgorde van beurten tijdens combat bepaalt. Wijzig de combat code zodat het gebruikt maakt van deze queue. Zodra een entiteit zijn actie(s) heeft gedaan wordt hij uit de queue gehaald (en weer gequeued) en krijgt de volgende entiteit zijn beurt. 
  
-Voeg aan <m>CombatSetup()</m>, een nieuwe tijdelijke verzameling van entiteiten toe. Voordat de entiteiten aan de queue worden toegevoegd worden ze eerst in deze verzameling gestopt. Voer een Bubble Sort op deze lijst uit, gebaseerd op de speed variabele van de entiteiten (snelste vooraan). Als dit klaar is worden de entiteiten op deze gesorteerde volgorde toegevoegd aan de queue.
+Voeg aan <m>CombatSetup()</m>, een nieuwe tijdelijke verzameling van entiteiten toe. Voordat de entiteiten aan de queue worden toegevoegd worden ze eerst in deze verzameling gestopt. Voer een sorteer algoritme op deze lijst uit, gebaseerd op de speed variabele van de entiteiten (snelste vooraan). Als dit klaar is worden de entiteiten op deze gesorteerde volgorde toegevoegd aan de queue.
+
+Je kan zelf bepalen wat voor sortering gebruikt gaat worden, maar een mooie start in deze wereld is de [BubbelSort](https://www.geeksforgeeks.org/bubble-sort/).
  
 >**Eindresultaat** <br>
 Voordat combat begint worden alle entiteiten in het gevecht gesorteerd op hun snelheid. Deze volgorde wordt overgenomen in de combat queue, waardoor er een variërende volgorde in beurten ontstaat: snellere entiteiten zijn als eerste aan de beurt!
