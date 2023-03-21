@@ -4,9 +4,9 @@
         "name": "Allround Software developer",
         "description": "Een allround software developer heeft een brede kennis van verschillende programmeertalen en technieken. Naast backend-expertise kan deze developer ook frontend applicaties bouwen volgens de laatste standaarden.",
         "modules":[
-            ["K0719","K0721", "K0496", "K0882"],
-            ["K0001","K0722"],
-            ["K0002","K0505"]
+            ["K0719","K0721", "K0496", "K0882", "PROJ_MVC", "KEUZE_FASE_01"],
+            ["K0001","K0722","PROJ_API", "KEUZE_FASE_02"],
+            ["K0002","K0505", "PROJ_EXT", "KEUZE_FASE_03"]
         ]
      },  
      {

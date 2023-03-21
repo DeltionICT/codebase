@@ -45,7 +45,11 @@
     },    
     {
         "key":"oop",
-        "name":"Object georiënteerd programmeren"
+        "name":"Object georiënteerd applicaties programmeren."
+    },
+    {
+        "key":"mvc",
+        "name":"Volgens MVC principes een applicatie bouwen."
     },
     {
         "key":"owasp",

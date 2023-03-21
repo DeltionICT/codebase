@@ -1,11 +1,160 @@
 [
     {
-        "key": "K0721Flex",
-        "name": "Basis webdevelopment",
+        "key": "KEUZE_FASE_01",
+        "name": "Keuzedelen fase 1",
         "sbu": 240,
-        "subjects": "html, css, js, hosting",
+        "subjects": "all",
         "crebos": "25633, 25605",
-        "evc": "",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "Volgt....",
+        "assignments": {
+            "Keuzedelen": [
+                2513
+            ]
+        }
+    },   
+    {
+        "key": "KEUZE_FASE_02",
+        "name": "Keuzedelen fase 2",
+        "sbu": 240,
+        "subjects": "all",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "Volgt....",
+        "assignments": {
+            "Keuzedelen": [
+                2513
+            ]
+        }
+    },     {
+        "key": "KEUZE_FASE_03",
+        "name": "Keuzedelen fase 3",
+        "sbu": 240,
+        "subjects": "all",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "Volgt....",
+        "assignments": {
+            "Keuzedelen": [
+                2513
+            ]
+        }
+    },    
+    {
+        "key": "PROJ_MVC",
+        "name": "Project MVC",
+        "sbu": 240,
+        "subjects": "all",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "Als je object geörienteerd programmeren hebt geleerd, kun je in de projecten in deze module leren om met een framework te werken. Deze module is voorafgaand aan de stageperiode. Het is een goed moment om je al te oriënteren op wat je straks in de praktijk wil gaan doen. In welke programmeertaal wil je je verder ontwikkelen?. Frameworks zijn opgezet volgens de methode van het object geörienteerd programmeren.",
+        "assignments": {
+            "Projecten": [
+                2513
+            ]
+        }
+    },
+    {
+        "key": "PROJ_EXT",
+        "name": "Project voor externe opdrachtgever",
+        "sbu": 240,
+        "subjects": "all",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "Als je je kunsten hebt bewezen op stage of tijdens schoolprojecten en je hebt al een redelijke routine in het bouwen van applicatie op basis van frameworks, dan kun je opdrachten voor externe opdrachtgevers oppakken. In deze module komen alle vaardigheden die verwacht kunnen worden van een beginnend beroepsbeoefenaar naar voeren. Van ontwerp tot realisatie en oplevering tot aan het samenwerken in projectgroepen.",
+        "assignments": {
+            "Projecten": [
+                2513
+            ]
+        }
+    }, 
+    {
+        "key": "PROJ_API",
+        "name": "Project API",
+        "sbu": 240,
+        "subjects": "all",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721, K0882",
+        "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
+        "coursematerials": [
+            {
+                "description": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/web-programming-foundations/welcome?autoplay=false&u=84048860"
+            },
+            {
+                "description": "Edutorial",
+                "url": "https://www.edutorial.nl"
+            }
+        ],
+        "description": "In deze module leer je een API te programmeren. Door gebruik te maken van een API koppel je front- en backend van een applicatie los van elkaar. Met een API is het veel beter mogelijk om data tussen verschillende applicaties met elkaar uit te wisselen. In dit project ga je een front- en backend ontwerpen, realiseren en opleveren. Je werkt samen in een groep en jullie maken gebruik van verschillende frameworks",
+        "assignments": {
+            "Projecten": [
+                2513
+            ]
+        }
+    },     
+    {
+        "key": "DB",
+        "name": "Data",
+        "sbu": 240,
+        "subjects": "db",
+        "crebos": "25633, 25605",
+        "evc": "K0719, K0721",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/basis-webdevelopment/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NDAzO2t3YWxpZmljYXRpZUlkPTA=",
         "coursematerials": [
             {
@@ -20,14 +169,10 @@
         "description": "In dit onderdeel ontwikkel je een eenvoudige website/webshop en je past bestaande websites/-shops aan met behulp van een Content Management Systeem (CMS). Ook hou je je bezig met aanpalende onderwerpen zoals hosting, zoekmachinevriendelijkheid en de beveiliging van de website/webshop",
         "assignments": {
             "Opdrachten": [
-                2513,
-                2514,
-                2512,
-                2516,
-                2515
+                2513
             ]
         }
-    },
+    },     
     {
         "key": "proj",
         "name": "Projecten",
@@ -239,7 +384,7 @@
         "name": "Object georiënteerd programmeren",
         "sbu": 240,
         "subjects": "oop, uml, testen",
-        "evc": "K0719",
+        "evc": "K0719, K0721",
         "crebos": "25606",
         "sbb": "https://kwalificatie-mijn.s-bb.nl/keuzedeel/verdieping-object-geori%C3%ABnteerd-programmeren/cmVzdWx0YWF0VHlwZT00O2Rvc3NpZXJJZD00NjUyO2t3YWxpZmljYXRpZUlkPTA=",
         "coursematerials": [
@@ -252,7 +397,7 @@
                 "url": "https://www.edutorial.nl"
             }
         ],
-        "description": "Dit basisdeel voor de opleiding Software Development Object georiënteerd programmeren (OOP) is een verdieping op deze specifieke programmeer-methodiek. Het bevat kennis en vaardigheden om een applicatie te ontwerpen, te ontwikkelen en te implementeren volgens de principes van het object georiënteerd programmeren.",
+        "description": "In dit basisdeel voor de opleiding Software Development leer je om een applicatie te ontwerpen, te ontwikkelen en te implementeren volgens de principes van het object georiënteerd programmeren. Object georiënteerd programmeren (OOP) is een methodiek die vaak wordt toegepast bij grotere projecten. Het is de standaard voor programmeertalen als java en c# en het is populair in talen als php, javascript en meer. Deze module is programmeertaal onafhankelijk. Hierna kun je aan de slag met populaire frameworks voor web- en gamedevelopment, maar ook IoT, deep learnig, data-analyse en nog veel meer.",
         "assignments": {
             "oefeningen": [
                 2403,
@@ -282,7 +427,7 @@
                 "url": "https://www.edutorial.nl"
             }
         ],
-        "description": "Dit basisdeel voor de opleiding Software Development Object georiënteerd programmeren (OOP) is een verdieping op deze specifieke programmeer-methodiek. Het bevat kennis en vaardigheden om een applicatie te ontwerpen, te ontwikkelen en te implementeren volgens de principes van het object georiënteerd programmeren.",
+        "description": "",
         "assignments": {
             "oefeningen": [
                 2403,
