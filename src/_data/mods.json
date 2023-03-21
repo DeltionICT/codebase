@@ -399,10 +399,10 @@
         ],
         "description": "In dit basisdeel voor de opleiding Software Development leer je om een applicatie te ontwerpen, te ontwikkelen en te implementeren volgens de principes van het object georiënteerd programmeren. Object georiënteerd programmeren (OOP) is een methodiek die vaak wordt toegepast bij grotere projecten. Het is de standaard voor programmeertalen als java en c# en het is populair in talen als php, javascript en meer. Deze module is programmeertaal onafhankelijk. Hierna kun je aan de slag met populaire frameworks voor web- en gamedevelopment, maar ook IoT, deep learnig, data-analyse en nog veel meer.",
         "assignments": {
-            "oefeningen": [
-                2403,
-                2409,
-                2414
+            "Opdrachten": [
+                2519,
+                2520,
+                2521
             ],
             "eindopdracht": [
                 2201
