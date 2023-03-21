@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | FeatureTesting PHP</title>
+    <title>Deltion Software Development | C# OOP Verdieping</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/04 FeatureTesting.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/Csharp_OOP.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/04 FeatureTesting.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/Csharp_OOP.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -342,7 +342,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/backend/featuretesting-php/">
                 <div>
                     <div class="title">FeatureTesting PHP</div>
@@ -426,7 +426,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/backend/c-oop-verdieping/">
                 <div>
                     <div class="title">C# OOP Verdieping</div>
@@ -515,19 +515,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Backend</h4>
 
-    <div class="author">Ronald Kerssies | Jan, 2023</div>
-
-
-
-
-
-
-
-
-
-
+    <div class="author"> | Mar, 2023</div>
 
 
 
@@ -537,122 +537,165 @@
 
 
         
-    <h1 id="featuretesting-php">FeatureTesting PHP</h1>
-<img src="/codebase/_assets/api/Laravel-logo.png" style="width:10%;">
+    <style>
+c { color: darkcyan; font-weight: bold;}
+m { color: crimson; font-weight: bold;}
+v { color: lemonchiffon; }
+o { color: lightslategray; font-style: italic;}
+</style>
+<h1 id="c%23-oop-verdieping">C# OOP Verdieping</h1>
 <blockquote>
 <h5 id="voorkennis">Voorkennis</h5>
 <ul>
-<li>programmeer-basics, functions, OOP, MVC-basics, git</li>
-<li>optioneel: MVC-framework, cronjobs</li>
+<li>programmeer-basics</li>
+<li>programmeertaal: C#</li>
 </ul>
 </blockquote>
 <blockquote>
 <h5 id="doel">Doel</h5>
 <ul>
-<li>geautomatiseerde tests maken en toepassen op eigen geschreven code</li>
+<li>leren en toepassen van drie van de vier pilaren van Object Oriented Programming in de C# taal:<br>
+- Encapsulation <br>
+- Inheritance <br>
+- Polymorphism</li>
 </ul>
 </blockquote>
-<ul>
-<li>Programmeertaal: PHP of een andere backend-taal</li>
-</ul>
-<p><em><strong>Taken:</strong></em>
-Voer de code uit volgens “best practice” en eerder geleerde technieken.
-Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
-zoals: <a href="https://laravel.com/docs/9.x">LARAVEL</a></p>
-<hr>
-1. Maak in een bestaande framework applicatie de volgende tests mogelijk;
-* als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
-* als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
-<ul>
-<li>
-<p>als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken</p>
-</li>
-<li>
-<p>als bezoeker zie ik alle content-items in het menu onder een dropbox, zodat een overzichtelijke navigatie-bar heb</p>
-</li>
-<li>
-<p>als bezoeker zie ik de home-page als ik de url voor het eerst benader, zodat ik direct de applicatie zie</p>
-</li>
-<li>
-<p>als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken</p>
-</li>
-<li></li>
-<li>
-<p>als administrator kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden</p>
-</li>
-<li>
-<p>als administrator kan ik content verwijderen, zodat ik de verouderde artikelen kan verwijderen</p>
-</li>
-<li>
-<p>als administrator kan ik content wijzigen, zodat ik de artikelen kan aanpassen</p>
-</li>
-<li>
-<p>als gebruiker wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.</p>
-</li>
-<li>
-<p>als administrator wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.</p>
-</li>
-<li>
-<p>als administrator wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.</p>
-</li>
-<li>
-<p>als administrator kan ik nieuwe gebruikers toevoegen, zodat ik de gebruikersbestand kan uitbreiden</p>
-</li>
-<li>
-<p>als administrator kan ik gebruikers verwijderen, zodat ik de verouderde artikelen kan verwijderen</p>
-</li>
-<li>
-<p>als administrator kan ik gebruikers wijzigen, zodat ik de gebruikersgegevens kan aanpassen</p>
-</li>
-<li>
-<p>als administrator kan ik gebruikers forceren een nieuw wachtwoord aan te maken, om misbruik van wachtwoorden te voorkomen</p>
-</li>
-<li>
-<p>als gebruiker kan ik geforceerd worden een nieuw wachtwoord op te geven, zodat ik een veilig account behoudt en geen beveiligde content kan benaderen</p>
-</li>
-</ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
-<ul>
-<li>Een featuretest per user-scenario</li>
-<li>featuretests zijn per thema gerubriceerd in een file</li>
-<li>er worden voldoende asserts per test-method uitgevoerd</li>
-<li>de testresultaten zijn op een prettige manier te controleren</li>
-<li>(optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file</li>
-</ul>
-<hr>
-<ol start="2">
-<li>Maak in een bestaande framework applicatie de volgende tests mogelijk;</li>
-</ol>
-<ul>
-<li>controleer de correcte werking en responses van class-methods</li>
-</ul>
-<p>In het framework zijn de volgende technische eigenschappen toegepast:</p>
-<ul>
-<li>maak unittests op methods van een class in de library-folder</li>
-<li>unittests zijn per thema gerubriceerd in een file</li>
-<li>er worden voldoende asserts per test-method uitgevoerd</li>
-<li>de testresultaten zijn op een prettige manier te controleren</li>
-<li>(optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file</li>
-</ul>
+<p>Als je meer met ASP.net wilt gaan doen is het noodzakelijk dat je meer kennis opdoet van OOP (Object Oriented Programming) met C#; want alles draait op OOP principes als je met ASP.net gaat werken!</p>
+<p>Omdat deze principes abstract in nature zijn en snel te veel kunnen worden, worden deze concepten geintroduceerd in opgedeelde uitleg filmpjes en maak je een Textbased Adventure Game via een commandline applicatie! Waarom specifiek een game? De mechanieken van een game lenen zich heel goed uit voor de verschillende onderdelen van OOP.</p>
+<p><em><strong>Opdrachten</strong></em></p>
 <blockquote>
-<h5 id="op-te-leveren">Op te leveren</h5>
+<p><strong>Vantevoren</strong></p>
+<p><em>Voordat je begint met de eerste opdracht:</em></p>
+<p>Volg de <a href="https://youtu.be/IHGcqp-KoSs">instructie video</a> om een start te maken met de textbased adventure game. Alle opvolgende opdrachten breiden deze start uit met nieuwe mechanieken en leer je verschillende principes van OOP programmeren. Eind resultaat is dus 1 werkende text based adventure game!</p>
+</blockquote>
+<p>Uiteindelijk ben je vrij om opdrachten uit te breiden of eigen mechanics toe te voegen. Hoe uitgebreider jij het maakt hoe beter het een centerpiece kan zijn in jouwn portfolio!</p>
+<br>
+<h2 id="opdracht-1---humble-beginnings"><strong>Opdracht 1 - Humble Beginnings</strong></h2>
+<p>Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen we beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de video in het <em>Vantevoren</em> blok hierboven.</p>
+<p>Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game door de vijf opdrachten uit te voeren; en ondertussen leer je ook nog eens OOP programmeren in C#!</p>
+<p>Breid wat je tot nu toe hebt met het volgende uit:</p>
+<p><alt>Maak een nieuwe klasse genaamd <c>Player</c>. Zorg ervoor dat beide de <c>Player</c> en <c>Enemy</c> klassen dezelfde variabelen hebben (<v>name, health en damage</v>). Instantieer een <c>Player</c> object op dezelfde manier als <c>Enemy</c>. Deze <c>Player</c> object gebruiken we om alle waardes van de speler bij te houden. Wanneer je als speler <v>damage</v> doet met een aanval commando, gebruik dan de <v>damage</v> variabele van het <c>speler object</c> in plaats van 10. Nadat de speler heeft aangevallen, valt de enemy de speler aan en doet het zijn <v>damage</v> variabele als schade aan de speler.</alt></p>
+<blockquote>
+<p><strong>Extra</strong> <br>
+Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren.</p>
+</blockquote>
+<p>Een keer aanvallen en aangevallen worden is niet heel spectaculair. Stop daarom het geven en krijgen van schade in een loop zodat beide de speler en vijand kunnen blijven vechten tot een van de twee dood is. Dit betekend dus dat je meerdere keren commando's kan invoeren. Voeg een nieuwe <v>boolean variabele gameOver</v> en laat de loop, loopen tot <v>gameOver</v> waar is.</p>
+<blockquote>
+<p>Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.</p>
+</blockquote>
+<p>Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Als de speler is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> Met de volgende code kan je kleur toevoegen aan de tekst en tekstachtergrond (Blue en White als voorbeeld):</p>
+<blockquote>
+   <code>
+       Console.BackgroundColor = ConsoleColor.Blue;<br>
+       Console.ForegroundColor = ConsoleColor.White;
+   </code>
+</blockquote>
+<br>
+ Maak er wat moois van! <br>
+<blockquote>
+<p><strong>Extra</strong> <br>
+Probeer alvast de <code>playerInput</code> in een switch case te stoppen, met ‘Attack’ en ‘Use item’ als cases. Voor nu kan je bij ‘Use item’ de speler een waarde laten ‘healen’ (health weer terug krijgen. Dit mag met een vaste waarde maar ook met <c>Random()</c>).</p>
+</blockquote>
+<hr>
+<h2 id="opdracht-2---and-they-won't-stop-coming!"><strong>Opdracht 2 - And they won't stop coming!</strong></h2>
+<p>Bekijk de videos van <a href="https://youtu.be/su9ltheuewQ">Inheritance</a>, <a href="https://youtu.be/WAa4v31M4V4">Constructors</a> en <a href="https://youtu.be/a004FjChyaE">Getters&amp;Setters</a>. <br></p>
+<p>Maak eerst een superklasse <c>Entity</c> zoals in de video en laat de <c>Player</c> en <c>Enemy</c> klasse hiervan overerven. Geef de <c>Player</c> klasse een <v>maxHealth</v> variabele. Deze variabele gebruik je als grens (zodat de speler niet meer HEALED dan mag). Als je 'healen' al hebt gemaakt zorg er dan voor dat deze grens gebruikt gaat worden.</p>
+<p>Zet de variabelen van <c>Player</c> en <c>Enemy</c> om naar private en geef beide klassen een constructor voor deze variabelen. Wijzig het aanmaken van een speler en enemy zodat het gebruik maakt van de constructor (en dat het dus maar uit een lijn per <c>object</c> bestaat).</p>
+<p>Zorg ervoor dat alle gedeelde variabelen tussen <c>Player</c> en <c>Enemy</c>, <m>getters</m> en <m>setters</m> krijgen in de superklasse <c>Entity</c> (zoals <m>GetName()</m> of <m>SetHealth()</m>). Maak alleen unieke <m>getters</m> en <m>setters</m> aan in <c>Player</c> of <c>Enemy</c> als het om een variabele gaat die niet gedeelt is. Denk verder goed om goeie benamingen van de <m>getters/setters</m> en maak gebruik van argumenten en returnwaardes waar nodig. Wijzig de code in de <c>Main</c> zodat het gebruik maakt van deze getters en setters, inplaats van directe referenties naar de variabelen.</p>
+<p>Met het verplaatsen van het aanmaken van de enemy naar bovenin de gameloop kan je er voor zorgen dat bij elke loop er een nieuwe <c>Enemy</c> aangemaakt wordt. Zorg ervoor dat bij het verslaan van een <c>Enemy</c>, er een nieuwe wordt aangemaakt aan het begin van de loop (dus pas wanneer de huidige enemy is verslagen.)</p>
+<blockquote>
+<p>TIP: de Enemy variabele moet NIET in de loop, het initialiseren ervan wel!.</p>
+</blockquote>
+<p>De loop stopt nu dus alleen wanneer de speler dood gaat.</p>
+<blockquote>
+<p><strong>Extra</strong> <br>
+Geef nieuwe <c>Enemies</c> een random <v>health</v> en <v>damage</v> waarde (wees gebalanceerd!)</p>
+<blockquote>
+<p><strong>bonus</strong>: geef nieuwe <c>Enemies</c> een random naam uit een naam verzameling (randomize de index)</p>
+</blockquote>
+</blockquote>
+<p>Je kan nu eindeloos vechten tegen enemies tot jij, de speler, dood gaat. <br><br></p>
+<p>Voeg nu de volgende functionaliteit toe (je zou nu de kennis moeten hebben om dit zelf te implementeren. X en Y zijn waardes die je zelf 'gebalanceerd' bepaalt):</p>
+<blockquote>
+<p>Geef de speler een <v>level</v> en een <v>experience</v> variabele; geef alleen level de waarde 1. Bij elke verslagen vijand krijgt de speler een X aantal exp erbij (via een <m>setter</m>). Wanneer de <v>experience</v> hoger is dan Y gaat de speler LEVELUP (via een <m>setter</m>). Bij elke LEVELUP worden de volgende variabelen gewijzigd:</p>
+<blockquote>
 <ul>
-<li>
-<p>toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)</p>
-</li>
-<li>
-<p>dit bij elke toekomstige UserStory als taak is toegevoegd</p>
-</li>
-<li>
-<p>toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)</p>
-</li>
-<li>
-<p>dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken</p>
-</li>
-<li>
-<p>dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken</p>
-</li>
+<li>level van de speler +1</li>
+<li>maxHealth van de speler + Random tussen 5 en 10</li>
+<li>health krijgt de waarde van maxHealth</li>
+<li>damage van de speler + Random tussen 1 en 3</li>
+<li>De Y grens voor een levelup * 1.2</li>
+<li>exp gaat weer terug naar 0</li>
 </ul>
+</blockquote>
+<p><strong>Resultaat</strong> <br>
+Je kan nu eindeloos vechten tegen vijanden en ga je een level omhoog gaan wanneer X aantal vijanden zijn verslagen (en je zo steeds sterker wordt). <br>
+<strong>Let op!</strong>: zorg dat het uitlezen en wijzigen van variabelen altijd via <m>getters</m> en <m>setters</m> gaat.</p>
+</blockquote>
+<hr>
+<h2 id="opdracht-3---i-command-you-to..."><strong>Opdracht 3 - I command you to...</strong></h2>
+<p>Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Kijk eerst de video <a href="">Enums</a>. Na de videos weet je hoe je enums kan aanmaken en gebruiken in combinatie met een switchcase. Voeg een enum toe voor de volgende gamestates:</p>
+<blockquote>
+<p><code>COMBAT <br>
+STORY <br>
+GAMEOVER</code></p>
+</blockquote>
+<p>Voeg een variabele voor de <v>gamestate</v> toe aan Program.cs. Maak het gehele combat segment zo dat het in een eigen methode/functie zit en alleen aangeroepen wordt als de gamestate COMBAT is. Maak nog twee extra methodes toe voor:</p>
+<blockquote>
+<p>STORY - comment een todo voor story segmenten (je hoeft hier dus nog geen logica voor te schrijven)<br>
+GAMEOVER - wanneer de speler zijn health op 0 of lager komt wordt de gamestate omgezet naar GAMEOVER.</p>
+</blockquote>
+<p>Voeg in de <m>gameover</m> methode wat writelines toe over hoe de speler dood gaat en meld <o>&quot;Game Over&quot;</o>.
+Het resultaat moet als volgt zijn:</p>
+<blockquote>
+<p>als de gamestate op COMBAT staat wordt de combat uitgevoerd zoals voorheen en kan de speler commando's geven om aan te vallen en/of items gebruiken (als je dat hebt geprogrammeerd), waarna de vijand de speler aanvalt. Er moet een functie zijn voor het wijzigen van de gamestate wanneer dat evt. nodig is. Dit moet altijd aan het einde van de gameloop gebeuren zodat de volgende loop methodes wordt bepaalt. Als de speler dood is word de gamestate omgezet naar GAMEOVER en word de gameover logica uitgevoerd.</p>
+</blockquote>
+<p>Wijzig de enemy naar een <v>enemy verzameling</v> zodat de speler tegen 2, 3 of zelfs 10 enemies tegelijk kan vechten. <c>Enemies</c> die aangemaakt worden met dezelfde naam (zoals Goblin) moeten een nummer aan hun naam toegevoegd krijgen (dus Goblin1, Goblin2). Breidt de commando's van de speler uit zodat er ook een naam opgegeven kan worden van de vijand om aan te vallen (bijv. Attack Goblin1). Nadat de speler is geweest krijgt elke vijand in de verzameling een beurt om de speler aan te vallen. Doe dit via een foreach loop om door de <v>enemy verzameling</v> te loopen. Zorg er voor dat de juiste writelines zijn toegevoegd.</p>
+<blockquote>
+<p><strong>Resultaat</strong> <br>
+Er kunnen meerdere vijanden tegelijk verschijnen en worden samengevoegd in de intro (bijv.: A wild Goblin and Giant Rat appeared!). De speler kan in zijn aanval commando een naam meegeven voor welke vijand hij/zij wilt aanvallen. Daarna krijgt elke vijand een beurt om de speler aan te vallen. Dit blijft herhalen tot de speler dood is of alle vijanden zijn verslagen; in dit
+geval worden er weer nieuwe vijanden aangemaakt en begint het gevecht opnieuw!).</p>
+</blockquote>
+<hr>
+<h2 id="opdracht-4---are-they-getting-stronger%3F"><strong>Opdracht 4 - Are they getting stronger?</strong></h2>
+<p>Kijk de video over <a href="">Polymorfisme</a>. We gaan variatie in de vijanden brengen doormiddel van polymorfisme.</p>
+<p>Creëer twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen:</p>
+<blockquote>
+<p>De <c>TankEnemy</c> heeft een extra <v>variabele armorValue</v>. Elke keer als deze vijand schade krijgt, gaat het eerst van de <v>armorValue</v> af, voordat het van zijn <v>health</v> af gaat.</p>
+<p>De <c>BlitzEnemy</c> heeft elke keer als het aanvalt een kans om nog een keer aan te vallen. Deze kans begint hoog, maar wordt bij elke aanval kleiner.</p>
+<p>Polymorph beide damage en aanval methodes zodat ze wel dezelfde methode naam en argumenten houden maar dat het de bovengenoemde functionaliteiten implementeert.</p>
+</blockquote>
+<p>Laat deze nieuwe vijanden, samen met de originele, ook verschijnen in de gameloop bij gevechten doormiddel van kans.</p>
+<hr>
+<h2 id="opdracht-5---in-a-single-file-line%2C-please!"><strong>Opdracht 5 - In a single file line, please!</strong></h2>
+<p>Kijk eerst het filmpje <a href="https://youtu.be/gdHm_txelq8">QueuesandStacks</a>; je weet dan wat <c>Queues</c> en <c>Stacks</c> zijn en hoe je deze moet gebruiken.</p>
+<p>Voor deze opdracht gaan je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!</p>
+<p>Voeg aan <c>Entity</c> een nieuwe variabele <v>speed</v> met een default waarde van 1 toe. Zorg ervoor dat dit meegenomen wordt in de <m>constructor</m> en <m>getters</m> en <m>setters</m>. Aan Program.cs voeg je een queue toe van het type <c>Entity</c>. Maak een nieuwe methode/functie <m>CombatSetup()</m>, voor het opzetten van deze queue. Deze methode moet dus entiteiten in de queue stoppen wat de volgorde van beurten tijdens combat bepaalt. Wijzig de combat code zodat het gebruikt maakt van deze queue. Zodra een entiteit zijn actie(s) heeft gedaan wordt hij uit de queue gehaald (en weer gequeued) en krijgt de volgende entiteit zijn beurt.</p>
+<p>Voeg aan <m>CombatSetup()</m>, een nieuwe tijdelijke verzameling van entiteiten toe. Voordat de entiteiten aan de queue worden toegevoegd worden ze eerst in deze verzameling gestopt. Voer een sorteer algoritme op deze lijst uit, gebaseerd op de speed variabele van de entiteiten (snelste vooraan). Als dit klaar is worden de entiteiten op deze gesorteerde volgorde toegevoegd aan de queue.</p>
+<p>Je kan zelf bepalen wat voor sortering gebruikt gaat worden, maar een mooie start in deze wereld is de <a href="https://www.geeksforgeeks.org/bubble-sort/">BubbelSort</a>.</p>
+<blockquote>
+<p><strong>Eindresultaat</strong> <br>
+Voordat combat begint worden alle entiteiten in het gevecht gesorteerd op hun snelheid. Deze volgorde wordt overgenomen in de combat queue, waardoor er een variërende volgorde in beurten ontstaat: snellere entiteiten zijn als eerste aan de beurt!</p>
+<blockquote>
+<p><strong>Bonus</strong> <br>
+Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraagd kunnen worden tijdens combat. Bijvoorbeeld: wanneer een entiteit geraakt wordt met ice magic dan wordt zijn speed gehalveerd (waardoor hij dus later aan de beurt is). Hiervoor moet je dus alle entiteiten opnieuw sorteren nadat iedereen aan de beurt is geweest. Als je hier een dynamischere manier voor kan bedenken dan is dat bonus punten!</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="opdracht-6---what-happens-next%3F"><strong>Opdracht 6 - What happens next?</strong></h2>
+<p>Maak eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en volgorde!</p>
+<p>Kijk de video over <a href="https://youtu.be/bqwXngdIliY">Linkedlists</a>; je hebt dan de kennis om je eigen verzameling te schrijven volgens het linkedlist principe.</p>
+<p>Maak een nieuwe folder &quot;Datastructures&quot; aan. Maak binnen deze folder de benodigde klassen voor een linkedlist (zoals in de video). Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken:</p>
+<p>De <c>toryManager</c> regelt de gameflow; per node in de linkedlist kijkt het of er een verhaal verteld moet worden of dat er combat moet starten. Dit kan je op de volgende manier doen. Voeg aan de node klasse een boolean <v>isCombat</v> toe. Deze variabele kan je op false zetten waar alleen een string uitgeschreven moet worden (story segment) en true wanneer de combat code moet starten zoals je het nu hebt geschreven. Vanuit de <c>GameManager</c> moet er eerst gekeken worden of de huidige linkedlist node een combat node is, om daarna de gamestate te veranderen naar de bijbehorende state (en zo dus de juiste code uitgevoerd wordt). Hier komt dus die gamestate switch goed van pas!</p>
+<p>Als voorbeeld</p>
+<blockquote>
+<p>De GameManager kijkt naar de huidige gamestate: deze staat op STORY en kijkt naar de huidige linkedlist node. De isCombat boolean staat op false en de print methode van de huidige linkedlist node wordt uitgevoerd. De node data wordt via een Console.WriteLine uitgeschreven naar de console en de opvolgende node word nu de huidige node.</p>
+<p>De GameManager kijkt opnieuw naar de huidige gamestate: deze staat nog steeds op STORY en word er weer eerst gekeken naar de huidige linkedlist node. Hier is de isCombat boolean wel waar; de gamestate wordt gewijzigd naar COMBAT en de huidige node word alvast vervangen met de volgende node (deze node wordt nog niet gebruikt totdat combat voorbij is!).</p>
+<p>De GameManager kijkt opnieuw naar de huidige gamestate: deze staat op COMBAT en word vervolgens de combat code uitgevoerd tot dat alle vijanden verslagen zijn. Bij het verslaan van alle vijanden word de gamestate weer gewijzigd naar STORY en gaat het weer verder zoals gewoon.</p>
+</blockquote>
+<p>Voeg een aantal nodes toe om een basic verhaal te vertellen met halverwege wat combat (minimaal drie nodes voor introductie, combat, afsluiting).</p>
+<blockquote>
+<p>Bonus: voeg een keuze toe aan nodes. Geef de speler de opdracht om een keuze te maken na een kort verhaal. Houd het op twee keuzes die elk wijzen naar twee verschillende next nodes. Of deze nodes combat of story zijn mag je zelf bepalen. Beide routes wijzen naar dezelfde next node om de splitting weer samen te voegen.</p>
 </blockquote>
 
         
