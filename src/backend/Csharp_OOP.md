@@ -9,7 +9,7 @@ technology: cscharp
 <style>
 c { color: darkcyan; font-weight: bold;}
 m { color: crimson; font-weight: bold;}
-v { color: lemonchiffon; }
+v { color: gold; }
 o { color: lightslategray; font-style: italic;}
 </style>
 

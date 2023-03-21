@@ -16,8 +16,8 @@ author: kscheening
 >Veel grote spelers in de Tech wereld hebben hun eigen ideeën en best practices voor een goeie design. Hier is enorm veel inspiratie uit te halen dus lees de bijgelinkte artikelen dan ook zeker door!
 
 ## **Typografie**
-Material Design: https://m3.material.io/styles/typography/overview <br>
-Apple: https://developer.apple.com/design/human-interface-guidelines/foundations/typography/
+[Material Design](https://m3.material.io/styles/typography/overview) <br>
+[Apple](https://developer.apple.com/design/human-interface-guidelines/foundations/typography/)
 
 Fonts; wat de meeste denken dat een font is, is eigenlijk een typeface. Typefaces is daadwerkelijk de unieke vorm en stijl van letters, cijfers en symbolen. Fonts zijn variaties op een typeface. Het juiste lettertype kan jouw website/applicatie maken of breken: leesbaarheid en leesgemak spelen hier de grootste rollen in! 
 

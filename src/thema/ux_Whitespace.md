@@ -16,8 +16,8 @@ author: kscheening
 >Veel grote spelers in de Tech wereld hebben hun eigen ideeën en best practices voor een goeie design. Hier is enorm veel inspiratie uit te halen dus lees de bijgelinkte artikelen dan ook zeker door!
 
 ## **Whitespaces**
-Material Design: https://m3.material.io/foundations/layout/understanding-layout/overview <br>
-Apple: https://developer.apple.com/design/human-interface-guidelines/foundations/layout/ <br>
+[Material Design](https://m3.material.io/foundations/layout/understanding-layout/overview)<br>
+[Apple](https://developer.apple.com/design/human-interface-guidelines/foundations/layout/)
 
 Whitespaces, ofwel de lege ruimtes langs en tussen elementen, bepaalt hoe comfortabel gebruikers zijn bij het gebruiken van jouw website of applicatie. Het creëert overzicht en Je kan ze zelfs begeleiden in welke onderdelen als eerste bekeken moeten worden: ook wel de flow in jouw layout design. Hier moet ook een goeie balans in zitten: te weinig whitespace en alles klont samen tot een onoverzichtelijke hoop; te veel whitespace en alles dissocieert van elkaar. 
 

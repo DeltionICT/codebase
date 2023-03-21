@@ -15,9 +15,9 @@ author: kscheening
 >Veel grote spelers in de Tech wereld hebben hun eigen ideeën en best practices voor een goeie design. Hier is enorm veel inspiratie uit te halen dus lees de bijgelinkte artikelen dan ook zeker door!
 
 ## **Kleurentheorie**
-Material Design: https://m3.material.io/styles/color/the-color-system/key-colors-tones <br>
-Apple: https://developer.apple.com/design/human-interface-guidelines/foundations/color <br>
-Adobe XD: https://xd.adobe.com/ideas/process/ui-design/what-is-color-theory/
+[Material Design](https://m3.material.io/styles/color/the-color-system/key-colors-tones) <br>
+[Apple](https://developer.apple.com/design/human-interface-guidelines/foundations/color) <br>
+[Adobe XD](https://xd.adobe.com/ideas/process/ui-design/what-is-color-theory/)
 
 De juiste kleur voor de juiste toepassing: kleuren hebben en grotere rol dan je in de eerste instantie zou denken. Met kleur kan je namelijk gebruikers zowaar manipuleren hoe ze zich moeten voelen tijdens het bezoeken van jouw website. Door het toepassen van de kleur paars kan je bijvoorbeeld het idee geven dat je dure kwaliteit producten aanbiedt; of met wit geef je bezoekers sneller een medisch vertrouwen.
 
