@@ -1,4 +1,5 @@
 ---
+key: 2527
 title: C# OOP Verdieping
 difficulty: medium
 date: 2023-03-21
@@ -12,8 +13,6 @@ m { color: crimson; font-weight: bold;}
 v { color: gold; }
 o { color: lightslategray; font-style: italic;}
 </style>
-
-# {{ title }}
 
 > ##### Voorkennis
 > * programmeer-basics

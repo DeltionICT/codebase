@@ -1,12 +1,11 @@
 ---
+key: 2526
 title: Unity 3D programming C# Verdieping
 difficulty: medium
 date: 2023-03-21
 author: kscheening
-technology: cscharp, Unity3D
+technology: cscharp, unity3d
 ---
-
-# {{ title }}
 
 > ##### Voorkennis
 > * programmeer-basics

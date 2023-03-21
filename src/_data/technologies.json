@@ -16,6 +16,10 @@
         "name":"User interface design"
     },
     {
+        "key":"unity3d",
+        "name":"Unity 3D"
+    },
+    {
         "key":"html",
         "name":"Webpagina's structureren met HTML"
     },

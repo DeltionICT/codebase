@@ -1,8 +1,9 @@
 ---
+key: 2522
 title: User Experience | Iconografie
 difficulty: basic
 date: 2023-02-22
-technology: user experience, frontend design
+technology: ux, ui
 author: kscheening
 ---
 

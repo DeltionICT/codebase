@@ -1,4 +1,5 @@
 ---
+key: 2540
 title: js74 | vue3 cdn base
 difficulty: medium #basic | medium | expert
 date: 2023-01-31

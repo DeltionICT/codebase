@@ -4,7 +4,7 @@ key: 2521
 difficulty: basic
 date: 2023-01-01
 author: jsiewers
-technology: ide, html, css
+technology: oop
 ---
 
 

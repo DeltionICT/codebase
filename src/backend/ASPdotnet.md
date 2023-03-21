@@ -1,12 +1,11 @@
 ---
+key: 2528
 title: ASP.net C# Verdieping
 difficulty: expert
 date: 2023-03-21
 author: kscheening
-technology: cscharp, .netCore, Razor
+technology: csharp
 ---
-
-# {{ title }}
 
 > ##### Voorkennis
 > * programmeer-basics

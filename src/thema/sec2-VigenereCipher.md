@@ -3,7 +3,7 @@ key: 2427
 title: sec | Sec 2-Vigenere Cipher
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
-lang: any
+technology: all
 author: kstarreveld
 ---
 

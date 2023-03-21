@@ -3,7 +3,7 @@ title: app2 | RN-Lists and Beer
 key: 2401
 difficulty: medium #basic | medium | expert
 date: 2023-02-09
-lang: javascript, reactnative
+technology: js, reactn
 author: kstarreveld
 ---
 

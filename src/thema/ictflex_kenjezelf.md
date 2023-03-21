@@ -5,7 +5,7 @@ key: 2518
 difficulty: basic
 date: 2023-01-01
 author: jsiewers, pvangemert, adalmolen, jheuvelman
-technology: ide, html, css
+technology: all
 ---
 
 
