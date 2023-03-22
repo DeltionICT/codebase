@@ -53,11 +53,11 @@ Voeg nieuwe methoden toe aan de AutoOverzicht-class en/of aan de Auto-class om d
 [Uitleg over deze opdracht vind je op edutorial.nl](https://www.edutorial.nl/php2/oo-programmeren/)
 
 ## Resultaat
-* [Zie hier een voorbeeld van de website van 'Mr Wheely'](https://www.savatarian.com/rocvf/wheely/index.php)
+* [Zie hier een voorbeeld van de website van 'Mr Wheely'](https://static.edutorial.nl/oop/wheely/)
 * Maak een [fork van de MrWheely repository op github.com](https://github.com/DeltionICT/mrwheely/fork)
 * Clone de repository en voeg je bestanden toe.
 
 ## Evaluatie
-Je hebt een applicatie gebouwd volgens opdracht
-De applicatie heeft minimaal 2 klasse-bestanden
-De functonaliteit komt overeen met de [MrWheely-website](https://www.savatarian.com/rocvf/wheely/index.php) 
+* Je hebt een applicatie gebouwd volgens opdracht
+* De applicatie heeft minimaal 2 klasse-bestanden
+* De functonaliteit komt overeen met de [MrWheely-website](https://static.edutorial.nl/oop/wheely/) 
