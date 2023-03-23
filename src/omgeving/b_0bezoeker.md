@@ -3,7 +3,7 @@ key: 2442
 title: Meelopen bij SD
 difficulty: basic
 date: 2023-01-02
-technology: 
+technology: all
 author: rkerssies
 ---
 

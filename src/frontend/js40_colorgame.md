@@ -21,7 +21,7 @@ technology: js
 > * programmastructuur lezen vanuit stroomdiagram
 
 ### opdracht
-Maak de hieronder weergegeven colorgame met behulp van [deze tutorial](https://std.stegion.nl/codebase/js40_colorgame/game1_0.html).<br>
+Maak de hieronder weergegeven colorgame met behulp van [deze tutorial](https://std.stegion.nl/cs_codebase/js40_colorgame/game1_0.html).<br>
 
 * Bij starten van de game
     * wisselen de 9 kleuren van het bovenste blok

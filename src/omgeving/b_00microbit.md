@@ -1,5 +1,4 @@
 ---
-key: 2441
 title: Intake; MicroBit
 difficulty: basic
 date: 2023-01-02
@@ -10,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<img src="{{ '/_assets/omgevingen/newbie.png' | url }}" style="width:13%; border-radius:10px;">
+<img src="{{ '/_assets/basis/newbie.png' | url }}" style="width:13%; border-radius:10px;">
 
 Welkom bij het ICT-Lyceum. Je zit nu in een intake-moment en krijgt de tijd om een beroepservaring op te doen.
 Hopelijk kom je er zo achter of dit beroep bij jou past.  
@@ -32,7 +31,7 @@ Hiervoor gaan je gebruiken maken van de [MicroBit]({{ 'https://microbit.org' | u
 Je kan een eigen 'project' aan maken en beginnen met het bouwen functionaliteit (werking code) in de
 [simulatie]({{ 'https://makecode.microbit.org' | url }});<br>
 In het onderstaande schermvoorbeeld staan enkele kleine voorbeeldjes;<br>  
-  <img src="{{ '/_assets/omgevingen/microbit_simulatie.png' | url }}" style="width:80%;">
+  <img src="{{ '/_assets/basis/microbit_simulatie.png' | url }}" style="width:80%;">
 
 ## De opdracht ###
 Sleep verschillende blokken zo in elkaar zodat de microbit-print de volgende werking heeft;
