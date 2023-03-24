@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | ERD Vakantiepark</title>
+    <title>Deltion Software Development | OOP Een database model maken</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/erd_vakantiepark.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/oop_models.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/erd_vakantiepark.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/backend/oop_models.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -139,7 +139,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/backend/erd-vakantiepark/">
                 <div>
                     <div class="title">ERD Vakantiepark</div>
@@ -312,7 +312,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/backend/oop-een-database-model-maken/">
                 <div>
                     <div class="title">OOP Een database model maken</div>
@@ -536,31 +536,31 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Backend</h4>
 
-    <div class="author">Jan Jaap Siewers | Nov, 2022</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="author">Jan Jaap Siewers | Jan, 2023</div>
 
 
 
@@ -590,81 +590,48 @@
 
 
         
-    <h1 id="erd-vakantiepark">ERD Vakantiepark</h1>
-<blockquote>
-<h5 id="voorkennis">Voorkennis</h5>
+    <blockquote>
+<h4 id="voorkennis">Voorkennis</h4>
 <ul>
-<li>SQL Queries</li>
-<li>Een databaseserver installeren, tabellen aanmaken en permissies instellen</li>
+<li>Je heb basis programmeerkennis</li>
+<li>Je hebt basiskennis van programmeren voor het web</li>
 </ul>
 </blockquote>
-<h2 id="resultaat">Resultaat</h2>
-<p>Lever het ERD dat hoort bij onderstaande casus.</p>
-<h2 id="casus">Casus</h2>
-<p>Voor een vakantiepark moet een applicatie worden gemaakt voor het verhuren van vakantiebungalows.<br>
-Er zijn verschillende typen bungalows:</p>
+<blockquote>
+<h4 id="dit-ga-je-leren">Dit ga je leren</h4>
 <ul>
-<li>Garnaal, biedt ruimte aan 4 personen en heeft 2 slaapkamers</li>
-<li>Krab, biedt ruimte aan 6 personen en heeft 3 slaapkamers</li>
-<li>Kreeft, biedt ruimte aan 8 personen hen heeft 3 slaapkamers</li>
-<li>Er zijn nog meer types en  er worden later nog nieuwe types toegevoegd.</li>
-<li>Bungalows hebben voorzieningen. Denk aan 'open haard', 'ligbad', 'sauna' etc.
-Voorzieningen zijn niet afhankelijk van het type bungalow. De ene bungalow van het type Garnaal heeft bijvoorbeeld een open haard, maar een andere bungalow van hetzelfde type heeft bijvoorbeeld ligbad, maar geen open haard.</li>
-<li>Elke bungalow heeft een huurprijs per dag. De prijs is afhankelijk van het type en de aanwezige voorzieningen.</li>
-<li>Een reservering heeft 1 hoofdhuurder
+<li>Je gaat object georiënteerd leren programmeren</li>
+<li>Je gaat herbruikbare code leren schrijven</li>
+<li>Je gaat overerving van klassen toepassen</li>
+</ul>
+</blockquote>
+<h2 id="opdracht-models">Opdracht Models</h2>
+<p>Een model is in dit geval een klasse voor een tabel in een database. Door gebruik te maken van deze klasse en vervolgens een subklasse te maken voor iedere tabel in de database kun je veel code hergebruiken.
+Het ophalen van alle records uit een tabel is steeds weer dezelfde sql-query. Het enige dat steeds verandert is de tabelnaam.</p>
 <ul>
-<li>De familie Jansen komt met 6 personen, maar vader Jan Jansen is de hoofdhuurder (hij betaalt de rekening).</li>
+<li><a href="https://github.com/DeltionICT/databasemodel/fork">Fork de repository Database models</a></li>
+<li>Clone de repository naar je eigen laptop</li>
+<li>importeer mdb.sql in je mysql-server</li>
+<li>Bestudeer de code:
+<ul>
+<li>Er zijn 3 klassen</li>
+<li>DB met een methode om een databaseconnectie op te zetten</li>
+<li>Model is een abstracte klasse. Je kunt de functionaliteit uit deze klasse alleen gebruiken als je een subklasse aanmaakt</li>
+<li>UserModel is een subklasse van Model</li>
 </ul>
 </li>
-<li>Een hoofdhuurder kan meerdere bungalows huren.</li>
-<li>Bij een reservering worden de volgende gegevens opgeslagen:
+<li>Maak een nieuwe klasse MovieModel aan
 <ul>
-<li>Van de hoofdhuurder worden de naam, adres, postcode, telefoon en email opgeslagen</li>
-<li>De reserveringsdatum</li>
-<li>De aankomst- en vertrekdatum</li>
-<li>De bungalows die worden gehuurd</li>
-<li>Het aantal gasten per bungalow</li>
+<li>Bestudeer mdb.sql</li>
+<li>Net als in UserModel pas je de waarden voor table, fields en primary key (pk) aan.</li>
 </ul>
 </li>
+<li>Gebruik MovieModel om alle movies weer te geven</li>
+<li>Maak een formulier om nieuwe movies toe te kunnen voegen</li>
 </ul>
-<h3 id="voorbeelden-van-reserveringen">Voorbeelden van reserveringen</h3>
-<div class="html">
-<table>
-    <tr>
-        <td colspan=3><b>Reservering</b> 39929, reserveringsdatum 11-12-2023</td>
-    </tr>
-    <tr>
-        <td>J. Boom<br>063399229</td><td>Kastanjepad 25<br>2345 PC Abcoude</td><td>Van: 06-05-2024<br>Tot: 08-05-2024</td>
-    </tr>
-    <tr>
-        <td><b>Bungalows</b></td><td><b>Voorzieningen</b></td><td><b>Aantal gasten</b></td>
-    </tr>
-     <tr>
-        <td>Kreeft 6<br>&euro; 110,-</td><td>Afwasmachine<br>Open Haard</td><td>8</td>
-    </tr>
-      <tr>
-        <td>Garnaal 3<br>&euro; 70,-</td><td>Afwasmachine<br></td><td>3</td>
-    </tr>  
-</table>
-<br>
-<table>
-    <tr>
-        <td colspan=3><b>Reservering</b> 677889, reserveringsdatum 09-12-2023</td>
-    </tr>
-    <tr>
-        <td>P. Kapteijn<br>065599332</td><td>Lindenlaan 5<br>7787 AC Amsterdam</td><td>Van: 09-05-2024<br>Tot: 11-05-2024</td>
-    </tr>
-    <tr>
-        <td><b>Bungalows</b></td><td><b>Voorzieningen</b></td><td><b>Aantal gasten</b></td>
-    </tr>
-     <tr>
-        <td>Kreeft 8<br>&euro; 122,-</td><td>Afwasmachine<br>Open Haard<br>Sauna</td><td>7</td>
-    </tr>
-      <tr>
-        <td>Garnaal 3<br>&euro; 70,-</td><td>Afwasmachine<br></td><td>3</td>
-    </tr>  
-</table>
-</div>
+<h1 id="resultaat">Resultaat</h1>
+<p>Voeg je veranderingen toe aan de repository
+Commit en push je aanpassingen naar je fork op github</p>
 
         
         
