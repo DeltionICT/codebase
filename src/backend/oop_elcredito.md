@@ -7,7 +7,7 @@ author: jsiewers
 technology: oop
 ---
 
->> #### Voorkennis
+> #### Voorkennis
 > * Je heb basis programmeerkennis
 > * Je hebt basiskennis van programmeren voor het web
 
