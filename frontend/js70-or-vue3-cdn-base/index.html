@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | js74 | vue3 cdn base</title>
+    <title>Deltion Software Development | js70 | vue3 cdn base</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js74 _vue3cdn_base.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js70_vue3cdn_base.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js74 _vue3cdn_base.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/js70_vue3cdn_base.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -278,9 +278,25 @@
         </li>
     
         <li aria-current="page" data-state="active">
-            <a class="page-link" href="/codebase/frontend/js74-or-vue3-cdn-base/">
+            <a class="page-link" href="/codebase/frontend/js70-or-vue3-cdn-base/">
                 <div>
-                    <div class="title">js74 | vue3 cdn base</div>
+                    <div class="title">js70 | vue3 cdn base</div>
+                    <div class="difficulty">
+                        
+                            
+                            <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
+                            <img src="/codebase/_assets/red_pepper.svg" alt="red pepper">
+                        
+                            
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+        <li >
+            <a class="page-link" href="/codebase/frontend/js72-or-vue3-cdn-api/">
+                <div>
+                    <div class="title">js72 | vue3 cdn API</div>
                     <div class="difficulty">
                         
                             
@@ -352,12 +368,15 @@
 
 
 
+
+
         
-    <h1 id="js74-%7C-vue3-cdn-base">js74 | vue3 cdn base</h1>
+    <h1 id="js70-%7C-vue3-cdn-base">js70 | vue3 cdn base</h1>
 <blockquote>
 <h4 id="voorkennis%3A">Voorkennis:</h4>
 <ul>
 <li>JS basics</li>
+<li>JSON (zie eventueel op deze site: <a href="../js20-or-json/">JSON</a>)</li>
 </ul>
 </blockquote>
 <blockquote>
@@ -366,7 +385,7 @@
 <li>opzetten basis VUE3 via CDN</li>
 </ul>
 </blockquote>
-<p>Bekijk een basis VUE3 opzet via CDN op <a href="https://std.stegion.nl/cs_codebase/js74_vue3cdn_base/index.html">std.stegion.nl</a>.<br></p>
+<p>Bekijk een basis VUE3 opzet via CDN op <a href="https://std.stegion.nl/cs_codebase/js74_vue3cdn_base/index.html">std.stegion.nl</a>.</p>
 <h3 id="opdracht">opdracht</h3>
 <ul>
 <li>neem het voorbeeld over en kijk of de variabele &quot;tekst&quot; in data ook in de HTML getoond wordt</li>
@@ -377,8 +396,16 @@
 </ul>
 </li>
 </ul>
-<!-- <img src="/codebase/_assets/frontend/js14_base.png" alt="Voorbeeld arrays" style="width:250px"> -->
-
+<img src="/codebase/_assets/frontend/js70A.png" alt="basis opzet VUE3 via CDN" style="width:30%;">
+<ul>
+<li>voeg aan data een array van objecten toe</li>
+</ul>
+<pre class="language-javascript"><code class="language-javascript"><span class="token literal-property property">data</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>    <span class="token literal-property property">test</span><span class="token operator">:</span> <span class="token string">"testing 123"</span><span class="token punctuation">,</span><br>    <span class="token literal-property property">aNamen</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>        <span class="token punctuation">{</span> <span class="token string-property property">"vnaam"</span><span class="token operator">:</span> <span class="token string">"Jan"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token string-property property">"anaam"</span><span class="token operator">:</span><span class="token string">"Klaassen"</span><span class="token punctuation">}</span><span class="token punctuation">,</span><br>        <span class="token punctuation">{</span> <span class="token string-property property">"vnaam"</span><span class="token operator">:</span> <span class="token string">"Katrijn"</span><span class="token punctuation">,</span> <span class="token string-property property">"tv"</span><span class="token operator">:</span> <span class="token string">"van der"</span><span class="token punctuation">,</span> <span class="token string-property property">"anaam"</span><span class="token operator">:</span> <span class="token string">"Worp"</span> <span class="token punctuation">}</span><br>    <span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
+<ul>
+<li>Zoek via &quot;v-for&quot; hoe je de &quot;index&quot; als rijnummer kunt ophalen en plaats nu de namen in een HTML &lt;table&gt;</li>
+<li>voeg ook wat CSS toe:</li>
+</ul>
+<img src="/codebase/_assets/frontend/js70B.png" alt="table" style="width:30%;">
         
         
     </div>
