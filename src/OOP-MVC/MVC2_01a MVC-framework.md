@@ -1,27 +1,27 @@
 ---
-title: MVC-Framework PHP
-key: 1402
-difficulty: medium
-date: 2023-01-03
-technology: html, php, dbq, dbo
+title: MVC-Framework toepassen met CRUD
+key: 2613
+difficulty: basic
+date: 2023-03-24
 author: rkerssies
+technology: html, css, php, csharp, functions, oop, mvc, dbq, dbo
 ---
-
 
 # {{ title }}
 
-<img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+
 
 > ##### Voorkennis
 > * programmeer-basics, functions, databases, MVC-basics, git
-> * routes, controllers, actions, views, layouts, services, middleware
+> * routes, controllers, actions, views, layouts, namespaces, autoloader
 
-> ##### Doel
+> #### Dit ga je leren
 > * ervaringen op doen in een MVC-framework dat veelvuldig wordt gebruikt in het bedrijfsleven
 
-* Programmeertaal: PHP of een andere backend-taal
+* Programmeertaal: PHP, C#, NoteJS, ASP.net of een andere backend-taal
 
-***Taken:***
+## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
@@ -101,15 +101,17 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
   * evt uitgevoerd met: [Bouncer]({{ 'https://github.com/JosephSilber/bouncer' | url }}) of [Laratrust]({{ 'https://laratrust.santigarcor.me' | url }})
 * dummy-accounts en daarbij gekoppelde rollen en rechten worden door seeding en factories toegevoegd aan de databasetabellen
 
-> ##### Op te leveren
-> * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)
->   * optimaalgebruik van de mogelijkheden van het framework
->   * bezoekers kunnen de content en gallery bekijken
->   * content-beheer met validatie (front- en backend) voor de rol administrator
->   * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
->   * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden
->   * gebruikersbeheer met validatie (front- en backend) en gebruikers forceren een nieuw wachtwoord op te geven
->   * een gallery tonen en de mogelijkheid om afbeeldingen hiervoor te uploaden (gevalideerd) als administrator
->   * een inlogsysteem met o.a. registratie voor 18+, password-forgot
->   * prettige look n feel, seo-geoptimaliseerd
+## Resultaat
+ * een web-applicatie die is opgebouwd met een MVC-framework (Laravel)
+ * optimaalgebruik van de mogelijkheden van het framework
+ * bezoekers kunnen de content en gallery bekijken
+ * content-beheer met validatie (front- en backend) voor de rol administrator
+ * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
+ * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden
+ * gebruikersbeheer met validatie (front- en backend) en gebruikers forceren een nieuw wachtwoord op te geven
+ * een gallery tonen en de mogelijkheid om afbeeldingen hiervoor te uploaden (gevalideerd) als administrator
+ * een inlogsysteem met o.a. registratie voor 18+, password-forgot
+ * prettige look n feel, seo-geoptimaliseerd
 
+## Evaluatie
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

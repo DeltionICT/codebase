@@ -1,9 +1,9 @@
 ---
 title: OOP PHP
-key: 1421
+key: 2606
 difficulty: medium
 date: 2023-01-01
-technology: php
+technology: ide, html, css, php, functions, oop
 author: rkerssies
 ---
 

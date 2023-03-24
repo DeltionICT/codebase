@@ -1,9 +1,10 @@
 ---
 title: C# OOP Verdieping
+key: 2607
 difficulty: medium
 date: 2023-03-21
 author: kscheening
-technology: cscharp
+technology: ide, html, css, functions, csharp, oop
 ---
 
 <style>

@@ -1,9 +1,9 @@
 ---
-title: API-rbac PHP
-key: 1419
+title: API token & rbac
+key: 2616
 difficulty: expert
 date: 2023-01-07
-technology: php, dbo, dbq
+technology: php, csharp, oop, mvc, dbo, dbq, json
 author: rkerssies
 ---
 
@@ -18,9 +18,9 @@ author: rkerssies
 > ##### Doel
 > * gebruik tokens en roll based access control (rbac)
 
-* Programmeertaal: PHP of een andere backend-taal
+* Programmeertaal: PHP, C#, NoteJS of een andere backend-taal
 
-***Taken:***
+## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel M*C-framework worden uitgevoerd,
 zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
@@ -54,15 +54,18 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 In het framework zijn de volgende technische eigenschappen toegepast:
 * correcte api-routes om de requests van de url op te vangen
 
-> ##### Op te leveren
-> * een uitbreiding op een basis REST API-applicatie met;
->   * alle request kunnen alleen worden uitgevoerd met een valide token
->   * API-request kunnen alleen worden uitgevoerd met een valide token
->   * foutive tokens leveren een 403 in json
->   * dat API-request alleen kunnen worden uitgevoerd als het token aan een gebruiker is gekoppeld met de juiste permissies 
->   * tokens zijn gekoppeld met een gebruiker die (meerdere) rollen mogen hebben
->   * rollen zijn dynamisch gekoppeld aan één of meerdere permissies/abilities (bijv. via relaties in een database)
->   * alle request kunnen worden getest in Postman
+## Resultaat
+ * een uitbreiding op een basis REST API-applicatie met;
+ * alle request kunnen alleen worden uitgevoerd met een valide token
+ * API-request kunnen alleen worden uitgevoerd met een valide token
+ * foutive tokens leveren een 403 in json
+ * dat API-request alleen kunnen worden uitgevoerd als het token aan een gebruiker is gekoppeld met de juiste permissies 
+ * tokens zijn gekoppeld met een gebruiker die (meerdere) rollen mogen hebben
+ * rollen zijn dynamisch gekoppeld aan één of meerdere permissies/abilities (bijv. via relaties in een database)
+ * alle request kunnen worden getest in Postman
 
+
+## Evaluatie
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
 
 

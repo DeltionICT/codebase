@@ -1,9 +1,9 @@
 ---
 title: MVC-basics PHP
-key: 1401
+key: key: 2609
 difficulty: medium
 date: 2023-01-02
-technology: html, php, laravel
+technology: html, php, functions, oop, dbq, dbo, mvc
 author: rkerssies
 ---
 
@@ -17,17 +17,14 @@ author: rkerssies
 > * classes, methods, overerven, databases, select en crud-queries
 
 > ##### Doel
-> * introductie op de basis principes van een MVC-framework
+> * introductie / ervaring op doen met de basis principes van een MVC-framework
 
-* Programmeertaal: PHP of een andere backend-taal
+* Programmeertaal: PHP
 
 <img src="{{ '/_assets/api/mvc-concept.png' | url }}" style="width:30%;">
 
 
-
-
-***Taken:***
-
+## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten mogen met een basic MVC-framework worden uitgevoerd,
 dit is te vinden op: GitHub-[MVC2022]({{ 'https://github.com/InCubics/mvc2022' | url }}).
@@ -80,12 +77,14 @@ Het programma heeft de volgende technische eigenschappen toegepast:
 * services
 * classes in de lib-folder, zoals die voor email, zijn maximaal herbruikbaar en maken gebruik van namespaces
 
-> ##### Op te leveren
-> * aantonen dat het basisproces van MVC-frameworks wordt begrepen
-> * aantonen dat het gebruik routes wordt begrepen 
-> * aantonen dat gecentraliseerde layouts en gebruik van css-files kan worden toegepast en goed georganiseerd
-> * aantonen dat het gebruik middleware wordt begrepen 
-> * aantonen dat services wordt begerepen
-> * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
-> * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden  
+## Resultaat
+ * aantonen dat het basisproces van MVC-frameworks wordt begrepen
+ * aantonen dat het gebruik routes wordt begrepen 
+ * aantonen dat gecentraliseerde layouts en gebruik van css-files kan worden toegepast en goed georganiseerd
+ * aantonen dat het gebruik middleware wordt begrepen 
+ * aantonen dat services wordt begerepen
+ * aantonen dat het gebruik van abstracte database-verzoeken kan worden toegepast (eloquent alike)
+ * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden  
 
+## Evaluatie
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

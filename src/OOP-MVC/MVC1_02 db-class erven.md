@@ -1,9 +1,9 @@
 ---
 title: Functions PHP
-key: 1407
-difficulty: medium
+key: 2611
+difficulty: expert
 date: 2022-12-30
-technology: html, php
+technology: html, php, csharp, functions, oop,
 author: rkerssies
 ---
 
@@ -21,7 +21,7 @@ author: rkerssies
 
 * Programmeertaal: PHP of een andere backend-taal
 
-***Taken:***
+## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 <hr>
