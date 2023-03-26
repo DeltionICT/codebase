@@ -10,8 +10,8 @@ technology: js
 # {{ title }}	
 
 > #### Voorkennis:  
-> * JSON (zie eventueel op deze site: [JSON](../js20-or-json/))
-> * basis VUE3 via CDN
+> * JSON (zie eventueel op deze site: 
+> * De opdracht [basis VUE3 via CDN](../js70-or-vue3-cdn-base/))
 
 > #### Doelen:  
-> * API koppelen VUE3 via CDN
+> * API koppelen in VUE3 via CDN

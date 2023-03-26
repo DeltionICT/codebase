@@ -15,6 +15,7 @@ technology: js
 
 > #### Doelen:  
 > * opzetten basis VUE3 via CDN
+> * strings, arrays en objecten uit data object van Vue ophalen en weergeven
 
 Bekijk een basis VUE3 opzet via CDN op [std.stegion.nl](https://std.stegion.nl/cs_codebase/js74_vue3cdn_base/index.html).
 
