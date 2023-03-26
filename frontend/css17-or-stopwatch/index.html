@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    <title>Deltion Software Development | HTML Eerste website</title>
+    <title>Deltion Software Development | css17 | stopwatch</title>
     <meta name="description" content="Opdrachten en projecten voor de opleiding Software Development bij Deltion College in Zwolle.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/codebase/_assets/favicon.ico">
@@ -47,7 +47,7 @@
                 
                     <a href="/codebase/authors/" class="nav-link" >More..</a>
                 
-                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>
+                <a class="nav-link icon" href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/css17_stopwatch.md"><span class="material-icons">edit</span></a>
                         
             </nav>
             <a href="javascript:void(0);" class="nav-link hamburger" onclick="toggleNav()"><span class="material-icons">menu</span></a>
@@ -74,7 +74,7 @@
             
                 <a href="/codebase/authors/" >More..</a>
             
-            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/html_eerste_website.md"><span class="material-icons">edit</span></a>    
+            <a href="https://github.com/DeltionICT/codebase/blob/master/./src/frontend/css17_stopwatch.md"><span class="material-icons">edit</span></a>    
         </nav>
 
         
@@ -94,7 +94,7 @@
             </a>
         </li>
     
-        <li aria-current="page" data-state="active">
+        <li >
             <a class="page-link" href="/codebase/frontend/html-eerste-website/">
                 <div>
                     <div class="title">HTML Eerste website</div>
@@ -170,7 +170,7 @@
             </a>
         </li>
     
-        <li >
+        <li aria-current="page" data-state="active">
             <a class="page-link" href="/codebase/frontend/css17-or-stopwatch/">
                 <div>
                     <div class="title">css17 | stopwatch</div>
@@ -365,19 +365,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     <h4 class="coursetitle">Frontend</h4>
 
-    <div class="author">Jan Jaap Siewers | Jan, 2023</div>
-
-
-
-
-
-
-
-
-
-
+    <div class="author">Chris Stegeman | Jan, 2023</div>
 
 
 
@@ -405,48 +405,54 @@
 
 
         
-    <h1 id="html-eerste-website">HTML Eerste website</h1>
+    <h1 id="css17-%7C-stopwatch">css17 | stopwatch</h1>
 <blockquote>
-<h4 id="voorkennis">Voorkennis</h4>
-<p>Basis HTML kennis</p>
-<h4 id="doelen">Doelen</h4>
-<p>Leer html-kennis toe te passen in een eerste website</p>
+<h4 id="voorkennis%3A">Voorkennis:</h4>
+<ul>
+<li>opdracht <a href="../js17-or-stopwatch/">js17_stopwatch</a></li>
+</ul>
 </blockquote>
-<h2 id="resultaat">Resultaat</h2>
-<p>Een website die je kunt tonen vanaf je eigen laptop.<br>
-De website voldoet aan onderstaande eisen:</p>
+<blockquote>
+<h4 id="doelen%3A">Doelen:</h4>
 <ul>
-<li>Verzin zelf een passend onderwerp voor de website (tandpasta, orgel spelen, bungy jumpen etc. etc.)</li>
-<li>Maak een website met (minimaal) 2 pagina's</li>
-<li>Gebruik in bestandsnamen en mappen geen spaties of andere vreemde tekens (een laag streepje mag wel '_')</li>
-<li>Gebruik alleen kleine letters!!</li>
-<li>Homepage
+<li>Toepassen van <i>position: absolute</i> met met <i>top: ..px</i> en <i>left: ..px</i></li>
+<li>clickable gebieden aanbrengen op background-image</li>
+<li>True Type Font (ttf) instaleren en gebruiken</li>
+<li>Wijzigen / toggelen van css-classes</li>
+</ul>
+</blockquote>
+<p>In de opdracht <a href="../js17-or-stopwatch/">js17_stopwatch</a> is met Javascript een eenvoudige stopwatch gemaakt.<br>
+We leggen in deze opdracht, het display en klikfuncties over een bestaande foto van een stopwatch en laten die weer werken.</p>
+<div style=" display:flex; text-align:center">
+    <div><img src="/codebase/_assets/frontend/css17_A.png" alt="stopwatch png" style="width:60%;"><br><i><b>afb 1</b></i></div>
+    <div><img src="/codebase/_assets/frontend/css17_B.png" alt="stopwatch png" style="width:60%;"><br><i><b>afb 2</b></i></div>
+    <div><img src="/codebase/_assets/frontend/css17_C.png" alt="stopwatch png" style="width:60%;"><br><i><b>afb 3</b></i></div>
+</div> 
+<h3 id="opdracht">opdracht</h3>
 <ul>
-<li>Een titel in de vensterbalk</li>
-<li>Een titel h1 om de pagina mee te beginnen over een onderwerp naar keuze.</li>
-<li>2 Afbeeldingen die je zelf hebt gedownload. Gebruik relatieve links!!</li>
-<li>Een link naar de andere pagina</li>
+<li>neem als basis de code opdracht js17_stopwatch</li>
+<li>zoek een afbeelding van een stopwatch (mooist is een vrijstaande png) <i><b>afb 1</b></i></li>
+<li>plaats deze als background van een &lt;div&gt; die <i>postition: relative</i> heeft en pas <i>width</i> en <i>height</i> aan zodat de afbeelding past</li>
+<li>maak <i>absolute</i> divs aan op de plek van het display, start/stop button en reset en light-buttons.
+<ul>
+<li>geef de divs voor het gemak even border mee <i><b>afb 2</b></i></li>
+<li>Positioneer met <i>top</i> en <i>left</i> en pas breedte aan met <i>width</i> en <i>height</i></li>
 </ul>
 </li>
-<li>Pagina met een artikel over je favoriete ondewerp
+<li>maak de divs clickable en verwijs naar bestaande functions van js17_stopwatch</li>
+<li>maak de achtergrond van <i>display</i> grijs</li>
+<li>zoek een lettertype die op een quartz-klok lijkt op internet
 <ul>
-<li>h1 - heading met het onderwerp</li>
-<li>h3 - heading met de naam van het artikel
-<ul>
-<li>Artikeltekst mag je zelf verzinnen</li>
-<li>Een geordende lijst met links naar externe websites die gaan over je onderwerp</li>
+<li>download het ttf bestand</li>
+<li>zoek op hoe je een ttf bestand in je webpagina gebruikt en pas toe <i><b>afb 3</b></i></li>
 </ul>
 </li>
+<li>voeg een class toe waarmee je de button <i>light</i> laat werken</li>
 </ul>
-</li>
-<li>Een link naar de homepage</li>
-</ul>
-<h2 id="een-website-valideren">Een website valideren</h2>
-<p>Op de <a href="https://validator.w3.org/">W3C Markup Validation Service</a> kun je bekijken of je geen fouten hebt gemaakt in je code.
-Soms lijkt je browser een pagina goed weer te geven, maar dan kan het toch nog zijn dat je niet voldoet aan de strenge regels die het W3C stelt aan HTML-code.</p>
-<h2 id="uitleg">Uitleg</h2>
-<p>Meer uitleg over de opdracht vind je <a href="https://www.edutorial.nl/html/eerste-website/">op deze website</a></p>
-
+<video  height="179" controls>
+    <source src="https://std.stegion.nl/cs_codebase/js17_stopwatch/mp4/stopwatch_img.mp4" type="video/mp4" >
+    Your browser does not support the video tag.
+</video>
         
         
     </div>
