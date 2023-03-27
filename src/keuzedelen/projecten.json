@@ -1,0 +1,7 @@
+{
+    "layout": "final.njk",
+    "coursetitle": "Keuzedelen",
+    "tags": ["keuzedelen"],
+    "permalink": "/keuzedelen/{{ title | slug }}/{{ page.index }}",
+    "pepper": "purple"
+}

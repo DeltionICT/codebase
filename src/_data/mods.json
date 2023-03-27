@@ -607,10 +607,7 @@
         "description": "De beginnend beroepsbeoefenaar kan met dit keuzedeel de aansturing van apparatuur realiseren door middel van het bouwen van een (relatief eenvoudige) schakeling en het programmeren van een microcontroller die de schakeling aanstuurt. De kern van dit keuzedeel ligt vooral bij het programmeren van microcontrollers. Het kan zijn dat de microcontroller ingebouwd is in een singleboard computer, of extern is geplaatst (singlechip controller).",
         "assignments": {
             "oefeningen": [
-                2204,
-                2202,
-                2208,
-                2209
+                2543
             ],
             "eindopdracht": [
                 2201
