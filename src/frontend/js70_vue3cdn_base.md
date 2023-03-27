@@ -17,7 +17,7 @@ technology: js
 > * opzetten basis VUE3 via CDN
 > * strings, arrays en objecten uit data object van Vue ophalen en weergeven
 
-Bekijk een basis VUE3 opzet via CDN op [std.stegion.nl](https://std.stegion.nl/cs_codebase/js74_vue3cdn_base/index.html).
+Bekijk een basis VUE3 opzet via CDN op [std.stegion.nl](https://std.stegion.nl/cs_codebase/js70_vue3cdn_base/index.html).
 
 ### opdracht
 * neem het voorbeeld over en kijk of de variabele "tekst" in data ook in de HTML getoond wordt
