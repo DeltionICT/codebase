@@ -1,10 +1,10 @@
 ---
 title: Installatie Arduino IDE & Knipperend LED
 key:  2543
-difficulty: easy
+difficulty: basic
 date: 2023-03-27
 author: adalmolen
-technology: Arduino
+technology: arduino
 ---
 
 

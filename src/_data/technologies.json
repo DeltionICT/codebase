@@ -136,6 +136,10 @@
         "name":"Eenvoudige programma's ontwikkelen in een willekeurige programmeertaal (codebase)" 
     },
     {
+        "key":"arduino",
+        "name":"Microcontrollers programmeren met Arduino" 
+    },
+    {
         "key":"content",
         "name":"Content beheren in een CMS" 
     }
