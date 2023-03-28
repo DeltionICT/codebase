@@ -7,8 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, oop, csharp
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
@@ -25,7 +23,7 @@ Houdt de volgende structuur aan in je code:
     * lezen van classes
     * objecten maken en logica uitvoeren en het renderen van gegevens
     * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php)
+Werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
 
 1. Maak een class met daarin één method. <br>
 2. In de method wordt bij het aanroepen van die method een teller opgehoogd.<br>
@@ -35,7 +33,7 @@ Werk met een 'single-point of entry' (bijv: index.php)
 ## Resultaat
 Het maken van classes met daarin methods. 
 Van een class een object maken en een method daarop aanroepen.
-Het kunnen renderen van gegegevens.
+Het kunnen renderen van gegevens.
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
