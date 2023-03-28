@@ -30,9 +30,9 @@ Werk met een 'single-point of entry' (bijv: index.php)
 1. Maak een index-file en twee folders in jouw projectmap. De mappen hebben de naam 'lib' en 'vendor'.
 Maak ik één van de twee een class-file aan met een class met daarin een method om te testen.<br> 
 Kopieer de file 1-op-1 naar de andere map. Je hebt nu twee classes met dezelfde naam. 
-Dit simuleert een eigen gemaakte class met een naam die overeenkomt met een class die jij via een package (externe partij / venor)
+Dit simuleert een eigen gemaakte class met een naam die overeenkomt met een class die jij via een package (externe partij / vendor)
 hebt geïmporteerd.<br> 
-Probeer van beide classes een object aan te maken. Achterhaal wat hier het probleem is.
+Include beide class-files en probeer daarna van beide classes een object aan te maken. Achterhaal wat hier het probleem is.
 
 2. Geef beide classes een eigen unieke namespace. 'Use' deze namespaces in de index-file en geef deze een alias mee.
 Maak objecten van de 'alias-namen' die de classes hebben gekregen.<br>

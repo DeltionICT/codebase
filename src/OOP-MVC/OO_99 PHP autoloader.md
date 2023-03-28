@@ -29,10 +29,11 @@ Houdt de volgende structuur aan in je code:
 Werk met een 'single-point of entry' (bijv: index.php)
 
 1. Maak een index-file en twee folders in een app-folder. De mappen hebben de naam 'lib' en 'vendor'.<br>
-    Dus bijvoorbeeld: : ./index.php,   ./app/vendor/class.php   en    ./app/lib/classs.php <br>
+    Dus bijvoorbeeld: : ./index.php,   ./app/vendor/class.php   en    ./app/lib/class.php <br>
    Maak ik één van de twee een class-file aan met een class met daarin een method om te testen.<br>
    Kopieer de file 1-op-1 naar de andere map. Je hebt nu twee classes met dezelfde naam.
    Geef beide classes een namespace gebaseerd op de folders en eventueel subfolders waarin de class te vinden is.
+ NB: Include de class-files niet ! 
 
 2. Voeg de volgende code toe bovenin de index-file (voor dat classes worden geïnstantieerd of ge-used)
 ```js
