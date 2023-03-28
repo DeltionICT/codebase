@@ -22,6 +22,31 @@ technology: ide, html, css
 > * Per functie - één file
 
 ## Opdracht
+
+Een voorbeeld van het gebruik van functie;
+```php
+<?php
+// reading function
+   function doSomething() 
+   {
+      $output = '';
+      for ($i = 1; $i <= 10; $i++) 
+      {
+         $output. = 'loop '.$i.'<br>'; 
+      } 
+      return $output;
+   }
+// executing function(s) and logic
+   $resultSome = doSomething();
+?>
+<!-- showing html and rendered variables -->
+<html> 
+   <body>
+       <?php echo $resultSome; ?>
+   </body> 
+</html>
+```
+
 1. Maak een map 'images' met daarin meerdere afbeeldingen (jpg, png, gif, etc).
 2. Maak een functie waarin de paden van alle afbeeldingen in de map worden verzameld in een array (glob ?)
 3. Loop door de array met image-paden en creeer één lange string met daarin:

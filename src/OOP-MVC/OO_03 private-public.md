@@ -7,7 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, csharp, oop
 ---
 
-# {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
@@ -29,11 +28,54 @@ technology: ide, html, css, php, functions, csharp, oop
 
 
 ## Opdracht
-Houdt de volgende structuur aan in je code: 
- * lezen van classes
- * objecten maken en logica uitvoeren en het renderen van gegevens
- * tonen van html-structuur en het weergeven van de gerenderde gegevens.
- Werk met een 'single-point of entry' (bijv: index.php)
+Houdt de volgende structuur aan in je code:
+* lezen van classes
+* objecten maken en logica uitvoeren en het renderen van gegevens
+* tonen van html-structuur en het weergeven van de gerenderde gegevens.
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
+Een voorbeeld van het gebruik van class met private en public properties en methods;
+```php
+<?php
+    // reading classes with methods
+    class clsCalc
+    {
+        public failMessage   = '';
+        private failValues   = [];
+    
+        public function som( $pX, $pY=1 )		
+        {
+            if($this->check($pX) && $this->check($pY) ) {
+                return ( $pX + $pY );
+            }
+            return $this->failValues;
+
+        }
+        
+        private function check( $pX )		
+        {
+            if(is_numeric($pX))  {
+                return true;
+            }
+            $this->failValues[] = $pX;
+            $this->failMessage .= 'failed value is: '.$pX.'.<br>';
+            return false;
+        }
+    }
+    // initiating an object from a clasess and logic
+    $objectSom = new clsCalc();	                    // make an object 
+    $renderedSome =  $objectSom->som(10);	        // call methode on object (must be public)
+    echo $objectSom->failMessage.'<br>';            // no fails, is empty
+    
+    $objectSom1 = new clsCalc();	                
+    $renderedSome1 =  $objectSom1->som('hallo');	// call methode on object (must be public), $renderSome1 contains an array
+    echo $objectSom1->failMessage.'<br>';           // no fails, contains a string; 'failed value is: hallo.<br>'
+    
+    // not possible:  $objectSom->check(10);        // call on private method is NOT possible
+    // not possible:  $objectSom->failValues;       // call on private property is NOT possible
+?>
+<html>
+```
 
 1. Maak een uitgebreide IP-calculator 
 * Maak method 'setIp'om het ip-adres op te geven, de invoer te controleren en deze beschikbaar stelt aan alle ander methods.

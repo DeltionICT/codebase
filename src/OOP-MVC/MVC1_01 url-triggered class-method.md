@@ -7,21 +7,41 @@ technology: html, php, functions, oop, dbq
 author: rkerssies
 ---
 
-
-# {{ title }}
-
 <img src="{{ '/_assets/api/mvc.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, git, functions, oop
-> * Goed begrip van claases, objecten, methdos, parameters en private-public
+> * Goed begrip van classes, objecten, methdos, parameters en private-public
 
 > ##### Doel
 > * Content laden en tonen op basis van url een 'query string' door gebruik te maken van classes en methods
 > * Code schrijven volgens “best practices” en eerder geleerde technieken.
 
-
 * Programmeertaal: PHP of een andere backend-taal
+Voorbeelden van url's met een querystring;
+`http://www.mysite.nl/index.php?controller=articles&action=index&id=3`<br>
+`http://localhost/mynproject/index.php?controller=articles&action=index&id=3`
+
+Een voorbeeld van het triggeren van een controller-class en action (method van een controller);
+```php
+// default controller and action 
+     if(empty($_GET['controller']))	{
+         $_GET['controller']  = 'home';
+     }
+     if(empty($_GET['action'])) 	{
+         $_GET['action'] 	= 'index';
+     }
+		$controllerName     = ucFirst($_GET['controller']). 'Controller';
+		include_once('./app/controllers/'.$controllerName.'.php');
+		$oController 	    = new $controllerName();		// make an instance (object) of the controller
+        $method             = $_GET['action'];
+       $render              = $oController->$method();		// call the action on the controller-object
+    return $render;
+```
+NB: een pad van een controller zal er bijv. als volgt uit moeten zien (case-sensitive):<br>
+`./app/controllers/HomeController.php`
+
+
 
 ## Opdracht
 1. Maak een map met daarin meerdere bestanden die elk 'content' bevatten. Bijv: home.php of users.php.<br>
@@ -46,3 +66,24 @@ Door een menu met anker-tags kunnen de verschillende url's met query-strings wor
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br> 
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+
+
+
+Een alternatief op het aanroepen van een controller-class en een action:<br>
+```php
+class HomeController {
+    function index($array) 
+    {
+       $txt = '';
+       foreach($array as $w) {
+           $txt . = $w;
+       }
+       return "<h1>Home</h1>".$txt;
+    }
+}
+
+$controllerName = ucFirst($_GET['controller']). 'Controller';
+include_once('./app/controllers/'.$controllerName.'.php');
+$oController 	= new $controllerName();
+call_user_func_array(array($oController, $_GET['action']), array("hallo", "hoi"));
+```

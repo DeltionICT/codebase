@@ -7,8 +7,6 @@ technology: php, csharp, oop, mvc, dbo, dbq, json
 author: rkerssies
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/api.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis

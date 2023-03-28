@@ -14,8 +14,6 @@ v { color: gold; }
 o { color: lightslategray; font-style: italic;}
 </style>
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis

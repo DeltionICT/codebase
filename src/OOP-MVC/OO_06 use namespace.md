@@ -7,8 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, csharp, oop
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
@@ -26,7 +24,7 @@ Houdt de volgende structuur aan in je code:
 * lezen van classes
 * objecten maken en logica uitvoeren en het renderen van gegevens
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php)
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
 
 1. Maak een index-file en twee folders in jouw projectmap. De mappen hebben de naam 'lib' en 'vendor'.
 Maak ik één van de twee een class-file aan met een class met daarin een method om te testen.<br> 

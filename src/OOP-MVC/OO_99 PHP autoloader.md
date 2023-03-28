@@ -7,7 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, oop
 ---
 
-# {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
@@ -26,7 +25,8 @@ Houdt de volgende structuur aan in je code:
 * lezen van classes
 * objecten maken en logica uitvoeren en het renderen van gegevens
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php)
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
 
 1. Maak een index-file en twee folders in een app-folder. De mappen hebben de naam 'lib' en 'vendor'.<br>
     Dus bijvoorbeeld: : ./index.php,   ./app/vendor/class.php   en    ./app/lib/class.php <br>
@@ -36,7 +36,7 @@ Werk met een 'single-point of entry' (bijv: index.php)
  NB: Include de class-files niet ! 
 
 2. Voeg de volgende code toe bovenin de index-file (voor dat classes worden geïnstantieerd of ge-used)
-```js
+```php
 spl_autoload_register( function ($class) {
 } );
 $class = strtolower(str_replace("\\", "/", $class)); include('../app/'.$class.'.php');

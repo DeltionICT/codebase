@@ -7,9 +7,6 @@ technology: html, php, functions, oop, dbq, dbo, mvc
 author: rkerssies
 ---
 
-
-# {{ title }}
-
 <img src="{{ '/_assets/api/mvc.png' | url }}" style="width:10%;"><img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis

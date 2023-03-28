@@ -7,8 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, csharp, oop
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
@@ -24,10 +22,12 @@ technology: ide, html, css, php, functions, csharp, oop
 
 ## Opdracht
 Houdt de volgende structuur aan in je code:
-    * lezen van classes
-    * objecten maken en logica uitvoeren en het renderen van gegevens
-    * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php)
+* lezen van classes
+* objecten maken en logica uitvoeren en het renderen van gegevens
+* tonen van html-structuur en het weergeven van de gerenderde gegevens. 
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
+[Uitleg IP-adresses & subnetMasks]({{ '_assets/ip/IP-subnet uitleg.docx' | url }})
 
 1. Maak een class met één method. Zorg dat de method een parameter mee krijgt.
     In de method wordt de parameter met één opgehoogd en daarna teruggeven.

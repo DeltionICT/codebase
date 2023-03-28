@@ -7,8 +7,6 @@ author: rkerssies
 technology: html, css, php, csharp, functions, oop, mvc, dbq, dbo
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/mvc.png' | url }}" style="width:10%;">
 
 

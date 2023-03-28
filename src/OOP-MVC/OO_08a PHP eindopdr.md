@@ -7,8 +7,6 @@ technology: ide, git, html, css, php, functions, oop, dbo, dbq
 author: rkerssies
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 {{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
 > ##### Voorkennis
@@ -20,12 +18,11 @@ author: rkerssies
 * Programmeertaal: PHP of een andere backend-taal
 
 ## Opdracht
-Voer de code uit volgens “best practice” en eerder geleerde technieken.<br>
 Houdt de volgende structuur aan in je code:
 * lezen van classes
 * objecten maken en logica uitvoeren en het renderen van gegevens
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-  Werk met een 'single-point of entry' (bijv: index.php)
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
 
 <hr>
 1. Maak een applicatie met een werking; 

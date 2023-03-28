@@ -8,13 +8,11 @@ author: rkerssies
 ---
 
 
-# {{ title }}
-
 <img src="{{ '/_assets/api/mvc.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
-> * programmeer-basics, git, functions, oop, url-trigger, dbo, dbq
-> * erven van een database-class die connectie met de database maakt en queries uitvoert.
+> * Programmeer-basics, git, functions, oop, url-trigger, dbo, dbq
+> * Erven van een database-class die connectie met de database maakt en queries uitvoert.
 
 > ##### Doel
 > * Een overzicht tonen van alle records in een database-tabel (Read)

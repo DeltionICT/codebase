@@ -46,7 +46,7 @@ met een waarde in de query-string van een url in het menu.
 
 8. Pas het inlezen en aanroepen van de content op basis van de query-string aan. Bekijk daarvoor evt het volgende stukje code;<br>
 
-```js
+```php
 if( empty($_GET['controller'])) { 
 	$_GET['controller'] = 'home';
 }

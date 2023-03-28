@@ -20,10 +20,33 @@ technology: ide, html, css, php, functions, oop, csharp
 
 ## Opdracht
 Houdt de volgende structuur aan in je code:
-    * lezen van classes
-    * objecten maken en logica uitvoeren en het renderen van gegevens
-    * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+* lezen van classes
+* objecten maken en logica uitvoeren en het renderen van gegevens
+* tonen van html-structuur en het weergeven van de gerenderde gegevens. 
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
+Een voorbeeld van het gebruik van class als object;
+```php
+<?php
+    // reading classes with methods
+    class clsCalc
+    {
+        public function som( $pX, $pY=1 )		
+        {
+            return ( $pX + $pY );
+        }
+    }
+    // initiating an object from a clasess and logic
+    $objectSom = new clsCalc();	        // maak een object ofwel instantie 
+    $renderedSome =  $objectSom->som(10);	// roep een methode aan op het object (methode van de class)
+?>
+<!-- showing html and rendered variables -->
+<html> 
+   <body>
+       <?php echo $renderedSome; ?>
+   </body> 
+</html>
+```
 
 1. Maak een class met daarin één method. <br>
 2. In de method wordt bij het aanroepen van die method een teller opgehoogd.<br>

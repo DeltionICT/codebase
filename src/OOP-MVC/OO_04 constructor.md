@@ -7,7 +7,6 @@ author: rkerssies
 technology: ide, html, css, php, functions, csharp, oop
 ---
 
-# {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 <img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
@@ -27,7 +26,9 @@ Houdt de volgende structuur aan in je code:
 * lezen van classes
 * objecten maken en logica uitvoeren en het renderen van gegevens
 * tonen van html-structuur en het weergeven van de gerenderde gegevens.
-Werk met een 'single-point of entry' (bijv: index.php)
+* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+
+[Uitleg IP-adresses & subnetMasks]({{ '_assets/ip/IP-subnet uitleg.docx' | url }})
 
 1. Neem de opdracht hiervoor over 'public en private'
 * laat het invoegen van het ip-adres en het subnetmask verlopen via de constructor
