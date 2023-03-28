@@ -25,6 +25,7 @@ author: rkerssies
 * !!! basic PHP connect-db, query all, result to array to json
 * !!! find specific id by get-param in url
 
+!!!!!!!!!!!!! link beer-db
 
 ## Resultaat
  * een REST API-applicatie met;
@@ -36,4 +37,5 @@ author: rkerssies
  * alle request kunnen worden getest in Postman
 
 ## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

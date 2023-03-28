@@ -87,4 +87,5 @@ Het programma heeft de volgende technische eigenschappen toegepast:
  * aantonen dat eigen gemaakte classes op een structurele wijze worden opgeslagen en beschikbaar gesteld via namespaces worden  
 
 ## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

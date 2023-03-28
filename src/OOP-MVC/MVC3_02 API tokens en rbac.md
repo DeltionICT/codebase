@@ -44,7 +44,6 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 
 
 <hr>
-
 2. Maak een API-server in een framework met de volgende werking;
 * rollen gebruik
 * er zijn meerdere verschillende permissies/abilities per rol mogelijk

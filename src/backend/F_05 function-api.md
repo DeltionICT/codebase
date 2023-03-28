@@ -1,5 +1,5 @@
 ---
-title: Website volledig met functions
+title: Simpel API met functions
 key: 2553
 difficulty: expert
 date: 2022-12-30
@@ -13,7 +13,7 @@ author: rkerssies
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
-> * programmeer-basics, git
+> * programmeer-basics, git, ?????????????????????????
 
 > ##### Doel
 > * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
@@ -21,7 +21,7 @@ author: rkerssies
 
 * Programmeertaal: PHP of een andere backend-taal
 
-***Taken:***
+## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 <hr>
@@ -66,13 +66,14 @@ Voorbeelden van de uitwerking;
 
 
 ## Resultaat
-* een web-applicatie opgebouwd met uitsluited functions
-* de applicatie toon content uit een database-tabel
-* de applicatie toont een gallery op basis van image-bestanden in een image-folder
-* de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
-* gebruikers-beheer is alleen toegankelijk na inloggen
-* de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
-   vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst
+* een REST API-applicatie met;
+* die alle data uit verschillende databas-tabellen kan teruggeven in json
+* die een enkel record uit verschillende database-tabellen kan teruggeven in json
+* die CRUD-acties kan uitvoeren op verschillende database-tabellen en een json response teruggeeft
+* alle responses zijn uitsluitend in JSON en hebben een key 'meta' met daarin o.a. de status, success, melding, evt validatie-fouten
+* foutieve API-requests geven een foutmelding en status in json terug
+* alle request kunnen worden getest in Postman
+
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>

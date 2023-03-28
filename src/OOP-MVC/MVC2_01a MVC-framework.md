@@ -24,7 +24,11 @@ technology: html, css, php, csharp, functions, oop, mvc, dbq, dbo
 ## Opdracht
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
-zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
+zoals:
+* [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
+* [ASP.net / C#]({{ 'https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3' | url }})
+* [NoteJs]({{ 'https://www.geeksforgeeks.org/model-view-controllermvc-architecture-for-node-applications/' | url }})
+
 
 <hr>
 1. Maak een applicatie in een framework met de volgende werking;
@@ -114,4 +118,5 @@ zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
  * prettige look n feel, seo-geoptimaliseerd
 
 ## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

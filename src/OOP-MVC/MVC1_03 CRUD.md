@@ -1,9 +1,9 @@
 ---
-title: Functions PHP
+title: MVC CRUD
 key: 2612
 difficulty: expert
 date: 2022-12-30
-technology: html, php, csharp, functions, oop, dbq, dbo
+technology: html, php, csharp, functions, oop, dbq
 author: rkerssies
 ---
 
@@ -13,63 +13,56 @@ author: rkerssies
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
-> * programmeer-basics, git
+> * programmeer-basics, git, functions, oop, url-trigger, dbo, dbq
+> * erven van een database-class die connectie met de database maakt en queries uitvoert.
 
 > ##### Doel
-> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
+> * Een overzicht tonen van alle records in een database-tabel (Read)
+> * Gegevens toevoegen aan een database-tabel door middel van een query in een backend-taal (Create)
+> * Gegevens verwijderen aan een database-tabel door middel van een query in een backend-taal (Delete)
+> * Gegevens aanpassen aan een database-tabel door middel van een query in een backend-taal (Update)
+> NB: CRUD = Create-Read-Update-Delete.
 
 
 * Programmeertaal: PHP of een andere backend-taal
 
 ## Opdracht
-Voer de code uit volgens “best practice” en eerder geleerde technieken.
+1. Maak een content-class met een method in die wordt aangestuurd door de url-trigger.
+   Include de file met de db-class en erf deze in minstens één method.
+   Zorg dat de database-class wordt geinclude en overerft on de constructor van de content-class. 
+2. Maak een method (index) waarin alle gegevens uit de databse-tabel worden opgehaald en worden getoond in een orderlijke tabel.
+   Voeg twee extra kolommen toe voor anker-tags voor het aanpassen en verwijderen (later toevoegen). 
 
-<hr>
-1. Maak een programma met een werking;
-* als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
-* als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
-* als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken
-* als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat
-* als bezoeker zie ik alle content-items in het menu, zodat een overzichtelijke navigatie-bar heb
-* als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken
-* als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken
-* als gebruiker kan ik een overzicht van alle gebruikers zien, zodat ik weet wie er ook voor een nieuwsbrief is ingeschreven 
+3.Maak één extra anker aan boven de tabel de overzichts-weergave (index) met een url dat verwijst naar de index en een 
+querystring (qsa) dat de trigger doorstuurt naar de <b>add-method</b>.
+Maak een add-method aan in de content-class en laat deze een toevoeg-formulier tonen.
+Bij het klikken van de submit-knop wordt dezelfde url met qsa aangeroepen.
+Laat de backend de verstuurde gegevens controleren. 
+Als de backend-validatie correct is, voeg de gegevens dan toe als nieuw record aan de database-tabel en 
+redirect daarna terug naar de weergave van de overzichts-tabel.
 
-* (optioneel) als admin kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden
-* (optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de verouderde artikelen kan verwijderen
-* (optioneel) als admin kan ik gebruikers wijzigen, zodat ik de artikelen kan aanpassen
-* (optioneel) als admin kan ik nieuwe gebruikers toevoegen, zodat ik het gebruikersbestand kan uitbreiden
-* (optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de ongewenste gebruikers kan verwijderen
-* (optioneel) als admin kan ik gebruikers wijzigen, zodat ik de gebruikersgegevens kan updaten
+4. Maak één extra anker in de laatste extra kolom van de getoonde overzichts-tabel (index) met een url dat verwijst naar de index en een
+   querystring (qsa) dat de trigger doorstuurt naar de <b>delete-method</b>, samen met het id in de query-string van de url.
+   Maak een delete-method aan in de content-class en laat deze een delete-formulier tonen.
+   Bij het klikken van de submit-knop wordt dezelfde url met qsa aangeroepen (id met waarde).
+   Verwijder het record uit de database-tabel en redirect daarna terug naar de weergave van de overzichts-tabel. 
 
-* als user wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.
-* (optioneel) als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
-
-Het programma heeft de volgende technische eigenschappen:
-* get-waarden in de url includen een php-file met daarin een functie
-* overzichtelijk en georganiseerde folder- en bestandsstructuur
-* onderscheid tussen noodzakelijke functies (core) en content-functies
-* er is slechts één html-structuur waarin alle gerenderde onderdelen worden ingevoegd.
-* configureerbare waarden worden centraal opgeslagen in een config-file
-* gebruiksdata en contentdata worden opgeslagen en bijgehouden in databasetabellen
-* wachtwoorden zijn gehashed in de kolom van de user-tabel
-
-
-Voorbeelden van de uitwerking;
-<div style="bgcolor:#AAD8EE;MARGIN:15px;">
-    <img src="{{ '/_assets/api/functions/jungle_home.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_gallery.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_login.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_userdata.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_logoff.png' | url }}" style="width:15%;">
-</div>
+4. Maak één extra anker in de een-na-laatste extra kolom van de getoonde overzichts-tabel (index) 
+   met een url dat verwijst naar de index en een
+   querystring (qsa) dat de trigger doorstuurt naar de <b>update-method</b>, samen met het id in de query-string van de url.
+   Maak een update-method aan in de content-class en laat deze een update-formulier tonen.
+    Bij de eerste keer dat de page wordt aangeroepen, wordt een query uitgevoerd die de gegevens van het id in de url ophaald en in 
+    de formulier-velden plaatst.
+   Bij het klikken van de submit-knop wordt dezelfde url met qsa aangeroepen (id met waarde).
+   Als de backend-validatie niet correct is worden de eerdere verstuurde formuliergegevens opnieuwe getoond (niet die uit de database-tabel).
+   Als de backend-validatie correct is, wordt het record in de database-tabel aangepast en daarna 
+   wordt er een redirect naar de weergave van de overzichtstabel.
 
 
-> ##### Op te leveren
-> * een web-applicatie opgebouwd met uitsluited functions
-> * de applicatie toon content uit een database-tabel
-> * de applicatie toont een gallery op basis van image-bestanden in een image-folder
-> * de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
-> * gebruikers-beheer is alleen toegankelijk na inloggen
-> * de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
-    vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst 
+## Op te leveren
+Beheer mogelijkheid (CRUD) maken op gegevens in een database-tabel door gebruik te maken van een backend-taal
+
+
+## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

@@ -62,8 +62,7 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * maak gebruik van de mogelijkheid om variabelen voor een model in de API-url te plaatsen
 * instatieer een model-class en validatie-class op basis van de class-naam in de url
 
-## Opdracht
-
+## Resultaat
 * een REST API-applicatie met;
 * die alle data uit verschillende databas-tabellen kan teruggeven in json
 * die een enkel record uit verschillende database-tabellen kan teruggeven in json

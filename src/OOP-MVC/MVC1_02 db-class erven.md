@@ -1,9 +1,9 @@
 ---
-title: Functions PHP
+title: MVC erven database-class
 key: 2611
-difficulty: expert
+difficulty: medium
 date: 2022-12-30
-technology: html, php, csharp, functions, oop,
+technology: html, php, functions, oop, dbq
 author: rkerssies
 ---
 
@@ -13,63 +13,36 @@ author: rkerssies
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
-> * programmeer-basics, git
+> * programmeer-basics, git, functions, oop, url-trigger
+> * url-getriggerde classes inlezen en objecten aanmaken
 
 > ##### Doel
-> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
+> * Een database aanmaken met daarin een databasetabel met gegevens in records
+> * Gegevens in een database-tabel opzetten en deze doormiddel van OOP en de url-trigger tonen.
+> * Basic gegevens uit een databases-tabel opvragen en deze tonen
 
 
 * Programmeertaal: PHP of een andere backend-taal
 
 ## Opdracht
-Voer de code uit volgens “best practice” en eerder geleerde technieken.
+1. Maak een lib-folder aan met een subfolder 'db'.
+2. Schrijf een class met meerdere methods waarin:
+   * één method de connectie maakt met de database (MySqli)
+   * één method alle mogelijke queries kunnen worden uitgevoerd op basis van een enkele SQL-query string.
+     zoals: select-, insert-, update- en delete-queries.   
+   * elke method returned een array met data of een boolean. (in alle situsaties, m.u.v. de constructor)
+3. Maak een content-class met methods in die wordt aangestuurd door de url-trigger.
+Include de file met de db-class en erf deze in minstens één method.
+Maak een object van de db-class, maak de connectie.
+Geeft een specifieke sql-query als parameter mee aan de method. Zorg dat het resultaat wordt getoond in een tabel 
+of formulier in de article-tag.    
 
-<hr>
-1. Maak een programma met een werking;
-* als bezoeker krijg ik een 404-page als ik niet bestaande url's aanroep, zodat ik geïnformeerd ben
-* als bezoeker krijg ik een 403-page als ik een url's aanroep met onvoldoende rechten, zodat ik geïnformeerd ben
-* als bezoeker kan ik inloggen, zodat ik beveiligde content kan bekijken
-* als bezoeker zie ik alleen menu-items die ik kan benaderen, zodat er geen verwarring ontstaat
-* als bezoeker zie ik alle content-items in het menu, zodat een overzichtelijke navigatie-bar heb
-* als bezoeker zie ik een neutraal prettige layout, zodat ik de website blijf bezoeken
-* als bezoeker kan ik een content-item kiezen, zodat dat ene artikel kan bekijken
-* als gebruiker kan ik een overzicht van alle gebruikers zien, zodat ik weet wie er ook voor een nieuwsbrief is ingeschreven 
-
-* (optioneel) als admin kan ik nieuwe content toevoegen, zodat ik de artikelen kan uitbreiden
-* (optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de verouderde artikelen kan verwijderen
-* (optioneel) als admin kan ik gebruikers wijzigen, zodat ik de artikelen kan aanpassen
-* (optioneel) als admin kan ik nieuwe gebruikers toevoegen, zodat ik het gebruikersbestand kan uitbreiden
-* (optioneel) als admin kan ik nieuwe gebruikers verwijderen, zodat ik de ongewenste gebruikers kan verwijderen
-* (optioneel) als admin kan ik gebruikers wijzigen, zodat ik de gebruikersgegevens kan updaten
-
-* als user wil ik gallery-afbeeldingen kunnen bekijken, zodat ik kan zien welke foto’s er zijn gedeeld door andere gebruikers.
-* (optioneel) als gebruiker wil ik afbeeldingen kunnen uploaden naar de gallery, zodat kan ik eigen foto’s kan toevoegen aan de gallery.
-
-Het programma heeft de volgende technische eigenschappen:
-* get-waarden in de url includen een php-file met daarin een functie
-* overzichtelijk en georganiseerde folder- en bestandsstructuur
-* onderscheid tussen noodzakelijke functies (core) en content-functies
-* er is slechts één html-structuur waarin alle gerenderde onderdelen worden ingevoegd.
-* configureerbare waarden worden centraal opgeslagen in een config-file
-* gebruiksdata en contentdata worden opgeslagen en bijgehouden in databasetabellen
-* wachtwoorden zijn gehashed in de kolom van de user-tabel
+## Op te leveren
+Met de url-triller zijn er verschillende classes gemaakt die op basis van query-strings in de url worden aangeroepen.
+Een aantal van deze content-classes moeten gebruik maken van de database en databasetabellen daarin, andere niet.
+De database-class (connectie en uitvoeren queries) is beschikbaar voor andere classes door middel van overerven en is slechts één maal uitgewerkt.   
 
 
-Voorbeelden van de uitwerking;
-<div style="bgcolor:#AAD8EE;MARGIN:15px;">
-    <img src="{{ '/_assets/api/functions/jungle_home.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_gallery.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_login.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_userdata.png' | url }}" style="width:15%;"> 
-    <img src="{{ '/_assets/api/functions/jungle_logoff.png' | url }}" style="width:15%;">
-</div>
-
-
-> ##### Op te leveren
-> * een web-applicatie opgebouwd met uitsluited functions
-> * de applicatie toon content uit een database-tabel
-> * de applicatie toont een gallery op basis van image-bestanden in een image-folder
-> * de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
-> * gebruikers-beheer is alleen toegankelijk na inloggen
-> * de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
-    vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst 
+## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
+Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
