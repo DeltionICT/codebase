@@ -49,5 +49,5 @@ Bekijk de uitleg  JSON op [w3schools](https://www.w3schools.com/js/js_json.asp)<
     * als aGroups[2] == "SD2A", dan heeft "SD2A" het id 2.
     * Maak een output-div waar je via een for-loop een tabel met studenten in zet m&eacute;t de klas waar ze in zitten
 
-<!-- <img src="{{ '/_assets/frontend/js14_base.png' | url }}" alt="Voorbeeld arrays" style="width:350px"> -->
+{{ '/_assets/frontend/js20A.png' | url | image: 'table', 50 }}
 
