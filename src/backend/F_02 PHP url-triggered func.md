@@ -21,22 +21,29 @@ technology: ide, html, css
 
 ## Opdracht
 1. Maak een index-file en een map 'content'.
+
 2. Maak tenminste twee files in de map content, bijvoorbeeld: 'home' en 'bla'.
 Geef beide files in ieder geval een titel als inhoud, bijv:  <h1>Home</h1> 
+
 3. Zet in de index-file ankers die verwijzen naar de index-file, maar voeg een query-string toe. 
 Bijvoorbeeld: 
    * `<a href="index.php?controller=home">home</a>`
    * `<a href="index.php?controller=bla">bla</a>`
 4. Zorg ervoor dat de get-waarden worden opgepakt uit de url en dat deze worden gebruikt om één van de
 content-files in te lezen.
+
 Let op! Als er geen query-string is in de url (1e maal site bezoeken; get-controller is empty), wat doe je dan?!
 5. Voer de logica uit voor get html-tag, maar toon de opgevraagde content wel in de article tag.
    Gebruik bijvoorbeeld een functie zoals 'file_get_contents'.
+
 6. Contrleer alle scenario's of het menu de juiste content toont.
+
 <hr>
-Mooi dat dit werkt, maar er zijn geen functies gebruikt. 
+Mooi dat dit werkt, maar er zijn geen functies gebruikt.
+
 7. Maak in beide content-bestanden een functie die exact hetzelfde heet als de bestandsnaam en daarmee ook overeenkomt
 met een waarde in de query-string van een url in het menu.
+
 8. Pas het inlezen en aanroepen van de content op basis van de query-string aan. Bekijk daarvoor evt het volgende stukje code;<br>
 
 ```js
@@ -61,8 +68,6 @@ Ook het stukje code dat ervoor zorgt dat de content wordt aangeroepen.
 * Heldere en duidelijke folderstructuur voor content en core-bestanden die de applicatie laten werken.
 * Een Layout, geen herhalingen van de complete html-structuur, zoals <html>, <head> en <article>.
 * Bij benadering van de website voor de eerste keer wordt een 'hompage' getoond.
-
-
 
 ## Evaluatie
 Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
