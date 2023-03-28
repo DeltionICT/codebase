@@ -3,7 +3,7 @@ title: MVC CRUD
 key: 2612
 difficulty: expert
 date: 2022-12-30
-technology: html, php, csharp, functions, oop, dbq
+technology: html, php, csharp, functions, oop, dbq, dbo
 author: rkerssies
 ---
 
