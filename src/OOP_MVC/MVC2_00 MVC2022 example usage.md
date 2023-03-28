@@ -1,6 +1,6 @@
 ---
 title: MVC-basics PHP
-key: key: 2609
+key: 2609
 difficulty: medium
 date: 2023-01-02
 technology: html, php, functions, oop, dbq, dbo, mvc

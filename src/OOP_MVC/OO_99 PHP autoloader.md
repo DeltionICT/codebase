@@ -1,6 +1,6 @@
 ---
 title: OOP Autoloader met namespaces
-key: key: 2608
+key: 2608
 difficulty: medium
 date: 2023-03-24
 author: rkerssies

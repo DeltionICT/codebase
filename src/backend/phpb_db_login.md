@@ -1,11 +1,7 @@
 ---
 title: PHPB Database login
-<<<<<<< HEAD
 key: 1414
-difficulty: basic
-=======
 difficulty: medium
->>>>>>> a0e4981dbeac241b92e364610e87d6cc4f19e14d
 date: 2022-11-10
 author: jsiewers
 technology: php, dbq, html
