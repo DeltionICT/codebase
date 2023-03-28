@@ -9,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/api.png' | url }}" style="width:10%;"><img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, functions, OOP, MVC-frameworks, git

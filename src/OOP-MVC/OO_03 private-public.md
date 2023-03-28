@@ -10,6 +10,7 @@ technology: ide, html, css, php, functions, csharp, oop
 # {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
 > #### Voorkennis
 > * Classes met methods maken

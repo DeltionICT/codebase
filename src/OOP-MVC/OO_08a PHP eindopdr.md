@@ -9,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->
+<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 {{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
 > ##### Voorkennis
 > * programmeer-basics, functions, git, oop

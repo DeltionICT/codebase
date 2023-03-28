@@ -9,7 +9,7 @@ author: rkerssies
 
 # {{ title }}
 
-<img src="{{ '/_assets/api/Laravel-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/api.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
 > * programmeer-basics, functions, OOP, MVC-frameworks, git
@@ -72,4 +72,5 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * alle request kunnen worden getest in Postman
 
 ## Evaluatie
+Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
 Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

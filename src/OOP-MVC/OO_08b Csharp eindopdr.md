@@ -16,6 +16,8 @@ o { color: lightslategray; font-style: italic;}
 
 # {{ title }}
 
+<img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
+
 > ##### Voorkennis
 > * programmeer-basics
 > * programmeertaal: C#

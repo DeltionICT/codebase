@@ -10,6 +10,7 @@ technology: ide, html, css, php, functions, oop, csharp
 # {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
 
 > #### Voorkennis
 > * Kennis van de basics in een backend-taal

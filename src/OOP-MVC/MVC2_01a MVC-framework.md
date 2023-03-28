@@ -9,7 +9,7 @@ technology: html, css, php, csharp, functions, oop, mvc, dbq, dbo
 
 # {{ title }}
 
-<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+<img src="{{ '/_assets/api/mvc.png' | url }}" style="width:10%;">
 
 
 > ##### Voorkennis
