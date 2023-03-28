@@ -7,8 +7,6 @@ author: rkerssies
 technology: ide, html, css
 ---
 
-# {{ title }}
-
 <img src="{{ '/_assets/basis/functions.png' | url }}" style="width:10%;">
 
 > #### Voorkennis

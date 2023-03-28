@@ -7,9 +7,6 @@ technology: html, php
 author: rkerssies
 ---
 
-
-# {{ title }}
-
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
 > ##### Voorkennis
