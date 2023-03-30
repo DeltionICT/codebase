@@ -1,34 +1,31 @@
 ---
 title: OOP PHP
-key: 2606
-difficulty: expert
+difficulty: medium
 date: 2023-01-01
-technology: ide, git, html, css, php, functions, oop, dbo, dbq
+technology: php
 author: rkerssies
 ---
 
-<img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
+# {{ title }}
+
+<!-- <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;"> -->
 {{ '/_assets/api/PHP-logo.png' | url | image: 'Logo PHP', 10 }}
 > ##### Voorkennis
-> * programmeer-basics, functions, git, oop
+> * programmeer-basics, functions, git
 
 > ##### Doel
-> * zelfstandig maken van een eigen object geörienteerde applicatie, of delen daarvan 
+> * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren in een object geöriienteerde programmeertaal
 
 * Programmeertaal: PHP of een andere backend-taal
 
-## Opdracht
-Houdt de volgende structuur aan in je code:
-* lezen van classes
-* objecten maken en logica uitvoeren en het renderen van gegevens
-* tonen van html-structuur en het weergeven van de gerenderde gegevens.
-* werk met een 'single-point of entry' (bijv: index.php of index.cshtml)
+### Taken
+Voer de code uit volgens “best practice” en eerder geleerde technieken.
 
 <hr>
-1. Maak een applicatie met een werking; 
-   * als bezoeker wil ik gegevens (NAW/contactgegevens) van een enkele student kunnen tonen
+1. Maak een programma met een werking; 
+   * als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen
 
-   * Het applicatie heeft de volgende technische eigenschappen:
+   * Het programma heeft de volgende technische eigenschappen:
    * alle logica staat in classes beschreven
    * elke class staat in een eigen php-bestand
    * logica is zo veel mogelijk uitgesplitst per method
@@ -44,7 +41,7 @@ Houdt de volgende structuur aan in je code:
      Voer de code uit volgens “best practice” technieken.
 
 
-2. Maak een applicatie met een werking;
+2. Maak een programma met een werking;
    * als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen
 
    Het programma heeft de volgende technische eigenschappen:
@@ -56,27 +53,27 @@ Houdt de volgende structuur aan in je code:
    
    Voer de code uit volgens “best practice” technieken.
 
-3. Maak een applicatie met een werking;
+3. Maak een programma met een werking;
    * als bezoeker wil ik gegevens (NAW) van een enkele student kunnen tonen
 
-   Het applicatie heeft de volgende technische eigenschappen:
+   Het programma heeft de volgende technische eigenschappen:
    * maak een applicatie waarbij <u>meerdere</u> classes nodig zijn
    * elke class bevat een categorie/werking, bijv: users, gallery, seo, database, etc... 
    * alle classes zijn op basis van hun toepassing in folders georganiseerd (lib, content, etc)
    * include de benodigde classes in het de 'running code' (index.php)
 
-4. Maak een applicatie met een werking;
+4. Maak een programma met een werking;
    * als bezoeker wil ik gegevens (NAW) van een student en/of docent kunnen tonen
      * scheid de rol en persoonlijke gegevens
 
-   Het applicatie heeft de volgende technische eigenschappen:
+   Het programma heeft de volgende technische eigenschappen:
    * er zijn twee classes, waarbij de ene class methods en properties erft van de andere class (parent-child)
    * roep parent-methods aan via de child-instantie 
 
-5. Maak een applicatie met een werking;
+5. Maak een programma met een werking;
    * als bezoeker wil ik gegevens (NAW) van meerdere personen kunnen tonen
    
-   Het applicatie heeft de volgende technische eigenschappen:
+   Het programma heeft de volgende technische eigenschappen:
    * plaats de class in een subfolder van de lib-map
    * maak gebruik van een functie, zoals mysqli, om database-queries te verwerken 
    * include de db-class
@@ -88,7 +85,7 @@ Houdt de volgende structuur aan in je code:
      * als er slechts één record wordt teruggeven, wordt direct alle data teruggegeven zonder numerieke key  
      * alle andere queries en foutieve queries geven een boolean terug
      
-6. Maak een applicatie met een werking;
+6. Maak een programma met een werking;
    * als bezoeker wil ik gegevens (NAW) van een meerdere gebruikers <i>veilig</i> kunnen tonen
 
    Het programma heeft de volgende technische eigenschappen:
@@ -96,10 +93,6 @@ Houdt de volgende structuur aan in je code:
     * geef data aan de query-method in de vorm van een multi associative array
 
 
-## Op te leveren
-* een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
-* het tonen van gegevens persoonsgegevens op basis van data uit een database-tabel
-
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ##### Op te leveren
+> * een OOP-applicatie met waarin uitsluitend gebruik is gemaakt van classes
+> * het tonen van gegevens van personen, studenten of docenten op basis van data uit een database-tabel

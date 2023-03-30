@@ -1,15 +1,16 @@
 ---
-title: Intake; Ubuntu
+key: 2440
+title: Intake Ubuntu
 difficulty: basic
 date: 2023-01-02
-technology: 
+technology: all
 author: rkerssies
 ---
 
 
 # {{ title }}
 
-<img src="{{ '/_assets/basis/newbie.png' | url }}" style="width:13%; border-radius:10px;">
+<img src="{{ '/_assets/omgevingen/newbie.png' | url }}" style="width:13%; border-radius:10px;">
 
 Welkom bij het ICT-Lyceum. Je zit nu in een intake-moment en krijgt de tijd om een beroepservaring op te doen.
 Hopelijk kom je er zo achter of dit beroep als ICT-beheerder (Expert-IT of All-round) bij jou past.
@@ -55,7 +56,7 @@ dus ben je hier nog niet bekend met Linux.
 #### De virtuele "computer" opzetten en installatie Ubuntu #### 
 Ga zelf op onderzoek uit (google) hoe je virtuele computer kunt aanmaken in 
 VMWare workstation en hoe je het gekozen besturingssysteem vervolgens kunt installeren hierop.<br>
-<img src="{{ '/_assets/basis/vm-ware.jpg' | url }}" style="width:50%;"><br>
+<img src="{{ '/_assets/omgevingen/vm-ware.jpg' | url }}" style="width:50%;"><br>
 * Maak een virtuele machine aan die voldoet aan de volgende specificaties:
     *	CPU: 				1 Processor met 2 cores
     *	RAM-geheugen: 		2GB (2048 MB)
@@ -65,7 +66,7 @@ VMWare workstation en hoe je het gekozen besturingssysteem vervolgens kunt insta
 * Koppel de gedownloade ISO-file aan de "CD/DVD-speler" 
 * Start de installatie procedure van Ubuntu en volg de instructies. Kies "Installeer Ubuntu", NIET de "Tryout".
 * Ga eens op ontdekking uit wat Ubuntu-Linux allemaal voor jou te bieden heeft. 😊<br>
-  <img src="{{ '/_assets/basis/ubuntu.jpg' | url }}" style="width:50%;">
+  <img src="{{ '/_assets/omgevingen/ubuntu.jpg' | url }}" style="width:50%;">
 
 
 > ##### Op te leveren

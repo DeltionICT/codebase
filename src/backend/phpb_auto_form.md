@@ -1,6 +1,5 @@
 ---
 title: PHPB Autoformulier
-key: 1406
 difficulty: basic
 date: 2022-11-10
 author: jsiewers

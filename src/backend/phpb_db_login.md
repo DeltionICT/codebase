@@ -1,6 +1,5 @@
 ---
 title: PHPB Database login
-key: 1414
 difficulty: medium
 date: 2022-11-10
 author: jsiewers

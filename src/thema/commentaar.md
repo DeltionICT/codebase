@@ -1,9 +1,8 @@
 ---
 title: Commentaar in de code
-key: 2412
 difficulty: basic
 date: 2022-02-18
-technologies: php, all
+technologies: php,all
 author: rkerssies
 ---
 

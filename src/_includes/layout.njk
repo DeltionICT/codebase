@@ -76,7 +76,6 @@
         
     {{ content | safe }}
         {% block authors %}{% endblock %}
-        {% block modules %}{% endblock %}
         {% block toc %}{% endblock %}
     </div>
 </main>
@@ -90,7 +89,6 @@
 </footer>
 {% set js %}
     {% include '../_js/toggleNav.js' %}
-    {% include '../_js/addAssignment.js' %}
 {% endset %}
 <script>
     {{ js | jsmin | safe }}

@@ -1,11 +1,11 @@
 ---
 title: FeatureTesting PHP
-key: 2617
 difficulty: expert
 date: 2023-01-04
 technology: all
 author: rkerssies
 ---
+
 
 # {{ title }}
 
@@ -20,7 +20,7 @@ author: rkerssies
 
 * Programmeertaal: PHP of een andere backend-taal
 
-## Opdracht
+***Taken:***
 Voer de code uit volgens “best practice” en eerder geleerde technieken.
 Deze opdrachten moet met een professioneel MVC-framework worden uitgevoerd,
 zoals: [LARAVEL]({{ 'https://laravel.com/docs/9.x' | url }})
@@ -69,12 +69,11 @@ In het framework zijn de volgende technische eigenschappen toegepast:
 * de testresultaten zijn op een prettige manier te controleren
 * (optioneel) laat de tests 's nachts uitvoeren met een cron-job en de resultaten worden op datum verzameld in een log-file
 
-## Opdracht
-* toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)
-* dit bij elke toekomstige UserStory als taak is toegevoegd
-* toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)
-* dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken
-* dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken
-
-## Evaluatie
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ##### Op te leveren
+> * toepassen van geautomatiseerde (Feature)Tests op scenario's (proces van een UserStory)
+> * dit bij elke toekomstige UserStory als taak is toegevoegd
+>
+> * toepassen van geautomatiseerde UnitTests op methods in bibliotheek-classes (classes in de Lib-folder)
+> * dat bij elke toekomstige te maken Libaray-class, er Userstory-taken worden ingepland om deze tests te maken
+> 
+> * dat de resultaten van geautomatiseerde tests (Feature- en UnitTests) bij de dailystandup worden besproken

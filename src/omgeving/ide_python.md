@@ -1,6 +1,5 @@
 ---
 title: IDE Python
-key: 2101
 difficulty: basic
 date: 2023-01-11
 author: jsiewers

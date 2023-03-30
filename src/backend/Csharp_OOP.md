@@ -1,10 +1,9 @@
 ---
 title: C# OOP Verdieping
-key: 2607
 difficulty: medium
 date: 2023-03-21
 author: kscheening
-technology: ide, html, css, functions, csharp, oop
+technology: cscharp
 ---
 
 <style>
@@ -14,7 +13,7 @@ v { color: gold; }
 o { color: lightslategray; font-style: italic;}
 </style>
 
-<img src="{{ '/_assets/api/c-sharp.png' | url }}" style="width:10%;">
+# {{ title }}
 
 > ##### Voorkennis
 > * programmeer-basics
@@ -30,7 +29,7 @@ Als je meer met ASP.net wilt gaan doen is het noodzakelijk dat je meer kennis op
 
 Omdat deze principes abstract in nature zijn en snel te veel kunnen worden, worden deze concepten geintroduceerd in opgedeelde uitleg filmpjes en maak je een Textbased Adventure Game via een commandline applicatie! Waarom specifiek een game? De mechanieken van een game lenen zich heel goed uit voor de verschillende onderdelen van OOP.
 
-## Opdracht
+***Opdrachten***
 
 >**Vantevoren**
 >
@@ -191,12 +190,3 @@ Als voorbeeld
 Voeg een aantal nodes toe om een basic verhaal te vertellen met halverwege wat combat (minimaal drie nodes voor introductie, combat, afsluiting). 
  
 >Bonus: voeg een keuze toe aan nodes. Geef de speler de opdracht om een keuze te maken na een kort verhaal. Houd het op twee keuzes die elk wijzen naar twee verschillende next nodes. Of deze nodes combat of story zijn mag je zelf bepalen. Beide routes wijzen naar dezelfde next node om de splitting weer samen te voegen.
-
-
-
-## Op te leveren
-* opdracht 1 t/m 6
-
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd

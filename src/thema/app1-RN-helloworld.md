@@ -1,9 +1,8 @@
 ---
 title: app1 | RN-HelloWorld
-key: 2406
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
-lang: javascript, reactnative
+lang: javascript reactnative
 author: kstarreveld
 ---
 

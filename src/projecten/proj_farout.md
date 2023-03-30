@@ -1,6 +1,5 @@
 ---
 title: PROJ FarOut
-key: 2208
 difficulty: medium
 date: 2022-11-10
 author: jsiewers

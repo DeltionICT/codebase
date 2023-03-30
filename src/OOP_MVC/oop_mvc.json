@@ -1,7 +1,0 @@
-{
-    "layout": "final.njk",
-    "coursetitle": "OOP-MVC",
-    "tags": ["backend"],
-    "permalink": "/oop_mvc/{{ title | slug }}/{{ page.index }}",
-    "pepper": "red"
-}

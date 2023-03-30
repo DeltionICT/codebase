@@ -1,6 +1,5 @@
 ---
 title: Schaakbord
-key: 1012
 difficulty: expert #basic | medium | expert
 date: 2023-01-02
 author: jheuvelman

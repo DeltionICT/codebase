@@ -1,11 +1,13 @@
 ---
-title: Website volledig met functions
-key: 2553
-difficulty: expert
+title: Functions PHP
+difficulty: medium
 date: 2022-12-30
 technology: html, php
 author: rkerssies
 ---
+
+
+# {{ title }}
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
@@ -62,15 +64,11 @@ Voorbeelden van de uitwerking;
 </div>
 
 
-## Resultaat
-* een web-applicatie opgebouwd met uitsluited functions
-* de applicatie toon content uit een database-tabel
-* de applicatie toont een gallery op basis van image-bestanden in een image-folder
-* de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
-* gebruikers-beheer is alleen toegankelijk na inloggen
-* de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
-   vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst
-
-## Evaluatie
-Vraag om een code-review om feedback op jouw aanpak en tips voor best-practices te krijgen.<br>
-Dit is een rubrics of checklist waaraan je kunt zien of de opdracht juist is uitgevoerd
+> ##### Op te leveren
+> * een web-applicatie opgebouwd met uitsluited functions
+> * de applicatie toon content uit een database-tabel
+> * de applicatie toont een gallery op basis van image-bestanden in een image-folder
+> * de applicatie toon gebruikers in een tabel/beheer op basis van gegevens uit een database-tabel
+> * gebruikers-beheer is alleen toegankelijk na inloggen
+> * de layout is eenduidig uitgevoerd, PHP function-files worden ingelezen,<br>
+    vervolgens wordt PHP-logica uitgevoerd en tenslotte wordt de layout en "deelproducten" in de layout geplaatst 

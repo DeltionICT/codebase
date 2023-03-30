@@ -1,6 +1,5 @@
 ---
 title: PHPB Pizza
-key: 1416
 difficulty: basic
 date: 2022-11-20
 author: jsiewers

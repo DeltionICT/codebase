@@ -1,6 +1,5 @@
 ---
 title: Advent of Code
-key: 2405
 difficulty: expert
 date: 2022-02-19
 technologies: all

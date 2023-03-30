@@ -1,6 +1,5 @@
 ---
 title: Ontwerpen | ClassDiagram
-key: 2415
 difficulty: basic
 date: 2022-02-15
 technology: uml

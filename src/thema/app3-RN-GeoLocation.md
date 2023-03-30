@@ -1,9 +1,8 @@
 ---
 title: app3 | RN-GeoLocation
-key: 2408
 difficulty: medium #basic | medium | expert
 date: 2023-02-09
-lang: javascript, reactnative
+lang: javascript reactnative
 author: kstarreveld
 ---
 # {{ title }}

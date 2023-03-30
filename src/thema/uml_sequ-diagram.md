@@ -1,6 +1,5 @@
 ---
 title: Ontwerpen | SequenceDiagram
-key: 2413
 difficulty: medium
 date: 2022-02-16
 technology: uml

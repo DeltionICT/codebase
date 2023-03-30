@@ -1,6 +1,5 @@
 ---
 title: Projectmanagement, SCRUM
-key: 2206
 difficulty: basic
 date: 2021-02-10
 technology: scrum

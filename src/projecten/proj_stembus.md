@@ -1,6 +1,5 @@
 ---
 title: PROJ Stembus
-key: 2203
 difficulty: medium
 date: 2022-11-10
 author: jsiewers

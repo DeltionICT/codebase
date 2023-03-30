@@ -1,6 +1,5 @@
 ---
 title: Ontwerpen | Wireframes
-key: 2403
 difficulty: basic
 date: 2022-02-12
 technology: uml

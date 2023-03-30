@@ -1,6 +1,5 @@
 ---
 title: PROJ Handig Joh
-key: 2204
 difficulty: medium
 date: 2022-11-10
 author: jsiewers

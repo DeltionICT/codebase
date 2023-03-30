@@ -1,9 +1,8 @@
 ---
 title: app1b | RN-Calculator
-key: 2404
 difficulty: basic #basic | medium | expert
 date: 2023-02-09
-lang: javascript, reactnative
+lang: javascript reactnative
 author: kstarreveld
 ---
 

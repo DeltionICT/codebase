@@ -1,6 +1,5 @@
 ---
 title: ERD Vakantiepark
-key: 1420
 difficulty: expert
 date: 2022-11-10
 author: jsiewers

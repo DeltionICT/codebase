@@ -1,6 +1,5 @@
 ---
 title: js40 | colorgame
-key: 2006
 difficulty: medium #basic | medium | expert
 date: 2023-01-31
 author: cstegeman

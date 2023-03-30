@@ -1,6 +1,5 @@
 ---
 title: Ontwerpen | ActiviteitenDiagram
-key: 2414
 difficulty: basic
 date: 2022-02-14
 technology: uml

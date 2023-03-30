@@ -51,19 +51,18 @@ Voor deze opdracht heb je ongeveer een dagdeel de tijd.
    * Cirkel
    
     Hieronder staat een klein voorbeeld van code waarin verschillende mogelijkheden samenkomen: 
-```php
-$name = (string) readline("Your name: ");
-    if(strlen($name > 3))
-    {
+> 	$name = (string) readline("Your name: ");<br>
+    if(strlen($name > 3))<br>
+    {<br>
 	    for($i=1; $i<=10; $i++)<br>
-	    {
-		    echo $i.' de naam is: '.$name."\r\n";
-	    }
-    }
-    else {
-        echo 'er zijn te weinig karakters opgegeven';
-    }
-```
+	    {<br>
+		    echo $i.' de naam is: '.$name."\r\n";<br>
+	    }<br>
+    }<br>
+    else {<br>
+        echo 'er zijn te weinig karakters opgegeven';<br>
+    }<br>
+> 
 NB: Deze code toont tien regels onder elkaar met een nummer, daarna de tekst "de naam is: " gevolgd door wat er is ingevoerd. 
 
 Basis mogelijkheden met uitleg zijn: [If-else]({{ 'https://www.w3schools.com/php/php_if_else.asp' | url }}) en 
