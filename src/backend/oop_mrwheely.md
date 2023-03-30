@@ -34,7 +34,7 @@ Voor autobedrijf 'Mr. Wheely' moet een app worden gebouwd waarmee je het aanbod 
 * Maak in AutoOverzicht.php een class AutoOverzicht
 * Een AutoOverzicht heeft de volgende eigenschappen:
     * array Autos
-* Een AutoOverizcht heeft de methodes
+* Een AutoOverzicht heeft de methodes
     * <code>addAuto()</code>
     * <code>getAutoos()</code>
 

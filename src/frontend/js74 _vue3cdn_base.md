@@ -7,9 +7,6 @@ author: cstegeman
 technology: js
 ---
 
-
-# {{ title }}
-
 > #### Voorkennis:  
 > * JS basics
 
