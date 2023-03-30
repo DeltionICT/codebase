@@ -3,7 +3,7 @@ title: Website volledig met functions
 key: 2553
 difficulty: expert
 date: 2022-12-30
-technology: html, php
+technology: html, css, dbo, php
 author: rkerssies
 ---
 

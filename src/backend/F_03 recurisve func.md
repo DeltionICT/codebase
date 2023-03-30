@@ -4,7 +4,7 @@ key: 2552
 difficulty: medium
 date: 2023-03-24
 author: rkerssies
-technology: ide, html, css
+technology: ide, html, css, php
 ---
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">

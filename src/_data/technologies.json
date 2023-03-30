@@ -10,11 +10,11 @@
     {
         "key":"css",
         "name":"CSS"
-    },       
+    },
     {
         "key":"c#",
         "name":"C#"
-    },    
+    },
     {
         "key":"js",
         "name":"Javascript"
@@ -37,11 +37,23 @@
     },
     {
         "key":"testen",
-        "name":"Testen" 
+        "name":"Testen"
     },
     {
         "key":"api",
-        "name":"Webservices/api" 
+        "name":"Webservices/api"
+    },
+    {
+        "key":"mvc",
+        "name":"MVC"
+    },
+    {
+        "key":"oop",
+        "name":"OOP-backend"
+    },
+    {
+        "key":"functions",
+        "name":"Backend functions"
     }
 
 ]
