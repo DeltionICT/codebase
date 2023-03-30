@@ -1,5 +1,5 @@
 ---
-title: El Credito
+title: OOP El Credito
 key: 2520
 difficulty: expert
 date: 2023-01-01

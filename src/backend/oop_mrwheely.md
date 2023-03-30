@@ -1,5 +1,5 @@
 ---
-title: MrWheely
+title: OOP MrWheely
 key: 2519
 difficulty: basic
 date: 2023-01-01

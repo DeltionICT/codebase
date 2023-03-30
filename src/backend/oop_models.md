@@ -1,5 +1,5 @@
 ---
-title: Een database model maken
+title: OOP Een database model maken
 key: 2521
 difficulty: basic
 date: 2023-01-01
