@@ -11,10 +11,10 @@ author: rkerssies
 
 <img src="{{ '/_assets/api/PHP-logo.png' | url }}" style="width:10%;">
 
-> ##### Voorkennis
+> #### Voorkennis
 > * programmeer-basics, git
 
-> ##### Doel
+> #### Doel
 > * zelfstandig, georganiseerd en volgens bedrijfsstandaarden kunnen programmeren met functions
 
 
@@ -64,7 +64,7 @@ Voorbeelden van de uitwerking;
 </div>
 
 
-> ##### Op te leveren
+> #### Op te leveren
 > * een web-applicatie opgebouwd met uitsluited functions
 > * de applicatie toon content uit een database-tabel
 > * de applicatie toont een gallery op basis van image-bestanden in een image-folder

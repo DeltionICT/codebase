@@ -1,0 +1,7 @@
+{
+    "layout": "final.njk",
+    "coursetitle": "Object georienteerd programmeren",
+    "tags": ["oop"],
+    "permalink": "/oop/{{ title | slug }}/{{ page.index }}",
+    "pepper": "red"
+}
