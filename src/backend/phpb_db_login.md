@@ -22,3 +22,7 @@ technology: php, dbq, html
 
 ![schema_loginform]({{ '/_assets/backend/schema_db_login.svg' | url }})
 
+# Uitleg en voorbeeldcode
+[Voorbeeldcode](https://github.com/DeltionICT/php_mysql_login)
+{% video "videoseries?list=PLBtXOV0WuE_GlWEiF256ntafG3Tn3nIX3" %}
+
