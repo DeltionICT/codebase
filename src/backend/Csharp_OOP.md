@@ -9,7 +9,7 @@ technology: cscharp
 <style>
 c { color: darkcyan; font-weight: bold;}
 m { color: crimson; font-weight: bold;}
-v { color: gold; }
+v { color: lemonchiffon; }
 o { color: lightslategray; font-style: italic;}
 </style>
 
@@ -17,58 +17,65 @@ o { color: lightslategray; font-style: italic;}
 
 > ##### Voorkennis
 > * programmeer-basics
-> * programmeertaal: C#
+> * (pre) programmeertaal: C#
 
 > ##### Doel
-> * leren en toepassen van drie van de vier pilaren van Object Oriented Programming in de C# taal:<br> 
+> * Basis programmeren in C# en toepassen van drie van de vier pilaren van Object Oriented Programming in de C# taal:<br> 
      - Encapsulation <br>
      - Inheritance <br>
      - Polymorphism
 
-Als je meer met ASP.net wilt gaan doen is het noodzakelijk dat je meer kennis opdoet van OOP (Object Oriented Programming) met C#; want alles draait op OOP principes als je met ASP.net gaat werken!
+Als je meer met ASP.net wilt gaan doen is het noodzakelijk dat je meer kennis opdoet van C# en OOP (Object Oriented Programming); want alles draait op OOP principes als je met ASP.net gaat werken!
 
-Omdat deze principes abstract in nature zijn en snel te veel kunnen worden, worden deze concepten geintroduceerd in opgedeelde uitleg filmpjes en maak je een Textbased Adventure Game via een commandline applicatie! Waarom specifiek een game? De mechanieken van een game lenen zich heel goed uit voor de verschillende onderdelen van OOP.
+Omdat deze principes nogal abstract en pittig te omvatten kunnen zijn, worden deze concepten stapsgewijs geintroduceerd in opvolgende opdrachten. Door de stappen in deze opdrachten te volgen maak je uiteindelijk een werkende Textbased Adventure Game via een commandline applicatie! Waarom specifiek een game? De mechanieken van een game lenen zich heel goed uit voor de verschillende onderdelen van OOP en geeft je meer creatieve ruimte om te experimenteren.
+
+Je bent ten alle tijden vrij om de opdrachten uit te breiden met eigen functies, designs en mechanics; zolang de opdrachten maar minimaal zijn uitgewerkt zoals beschreven.
 
 ***Opdrachten***
 
->**Vantevoren**
+>**Als je de introductieles hebt gemist**
 >
 >*Voordat je begint met de eerste opdracht:*
 >
 >Volg de [instructie video](https://youtu.be/IHGcqp-KoSs) om een start te maken met de textbased adventure game. Alle opvolgende opdrachten breiden deze start uit met nieuwe mechanieken en leer je verschillende principes van OOP programmeren. Eind resultaat is dus 1 werkende text based adventure game!
 >
 
-
-Uiteindelijk ben je vrij om opdrachten uit te breiden of eigen mechanics toe te voegen. Hoe uitgebreider jij het maakt hoe beter het een centerpiece kan zijn in jouwn portfolio!
-
 <br>
 
  ## **Opdracht 1 - Humble Beginnings**
  
- Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen we beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de video in het *Vantevoren* blok hierboven.
+ Voordat je verder gaat moet je het volgende hebben gedaan: het instantiëren van een enemy object en deze kunnen beschadigen door een commando uit te typen. Heb je dat nog niet, volg dan de video in het *Als je de introductieles hebt gemist* blok hierboven.
 
- Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game door de vijf opdrachten uit te voeren; en ondertussen leer je ook nog eens OOP programmeren in C#! 
+ Heb je deze onderdelen al wel klaar dan heb je al een kleine start gemaakt met een text based adventure game! Maar we kunnen het nog zeker geen 'echte' game noemen. Wat je nu hebt gemaakt ga je uitbreiden tot een werkende game en ondertussen leer je ook nog eens OOP programmeren in C#!
  
 Breid wat je tot nu toe hebt met het volgende uit:
- 
+
+ <ol> 
+ <li>
  <alt>Maak een nieuwe klasse genaamd <c>Player</c>. Zorg ervoor dat beide de <c>Player</c> en <c>Enemy</c> klassen dezelfde variabelen hebben (<v>name, health en damage</v>). Instantieer een <c>Player</c> object op dezelfde manier als <c>Enemy</c>. Deze <c>Player</c> object gebruiken we om alle waardes van de speler bij te houden. Wanneer je als speler <v>damage</v> doet met een aanval commando, gebruik dan de <v>damage</v> variabele van het <c>speler object</c> in plaats van 10. Nadat de speler heeft aangevallen, valt de enemy de speler aan en doet het zijn <v>damage</v> variabele als schade aan de speler.</alt>
  
 
 >**Extra** <br>
 >Experimenteer met <c>Random()</c> om een variatie in <v>health</v> en <v>damage</v> te implementeren.
- 
- Een keer aanvallen en aangevallen worden is niet heel spectaculair. Stop daarom het geven en krijgen van schade in een loop zodat beide de speler en vijand kunnen blijven vechten tot een van de twee dood is. Dit betekend dus dat je meerdere keren commando's kan invoeren. Voeg een nieuwe <v>boolean variabele gameOver</v> en laat de loop, loopen tot <v>gameOver</v> waar is.
+ </li>
+<li>
+ Een keer aanvallen en aangevallen worden is niet heel spectaculair. Stop daarom het geven en krijgen van schade in een loop zodat beide de speler en vijand kunnen blijven vechten tot een van de twee dood is. Dit betekend dus dat je meerdere keren, en om de beurt, commando's kan uitvoeren. Voeg een nieuwe <v>boolean variabele gameOver</v> en laat de loop herhalen tot <v>gameOver</v> waar is (wanneer de speler zijn health 0 of lager is).
 
  >Het herhalen van acties en mechanics om tot een bepaalt doel te komen noemen we ook wel een gameloop.
-
- Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Als de speler is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> Met de volgende code kan je kleur toevoegen aan de tekst en tekstachtergrond (Blue en White als voorbeeld):
+</li>
+<li>
+ Als de vijand is verslagen stopt de gameloop met een <o>‘MONSTER VANQUISHED!’</o> bericht. Als de speler is verslagen stopt de gameloop met een <o>‘YOU DIED!’</o> bericht. Zorg voor wat opvulling tussen acties met <code>WriteLine</code> (omschrijf wat de speler/vijand doet en wat het gevolg is. Bijv: <o>players attacks! Dealt 10 damage!</o> 
+ 
+ Een muur aan text is natuurlijk niet fijn om te zien. Zorg voor een goeie afwisseling met <c>Console.Write</c> en <c>Console.WriteLine</c> zodat er een mooie structuur ontstaat. Met de volgende code kan je kleur toevoegen aan de tekst en tekstachtergrond (Blue en White als voorbeeld):
 
 >    <code>
 >        Console.BackgroundColor = ConsoleColor.Blue;<br>
 >        Console.ForegroundColor = ConsoleColor.White;
 >    </code>
 <br>
- Maak er wat moois van! <br>
+Color code gebeurtenissen/commandos doormiddel van kleuren om het allemaal mooier en nog beter leesbaar te maken. <br>
+</li>
+</ol>
 
 >**Extra** <br>
 >Probeer alvast de <code>playerInput</code> in een switch case te stoppen, met ‘Attack’ en ‘Use item’ als cases. Voor nu kan je bij ‘Use item’ de speler een waarde laten ‘healen’ (health weer terug krijgen. Dit mag met een vaste waarde maar ook met <c>Random()</c>).
@@ -76,7 +83,6 @@ Breid wat je tot nu toe hebt met het volgende uit:
 ---
 
  ## **Opdracht 2 - And they won't stop coming!**
- Bekijk de videos van [Inheritance](https://youtu.be/su9ltheuewQ), [Constructors](https://youtu.be/WAa4v31M4V4) en [Getters&Setters](https://youtu.be/a004FjChyaE). <br>
  
  Maak eerst een superklasse <c>Entity</c> zoals in de video en laat de <c>Player</c> en <c>Enemy</c> klasse hiervan overerven. Geef de <c>Player</c> klasse een <v>maxHealth</v> variabele. Deze variabele gebruik je als grens (zodat de speler niet meer HEALED dan mag). Als je 'healen' al hebt gemaakt zorg er dan voor dat deze grens gebruikt gaat worden.
  
@@ -113,7 +119,7 @@ Je kan nu eindeloos vechten tegen vijanden en ga je een level omhoog gaan wannee
 ---
 
  ## **Opdracht 3 - I command you to...**
- Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Kijk eerst de video [Enums](). Na de videos weet je hoe je enums kan aanmaken en gebruiken in combinatie met een switchcase. Voeg een enum toe voor de volgende gamestates:
+ Voor deze opdracht ga je de mechanics die je op dit moment hebt gemaakt, opschonen en wat uitbreiden.  Voeg een enum toe voor de volgende gamestates:
  
   ><code>COMBAT <br>
   >STORY <br>
@@ -138,7 +144,7 @@ geval worden er weer nieuwe vijanden aangemaakt en begint het gevecht opnieuw!).
 ---
 ## **Opdracht 4 - Are they getting stronger?**
 
-Kijk de video over [Polymorfisme](). We gaan variatie in de vijanden brengen doormiddel van polymorfisme.
+We gaan variatie in de vijanden brengen doormiddel van polymorfisme.
 
 Creëer twee nieuwe klassen <c>TankEnemy</c> en <c>BlitzEnemy</c> en laat deze overerven van <c>Entity</c>.  Beide vijanden delen alle variabelen en methodes die er al zijn, maar hebben de volgende verschillen:
 
@@ -154,7 +160,6 @@ Laat deze nieuwe vijanden, samen met de originele, ook verschijnen in de gameloo
 ---
 
 ## **Opdracht 5 - In a single file line, please!**
-Kijk eerst het filmpje [QueuesandStacks](https://youtu.be/gdHm_txelq8); je weet dan wat <c>Queues</c> en <c>Stacks</c> zijn en hoe je deze moet gebruiken. 
 
 Voor deze opdracht gaan je wat meer order creëren in de combat, met name de volgorde van wie als eerste acties mag uitvoeren!
  
@@ -173,8 +178,6 @@ Voeg een mechanic toe dat de speed variabele van de entiteiten versneld/vertraag
 
 ## **Opdracht 6 - What happens next?**
 Maak eerst een backup van jouw huidige project; deze opdracht is namelijk een flinke ingreep! Deze opdracht vraagt ook inzicht in code architectuur en volgorde!
- 
-Kijk de video over [Linkedlists](https://youtu.be/bqwXngdIliY); je hebt dan de kennis om je eigen verzameling te schrijven volgens het linkedlist principe. 
 
 Maak een nieuwe folder "Datastructures" aan. Maak binnen deze folder de benodigde klassen voor een linkedlist (zoals in de video). Via een aparte klasse <c>StoryManager</c> ga je jouw text based adventure game afmaken: 
  
